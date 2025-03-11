@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "433fb7c76bef5546",
+        "id": "a40f5b53c111fac6",
         "type": "tabs",
         "children": [
           {
-            "id": "673aea82b88b7595",
+            "id": "f7b37c98bc86e6a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 periodo/IoT/Caderno.md",
+                "file": "1 periodo/Gestao de micro e pequenas empresas/Caderno.md",
                 "mode": "source",
                 "source": false
               },
@@ -168,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "673aea82b88b7595",
+  "active": "f7b37c98bc86e6a4",
   "lastOpenFiles": [
-    "1 periodo/Aspectos legais/Caderno.md"
+    "1 periodo/Aspectos legais/Caderno.md",
+    "1 periodo/IoT/Caderno.md"
   ]
 }

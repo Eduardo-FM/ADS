@@ -291,3 +291,40 @@ A sustentabilidade tem as seguintes dimensoes:
 - social (pagamento justo, pagamento digno)
 - cultural (oque esta fazendo esta compativel com o perfil cultural da regiao)
 - econômica 
+
+# Aula 10/03
+
+## Gestão de produtos e servicos na Micro e pequenas empresas 
+
+Produto nao é so no sentido tangivel mas no sentido de resultado
+
+tudo que vamos trabalhar temos que ter duas dimensoes:
+- Necessidades essenciais: é um estado de alguma privacao ==mais coisa==
+- Desejos: À medida que a sociedade evolui, os desejos das pessoas tendem a aumentar, já que o progresso tecnológico e a melhoria de processos acontecem em paralelo, permitindo assim o surgimento de inovacoes para o consumo. Esse entedimento é  fundamental ==mais coisa==
+
+É importante sempre pensar no ciclo de vida do produto ou servico que vamos oferecer.
+
+Produtos e/ou servicos sao penas um meio de conseguir vantagens competitivas e resultados empresariais.
+- toodo produto tem seu ==ciclo de vida== ou seja nasce, cresce, amadurece e morre. E este ciclo de vida tem que se tornado cada vez mais curto.
+- Alguns produtos mal sao lancados no mercado e já se estuda a possibilidade de seu aperfeicoamento ou substituicao. Isso acontece devido à maior competicao do mercado, a novos entrantes (concorrente) e às mudancas constantes nos desejos dos consumidores. 
+
+
+Olhamos duas coisas para fazer o produto/servico
+- vantagem absoluta: o concorrente nao consegue adotar a mesma estrategia
+- vantagem relativa: o concorrente escolhe nao tomar a mesma estrategia, por divorsos motivos (nao tem condicoes, nao obtera vantagem, nao tera os mesmos resultados, nao tem estrutura)
+
+Para se estabelecer no mercado precisa ter uma vantagem.
+
+Conceito - produto e/ou servicos
+- na perspectiva da empresa
+- na perspectiva do mercado
+
+quando o consumidor compra o produto ele nao quer apenas o beneficio central, ele quer todo o produto.
+
+Quando se tem um produto/servico tem que saber exatamente o produto/servico
+
+- Produto núcleo: é o que o consummidor está realmente comprando, a essência do produto ==tem mais==
+- Produto genérico: ==tem mais==
+- Produto esperado
+- Produto ampliado
+- Produto potencial 
