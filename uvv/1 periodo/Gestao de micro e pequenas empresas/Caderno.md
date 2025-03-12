@@ -328,3 +328,97 @@ Quando se tem um produto/servico tem que saber exatamente o produto/servico
 - Produto esperado
 - Produto ampliado
 - Produto potencial 
+
+# Aula 11/03
+
+## Por que novos produtos podem fracassar 
+
+Será que o produto nao teve deficiencia na forma que ele foi concebido?
+
+- deficiencia do produtio
+- análise de mercado inadequada ou falta de planejamento (mercado é a análise da oferta e da demanda)
+Tem que saber sobre os concorrentes (tecnologia, estrategia, produtos)
+É necessário fazer estudos sobre o nível tecnológico dos produtos
+- Posicionamento de mercado
+como o produto vai ficar no mercado, e como os clientes vao ver esse produto no mercado. Se a mensagem nao ficar clara as pessoas nao iram comprar.
+
+Alguns produtos fracassam antes mesmo de irem ao mercado
+- Previsao de custos subestimada
+- Lancamento em época errada
+- Estratégia de preco adotada
+
+há quatro P's fundamentais (
+- Preco, 
+preco do produto, tem que saber exatamente o preco do produto
+- praca
+aonde o produto vai ser vendido
+- promocao 
+- produto
+)
+
+- Politica de distribuicao inadeuqada
+se totos compram para o atacado se voce quer vender por unidade. O centro de distruibuicao nao pode ficar longe do mercado
+
+- Reacao da concorrencia 
+é necessário monitorar o mercado de perto o tempo inteiro.
+
+## O que é posicionamento do produto 
+
+- é a atividae de encontrar o lugar que ele deve ocupar, através de seus atributos, nas mentes dos consumidores, no lugar imaginado como seu, no mercado, em relacao aos concorrentes.
+
+Exemplo: 
+- Fiat uno está posicionada no mercado na categoria de carro economico;
+- Porsche, como modelo de elevado desempenho;
+- Crossfox, como um esportivo-urbano e assim por diante.
+
+
+### etapas do processo de desenvolvimento de produto
+a) estabelecimento do modelo do negócio.
+b) estudo do mercado
+c) planejamento do produto
+d) escolha de tecnologia 
+
+==tem mais ==
+
+- a marca e a embalagem sao componentes obrigatorios de qualquer produto e fatores importantes no gerenciamento do seu ciclo de vida e lancamentos no mercado.
+
+A marca é mais que o nome, ela tem o seu significo, ela também tem notoriedade então deve ser pensar no significado do nome do produto. 
+
+
+quando se pensa em uma marca voce deve pensar em como ela vai ser utilizada em todas as situacoes. 
+
+#### decisoes sobre a marca
+
+- Marca unica
+Mesma marca para todos os itens do produto.
+
+- Marca multipla 
+uso de varias marcas em uma mesma linha de produtos
+
+- Extensao de marcas
+uo de marca nominal bem-sucedida para processar modificacoes no produto ou acrescentar itens adicionais
+
+- Marcas independentes
+produtos completamentes diferentes, mas conseguem se estabelecer 
+
+- Endosso corporativo
+- Marca do fabricante
+- Marco do distribuidor
+
+#### Principais politticas ma marca
+
+- a marca deve sugerir beneficios ou qualidades do produto
+- deve ser facil de escrever 
+- deve ser distintiva
+- nao de ter conotacoes negativas nem restricoes legais. 
+
+#### embalagem
+
+a embalagem é importante para a construcao da marca
+
+ela tem valores e funcoes
+
+E pode ser decisiva para a competitividade do produto
+
+O design é fundamental para a usabilidade.
+
