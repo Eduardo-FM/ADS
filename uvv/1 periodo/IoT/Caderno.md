@@ -244,6 +244,11 @@ Corrente alternada:  polo do fluxo da corrente alterna com o tempo (o positivo e
 - Isso significa que se uma bateria fornece 9v para um circuito, os vários elementos do circuito devem "consumir' esses 9v.
 - ==tem mais coisa aqui==
 
+# Aula 11/03
+
+
+
+
 
 
 
