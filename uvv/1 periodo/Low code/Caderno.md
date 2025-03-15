@@ -190,3 +190,20 @@ embora essa abordagem inclusiva, o uso dela para resultados profissionais deve s
 ## Tendencias e inovacoes
 - integracao com intelifencia artificial e machine learning
 - automatizacao de processos empresariais
+
+# Aula 14/03
+
+Todo programa funciona tendo como princpio tres fases: 
+- entrada de dados
+- processamento dos dados
+- saida do resultado
+
+A entrada pode ser efetuada pelo teclado, pelo mouse, através de um scanner ou mesa digitalizadora.
+
+- O algoritmo é a etapa de processamento 
+
+Um programa de computador é uma resposta à necessidade de uma solucao para um problema. 
+
+O algoritmo é um conjunto de instrucoes que descrevem de forma textual ou grafica um processo em termos de outros processos.
+
+Independente da aplicacao é necessário saber o processo lógico. 
