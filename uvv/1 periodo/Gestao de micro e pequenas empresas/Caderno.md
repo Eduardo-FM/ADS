@@ -542,3 +542,89 @@ Produutos de luxo: se o preco aumenta, o consumo dele diminui
 
 ==calculo pega no slide==
 
+
+# Aula 18/03
+
+==mais coisa==
+
+conhecimento (saber fazer) (parte cognitiva) 
+- formal 
+- tácito (aquele conhecimento que não está escrito, experiência)
+
+habilidades
+
+atitudes ()
+
+os individous precisam desenvolver o conhecimento e as competencias (socioemocional, funcoes executivas)
+
+#### recrutamento e selecao
+
+Para se indicar pessoas também se trabalha com recomendacao. 
+
+Na entrevista busca-se saber a experiencia, conhecimento, visao, valores 
+
+Grande desafio: 
+- ==orcamento limitada==
+- treinar candidatos com potencial 
+- seguir codigo de ética e normas de contudar 
+- valorizar dedicacao e caracteristicas pessoais.
+- compromentimento
+- beneficiar bons profissionais
+
+dicas:
+- oque o empreendedoor tem que fazer:
+	- saber oque ele está precisando (cargo, formacao, perfil de comportamento)
+
+fases de trabalho:
+- diagnostico (levanta a necessidade)
+- escolha da pessoa 
+- negociacao de condicoes 
+
+
+#### administracao salarial
+
+toda vez que temos pessoas, tem que pensar na administracao salarial
+
+pensar em quem voce precisa, cargo, remuneracao basica, beneficios,, incentivos
+
+#### plano de cargos e salários - carreira
+
+Empresas costumam estabelecer a forma de remuneracao de seus empregados atraves de um instrumento denominado plano de cargos e salários - PCS
+- O PCS estabelece a remuneracao baseado na descricao de cargo, na avaliacao de complexidade das tarefas inerentes a cada cargo, a partir do que sao estabelecidas faixas salariais.
+- O PCS descreve a política para administracao dos salários da empresa e a forma como será feita a pesquisa salarial.
+
+Para algumas empresas, o sistema torna-se inadequado com o tempo, seja pelo desconhecimento e excesso de flexibilidade dos gerentes na sua aplicacao ou pela má manutencao do plano distanciando-o da realidade da empresa. 
+
+
+#### Controle, registros de pessoal e os riscos da pejotizacao 
+
+É necessário ter controle e registro do pessoal
+
+Um dos problemas atuais é de Pejotizacao (ao invés de contratar alguem como funcionário, faz o empregado criar uma MEI  e a contrata como PJ)
+
+aonde está o risco:
+- danos a imagem da empresa
+- custos 
+
+OBS: UBERIZACAO
+O problema da uberizacao é que esta levando a pejotizacao para varias profissoes
+
+
+#### desenvolvimento de pessoal: acompanhamento e não controle
+
+Dependendo da empresa é obrigatorio fazer o acompanhamento de clima organizacional
+
+- monitoramento
+- clima organizacional
+- acoes: ambiente motivador, comunicacao, reconhecimento, equilibrio trabalho-vida 
+- dicas para estimulos
+
+#### gestao do conhecimento
+
+o conhecimento não é para ficar guardado, é para ser disseminado.
+
+- processos para criar, disseminar e usar conhecimento. Proporciona aprendizado contíinuo, troca de experiências, inovacao.
+- comunidades de prática: grupos para colaboracao e troca de conhecimento
+- codificacao do conhecimento:  armazenamento de informacoes para facil acesso
+- aplicacao: adaptacao para empresas de pequeno porte. 
+
