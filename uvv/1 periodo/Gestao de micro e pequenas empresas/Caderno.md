@@ -422,3 +422,123 @@ E pode ser decisiva para a competitividade do produto
 
 O design é fundamental para a usabilidade.
 
+
+# Aula 17/03
+
+## formacao de preco de venda
+
+A grande questão é? 
+- ==quanto vale?==
+- ==por quanto vendo?==
+
+O "quanto vale" vem de uma percepcão de valor do consumidor, o quanto as pessoas atribuem valor aquilo, se elas julgam se isso é algo bom. 
+
+A percepcao de valor é algo fundamental, porque a partir dai voce pensa o porquanto vc vai vender.
+
+Precisa saber como é que se comporta aquele mercado.
+
+Saber o público alvo. Definir uma "PERSONA" (OQUE ELA PENSA, FALA, SENTE, OUVE, VÊ). Assim você sabe como você se comunica com ela.
+
+A primeira dica é:
+- pensar em um valor que o consumidor pensa como justo para ele.
+
+Segunda dica: 
+- custo beneficio do produto pela visao do consumidor
+
+terceira dica:
+- qual sua estrutura de custo dos produtos.
+
+1 -> Produto servico 
+faz o protótipo (anotar)
+
+2 -> processo de producao 
+(MVP) => preco de venda
+
+3 -> custos (diretos(fisicos, variaveis), indiretos (fixos, variaveis))
+
+- custo direto é aquele que entrou na composicao do seu produto
+
+- custo indireto é aquele que não entra na composicao do produto (fixo é aquele que independe da producao do produto, o variaveis depende da producao do produto)
+
+
+
+Concorrentes (diretos e indiretos)
+- nome 
+- preco
+- data
+- fonte
+
+concorrente direto é aquele que faz exatamente a mesma coisa, o indireto é aquele parecido com seu produto.
+
+Olha, além disso, a praça (onde está o produto , local).
+
+Também olhar a estratégia de venda (promoção)
+
+
+4 P's: 
+- Produto
+- praça
+- preço
+- promoção 
+
+==preco de lancamento de um produto: ==
+
+Uma situacao grave é quando o preco precisa ser alterado pela a empresa 
+
+sabe acompanhar a concorrencia, e ao mesmo tempo acompanhar as flutuacoes para acompanhar a concorrencia.
+
+Quais sao os erros comuns:
+- olhar só os custos da sua empresa
+- falhar na gestao da revisao do preco - essa revisao deve ser frequente e nao pode ser esquecida 
+- fazer uma estrategia sem levar em consideracao o mix de marketing (estratégia de propaganda, de distribuicao e de produto)
+- falhar na atribuicao dos precos por nao considerar corretamente os diferentes itens componentes do produto e o valor que cada segmento lhe atribui
+
+
+tem que levar alguns fatores externos e internos
+
+fatores internos:
+- maximizacao dos lucros (retorno do investimento que a empresa busca conforme a demanda e custos avaliados)
+A rentablidade é conseguir recompor aquilo que você gastou para recuperar o investimento
+
+- liderenca na participacao do mercado
+Basicamenta há 3 estrategias: 
+-> lider de custo (tem que ter escala muito grande para diminuir o custo)
+-> lider em diferenca (quer ser único, normalmente investe em qualidade, marca. O gasto é grande)
+-> nicho de mercado: 
+	1 - custo
+	2 - diferenciacao 
+Tem que ser feito uma boa avaliacao de custo 
+
+- lideranca na qualidade do produto
+
+
+- acoes de mix de marketing
+
+- custos da empresa
+
+fatores externos: 
+- mercado
+- concorrencia
+- demanda 
+Se a sua demanda for muito pequena pode ser um produto dificil de ser trabalhado
+
+- fatores economicos
+
+- politicas de governno
+
+
+#### sensibilidade do mercado em relacao ao preco
+
+Temos que tomar cuidado com a sensibilidade do seu consumidor
+
+Produtos saciaveis: o consumo nao modifica conforme o proce
+
+Produutos de luxo: se o preco aumenta, o consumo dele diminui
+
+
+É preciso analisar o preco do produto, dos produtos iguais dos concorrentes, preco do produtos que servem à mesma finalidade
+
+
+
+==calculo pega no slide==
+
