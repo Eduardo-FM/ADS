@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 periodo/Gestao de micro e pequenas empresas/Caderno.md",
+                "file": "1 periodo/Engenharia transformacional/Caderno - aula presencial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caderno"
+              "title": "Caderno - aula presencial"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6572979af7d490f7",
@@ -171,11 +170,11 @@
   },
   "active": "97849fb32b4d254c",
   "lastOpenFiles": [
+    "1 periodo/Gestao de micro e pequenas empresas/Caderno.md",
     "1 periodo/Engenharia transformacional/Caderno AVA.md",
     "1 periodo/Engenharia transformacional/Caderno - aula presencial.md",
     "1 periodo/Low code/Caderno.md",
     "1 periodo/IoT/Caderno.md",
-    "1 periodo/Gestao de micro e pequenas empresas/Caderno.md",
     "1 periodo/Aspectos legais/Caderno.md"
   ]
 }

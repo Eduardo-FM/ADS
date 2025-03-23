@@ -231,3 +231,21 @@ Sistemas embarcados sao sistemas limitados para alguns fins específicos.
 ==olhar sobre anotacao residencial para prova==
 
 
+# Aula 14/03 
+
+==trabalho==
+
+# aula 21/03
+
+## Computacao 
+
+#### digital twin
+é uma réplica digital
+==olhar definicao melhor==
+juncao de analises sensoriais com modelos de objetos 
+
+## simulacao
+é uma técnica numérica para a realizacao de experimentos em um computador digital, que envolvem relacionamentos lógicos e matemáticos.
+
+é aplicada para resolver um problema 
+
