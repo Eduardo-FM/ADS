@@ -246,15 +246,72 @@ Corrente alternada:  polo do fluxo da corrente alterna com o tempo (o positivo e
 
 # Aula 11/03
 
+==exercicio
+
+# Aula 17/03 
+
+==Aula no laboratorio
+
+# Aula 25/03
+
+#### Arduíno 
+
+O arduino é uma placa para facilitar a criacao de prototipos de dispositivos eletronicos
 
 
+ele é open hardware 
+
+o Componente grande da placa é o microcontrolador (como se fosse a CPU, mas não é realmente uma CPU)
+
+o arduino tem um micro controlador, ao contrário da CPU que é um microprocessador
+
+o Microprocessador tem uma unidade de controle e uma unidade lógica aritimética. O microcontrolador tem além da UC e ULA, ele tem memória flash, memória SRAM, entrada, saída e outras coisas. 
+
+O microcontrolador funcioná sozinho, náo precisa de placa mãe, HD e etc.
+
+As desvantagens são: falta velocidade, pouco armazenamento.
+
+O microcontrolador tem 3 tipos de memória:
+- memória flash (aonde guarda o programa)
+- SRAM (memória aonde fica as variaveis do programa) (memória volátil)
+- EEPRUM (funciona como um HD) (não volátil) (variaveis)
+
+para alimentar o arduino há 3 opcoes:
+- cabo USB ligado ao computador (fornece 5V)
+- fonte de alimentacao (pode usar fonte de 5V até 20V, o recomendável é até 12V)
+- pelo VIN (input de voltagem) e o GND (GROUND)
 
 
+OBS para alimentar outros dispositivos com o arduino tem que usar os pinos de (3V e 5V do arduíno)
+
+Os pinos do arduinos servem para conectar os dispositivos que você irá utilizar 
+
+na parte de baixo tem 6 pinos (A0 até A5) servem para entrada analógica (um dado não binário), mas não servem para saída analógica. Também servem para entrada analógica, também servem para saída digital. 
+
+na parte de cima tem 14 pinos (0 ao 13) servem para entrada digital (dados binários) funcionam para: entrada digital, saída digital, os que tem os "~" (PWM) funcionam para simular saída analógica. Os pinos 0(RX, recepcao de dados) e 1 (TX, transmissao de dados), esses dois pinos são usados para comunicacão do arduino com outros dispositivos, para fazer essa comunicacao os cabos precisam ficar invertidos entre os dois dispositivos
 
 
+A  lógica de programacao no arduíno é rodar em loop infinito (configura oque quer fazer, e comeca um loop infinito)
+
+Os pinos de saída do arduino entregam até 5V.
 
 
+Para programar o arduino precisa colocar o SETUP, configuracao do arduino
 
+``` C arduino 
+
+void setup() {
+ pinMode(10, OUTPUT);
+}
+
+void loop() {
+ digitalWrite(10, HIGH);
+ delay(1000);
+ digitalWrite(10, LOW);
+ delay(1000);
+}
+
+```
 
 
 

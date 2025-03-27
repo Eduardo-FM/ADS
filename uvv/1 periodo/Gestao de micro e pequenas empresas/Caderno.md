@@ -628,3 +628,157 @@ o conhecimento não é para ficar guardado, é para ser disseminado.
 - codificacao do conhecimento:  armazenamento de informacoes para facil acesso
 - aplicacao: adaptacao para empresas de pequeno porte. 
 
+# Aula 24/03
+
+==cair até gestão de vendas==
+
+#### avaliacao pessoal
+
+Avaliacao 360:
+- a avaliacao tem que ser 360 (todo mundo avalia todo mundo)
+
+Muitas empresas atualmente fazem o "feedforward" (como será o trabalhador do momento da avaliacao para frente)
+
+##### Aplicacao: formando uma equipe de vendas
+
+vender não é fácil
+
+marketing: ligacao do produto com o mercado, para ter um bom marketing é preciso ter um bom plano de vender
+
+a venda é oque vai comunicar o produto com o mercado.
+
+para isso é preciso ter um bom plano de marketing .
+
+OBS: diferenca entre objetivo e meta
+- objetivo:
+aonde quer chegar, é estratégico, referente ao negócio, longo prazo
+Ex: ampliar participacao no mercado internacional
+
+- metas
+tem que ser SMART: é especifico, mensuravel, atingivel, relevante(visão da empresa), temporário, oque vai fazer para alcancar o objetivo.
+
+Ex: lancar 3 novos cursos na Flórida, Portugal e Angola até fevt2026
+
+
+Plano de Marketin
+- Objetvos-chaves para atingir resultador (OKR)
+- normalmente de "3 meses"
+- tem que ter: 
+	- objetivos 
+	- metas
+
+Plano de vendar
+- tecnicas de abordagens
+==tem mais==
+
+
+##### Gerente de vendas
+
+tem que ser alguem que seja líder. 
+sabe planejar estratégicamente 
+
+principais caracteristicas 
+- liderenca motivacional
+- planejamento estratégicos 
+- comunicacao e colaboracao 
+- supervisao e desenvolvimento 
+- visao de mercado
+
+
+ele tem que saber oque ele vende. Ele nao vende o produto, ele vende sempre a solucao
+
+###### oque eu vendo
+
+-> Razões para compar 
+para um cliente comprar seu produto ou servico é preciso que ele esteja confiante que sua solucão vai resolver o problema que o desafia e que o diferencia dessa solucão está em:
+- facilidade de implante e de utilizar.
+- melhor padrão de qualidade (comparado aos concorrente)
+- preco justo.
+
+-> Sinal de alerta
+Não venda características do produto, o que o cliente quer saber são os benefícios para a empresa dele ou o que agrada, emociona ou é útil se o comprador for individual.
+Voce deve ser preocupar em vender ao cliente os benefícios que seu produto ou servico podem trazer para o orgarnizacão dele ou para o sucesso em que seu trabalho diário ou cotidiano.
+
+
+### Formacão de uma equipe de vendas
+
+#### recrutamento 
+nao se pode contratar ninguem sem primeiro pensar "para que esta contratando"
+
+So contrata se você saber oque ela vai fazer na venda.
+
+Saber o processo, o tipo de trabalho, a rotina de cada pessoa na equipe. 
+
+#### Segmentacao de mercado
+
+Para ter uma boa equipe de venda é preciso segmentar
+
+- Geografica: regiao que a pessoa vai atuar
+- demografico: grupo de pessoas que a pessoa vai atender
+- tipo de industria
+- tamanho do cliente
+- psicológico
+- método de abordagem 
+
+
+##### tipos de vendedores
+- tirador de pedidos
+- ponto de venda
+- caixeiro-viajante
+- produtos/solucoes especializadas
+- vendedores de conceitos
+- vendedores de fechamento 
+
+
+##### características chave de vendedores de sucesso
+
+- autoconfianca
+- energia 
+- indivualidade 
+- perseveranca 
+- ansiedade por resultados 
+- ==tem mais==
+
+##### descricao do cargo
+
+- titulo do cargo
+- deveres e responsabilidades - esse item conterá os poderes e as expectativas gerias e especificas daquele cargo
+- habilidades - devem ser divididas em essenciais e desejáveis 
+- requisitos - aspectos que os candidatos deverão preencher, podendo ser essenciais ou desejáveis.
+- escolaridade mínima 
+- experiência anterior mínima e desejável.
+
+precisa da informacao completa para fazer o anúncio da vaga.
+qual a forma de selecao 
+
+#### remuneracao
+
+Se paga um salário grande de mais, tem problemas de retencão do funcionário
+Se o salário for muito baixo esse funcionário também irá sair da sua empresa.
+
+==tem mais==
+
+##### plano de remeneracao eficaz
+
+- tem que ser justo (critérios)
+- equilibrio
+- realismo: com a realidade da empresa
+- crescimento: so vale a pena se o funcionário conseguir crescer
+- clareza
+- foco no resultado 
+
+##### plano de remuneracao
+tem que ter: 
+- salário fixo
+- comissoes
+- crédito de vendas
+- despesas 
+- condicoes:
+	- pagamento
+	- contas vencidas
+	- cliente habituais 
+	- vendas conjuntas
+	- saida da empresa
+
+
+==até o 6 capitula do livro
