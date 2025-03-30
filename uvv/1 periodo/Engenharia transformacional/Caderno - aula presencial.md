@@ -249,3 +249,28 @@ juncao de analises sensoriais com modelos de objetos
 
 é aplicada para resolver um problema 
 
+
+# Aula 28/03
+
+## Introducao aos simuladores de processos 
+
+#### introducao aos simuladores 
+
+operacao unitária  = um conjunto de processos fisicos ou quimicos 
+
+Planta virtual: contém modelos matemáticos fenomenológicos e empirícos, banco de propriedades termofísicas, métodos numéricos, interface de entrada e saída de dados, etc. ==existe só no mundo virtual== e é uma abastracão da planta física real usando modelos matematicos.
+
+Validar um modelo: criou um modelo, o modelo reproduz o real? é necessário validar com os resultados esperados no mundo real. 
+
+
+Condicoes operacionais -> qualquer condicao da operacao (temparatura, pressao ...)
+
+A simulacao objetiva algumas condicoes, conforme visto no mundo real.
+
+
+#### Objetivos
+
+Envolvem a decomposicao de elementos em seus elemenots constituintes (por exemplo, unidades) para estudo individual de desempenho. As caracteristicas do processo (por exemplo, vazoes, composicoes, temperaturas, pressoes, propriedades, tamanohs de queipamentos, etc.) sao previstas usando técnicas de simulacao/analise. O objetivo de simulacao ou análise é modelar e prever o desempenho de um processo para fins de: 
+- pesquisa e desenvolvimento 
+- operacao
+- ==...==
