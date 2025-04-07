@@ -269,7 +269,7 @@ A organizacao por projeto atribui as pessoas as posicoes pro projeto.
 
 - Estrutura em teia de aranha
 
-Entereca quem vai fornecer o dado para quem.
+Entereça quem vai fornecer o dado para quem.
 
 
 
