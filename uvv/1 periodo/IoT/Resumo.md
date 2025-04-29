@@ -1,33 +1,16 @@
-# Aula - 10/02
 
-## Introdução a IoT
+# Historia da internet 
 
-Um computador conversa com outros através de um protocolo de rede 
+# Protocolos
+
+##### o que é um protocolo?
+
+Um protocolo, em geral, é um ==conjunto de regras e procedimentos que regulam uma interação ou um processo==.
 
 - Protocolo de rede 
 -> Um conjunto de regras que padronizam como um computador conversa com outro.
 
----
--> Ex:
-- IP
-- TCP 
-- UDP
-- ICMP
-- DNS
-- HTTP 
-- DHCP
-- POP
-- IMAP
-- IRC
-- MQTT
-- HTTPS
-- FTPS
-- SSH
-- TELNET
-
-------
-
-## Protocolo IP
+### IP
 
 - Internet Protocol
 
@@ -64,7 +47,55 @@ Quando voce se conecta em uma rede o computador recebe o seu endereco IP privado
 
 Todo gateway tem 2 enderecos: o endereco da rede interna e o endereco externo.
 
-## Protocolo DNS
+
+---
+
+Um endereço IP (Internet Protocol) ==é um identificador numérico exclusivo atribuído a cada dispositivo conectado à internet ou a uma rede de computadores==. É como um endereço postal para a internet, permitindo que os dispositivos comuniquem uns com os outros. 
+
+Em detalhes:
+
+- **Identificação:**
+    O endereço IP serve para identificar um dispositivo específico em uma rede, garantindo que os dados sejam enviados para o destino correto. 
+
+- **Comunicação:**
+    Ele permite que os dispositivos se comuniquem entre si, enviando e recebendo dados pela internet ou por uma rede local. 
+
+- **Protocolo da Internet:**
+    O IP é parte do Protocolo de Internet, que é o conjunto de regras que define como os dados são enviados e recebidos na internet. 
+
+- **Tipos de endereços IP:**
+    Existem endereços IP públicos (visíveis para a internet) e privados (usados dentro de uma rede local). Também existem endereços IP estáticos (fixos) e dinâmicos (mudam com o tempo). 
+
+- **Exemplo:**
+    Um endereço IP pode ser algo como `192.168.1.100` (privado) ou `123.45.67.89` (público).
+
+---
+
+### DHCP 
+
+DHCP, ou Dynamic Host Configuration Protocol, ==é um protocolo de rede que atribui automaticamente endereços IP a dispositivos em uma rede==. Isso significa que os dispositivos não precisam ser configurados manualmente com um endereço IP, tornando a configuração de rede mais fácil e eficiente. 
+
+Em termos mais detalhados:
+- **Atribuição Automática de Endereços IP:**
+    O DHCP permite que um servidor central (servidor DHCP) distribua automaticamente endereços IP para dispositivos que se conectam à rede. 
+    
+- **Simplificação da Configuração:**
+    Isso elimina a necessidade de configurar manualmente cada dispositivo com um endereço IP, economizando tempo e reduzindo erros. 
+    
+
+- **Gerenciamento Dinâmico:**
+    Os endereços IP podem ser alocados temporariamente ou permanentemente, e o DHCP permite que os endereços IP sejam reatribuídos a outros dispositivos quando um dispositivo se desconecta ou se move para outro local na rede. 
+    
+
+- **Outras Configurações:**
+    Além de endereços IP, o DHCP também pode fornecer outras informações de configuração, como a máscara de sub-rede, o gateway padrão e os endereços DNS, que são essenciais para que os dispositivos se comuniquem na rede e na internet. 
+
+
+- **Uso Comum:**
+    
+    O DHCP é amplamente utilizado em redes domésticas, em redes corporativas e em ambientes de nuvem, facilitando a configuração e o gerenciamento de dispositivos conectados.
+
+### DNS
 
 - Domain Name System
 
@@ -76,9 +107,106 @@ Quando vc digita um site, é feito uma conexao com um servidor DNS raiz pergunta
 
 O protocolo DNS faz a traducão de nomes para enderecos.
 
+---
+O protocolo DNS (Domain Name System) ==é um sistema que traduz nomes de domínio (como google.com) em endereços IP (como 172.217.160.142), que são os endereços numéricos que os computadores usam para se comunicar==. Em resumo, é como a agenda telefônica da internet, permitindo que os usuários naveguem usando nomes fáceis de lembrar, em vez de endereços IP complexos. 
 
-# Aula 17/02
+Função:
+- **Tradução de Domínio para IP:**
+    O DNS converte os nomes de domínio em endereços IP, que são necessários para que os computadores se conectem a outros dispositivos na internet. 
 
+- **Facilidade de Uso:**
+    Simplifica a navegação na web, permitindo que os usuários digitem nomes de domínio em vez de endereços IP. 
+
+- **Mapeamento de Nomes:**
+    O DNS mantém um banco de dados distribuído com os mapeamentos entre nomes de domínio e endereços IP. 
+
+Como funciona:
+- **1.** **Solicitação:**
+    Quando você digita um nome de domínio em um navegador, a solicitação é enviada a um servidor DNS.
+    
+
+- **2.** **Resolução:**
+    O servidor DNS procura no seu banco de dados o endereço IP correspondente ao nome de domínio solicitado.
+    
+
+- **3.** **Envio do IP:**
+    O servidor DNS envia o endereço IP para o navegador.
+    
+
+- **4.** **Conexão:**
+    O navegador utiliza o endereço IP para se conectar ao servidor do site desejado. 
+    
+
+Importância:
+- **Indispensável para a internet:**
+    O DNS é essencial para que a internet funcione, pois permite que os computadores se comuniquem usando nomes de domínio. 
+    
+
+- **Facilidade de uso para os usuários:**
+    Permite que os usuários naveguem na internet com nomes de domínio fáceis de lembrar, em vez de endereços IP numéricos. 
+    
+
+- **Redução de complexidade:**
+    Simplifica o processo de navegação na web, reduzindo a necessidade de lembrar endereços IP complexos.
+---
+
+### TCP/UDP
+
+TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são ==dois protocolos usados para a transferência de dados na camada de transporte da Internet==. O TCP é orientado à conexão, garantindo a entrega confiável e ordenada dos dados, enquanto o UDP é um protocolo sem conexão, focado em velocidade e eficiência, mesmo que a entrega não seja garantida. 
+
+TCP (Transmission Control Protocol):
+
+- **Orientado à conexão:**
+    O TCP estabelece uma conexão entre o remetente e o destinatário antes de enviar os dados, garantindo a entrega confiável e ordenada.
+
+- **Confiabilidade:**
+    O TCP garante que todos os dados sejam entregues corretamente, na ordem correta e sem erros, através de um processo de controle de erros e retransmissão.
+
+- **Uso:**
+    É usado em aplicações onde a confiabilidade é essencial, como acesso a páginas da web (HTTP), transferência de ficheiros (FTP), e-mail (SMTP) e acesso remoto (SSH). 
+
+UDP (User Datagram Protocol):
+- **Sem conexão:**
+    O UDP não estabelece uma conexão antes de enviar os dados, o que o torna mais rápido, mas menos confiável.
+
+- **Velocidade e eficiência:**
+    O UDP é mais rápido porque não há sobrecarga de estabelecer e manter uma conexão, sendo ideal para aplicações onde a velocidade é mais importante que a garantia da entrega, como streaming de vídeo, jogos online e chamadas de voz.
+
+- **Uso:**
+    É usado em aplicações onde a velocidade é mais importante que a confiabilidade, como jogos online, streaming de vídeo, VoIP e pesquisas de DNS.
+    
+### GATEWAY
+
+Um gateway, em redes de computadores, ==é um dispositivo ou sistema que facilita a comunicação entre diferentes redes, sistemas ou dispositivos que usam protocolos, linguagens ou arquiteturas distintas==. Pode ser visto como uma "porta" que permite que os dados fluam entre esses ambientes. 
+
+Em resumo:
+
+- **Função:** Atua como intermediário na comunicação entre redes diferentes. 
+- **Exemplos:** Roteadores, firewalls e modems podem atuar como gateways. 
+- **Importância:** Garante que dados possam ser transmitidos entre sistemas com diferentes protocolos, como redes locais e a internet. 
+
+- **Tipos:** Existem gateways de rede, de API e gateways de pagamento, entre outros. 
+
+Explicação mais detalhada:
+
+- **Gateway de Rede:**
+    
+    Permite a comunicação entre diferentes redes, traduzindo protocolos e endereços. 
+    
+
+- **Gateway de API:**
+    
+    Gerencia o tráfego de APIs, facilitando a comunicação entre diferentes sistemas sem expô-los diretamente. 
+    
+
+- **Gateway de Pagamento:**
+    
+    Facilita transações online, permitindo que consumidores paguem por produtos ou serviços. 
+    
+
+O conceito de gateway é fundamental para a interoperabilidade de sistemas e redes, garantindo que diferentes tecnologias possam interagir entre si.
+
+# Cabo de rede
 
 há varios meios de conexos com rede
 
@@ -134,8 +262,6 @@ O Brasil usa o Americano.
 - branco marrom
 - marrom
 
-# Aula 25/02
-
 #### Configurar o modem
 
 É preciso criar uma rede, e conectar esse rede a rede da operadora (no nosso caso a rede da uvv)
@@ -150,30 +276,9 @@ Para configurar o IP do roteador é necessário saber o IP do roteador. Para con
 
 Apos digitar a senha, e escolher "IP dinamico",  quando ligar o roteador a rede da uvv e o roteador da UVV vai, atraves do DHCP, dar o endereco IP da rede. O endereco gateway do rodetador será o gateway da uvv, o gateway do roteador da uvv será o gateway da internet.
 
+# Wifi
 
-# Aula 10/03
-
-
-#### Arduino
-
-Com o arduino se faz prototipos de dispositivos de Iot
-
-o Arduino é uma placa para criar prototipos
-
----
-
-Para trabalhar com IoT é necessário aprender sobre:
-- circuitos eletricos
-- circuitos analogico
-- circuitos digitais 
-
-Depois vamos criar os primeiros dispositivos não conectados a internet.
-
-Depois iremos aprender a usar shields de internet, que fazem o arduino a conectar a internet.
-
-Depois vamos utilizar o ESP32
-
----
+# Circuito elétrico
 
 ## Fundamentos físicos da computação
 
@@ -244,15 +349,28 @@ Corrente alternada:  polo do fluxo da corrente alterna com o tempo (o positivo e
 - Isso significa que se uma bateria fornece 9v para um circuito, os vários elementos do circuito devem "consumir' esses 9v.
 - ==tem mais coisa aqui==
 
-# Aula 11/03
+# Arduino
 
-==exercicio
+#### Arduino
 
-# Aula 17/03 
+Com o arduino se faz prototipos de dispositivos de Iot
 
-==Aula no laboratorio
+o Arduino é uma placa para criar prototipos
 
-# Aula 25/03
+---
+
+Para trabalhar com IoT é necessário aprender sobre:
+- circuitos eletricos
+- circuitos analogico
+- circuitos digitais 
+
+Depois vamos criar os primeiros dispositivos não conectados a internet.
+
+Depois iremos aprender a usar shields de internet, que fazem o arduino a conectar a internet.
+
+Depois vamos utilizar o ESP32
+
+---
 
 #### Arduíno 
 
@@ -312,82 +430,6 @@ void loop() {
 }
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
