@@ -315,79 +315,500 @@ void loop() {
 
 
 
+# Aula 06/05
+
+## histórico da IoT
+
+### Percusores
+
+- 1982: universidade de Carnegie Mellon:
+	- máquina de coca cola
+	- david nichols, mike kazar, john zsarnay
+	- conectada na ARPANET e na LAN da Carnegie Mellon
+
+### Termo IoT 
+
+- 1985: surgiu o termo
+	- Peter Lewis
+	- publicou o termo em uma revista.
+
+### 1 dispositivo IoT 
+- 1990: torradeira
+	- John Romkey
+	- Conectou à internet 
+	- ligava/desligava
+- 1 Webcam
+	- 1983: Cambridge Computer Lab
+		- cafeteira monitorada por vídeo 
+		- vídeo transmitido pela rede
+- 2 Webcam
+	- 1994: Wearcam
+		- Steve Man
+		- Câmara nos óculos
+		- inspirada pela cafeteira de Cambridge
+- Termo IoT
+	- 1999: Surgiu o termo
+		- Kevin Ashton
+		- publicou o termo em uma revista cientifica conhecida
+- RFID
+	- a partir de 2004 o Wallmart resolveu utilizar dispositivos de rádio frequência em seus produtos
+	- 2004: RFID no Walmart
 
+ A partir de 2005, explosão de dispositios:
+ - carros 
+ - óculos
+ - briquedos
+ - TVs
+ - Relógios
+ - geladeiras
+ - etc
 
+### Por que a explosão
 
+- tipos diferentes de sensores 
+- formas para a identificacao
+- computacao ficou barata
+- criados diversos servicos de comunicacao
 
 
+# Aula 12/05
 
+## Tópico 002
 
+---
+autolab.compatucaoraiz.com.br
 
+---
 
+#### Conceitos básicos sobre IoT
 
+IoT 
+- basicamente significa conectar dispositivos na internet
+	- sensores para monitoramento
+	- atuadores para acoes
+- Os dispositivos de IoT são geralmente fabricados por engenheiros de forma bem específica e personalizada;
+	- tv
+	- alexa
+	- relógio de pontoo
 
 
+---
+==IMPORTANTE==
 
+Microprocessador
+- Unidade de controle 
+- ULA
 
+Microcontrolador
+- Unidade de controle 
+- ULA
+- Memória RAM
+- Memoria SRAM
+- Memória ESFROM
+- I/O
+- AD
 
+---
 
+#### Arduino: hardware - microcontrolador
+- é um pequeno ¨computador completo" em um único chip
+- baseado em microcontroladores AVR de Atmel
+- arquitetura Harvard modificada, 8-bits
 
+Para o arduino conversar com o seu computador é necessário outro micro controlador "USB TO SERIAL CHIP"  
 
 
+#### Memoria
+- Geralmente 2 tipos de memória 
+	- SRAM (memória de acesso randomico estatica): memoria volatil e temporaria, para uso nos programas, quantidade varia conforme o modelo:
+		- UNO: 2KB
+		- Nano: 32 KB
+	- FLASH (armazena o programa, as intrucoes para o microcontrolador). Quantidade varia conforme o modelo:
+		- UNO: 23kb
+		- Nano: 256 KB
+	- EEPROM (memória especial, memória permanente)
+- Arquitetura Harvard
+	- Diferente da arquitetura de Von Neumann (na arquitura os programas e os dados estão na mesma memória)
+	- Na harvard a memoria do programa é separada da memoria dos dados
 
 
 
+### Objetos de IoT x Objetos Inteligentes de IoT
 
+Os objetos inteligentes de IoT pretendem tornar a interacao homem-maquina mais natural, gerando conexoes e servicos sem a necessidade de acoes humanas.
 
 
+### C
 
+Há linguagens de Alto nivel e linguagens de baixo nivel, a linguagem de mais baixo nível é a linguagem de máquina.
 
+Em 1972 foi criado a linguagem em C (é uma linguagem de alto nivel)
 
+Para ir do cógio fonte para o código de máquina é necessário um compilador:
+- os principais sao:
+	- GCC 
+	- Clange
 
 
+#### Comandos servidores linux 
 
+- pwd (print work directory)
+- ls 
+- code 'nome_do_arquivo'.c
 
+``` C
 
+#include <stdio.h>
 
+int main (void) 
+{
+ printf("Olá mundo! \n");
+}
 
+ //Para rodar precisa usar o comando
+ make 'nome_do_arquivo'
 
+//Para rodar 
+./'nome_do_arquivo'
 
 
+```
 
+# Aula 13/05
 
+### big data
 
+- volume 
+- velocidade 
+- variedade 
+- veracidade 
+- + valor 
 
 
+## C
 
+todo programa C inicia pelo 'main'
 
+o include serve para incluir bibliotecas
 
+para formatar uma string é necessário utlizar um especificador de formato:
 
+``` C
 
+%s string 
 
+%c caracter
 
+%d inteiro
 
+%f float ou double
+```
 
+```c
 
+#include <cs50.h>
 
+#include <stdio.h>
 
+  
 
+int main (void)
 
+{
 
+int idade = 50;
 
+double pi = 3.14;
 
+string nome = "Abrantes";
 
+  
+  
 
+printf ("Olá, %s, você tem %d anos! \n", nome, idade);
 
+}
 
+```
 
+```c
+#include <cs50.h>
 
+#include <stdio.h>
 
+  
 
+int main (void)
 
+{
 
+string nome = get_string("Qaul seu nome? ");
 
+int idade = get_int("Sua idade é: ");
 
+double numero = get_double("Qual seu número favorito? ");
 
+  
+  
 
+printf ("Olá, %s, você tem %d anos! \n", nome, idade);
 
+printf("Seu número favorito é %.2f.\n", numero);
 
+}
+```
+
+
+# Aula 19/05
+
+### IoT como um negócio 
+
+- Area em franco crescimento 
+- grande demanda profissional (redes, eletrônica, programacao)
+- inovacao como diferencial competitivo
+
+
+## C
+
+``` c
+#include <stdio.h>
+
+#include <cs50.h>
+
+  
+
+int main(void)
+
+{
+
+//if/else
+
+char letra = get_char("Você concorda com o nosso pacto? (S/N)");
+
+  
+
+if (letra == 'S')
+
+{
+
+printf("Sua alma é minha!!!\n");
+
+}
+
+else if (letra == 's')
+
+{
+
+printf("Sua alma é minha!!!\n");
+
+}
+
+else
+
+{
+
+printf("SNIF, SNIF, você é do time de Jesus\n");
+
+}
+
+}
+```
+
+
+
+#### OR ou AND
+
+**Lógica matemática**
+
+| nome      | Símero | Significado | C    |
+| --------- | ------ | ----------- | ---- |
+| CONJUNCAO | /\     | AND (E)     | &&   |
+| DISJUNCAO | V      | OR (OU)     | \|\| |
+| NEGACAO   | ~      | NOT (NAO)   | !    |
+
+``` c
+#include <stdio.h>
+
+#include <cs50.h>
+
+  
+
+int main(void)
+
+{
+
+//OR e AND
+
+char letra = get_char("Você concorda com o nosso pacto? (S/N)");
+
+  
+
+if (letra == 'S' || letra == 's')
+
+{
+
+printf("Sua alma é minha!!!\n");
+
+}
+
+else if (letra == 'N' || letra == 'n')
+
+{
+
+printf("SNIF, SNIF, você é do time de Jesus\n");
+
+} else
+
+{
+
+printf("Não sei o que você quer!\n");
+
+}
+
+}
+
+``` 
+
+**Igualdade**
+
+| nome      | C   |
+| --------- | --- |
+| Igual     | ==  |
+| diferente | !=  |
+
+**Relacao**
+
+
+| nome           | C   |
+| -------------- | --- |
+| maior          | >   |
+| mair ou igual  | >=  |
+| menor          | <   |
+| menor ou igual | <=  |
+
+
+### Estrutura de repeticao
+
+``` c
+#include <cs50.h>
+
+#include <stdio.h>
+
+  
+
+int main(void)
+
+{
+
+// FOR
+
+string nome = get_string("Qual o seu nome?\n");
+
+  
+
+for (int i = 0; i < 10; i++)
+
+{
+
+printf("Olá, %s!\n", nome);
+
+}
+
+  
+
+// WHILE
+
+int numero = get_int("Digite um número:\n");
+
+while (numero < 10)
+
+{
+
+printf("Número: %d\n", numero);
+
+numero++;
+
+}
+
+  
+
+// DO WHILE
+
+int tabuada = get_int("Digite um número para a tabuada:\n");
+
+int i = 1;
+
+do
+
+{
+
+printf("%d x %d = %d\n", tabuada, i, tabuada * i);
+
+i++;
+
+} while (i <= 10);
+
+  
+
+return 0;
+
+}
+```
+
+
+# Aula 20/05
+
+### impressao
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+
+{
+	
+	int linhas = get_int("Quantas linhas? \n");
+	int colunas = get_int("Quantas colunas? \n");
+	
+	for (int l = 1; l <= linhas; l++)
+	{
+		for (int c = 1; c <= colunas; c++)
+		{
+			printf("#");
+		}
+		printf("\n");
+	}
+}
+```
+
+# Aula 26/05
+
+### funcoes 
+
+as variaveis dentro da funcao se chamam parametro
+
+``` c
+#include <stdio.h>
+#include <cs50.h>
+
+int potencia(int base, int expoente); //PROTÓTIPO DAS FUNCOES
+
+int main(void)
+{
+	printf("Valor: %d \n", potencia(3, 2));
+	
+	return 0;
+}
+
+int potencia(int base, int expoente)
+{
+	int valor = 1;	
+	for (int i = 1; i <= expoente; i++)	
+	{
+		valor *= base;
+	}
+	return valor;
+
+}
+```

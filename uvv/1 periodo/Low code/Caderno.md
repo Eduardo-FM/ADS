@@ -207,3 +207,7 @@ Um programa de computador é uma resposta à necessidade de uma solucao para um 
 O algoritmo é um conjunto de instrucoes que descrevem de forma textual ou grafica um processo em termos de outros processos.
 
 Independente da aplicacao é necessário saber o processo lógico. 
+
+
+# Aula 25/04
+

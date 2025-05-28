@@ -274,3 +274,87 @@ Envolvem a decomposicao de elementos em seus elemenots constituintes (por exempl
 - pesquisa e desenvolvimento 
 - operacao
 - ==...==
+
+
+# Aula 25/04
+
+## Robotica
+
+
+# Aula 02/04 faltei
+
+# Aula 09/05
+
+### Robotica 
+
+- Leis da robótica de isaac Asimov
+
+#### Automacao
+Robos de producao;
+Ambientes estruturados
+Percepcao e decisao limitadas 
+celulas integradas de manufatura 
+
+#### Robótica
+Robôs de exploracao
+ambientes nao estruturados
+diferentes sensores 
+varios ambientes
+
+A **automacao** usa sistemas mecanicos, eletricos, eletronicos e de computacao para efetuar controle de processos produtivos
+
+Exemplos de processos de automacao nas indústrias: linhas de montagem automotiva, integracao de motoros - linha transfer, maquinas operatrizes do tipo CNC; robos
+
+
+#### aplicacao
+
+tarefas repetitivas, perigosas para os humanos, tarefas que exigem a reducao dde custos, entretenimento, por exemplo, robos que imitas os seres vivos, indústria em geral.
+
+
+##### Aplicacao
+
+Ambientes perigosos/inacessíveis
+- limpeza de químicos/material nuclear
+- desarme de bombas/minas terrestres 
+- exploracao espacial
+- entretenimento
+- uso doméstico
+- robôs órgãos artificiais e cirurgiões
+- aplicacoes militares
+
+
+### Componentes de um robo
+- manipulador
+- atuadores
+- sensores
+- unidade de controle
+- unidade de potencia 
+- efetuador 
+
+##### tipos de juntas 
+- junta prismática
+- junta de rotacao
+- junta esférica 
+
+#### Robo cartesioano
+
+- tres juntas prismaticas (PPP)
+- alta rigidez
+- pouca habilidade de posicionamento 
+- aplicável principalmente em sistemas para manipulacao e movimentacao 
+- tipicamente com atuadores eletromagneticos (em alguns casos tambem encontrados com pneumáticos)
+
+#### Robo cilindrico
+- duas juntas prismaticas e uma junta de rotacao (RPP)
+- Menor rigidez radial
+- bom acesso em cavidades horizontais 
+- apresenta menor resolucao de posicionamento na direcao horizontal
+- em geral com atuadores hidraulicos
+
+### Robo esferico
+- ==perdi==
+
+### Rpbp SCARA
+- duas juntas de rotacao e uma junta prismatica (RRP)
+- Selective Compliance Assembly Robot Arm (alta rigidez para cargas verticais enquanto para cargas horizontais a rigidez é baixa)
+- Utiliza-se essa estrutura para manipulacao de pequenos objetos
