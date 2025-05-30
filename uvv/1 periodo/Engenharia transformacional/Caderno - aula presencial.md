@@ -280,7 +280,113 @@ Envolvem a decomposicao de elementos em seus elemenots constituintes (por exempl
 
 ## Robotica
 
+#### definição
 
+Robô é um manipulador re-programável e multifuncional projetado para mover materiais, partes, ferramentas ou dispositivos especializados por meio de movimentos, programados para desempenhar uma variedade de tarefas. R.I.A (Robotics Industries Association);
+
+Outras Robô é um dispositivo que permite realizar trabalhos mecânicos, normalmente associados a seres humanos, de uma maneira muito mais eficiente e sem a necessidade de pôr em risco a vida humana;
+
+Definição mais moderna : Máquina que pode ter um aspecto humano, capaz de se movimentar e de agir ; 
+
+Mecanismo automático que efetua operações repetitivas.
+
+#### historia 
+
+Ano de 1495: Leonardo da Vinci.
+- Dispositivo mecânico dentro de uma armadura;
+- Projetado para fazer movimentos como se houvesse uma pessoa dentro.
+
+Ano de 1738:Jacques de Vaucanson
+- Construção de três autômatos
+- O pato se movia, "falava", batia as asas, comia e digeria alimentos.
+
+Ano de 1898:NikolaTesla
+- Constrói um barco de controle remoto
+- Teleautômato
+
+Ano de 1921 :KarelCapek
+- O termo robô vem originalmente do idioma checo „robota", que siqnifica "trabalhos forcados", foi criado por KarelCapek (1890-1938), escritor checo que escreveu um romance famoso em 1921 chamado "R.U.R." (Rossuum's Universal Robot ou Robôs Universais de Rossum);
+
+- Rossum projetou e construiu um exército de robôs que se tornaram muito inteligentes e dominaram o mundo. 
+ 
+Ano de 1927: Fritz Lang 
+- Filme: Metropolis (Maria)
+
+
+Leis da Robótica
+Lei Zero, enunciada posteriormente e prevalecendo sobre as outras três: Um robô não pode fazer mal à humanidade ou, por omissão, permitir que a humanidade sofra algum mal.
+
+1a Um robô não pode fazer mal a um ser humano e nem, por omissão, permitir que algum mal lhe aconteça.
+
+2a Um robô deve obedecer às ordens dos seres humanos, exceto quando estas contrariarem a Primeira lei.
+
+3a Um robô deve proteger a sua integridade física, desde que, com isto, não contrarie a Primeira e a Segunda leis.
+
+ #### Evolução da robótica 
+
+A evolução da tecnologia é uma tendência irreversível, com os robô
+foram extinguidos postos de trabalho, principalmente os de baixa!
+qualificação; exigem profissionais mais bem preparados.
+
+| Automação                                                                                                            | Robótica                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Robôs de produção;<br>Ambientes estruturados;<br>Percepção e decisão limitadas;<br>Células Integradas de Manufatura. | Robôs<br>de<br>exploração;<br>Ambientes não estruturados,<br>Diferentes<br>sensores<br>Vários ambientes. |
+
+A Automação usa sistemas mecânicos, elétricos, eletrônicos e de
+computação para efetuar controle de processos produtivos.
+
+Exemplos de processos de automação nas indústrias: linhas de
+montagem automotiva, integração de motores -
+linha transfer; máquinas
+operatrizes do tipo CNC; robôs.
+
+#### Aplicação
+
+Tarefas repetitivas perigosas para os humanos, tarefas que exigem a
+redução de custos, entretenimento por exemplo, robôs que imitam os
+seres vivos: Indústria em geral;
+
+Ambientes perigosos/inacessiveis;
+Limpeza de químicos/material nuclear,
+Desarme de bombas/minas terrestres,
+Exploração espacial.
+• Entretenimento;
+• Uso doméstico;
+• Robôs órgãos artificiais
+e cirurgiões;
+Aplicações Militares.
+
+#### Robótica na realidade
+
+Robótica moderna : pesquisas e desenvolvimento de robôs humanoides
+ou antropomórficos criados com a semelhança humana e com
+capacidade de interagir com o ambiente, como o Asimo (Honda Motor
+Co.-Montadora japonesa )
+
+Diversos brinquedos articulados imitam animais
+como cães, se destinam ao entretenimento.
+Estes robôs são incapazes de realizar quaisquer
+tipos de tarefas- respondem a estímulos
+externos;
+
+Robôs industriais : capazes de realizar tarefas, podem
+ser programados, e possuem força elevada.
+
+
+#### empresas no brasil
+
+A ABB lançou em abril/2015 0 robô YuNIi , "You and me".
+apresentado na Feira de Hannover;
+
+Trabalha em cooperação com humanos no chão de fábrica ( indústri'
+de produtos eletrônicos);
+
+Marca uma nova era da automação - montagem de pequenas peças,
+onde funcionários e robôs trabalham juntos na mesma tarefa;
+
+Os dois braços automatizados podem trabalhar com peças precisas
+delicadas de um relógio de pulso analógico a componentes usados en-
+celulares, tablets e computadores.
 # Aula 02/04 faltei
 
 # Aula 09/05
@@ -322,7 +428,13 @@ Ambientes perigosos/inacessíveis
 - robôs órgãos artificiais e cirurgiões
 - aplicacoes militares
 
-
+#### Aplicações de robôs na indústria
+- movimentação
+	- transporte, carga(descarga), paletização
+- processamento
+	- soldagem, fixação, pintura, montagem, limpeza, corte, empacotamento, etc
+- Controle de qualidade
+	- inspeção, localização de contornos, detecção de falhas, etc.
 ### Componentes de um robo
 - manipulador
 - atuadores
@@ -335,6 +447,17 @@ Ambientes perigosos/inacessíveis
 - junta prismática
 - junta de rotacao
 - junta esférica 
+
+Classificaçâo de robôs pela estrutura mecânica
+- De cadeia cinemática aberta
+	• Robô Cartesianos
+	• Robô Cilindricos
+	• Robô Esféricos
+	• Robô SCARA
+	Robô Antropomórfico
+	
+- De cadeia cinemática fechada
+	• Robô Paralelo
 
 #### Robo cartesioano
 
@@ -352,9 +475,68 @@ Ambientes perigosos/inacessíveis
 - em geral com atuadores hidraulicos
 
 ### Robo esferico
-- ==perdi==
+• Uma junta prismática e duas juntas de rotação
+(PRR)
+• Pouca rigidez radial
+• Apresentam menor resoluçào de
+posicionamento ao longo do eixo radial
+amplamente usado em operações junto a
+centros de usinagem
+• Normalmente empregam-se acionamentos
+elétricos
+• Estrutura empregada no primeiro robô
 
-### Rpbp SCARA
+### Robo SCARA
 - duas juntas de rotacao e uma junta prismatica (RRP)
 - Selective Compliance Assembly Robot Arm (alta rigidez para cargas verticais enquanto para cargas horizontais a rigidez é baixa)
 - Utiliza-se essa estrutura para manipulacao de pequenos objetos
+- Seus acionamentos são tipicamente de natureza elétrica
+
+
+Robô Antropomórfico
+• Tres juntas rotacionais (RRR)
+Menor rigidez dentre as estruturas
+Resoluçào de posicionamento variável no espaço
+de trabalho
+Maior grau de habilidade
+Na grande maioria dos casos são empregados acionamentos de natureza elétrica
+
+Robô Paralelo
+Configuração tipo plataforma
+• Altissmo grau de ngidez
+Volume de trabalho aprox. semi-esférico
+Multo empregado para operações de usinagem
+
+Efetuador
+• Ferramentas especiais
+	• Porta eletrodos
+	• Pistola de aspersão ou pintura
+	• Tocha para soldagem
+	• Dispositivo de corte/soldagem a plasma/laser
+	- Pinças p/ soldagem a ponto
+	- Porta rebolo
+	• Maçarico para corte oxiacetilênico
+	• Pistola para corte/limpeza por jato de água
+• Garras mecânicas
+
+
+Outras classificações
+• Geração tecnológica
+• Seqüência fixa
+• Atuação em ambientes nao estruturados
+• Inteligência artificial
+Participação de operadores humanos
+• Ambientes estruturados
+• Ambientes nào estruturados
+Pelo tipo de acionamento (elétrico, hidráulico
+ou pneumático)
+Pelo tipo de transmissão (direta ou indireta)
+
+Garras Mecânicas
+• Analogia com a mão humana
+	• Seis modos de preensão
+	• A mão humana tem 22 graus de liberdade
+• Tipos de garras industriais
+• Dois dedos (rígidos ou flexíveis)
+• Tres dedos
+Com ventosas

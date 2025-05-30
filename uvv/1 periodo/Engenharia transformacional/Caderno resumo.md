@@ -960,3 +960,276 @@ Primeiro, é necessário introduzir quatro módulos de programação Arena que s
 • MN (xl, x2, …): esta função retorna o mínimo dos valores apresentados.
 
 • MX (xl, x2, …): esta função retorna o máximo dos valores apresentados.
+
+# Tópico 6
+
+### Tipos de Robôs
+
+Tradicionalmente, os robôs são aplicados em qualquer lugar em que um dos 3Ds exista: Dirty, Dangerous, and/or Dull.  Isso quer dizer, em qualquer trabalho que seja muito sujo, perigoso e/ou repetitivo demais para um ser humano executar.
+
+Na indústria, os robôs são usados na fabricação: escolha e colocação de peças, montagem, soldagem, pintura com spray, usinagem, etc. Em aplicações remotas, os robôs trabalham em ambiente submarino, nuclear, descarte de bombas, aplicação da lei e também no espaço sideral. Nos ramos dos serviços, os robôs também estão presentes, sendo implementados como auxiliares de hospital, assistência para deficientes, no varejo, empregados domésticos, aspiradores de pó, cortadores de grama, na educação e no entretenimento.
+
+#### Designs comuns
+
+##### Braços robóticos
+
+- Cartesiano
+
+Os robôs cartesianos têm três eixos lineares de movimento (X, Y, Z). Eles são constituídos de três articulações P mutuamente ortogonais, com comprimentos variáveis L1, L2, L3. Usado para tarefas de “pegar e colocar” e também para mover cargas pesadas. Também chamados de Gantry Robots, eles podem traçar volumes retangulares no espaço 3D.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img01-1-768x252-1-680x223.jpg)
+
+- Cilíndrico
+
+As posições do robô cilíndrico são controladas por uma altura variável L1, um ângulo Θ2 e um raio variável L3 (articulação P, articulação R, articulação P). Esses robôs são comumente usados em tarefas de montagem e podem traçar cilindros concêntricos no espaço 3D.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img02-768x249-1-680x220.jpg)
+
+- Esférico
+
+Os robôs esféricos têm dois eixos ortogonais rotacionais R, com variáveis Θ1 e Θ2, e uma articulação P, raio variável L3. Os efetores finais dos robôs podem traçar esferas concêntricas no espaço 3D.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img03-768x248-1-680x220.jpg)
+
+- SCARA (Braço robô articulado de conformidade seletiva)
+
+ Os robôs SCARA têm duas juntas R, Θ1 e Θ2, além de uma junta P d3 perpendicular a esse plano de movimento, para obter um espaço de trabalho 3D xyz. O ângulo da junta R Θ4 é o pulso do robô SCARA de rotação única. Estes são robôs comuns para montagem em mesas.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img04-768x272-1-680x241.jpg)
+
+- Robô articulado
+
+Os robôs articulados se assemelham ao braço humano em seu movimento 3D (eles são antropomórficos). Eles têm três articulações R, com três ângulos variáveis Θ1, Θ2 e Θ3, representando a cintura do corpo humano, 1 dof de ombro e articulações do cotovelo. São robôs versáteis, mas têm equações de controle de cinemática e dinâmica mais difíceis do que outros braços robóticos.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img05-768x329-1-680x291.jpg)
+
+---
+
+Menção honrosa: Sistema da Vinci.
+
+> O sistema cirúrgico da Vinci oferece ao cirurgião um conjunto avançado de instrumentos para usar na realização de cirurgias minimamente invasivas assistidas por robótica. O termo “robótico”, muitas vezes, engana as pessoas. Os robôs não realizam cirurgia. Seu cirurgião realiza uma cirurgia com o da Vinci usando instrumentos que ele guia através de um console.
+> 
+> O sistema da Vinci traduz os movimentos das mãos do cirurgião no console em tempo real, dobrando e girando os instrumentos durante a execução do procedimento. Os minúsculos instrumentos de pulso movem-se como uma mão humana, mas com maior amplitude de movimento. O sistema de visão da Vinci também oferece vistas 3D de alta definição e ampliadas da área cirúrgica. O tamanho do instrumento possibilita que os cirurgiões operem através de uma ou algumas pequenas incisões.
+> 
+> (INTUITIVE SURGICAL, 2020, s/n).
+
+O sistema da Vinci utiliza um Cobot, robô cooperativo, que é usado como ferramenta pelo médico, operador, para realizar procedimentos cirúrgicos.
+
+---
+
+### Robôs Móveis terrestres
+
+Os robôs móveis têm rodas, pernas ou outros meios para navegar pela área de trabalho. Os robôs móveis são aplicados como auxiliares de hospitais, aspiradores de pó, cortadores de grama, entre outras possibilidades. Esses robôs exigem bons sensores para ver o espaço de trabalho, evitar colisões e realizar o trabalho propriamente dito.
+
+Robôs como os da competição de futebol não podem dirigir em todas as direções possíveis. Por esse motivo, esses robôs são chamados de “não-holonômicos”. Por outro lado, um robô “holonômico” ou omnidirecional é capaz de dirigir em qualquer direção. A maioria dos robôs não-holonômicos não pode dirigir em uma direção perpendicular às rodas motrizes. Por exemplo: um robô de acionamento diferencial pode dirigir para frente/trás, em uma curva, ou girar no local, mas não pode dirigir para o lado. Os robôs omnidirecionais, no entanto, são capazes de dirigir em qualquer direção em um plano 2D.
+
+Assim, dentro da classe robôs móveis terrestres, podemos encontrar a diferenciação entre holonômicos e não-holonômicos, e dentro dos holonômicos, ainda há outras subclasses, como os robôs esféricos e os robôs de rodas omnidirecionais.
+
+- Os robôs de rodas omnidirecionais aplicam a força da roda em um ângulo de 45 ° ao robô, em vez de em um de seus eixos. Aplicando a força em ângulo ao robô, é possível variar a magnitude dos vetores de força para obter o controle de translação do robô; em resumo, o robô pode se mover em qualquer direção, mantendo a frente do robô em uma direção constante da bússola.
+
+Os robôs esféricos são robôs com formato de bola, que se movem na superfície rolando sua carcaça esférica externa. Esse robô pode navegar por ambientes e as chances de se prender a objetos que possam estar nesse ambiente são reduzidas.
+
+### Robôs Humanóides
+
+Um robô humanóide é um robô com sua aparência geral baseada na do corpo humano.
+
+Em geral, os robôs humanóides têm um tronco com cabeça, dois braços e duas pernas, embora algumas formas de robôs humanóides possam modelar apenas parte do corpo, por exemplo, da cintura para cima. Alguns robôs humanóides também podem ter um “rosto”, com “olhos” e “boca”. Os andróides são robôs humanóides construídos para se parecer com um homem, e os Gynoids são robôs humanóides criados para se parecer com uma fêmea humana.
+
+### ROVs
+
+“ROV” significa Veículo Operado Remotamente na tradução da língua inglesa; os ROVs são robôs subaquáticos não tripulados e altamente manobráveis que podem ser usados para explorar as profundezas do oceano enquanto são operados por alguém na superfície da água.
+
+### Drones
+
+Também conhecido como UAV (veículo aéreo não tripulado), um drone é um dispositivo voador controlado remotamente por um usuário, tipicamente, porém, existem drones que funcionam com IA, inteligência artificial, e são capazes de tomar decisões e realizar tarefas. Esses últimos se enquadram na categoria: Robô.
+
+### Macios
+
+Robôs macios são construídos com materiais complacentes. Muitas vezes, eles são desenvolvidos a partir de um alto grau de biomimética, como polvos e trombas de elefantes. Sua rigidez e precisão absolutas são muito baixas quando comparadas aos robôs rígidos tradicionais. No entanto, sua segurança é inerentemente muito boa, incluindo a capacidade de trabalhar entre humanos e envolver objetos para agarrá-los. Frequentemente, eles são acionados pela pressão do ar (ou outro fluido) e/ou músculos artificiais, que geralmente são muito mais difíceis de controlar do que os dos robôs tradicionais.
+
+## CoBots: Robôs Cooperativos
+
+Como o nome sugere, um robô colaborativo (cobot) é um robô projetado para colaborar com trabalhadores humanos. O objetivo dos cobots é ser um robô que pode servir como uma ferramenta para os trabalhadores da fábrica configurando superfícies virtuais que podem ser usadas para restringir e guiar o movimento.
+
+-  os cobots são intrinsecamente passivos
+Os cobots são robôs que:
+
+- São seguros para as pessoas trabalharem ao redor – sem necessidade de cercas protetoras;
+- É fácil para operadores comuns programar, implantar e reimplantar;
+- Serve como ferramentas para operadores, não como dispositivos que substituem trabalhadores humanos;
+- Permite que as empresas mantenham o controle de seus próprios processos automatizados.
+##### Cobots para o setor 4.0
+
+Como dispositivos, a maioria dos cobots são totalmente compatíveis com os princípios de design do Industry 4.0. Equipados com poderosos computadores de bordo, eles são interoperáveis e facilmente capazes de ingressar na Internet das Coisas (IoT) em qualquer ambiente de fábrica. Eles promovem a transparência das informações por meio de sua capacidade de coletar dados e transmiti-los a outros sistemas para análise, modelagem e assim por diante. Eles fornecem assistência técnica, no sentido de que “apoiam fisicamente os seres humanos, realizando uma série de tarefas desagradáveis, exaustivas ou inseguras para seus colegas de trabalho humanos”.
+
+###### Democratização da automação
+
+Além de sua inata compatibilidade com a indústria 4.0, os cobots têm desempenhado um papel importante ao habilitar empresas que talvez não pudessem disponibilizar robôs industriais para começar a automatizar seus processos. Por serem versáteis, fáceis de programar, pequenas, leves e acessíveis, as cobots estão sendo implantadas nas PME, Pequenas e Médias Empresas, para modernizar fábricas mais antigas pertencentes a empresas que talvez não estejam em condições de construir instalações industriais chave na indústria 4.0 e em empresas de todos os tamanhos em países em desenvolvimento. Essas mesmas qualidades – versatilidade, facilidade de uso, tamanho reduzido e acessibilidade – também tornam os cobots eminentemente adequados para implantação em processos que não eram automatizados anteriormente. Ao “democratizar” a automação robótica dessa maneira, os cobots ajudam as empresas em todos os lugares a se unirem à mais recente onda de automação, mesmo que não estejam prontas para ir até o setor 4.0.
+
+### Robôs e sociedade
+
+Enquanto o campo de aplicação dos robôs está aumentando, o robô sai das fábricas e entra em nossas casas – está se tornando um item de consumo.
+
+Além disso, a robótica também está mudando nosso método de conduzir a investigação científica e, talvez, até nosso conceito de nós mesmos. As sinergias entre robótica, neurociências, medicina, educação e psicologia ampliaram o escopo de aplicação deste último, tornando a robótica uma plataforma de pesquisa científica global sobre a humanidade, nossa galáxia e a interação entre a humanidade e a natureza.
+
+Computadores pensantes, robôs dotados de inteligência artificial e que também podem se replicar […]: essa autorreplicação descontrolada é um dos perigos das novas tecnologias. De maneira menos dramática, outros apontaram a necessidade de introduzir regras éticas em aplicações tecnológicas, especialmente, no que diz respeito ao comportamento de máquinas inteligentes. Nesse quadro, a questão mais prosaica é: quais serão as implicações culturais e sociais da invasão da robótica? Os robôs poderiam ser perigosos para a humanidade de alguma forma?
+
+Sob a pressão da opinião pública e da mídia, os roboticistas não podem evitar se envolver em uma análise crítica das implicações sociais de suas pesquisas, a fim de poder dar respostas científicas, técnicas e filosóficas a perguntas como:
+
+- Até onde podemos ir incorporando a ética em um robô?
+- Que tipo de ética é ética robótica?
+- Quão contraditória é, por um lado, a necessidade de implementar nos robôs uma ética e, por outro, o desenvolvimento da autonomia do robô?
+- É correto falar sobre a consciência, emoções e personalidade dos robôs?
+
+##### Robótica e Serviços
+
+É possível listar os impactos positivos da introdução dos robôs nos serviços dessa maneira:
+
+- Cadeia de fornecimento e logística, eliminações;
+- Mais tempo para o lazer;
+- Melhores resultados para saúde;
+- Maior acesso a materiais.
+
+Entretanto, existem impactos negativos dignos de nota:
+
+- Perdas de postos de trabalho.
+- Responsabilidade e transparência.
+- Hacking e ciber-risco.
+
+# Tópico 7
+
+### Machine Learning (Aprendizado de máquina
+
+O aprendizado de máquina é um subcampo da inteligência artificial (IA). O objetivo do aprendizado de máquina, geralmente, é entender a estrutura dos dados e ajustá-los a modelos que possam ser entendidos e utilizados pelas pessoas.
+
+Em vez disso, os algoritmos de aprendizado de máquina permitem que os computadores na entrada de dados sejam treinados e usem análises estatísticas, a fim de gerar valores que caem dentro de um intervalo específico. Por esse motivo, o aprendizado de máquina facilita aos computadores a construção de modelos a partir de dados de amostra, a fim de automatizar os processos de tomada de decisão com base nas entradas de dados.
+
+Um sistema de aprendizado de máquina é treinado e não explicitamente programado. Ele é apresentado a exemplos relevantes de uma tarefa e encontra estrutura estatística nesses exemplos que, eventualmente, permite que o sistema crie regras, para automatizar a tarefa.
+
+Diferentemente da estatística, o aprendizado de máquina tende a lidar com conjuntos de dados grandes e complexos (como um conjunto de dados de milhões de imagens, cada uma consistindo em dezenas de milhares de pixels) para os quais a análise estatística clássica, como a análise bayesiana, seria impraticável.
+
+#### Métodos do aprendizado de máquina
+
+Dois dos métodos de aprendizado de máquina mais amplamente adotados são o aprendizado supervisionado, que treina algoritmos com base em entrada e saída de dados de exemplo rotulados por seres humanos, e o aprendizado não supervisionado, que não fornece dados rotulados ao algoritmo, para permitir que ele encontre estrutura dentro de sua entrada. Vamos explorar esses métodos com mais detalhes.
+
+##### Abordagem
+
+Como um campo, o aprendizado de máquina está intimamente relacionado à estatística computacional, portanto, ter um conhecimento básico em estatística é útil para entender e alavancar algoritmos de aprendizado de máquina.
+
+Para aqueles que não puderam estudado estatística, pode ser útil definir primeiro a correlação e a regressão, pois são técnicas comumente usadas, para investigar a relação entre variáveis quantitativas.
+
+Correlação é uma medida de associação entre duas variáveis que não são designadas como dependentes, ou independentes. A regressão, em um nível básico, é usada, para examinar o relacionamento entre uma variável dependente e uma variável independente. Como as estatísticas de regressão podem ser usadas, a fim de antecipar a variável dependente, quando a variável independente é conhecida, a regressão permite recursos de previsão.
+
+– _K-nearest neighbor_
+
+O algoritmo _k- nearest neighbor_, ou K-ésimo Vizinho mais Próximo, é um modelo de reconhecimento de padrões que pode ser usado para classificação e regressão. Abreviado frequentemente como kNN, o k no k-ésimo vizinho mais próximo é um número inteiro positivo, que, geralmente, é pequeno. Na classificação ou na regressão, a entrada consistirá nos k elementos mais próximos dentro de um espaço.
+
+Entre os algoritmos mais básicos de aprendizado de máquina, k-ésimo vizinho mais próximo é considerado um tipo de “aprendizado lento”, pois a generalização não ocorre até que uma consulta seja feita ao sistema.
+
+## Redes Neurais – Deep Learning – Aprendizagem Profunda
+
+O aprendizado profundo tenta imitar a maneira pela qual o cérebro humano pode processar estímulos de luz e de som oriundos da visão e da audição. Uma arquitetura de aprendizado profundo é inspirada em redes neurais biológicas e consiste em várias camadas em uma rede neural artificial composta de hardware e GPUs.
+
+O aprendizado profundo usa uma cascata de camadas de unidades de processamento não lineares, a fim de extrair, ou transformar recursos (ou representações) dos dados. A saída de uma camada serve como entrada da camada sucessiva. No aprendizado profundo, os algoritmos podem ser supervisionados e servir, para classificar dados, ou não supervisionados e executar análises de padrões.
+
+O aprendizado profundo é um subcampo específico do aprendizado de máquina: uma nova visão sobre representações de aprendizado a partir de dados que enfatiza o aprendizado de camadas sucessivas de representações cada vez mais significativas. Aquele não é uma referência a nenhum tipo de entendimento mais profundo alcançado pela abordagem. Ao contrário, representa essa ideia de sucessivas camadas de representações.
+
+Para nossos propósitos, o aprendizado profundo é uma estrutura matemática, com o objetivo de aprender representações a partir de dados.
+
+Isso é o aprendizado profundo, tecnicamente: uma maneira onde, por meio de vários estágios, é possível aprender por representações de dados. É uma ideia simples – mas, como se vê, mecanismos muito simples, suficientemente dimensionados, podem acabar parecendo mágica.
+
+### Big Data
+
+Desde 1997, muitos atributos foram adicionados ao _Big Data_. Entre esses atributos, três são os mais populares e foram amplamente citados e adotados. O primeiro é chamado de interpretação de Gartner, ou 3Vs; a raiz desse termo pode ser rastreada até fevereiro 2001, época em que foi lançado por Douglas Laney em um artigo publicado pelo grupo Meta, o qual o Gartner adquiriu posteriormente em 2004. Douglas notou que, devido ao aumento das atividades de comércio eletrônico, os dados cresceram em três dimensões, a saber:
+
+1. Volume, que significa o fluxo de dados recebidos e o volume acumulado de dados;  
+2. Velocidade, que representa o ritmo dos dados usados para suportar a interação e gerados pelas interações;  
+3. Variedade, que significa a variedade de formatos e estruturas de dados incompatíveis e inconsistentes.
+
+– IBM – definição de 4Vs
+
+A IBM adicionou outro atributo ou “V” sob a notação de 3Vs de Douglas Laney que diz respeito à “Veracidade”, essa definição é conhecida como 4Vs do _Big Data_. Essa proposta estabelece cada “V” da seguinte forma:
+
+1. Volume significa escala de dados;
+2. Velocidade denota a análise de dados de _streaming_;
+3. Variedade indica diferentes formas de dados;
+4. Veracidade implica a incerteza dos dados.
+
+– Microsoft – definição de 6Vs
+
+Com o objetivo de maximizar o valor comercial, a Microsoft estendeu os atributos de 3Vs de Douglas Laney para 6 Vs, o que acrescentou variabilidade, veracidade e visibilidade:
+
+1. Volume significa escala de dados;
+
+2. Velocidade denota a análise de dados de _streaming;_
+
+3. Variedade indica diferentes formas de dados;
+
+4. A Veracidade concentra-se na confiabilidade das fontes de dados;
+
+5. Variabilidade refere-se à complexidade do conjunto de dados. Em comparação com “Variedade” (ou formato de dados diferente), significa o número de variáveis nos conjuntos de dados;
+
+6. Visibilidade enfatiza que você precisa ter uma imagem completa dos dados, a fim de tomar uma decisão informativa.
+
+O objetivo real do BDA (_Big Data Analytics_) é realmente buscar o business _intelligence_ (BI). Ele permite que os tomadores de decisão as tomem de maneira correta com base em previsões através da análise dos dados disponíveis. Portanto, precisamos esclarecer novos atributos do _Big Data_ e estabelecer seu significado de relacionamento entre três aspectos, a saber:
+
+- Domínio de dados (pesquisando padrões);
+- Domínio da inteligência de negócios (fazendo previsões);
+- Domínio estatístico (fazendo suposições).
+
+– DOMÍNIO DE DADOS
+
+Os 3Vs de Laney capturaram a importância das características do _Big Data_, refletindo o ritmo e os fenômenos de exploração do crescimento de dados nos últimos anos. Neste, o principal atributo no aspecto dos dados é o volume. Se examinarmos o histórico da análise de dados, a variação de velocidade e variedade é relativamente pequena em comparação com o volume. O V que geralmente excede nossa capacidade atual de processamento de dados é volume. Embora o volume não possa determinar todos os atributos dos dados, é um dos fatores cruciais no BDA.
+
+– DOMÍNIO DA INTELIGÊNCIA DE NEGÓCIOS (BI)
+
+Quando discutimos BI no BDA, queremos dizer valor, visibilidade e veredicto no domínio inteligente dos negócios. Esses 3Vs são as motivações, ou motivadores, a fim de implementarmos o processo de BDA em primeiro lugar. Se não conseguirmos obter BI, o puro exercício de análise de dados não terá sentido. Da perspectiva da tomada de decisão, esses 3Vs são como aproveitar os 3Vs dos dados para os 3Vs do BI.
+
+- Visibilidade: não se concentra apenas no _insight_, mas também nos metadados ou, às vezes, na sabedoria das multidões de dados, ou no nível hierárquico dos padrões de dados de abstração. De uma perspectiva de BI, fornece retrospectiva, _insight_ e previsão de um problema e uma solução adequada associada a ele;
+- Valor: o objetivo de V para valor é responder à pergunta “Os dados contêm informações valiosas para minhas necessidades de negócios?” Em comparação com a definição de 5Vs, não é apenas o valor dos dados, mas também o valor do BI para Solução de problemas.
+- Veredicto: é uma escolha ou decisão potencial que deve ser tomada por um tomador de decisão, ou comitê com base no escopo do problema, nos recursos disponíveis e em certa capacidade computacional. Este é o V mais desafiador a ser quantificado no início do BDA. Se houver muitas hipóteses ou “E-SE”, o custo de coleta, recuperação de dados e ETL (_Extract, Transform, Load_), especialmente para extrair dados arquivados, será caro.
+
+Essas motivações de negócios levaram às novas plataformas de BDA, como o Hadoop. Ele pretende responder às cinco perguntas básicas do _Big Data_. Essas perguntas refletem as bases do BI:
+
+1. Como armazenar dados massivos, ou informações nos recursos disponíveis?
+2. Como acessar esses dados ou informações em massa rapidamente?
+3. Como trabalhar com conjuntos de dados em formatos variados: estruturado, semiestruturado e não estruturado?
+4. Como processar esses conjuntos de dados de maneira totalmente escalável, tolerante a falhas e flexível?
+5. Como extrair BI de maneira interativa e economicamente viável?
+
+Nesse domínio, a notação V chave é a visibilidade, que é obter a previsão, ou _insights_ em tempo real do exercício do BDA. A relação desses 3Vs no BI é que, sem visibilidade, outros 2Vs serão impossíveis.
+
+ DOMÍNIO ESTATÍSTICO
+
+Da mesma forma, devemos ter outro conjunto de atributos no domínio estatístico, que são veracidade, validade e variabilidade. Esses 3Vs devem estabelecer os modelos estatísticos com base na hipótese correta (E SE), que é a confiabilidade dos conjuntos de dados e a confiabilidade das fontes de dados. Se a hipótese for inadequada, ou a fonte de dados estiverem contaminada, ou o modelo estatístico estiver incorreto, o BDA poderá levar a uma conclusão errada.
+
+Houve muitas lições sobre amostras de dados contaminados. Um exemplo famoso foi a pesquisa de opinião da eleição presidencial de 1936 nos EUA, realizada pela revista _Literary Digest_ antes da eleição. Como os dados da amostra (2,4 milhões de respostas da pesquisa) foram acidentalmente contaminados, o resultado de sua situação (o vencedor do pleito presidencial em 1936) se tornou um desastre para a empresa de pesquisa. Portanto, o domínio de estatísticas deve consistir nos seguintes atributos:
+
+- Veracidade: filosoficamente falando, é a verdadeira informação (ou fato) que é a resolução da incerteza dos dados. O V da Veracidade está buscando confiabilidade e segurança dos conjuntos de dados;
+- Validade: é para verificar a qualidade dos dados sendo logicamente sólidos. O V da validade enfatiza como adquirir dados corretamente e evitar vieses. Outro significado essencial da validade é o processo de inferência baseado em um modelo estatístico;
+- Variabilidade: é a implicação da complexidade e variação dos dados. Por exemplo, Buyya, Calheiros e Dastjerdi (2018) dizem que, se houver mais de 50 variáveis, ou recursos diferentes em um conjunto de dados, ele poderá ser considerado como “_Big Data_”. Estatisticamente, é como usar o processo de inferência lógica, a fim de reduzir a complexidade dos dados e alcançar resultados ou previsões desejáveis para as necessidades de negócios.
+
+O principal atributo desse domínio é a veracidade, que enfatiza como construir um modelo estatístico próximo à realidade. O processo para abordar a veracidade pode ser considerado um exercício de ajuste de curva: se tivermos poucas restrições, os erros de regressão da curva serão muito grandes. Se adotarmos muitas restrições, isso causará um problema de sobreajuste.
+
+**4.3. Definição de 32Vs e o diagrama de Venn**
+
+Uma vez que todos os 32 Vs tenham sido definidos a partir de três aspectos diferentes, podemos estabelecer um diagrama de Venn combinado e seus relacionamentos. Isso se torna a definição de _Big Data_, que é abrangente o suficiente para capturar todos os aspectos do _Big Data_.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230918-aula_engtra_top07_img07.jpg)
+
+Cada diagrama de Venn é suportado por uma forma de V de um triângulo, a fim de ilustrar os atributos de 3Vs em um aspecto. Além disso, os três atributos-chave de cada diagrama de Venn podem formar um único diagrama de triângulo hierárquico representando o significado essencial do _Big Data_.
+
+Se os 3Vs originais representavam um significado sintático, ou lógico do _Big Data_, os 32 Vs (ou 9Vs) representam o significado semântico (domínio dos dados, BI e estatístico). Para muitos problemas, ou aplicações complexas, os 32 Vs podem ser interpretados como um modelo hierárquico, para o qual três atributos principais formam um 3V de nível superior a ser aprendido por uma máquina. No coração do BDA, existe o “_Machine Learning_”, porque sem a máquina (computador), a missão de aprender com o _Big Data_ seria impossível.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230918-aula_engtra_top07_img08.jpg)
+
+### Big data e as decisões
+
+Segundo Schwab (2016), usar o _Big Data_ na tomada de decisões traz grandes riscos e também grandes oportunidades. Nesse sentido, é necessário criar mecanismos que assegurem a confiabilidade dos dados e dos algoritmos.
+# Tópico 8
+
+ adoção da Indústria 4.0 pelos países desenvolvidos representa uma ameaça significativa para os países do BRICS, pois resultará na migração de empregos dos BRICS aos países desenvolvidos, em virtude da perda de competitividade. Logo, para manter a competitividade global da manufatura, cada um dos países do BRICS precisa participar ativamente desta quarta revolução industrial.
+
+Dado o alto custo da mão-de-obra e o aumento da concorrência de outros países, como o México, a adoção da Indústria 4.0 e o avanço na produção de alto valor agregado representam uma oportunidade para o Brasil fortalecer sua competitividade no mercado global.
+
+O baixo nível de conscientização entre as empresas é um grande obstáculo à adoção das tecnologias da Indústria 4.0 no Brasil. Segundo a pesquisa realizada em 2016 pela CNI, 43% das empresas não conseguiram identificar quais tecnologias digitais em uma lista de 10 opções lhes oferecerão vantagem competitiva no futuro e 52% das empresas nos setores de baixa tecnologia não conseguiram identificar nenhuma das 10 opções. A falta de consciência também resulta em falta de uso, impactando a competitividade do Brasil no mercado global.

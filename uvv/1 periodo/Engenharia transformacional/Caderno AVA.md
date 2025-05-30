@@ -321,3 +321,139 @@ Esta preocupação é traduzida em iniciativas que estão sendo desenvolvidas po
 ## Conclusão
 
 Este tópico procurou mostrar as três primeiras revoluções industriais e o processo que desencadeou o movimento que é vivido hoje, a indústria 4.0. Foram mostradas as principais tecnologias envolvidas, como os Sistemas Ciberfísicos, Internet das Coisas, Internet dos Serviços e Smart Factory (Fábrica Inteligente).  Foi falado sobre o potencial econômico e os desafios da Indústria 4.0 e da Manufatura avançada. O Lean Manufacturing Lean e o Sistema Toyota de Produção (TPS) foram abordados como uma filosofia e metodologia importante na realidade da indústria contemporânea e do futuro. Também foi falado da importância de Qualificar trabalhadores e Investir em P&D.
+
+
+# Robotica
+
+### Tipos de Robôs
+
+Tradicionalmente, os robôs são aplicados em qualquer lugar em que um dos 3Ds exista: Dirty, Dangerous, and/or Dull.  Isso quer dizer, em qualquer trabalho que seja muito sujo, perigoso e/ou repetitivo demais para um ser humano executar.
+
+Na indústria, os robôs são usados na fabricação: escolha e colocação de peças, montagem, soldagem, pintura com spray, usinagem, etc. Em aplicações remotas, os robôs trabalham em ambiente submarino, nuclear, descarte de bombas, aplicação da lei e também no espaço sideral. Nos ramos dos serviços, os robôs também estão presentes, sendo implementados como auxiliares de hospital, assistência para deficientes, no varejo, empregados domésticos, aspiradores de pó, cortadores de grama, na educação e no entretenimento.
+
+#### Designs comuns
+
+##### Braços robóticos
+
+- Cartesiano
+
+Os robôs cartesianos têm três eixos lineares de movimento (X, Y, Z). Eles são constituídos de três articulações P mutuamente ortogonais, com comprimentos variáveis L1, L2, L3. Usado para tarefas de “pegar e colocar” e também para mover cargas pesadas. Também chamados de Gantry Robots, eles podem traçar volumes retangulares no espaço 3D.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img01-1-768x252-1-680x223.jpg)
+
+- Cilíndrico
+
+As posições do robô cilíndrico são controladas por uma altura variável L1, um ângulo Θ2 e um raio variável L3 (articulação P, articulação R, articulação P). Esses robôs são comumente usados em tarefas de montagem e podem traçar cilindros concêntricos no espaço 3D.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img02-768x249-1-680x220.jpg)
+
+- Esférico
+
+Os robôs esféricos têm dois eixos ortogonais rotacionais R, com variáveis Θ1 e Θ2, e uma articulação P, raio variável L3. Os efetores finais dos robôs podem traçar esferas concêntricas no espaço 3D.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img03-768x248-1-680x220.jpg)
+
+- SCARA (Braço robô articulado de conformidade seletiva)
+
+ Os robôs SCARA têm duas juntas R, Θ1 e Θ2, além de uma junta P d3 perpendicular a esse plano de movimento, para obter um espaço de trabalho 3D xyz. O ângulo da junta R Θ4 é o pulso do robô SCARA de rotação única. Estes são robôs comuns para montagem em mesas.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img04-768x272-1-680x241.jpg)
+
+- Robô articulado
+
+Os robôs articulados se assemelham ao braço humano em seu movimento 3D (eles são antropomórficos). Eles têm três articulações R, com três ângulos variáveis Θ1, Θ2 e Θ3, representando a cintura do corpo humano, 1 dof de ombro e articulações do cotovelo. São robôs versáteis, mas têm equações de controle de cinemática e dinâmica mais difíceis do que outros braços robóticos.
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230914-aula_engtra_top06_img05-768x329-1-680x291.jpg)
+
+---
+
+Menção honrosa: Sistema da Vinci.
+
+> O sistema cirúrgico da Vinci oferece ao cirurgião um conjunto avançado de instrumentos para usar na realização de cirurgias minimamente invasivas assistidas por robótica. O termo “robótico”, muitas vezes, engana as pessoas. Os robôs não realizam cirurgia. Seu cirurgião realiza uma cirurgia com o da Vinci usando instrumentos que ele guia através de um console.
+> 
+> O sistema da Vinci traduz os movimentos das mãos do cirurgião no console em tempo real, dobrando e girando os instrumentos durante a execução do procedimento. Os minúsculos instrumentos de pulso movem-se como uma mão humana, mas com maior amplitude de movimento. O sistema de visão da Vinci também oferece vistas 3D de alta definição e ampliadas da área cirúrgica. O tamanho do instrumento possibilita que os cirurgiões operem através de uma ou algumas pequenas incisões.
+> 
+> (INTUITIVE SURGICAL, 2020, s/n).
+
+O sistema da Vinci utiliza um Cobot, robô cooperativo, que é usado como ferramenta pelo médico, operador, para realizar procedimentos cirúrgicos.
+
+---
+
+### Robôs Móveis terrestres
+
+Os robôs móveis têm rodas, pernas ou outros meios para navegar pela área de trabalho. Os robôs móveis são aplicados como auxiliares de hospitais, aspiradores de pó, cortadores de grama, entre outras possibilidades. Esses robôs exigem bons sensores para ver o espaço de trabalho, evitar colisões e realizar o trabalho propriamente dito.
+
+Robôs como os da competição de futebol não podem dirigir em todas as direções possíveis. Por esse motivo, esses robôs são chamados de “não-holonômicos”. Por outro lado, um robô “holonômico” ou omnidirecional é capaz de dirigir em qualquer direção. A maioria dos robôs não-holonômicos não pode dirigir em uma direção perpendicular às rodas motrizes. Por exemplo: um robô de acionamento diferencial pode dirigir para frente/trás, em uma curva, ou girar no local, mas não pode dirigir para o lado. Os robôs omnidirecionais, no entanto, são capazes de dirigir em qualquer direção em um plano 2D.
+
+Assim, dentro da classe robôs móveis terrestres, podemos encontrar a diferenciação entre holonômicos e não-holonômicos, e dentro dos holonômicos, ainda há outras subclasses, como os robôs esféricos e os robôs de rodas omnidirecionais.
+
+- Os robôs de rodas omnidirecionais aplicam a força da roda em um ângulo de 45 ° ao robô, em vez de em um de seus eixos. Aplicando a força em ângulo ao robô, é possível variar a magnitude dos vetores de força para obter o controle de translação do robô; em resumo, o robô pode se mover em qualquer direção, mantendo a frente do robô em uma direção constante da bússola.
+
+Os robôs esféricos são robôs com formato de bola, que se movem na superfície rolando sua carcaça esférica externa. Esse robô pode navegar por ambientes e as chances de se prender a objetos que possam estar nesse ambiente são reduzidas.
+
+### Robôs Humanóides
+
+Um robô humanóide é um robô com sua aparência geral baseada na do corpo humano.
+
+Em geral, os robôs humanóides têm um tronco com cabeça, dois braços e duas pernas, embora algumas formas de robôs humanóides possam modelar apenas parte do corpo, por exemplo, da cintura para cima. Alguns robôs humanóides também podem ter um “rosto”, com “olhos” e “boca”. Os andróides são robôs humanóides construídos para se parecer com um homem, e os Gynoids são robôs humanóides criados para se parecer com uma fêmea humana.
+
+### ROVs
+
+“ROV” significa Veículo Operado Remotamente na tradução da língua inglesa; os ROVs são robôs subaquáticos não tripulados e altamente manobráveis que podem ser usados para explorar as profundezas do oceano enquanto são operados por alguém na superfície da água.
+
+### Drones
+
+Também conhecido como UAV (veículo aéreo não tripulado), um drone é um dispositivo voador controlado remotamente por um usuário, tipicamente, porém, existem drones que funcionam com IA, inteligência artificial, e são capazes de tomar decisões e realizar tarefas. Esses últimos se enquadram na categoria: Robô.
+
+### Macios
+
+Robôs macios são construídos com materiais complacentes. Muitas vezes, eles são desenvolvidos a partir de um alto grau de biomimética, como polvos e trombas de elefantes. Sua rigidez e precisão absolutas são muito baixas quando comparadas aos robôs rígidos tradicionais. No entanto, sua segurança é inerentemente muito boa, incluindo a capacidade de trabalhar entre humanos e envolver objetos para agarrá-los. Frequentemente, eles são acionados pela pressão do ar (ou outro fluido) e/ou músculos artificiais, que geralmente são muito mais difíceis de controlar do que os dos robôs tradicionais.
+
+## CoBots: Robôs Cooperativos
+
+Como o nome sugere, um robô colaborativo (cobot) é um robô projetado para colaborar com trabalhadores humanos. O objetivo dos cobots é ser um robô que pode servir como uma ferramenta para os trabalhadores da fábrica configurando superfícies virtuais que podem ser usadas para restringir e guiar o movimento.
+
+-  os cobots são intrinsecamente passivos
+Os cobots são robôs que:
+
+- São seguros para as pessoas trabalharem ao redor – sem necessidade de cercas protetoras;
+- É fácil para operadores comuns programar, implantar e reimplantar;
+- Serve como ferramentas para operadores, não como dispositivos que substituem trabalhadores humanos;
+- Permite que as empresas mantenham o controle de seus próprios processos automatizados.
+##### Cobots para o setor 4.0
+
+Como dispositivos, a maioria dos cobots são totalmente compatíveis com os princípios de design do Industry 4.0. Equipados com poderosos computadores de bordo, eles são interoperáveis e facilmente capazes de ingressar na Internet das Coisas (IoT) em qualquer ambiente de fábrica. Eles promovem a transparência das informações por meio de sua capacidade de coletar dados e transmiti-los a outros sistemas para análise, modelagem e assim por diante. Eles fornecem assistência técnica, no sentido de que “apoiam fisicamente os seres humanos, realizando uma série de tarefas desagradáveis, exaustivas ou inseguras para seus colegas de trabalho humanos”.
+
+###### Democratização da automação
+
+Além de sua inata compatibilidade com a indústria 4.0, os cobots têm desempenhado um papel importante ao habilitar empresas que talvez não pudessem disponibilizar robôs industriais para começar a automatizar seus processos. Por serem versáteis, fáceis de programar, pequenas, leves e acessíveis, as cobots estão sendo implantadas nas PME, Pequenas e Médias Empresas, para modernizar fábricas mais antigas pertencentes a empresas que talvez não estejam em condições de construir instalações industriais chave na indústria 4.0 e em empresas de todos os tamanhos em países em desenvolvimento. Essas mesmas qualidades – versatilidade, facilidade de uso, tamanho reduzido e acessibilidade – também tornam os cobots eminentemente adequados para implantação em processos que não eram automatizados anteriormente. Ao “democratizar” a automação robótica dessa maneira, os cobots ajudam as empresas em todos os lugares a se unirem à mais recente onda de automação, mesmo que não estejam prontas para ir até o setor 4.0.
+
+### Robôs e sociedade
+
+Enquanto o campo de aplicação dos robôs está aumentando, o robô sai das fábricas e entra em nossas casas – está se tornando um item de consumo.
+
+Além disso, a robótica também está mudando nosso método de conduzir a investigação científica e, talvez, até nosso conceito de nós mesmos. As sinergias entre robótica, neurociências, medicina, educação e psicologia ampliaram o escopo de aplicação deste último, tornando a robótica uma plataforma de pesquisa científica global sobre a humanidade, nossa galáxia e a interação entre a humanidade e a natureza.
+
+Computadores pensantes, robôs dotados de inteligência artificial e que também podem se replicar […]: essa autorreplicação descontrolada é um dos perigos das novas tecnologias. De maneira menos dramática, outros apontaram a necessidade de introduzir regras éticas em aplicações tecnológicas, especialmente, no que diz respeito ao comportamento de máquinas inteligentes. Nesse quadro, a questão mais prosaica é: quais serão as implicações culturais e sociais da invasão da robótica? Os robôs poderiam ser perigosos para a humanidade de alguma forma?
+
+Sob a pressão da opinião pública e da mídia, os roboticistas não podem evitar se envolver em uma análise crítica das implicações sociais de suas pesquisas, a fim de poder dar respostas científicas, técnicas e filosóficas a perguntas como:
+
+- Até onde podemos ir incorporando a ética em um robô?
+- Que tipo de ética é ética robótica?
+- Quão contraditória é, por um lado, a necessidade de implementar nos robôs uma ética e, por outro, o desenvolvimento da autonomia do robô?
+- É correto falar sobre a consciência, emoções e personalidade dos robôs?
+
+##### Robótica e Serviços
+
+É possível listar os impactos positivos da introdução dos robôs nos serviços dessa maneira:
+
+- Cadeia de fornecimento e logística, eliminações;
+- Mais tempo para o lazer;
+- Melhores resultados para saúde;
+- Maior acesso a materiais.
+
+Entretanto, existem impactos negativos dignos de nota:
+
+- Perdas de postos de trabalho.
+- Responsabilidade e transparência.
+- Hacking e ciber-risco.
