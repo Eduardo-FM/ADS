@@ -17,7 +17,26 @@ Quando a empresa é uma sociedade anonima ela precisa publicar o balanco finance
 
 # Aula 15/04
 
+“Estratégia é um plano, ou algo equivalente – uma direção, um guia ou curso de ação para o futuro, um caminho para ir daqui até ali”.
+
+Plano é um documento formal que deposita informações, atividades e decisões desenvolvidas no processo de planejamento. É o limite máximo de formalização do planejamento.
+
+![[Pasted image 20250608123615.png]]
+
 A diferenca entre estratégia e plano é que ela é uma direcao, um guia ou curso de acao para o futuro (da o caminho e a direcao)
+
+Estratégia, para quê?
+•Fixar uma direção
+•Focalizar o esforço
+•Definir a organização
+•Prover consistência
+•Facilitar a ação
+
+Estratégia é o caminho que a empresa irá seguir para atingir seus objetivos
++
+Planejamento é a preparação de ações para atingir determinado objetivo
+\=
+Planejamento estratégico é o processo no qual o empreendimento se mobiliza para atingir o sucesso e construir o futuro, considerando seu ambiente atual e o próximo.
 
 planejamento só vale quando ele é estratégico
 
@@ -26,6 +45,8 @@ O que quer saber em um Planejamento estratégico é: aonde vc vai, como e aonde 
 PE não é um documento só, não é um plano (apesar de um plano ser muito bom por saber aonde você está indo), o plano só vale se ele estiver bem determinado e muito claro.
 
 Para conseguir montar o PE o primeiro passo é fazer um diagnóstico
+
+##### Plano estratégico
 
 Quando vai fazer um diagnostico em uma empresa é necessário uma primeira fase:
 - conhecer o negócio;
@@ -36,6 +57,8 @@ Quando vai fazer um diagnostico em uma empresa é necessário uma primeira fase:
 - fazer uma análise de oportunidades e ameacas (olhar para fora - oque tem lá fora que pode ajudar/ameacar a empresa, olhar para dentro)
 - analise dos pontos fortes e fracos do empreendimento (quais sao os fatores internos que podem ser melhorados ou mantidos)
 - Elaboracao da Matriz SWOT cruzada ou tows
+
+![[Pasted image 20250608123643.png]]
 
 ----
 SWOT 
@@ -80,15 +103,28 @@ A matriz TOWS pode ajudar a: Potencializar os pontos fortes, Minimizar as fragi
 na segunda fase (caminhos) é necessário (direcao que vamos seguir, e como vamos chegar la):
 - determinacao de focos (quais sao nossa prioridades )
 
+![[Pasted image 20250608123714.png]]
+
 terceira fase (mensuracao das acões)
+
+![[Pasted image 20250608123745.png]]
 
 quarta fase(medicao), como estamos indo:
 - implementacao do plano (como e quando o plano será divulgado para os demais no empreendimento?)
 - medicões (quais serão os indicadores que irão mostrar a eficiência do plano?)
 - reporte (como serão apurados e divulgados?)
 
+![[Pasted image 20250608123754.png]]
+
+###### Formas de colocar a estratégia em ação  -FAIR
+•Foco – Focalize as estratégias em objetivos vitais.
+•Alinhamento – Alinhe as estratégias com objetivos a serem alcançados.
+•Integração – Promova a integração pela comunicação
+•Revisão – Revise periodicamente os objetivos baseado em medições
 
 A gerencia pelas diretrizes (GPD) faz uso do ciclo PDCA (Planejar, Desenvolver, Checar e Agir corretivamente) para desdobramento da estratégia em três etapas: Inocacao, Melhoria, Rotina
+
+![[Pasted image 20250608123843.png]]
 
 
 Meta tem que ser:
@@ -98,12 +134,23 @@ Meta tem que ser:
 - ==R==elevante ( em relacao ao objetivo da empresa)
 - ==T==emporal (em prazo determinado)
 
+##### Balanced Scorecard
+•O balanced scorecard é um sistema de gestão estratégica para administrar a estratégia no longo prazo. Ele procura traduzir a visão estratégica do empreendimento em objetivos, metas, ações e indicadores.
+![[Pasted image 20250608123905.png]]
+![[Pasted image 20250608123920.png]]
+
 # Aula 22/04 
 
 NR1 - Gestão da saúde mental
 
 
 ##### Mapa estratégico 
+
+![[Pasted image 20250608123927.png]]
+
+##### Desdobrando a estratégia
+![[Pasted image 20250608123943.png]]
+![[Pasted image 20250608123950.png]]
 Deve definir:
 - missao
 - aprendizado e crescimento(aprimorar gestao da informacao, reter talentos, desenvolver capital humano)
@@ -111,26 +158,35 @@ Deve definir:
 - cliente (captar cliente, melhorar a imagem da marca, ser a melhor solucao de mercado, reter clientes)
 - financeiro(aumentar a receita líquida, agregar valor ao acionista, aumentar a rentabilidade)
 
+##### 5W2h
+![[Pasted image 20250608124011.png]]
+![[Pasted image 20250608124026.png]]
 
 ##### ferramenta GUT
 
-- gravidade (G): qual impacto que o problema trará a os envolvidos (colaboradores, processos, tarefas ou resultados)
-- Urgencia
-- ==tem mais==
+•Gravidade (G): qual impacto que o problema trará a os envolvidos (colaboradores, processos, tarefas ou resultados)?
+
+•Urgência (U): dá pra esperar ou tem que ser agora? Qual o tempo disponível para a resolução do problema?
+
+•Tendência (T): qual a probabilidade (ou do potencial) que o problema tem de crescer com o passar do tempo? Se não for resolvido hoje, o problema vai piorar aos poucos ou bruscamente?
 
 Matriz de eisenhower
-==pegar no slide==
+![[Pasted image 20250608124043.png]]
 
+#### Gestão e controle gerencial
+##### Avaliação de Desempenho do Negócio
 
+A avaliação de desempenho é crucial para alcançar os objetivos de um empreendimento, similar ao acompanhamento em atividades pessoais. Requer disciplina administrativa, indicadores alinhados ao plano estratégico e permite um diagnóstico contínuo para correções ágeis e eficientes, além de criar um histórico. A sobrevivência depende do desempenho e da capacidade de competir, exigindo uma visão numérica do negócio.
 
-- dado: é uma informacao bruta
-- métrica: é um dado quantificado e acompanhado, fornecendo uma medida especifica.
-- indicador: é uma métrica relevante para o negócio, comparada a metas ou períodos anteriores, que auxilia na tomada de decisoes e na avaliacao do desempenho em relacao aos objetivos estratégicos.
+•Dado: É uma informação bruta, um valor isolado sem contexto específico. Exemplo: "Vendas de abril: R$ 10.000".
 
+•Métrica: É um dado quantificado e acompanhado, fornecendo uma medida específica. Exemplo: "Crescimento das vendas em abril foi de 5% em relação a março".
+
+•Indicador: É uma métrica relevante para o negócio, comparada a metas ou períodos anteriores, que auxilia na tomada de decisões e na avaliação do desempenho em relação aos objetivos estratégicos. Exemplo: "Índice de crescimento mensal de vendas acima da meta de 3% no primeiro trimestre".
 
 #### indicadores
 
-descrevem comportamentos, sao uteis para fazer comparacoes, verificar, avaliar e decidir sobre mudancas ou tendencias ao longo do tempo (qualidade e quantidade), quantificar características, atributos e resultados de produtos, servicos, sistemas ou processos.
+Descrevem comportamentos, são úteis para fazer comparações, verificar, avaliar e decidir sobre mudanças ou tendências ao longo do tempo (qualidade e quantidade), quantificar características, atributos e resultados de produtos, serviços, sistemas ou processos.
 
 ==é fundamental pensar muito bem no dado que voce precisa, para repetir o processo==
 
@@ -142,6 +198,16 @@ requisitos dos indicadores:
 - estabilidade: permanência para análise histórica.
 - rastreabilidade: origem e manutencao dos dados identificados
 - representatividade: abranger etapas criticas dos processos.
+
+##### Indicadores de desempenho
+- Clientes e mercado
+- Econômicos e Financeiros
+- Pessoas
+- Fornecedores
+- Produto
+- Responsabilidade social
+- Processos de apoio e organizacional
+- Cadeia logística
 
 # Aula 29/04
 
