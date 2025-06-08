@@ -1,14 +1,57 @@
 # Aula 08/04
 
+## A Gestão Financeira e seu papel atual
+•Planejamento financeiro
+•Controle
+•Sistema orçamentário
+•Capital de Giro
+
 Para fazer uma ánalise financeira se faz uma avaliacao do custo de oportunidade.
 
-Rentabilidade: indica a remuneracao percentual do capital investido na empresa. 
+### As ferramentas de controle financeiro
+
+•Liquidez de uma empresa: Manter o empreendimento com liquidez é conseguir estar com as finanças positivas, ou seja, os recursos que entram no caixa são suficientes para honrar os seus compromissos.
+
+•Rentabilidade: Indica a remuneração percentual do capital investido na empresa.
+•A rentabilidade é a capacidade de investir os recursos do empreendimento em outro tipo de bem (estoque de mercadoria ou maquinário, por exemplo) e conseguir fazer com que estes investimentos se transformem em dinheiro, novamente, e retornem, com os lucros desejados, para dentro do sistema do Fluxo de Caixa do empreendimento.
+
+![[Pasted image 20250608201419.png]]
+
+•Gasto/Despesa: Representa os desembolsos ou saídas de caixa para obtenção de bens e serviços, independente de sua destinação (uso ou revenda).
+
+•Exemplo: São considerados gastos as compras de materiais, equipamentos, pagamentos de juros, aluguel, etc.
+
+Investimento: Compreende os gastos efetuados para a obtenção de bens de uso do empreendimento que visam à ampliação da oferta de serviços. Aportar Capital de Giro a uma empresa pode ser considerado um investimento financeiro, pois a remuneração obtida é o ganho do investidor.
+
+•O investimento produtivo se realiza quando dele resulta lucro, o que ocorre pelo fato de que as receitas obtidas como resultado dos investimentos superam o capital investido acrescido de uma taxa de juros que o mercado paga em aplicações de risco muito baixo ou quase inexistente.
+
+•O investimento bruto é formado de todos os gastos realizados com a aquisição de bens de capital e formação de estoques, aí incluída a eventual fabricação de produtos que irão integrar esses estoques.
+
+•O investimento líquido exclui despesas com manutenção e reposição de peças e a depreciação de equipamentos e instalações, que são tomadas como despesas operacionais.
+
+•O termo investimento também pode referir-se à compra de ativos financeiros (ações, letras de câmbio e outros papéis). Nesta acepção, a aquisição de uma ação de uma empresa é feita pelo investidor na expectativa que ela vá se valorizar e produzir rendimentos sob a forma de dividendos, juros sobre o capital e aumentos de capital com bonificações.
 
 Os investimentos podem ser:
 - produtivo
 -  bruto
 - liquido
 - compra de ativos financeiros
+
+•Custos: são todos os gastos feitos para se atingir um objetivo. No caso de uma empresa, são as despesas realizadas para adquirir os insumos consumidos ou aplicados com a finalidade de produzir bens ou serviços.
+
+•Custos podem ser classificados como: fixos ou variáveis, diretos ou indiretos.
+
+•Custos fixos: são gastos regulares, feitos mensalmente, para manter um negócio em funcionamento, independente da produção e faturamento. Sua característica importante é que eles independem da quantidade produzida (de produtos ou serviços). Em inglês são denominados burning-rate; significa que algum recurso foi queimado, isto é, precisa ser gasto para que a empresa exista e, a partir daí, possa desempenhar sua missão e buscar seus clientes. Podem ser os salários de pessoal não envolvido em vendas ou em execução de serviços que seja contratado pelos clientes e respectivos encargos sociais, retiradas dos sócios sob a forma de pró-labore, honorários profissionais pagos independentemente do faturamento, como é normalmente feito aos contadores, aluguel, energia, água, alguns tributos (IPTU ou taxa de iluminação), telefone, gás, gastos com manutenção, depreciação, materiais de limpeza e escritório etc.
+
+•Custos variáveis: são gastos irregulares e mutáveis, feitos para manter uma empresa em operação, cumprindo com as obrigações assumidas com seus clientes e a sociedade em geral. Normalmente, esses custos são proporcionais à quantidade produzida e, portanto, variam conforme o nível de atividade de cada empresa ou conforme o faturamento e a venda. Podem ser as matérias-primas; mão de obra direta; embalagens; tributos sobre faturamento (ICMS, ISS, PIS, COFINS, IR, CSL) etc.
+
+•Custos diretos: são aqueles que podem ser apropriados para a produção ou a prestação de serviços de uma empresa: são diretamente associados a um determinado quantitativo de produção. Deles podemos obter o custo unitário de produção de um determinado produto que é composto somente pelos custos variáveis: posteriormente, os custos fixos incorridos pela empresa podem ser rateados e onerar o custo direto do produto para se chegar ao custo total de produção. Podem ser os gastos com mão de obra empregada na fabricação ou em prestação de serviços e com materiais para produzir cada tipo de produto.
+
+•Custo indireto de fabricação: são os itens consumidos no processo produtivo, que não podem ser atribuídos exclusivamente à produção de determinado produto. São gastos da empresa que não estão ligados diretamente ao produto. Pode ser a mão de obra indireta – por exemplo, custos de contabilidade e de departamentos que servem a todos os produtos e serviços da empresa como financeiro e de pessoal. Também inclui máquinas que atendem a todos – os aparelhos de reprodução, materiais de uso geral, a depreciação dos equipamentos em geral e outros similares.
+
+•Despesas: são todos os gastos decorrentes do consumo de bens e serviços pela empresa, visando à obtenção de receita. Podem também ser separadas em diretas e indiretas, seguindo o mesmo que foi mostrado em custos. Exemplo: o gasto relativo às áreas administrativa, comercial e financeira é uma despesa indireta.
+
+•Despesas administrativas (materiais de escritório), despesas financeiras (empréstimos e aplicações), despesas comerciais (comissões) etc.
 
 Quando a empresa é uma sociedade anonima ela precisa publicar o balanco financeiro
 

@@ -809,6 +809,5 @@ int potencia(int base, int expoente)
 		valor *= base;
 	}
 	return valor;
-
 }
 ```
