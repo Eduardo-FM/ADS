@@ -75,11 +75,11 @@ TOWS
 
 A matriz TOWS ==é uma ferramenta de planejamento estratégico que ajuda a combinar os pontos fortes e fracos internos de uma empresa com as oportunidades e ameaças externas==. É também conhecida como análise SWOT cruzada.
 
-|---|---|
-|Objetivo |Identificar alternativas estratégicas para potencializar a empresa|
-|Como funciona|Combina fatores internos e externos para gerar opções estratégicas|
-|Vantagens|Ajuda a impulsionar o desempenho dos negócios e da equipe|
-|Quem pode usar|Líderes e gestores|
+| Objetivo        | Identificar alternativas estratégicas para potencializar a empresa |
+| --------------- | ------------------------------------------------------------------ |
+| Como funciona   | Combina fatores internos e externos para gerar opções estratégicas |
+| Vantagens       | Ajuda a impulsionar o desempenho dos negócios e da equipe          |
+| Quem pode  usar | Líderes e gestores                                                 |
 
 A matriz TOWS é uma evolução da análise SWOT. Ela ajuda a colocar os resultados da análise SWOT em prática. 
 
@@ -208,8 +208,6 @@ requisitos dos indicadores:
 - Responsabilidade social
 - Processos de apoio e organizacional
 - Cadeia logística
-
-# Aula 29/04
 
 
 # Aula 05/05
