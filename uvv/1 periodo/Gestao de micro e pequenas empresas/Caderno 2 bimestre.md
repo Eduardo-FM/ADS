@@ -236,11 +236,11 @@ só deixa o cargo em:
 - venda do controle acionário
 
 ##### Passando o bastão
-•A sucessão do patriarca em empresas familiares não segue necessariamente critérios totalmente profissionais, pois a prioridade é manter o comando dentro da família. No entanto, isso não exclui a intenção de adotar critérios meritocráticos.
-•O patriarca pode garantir que o herdeiro esteja bem preparado educacional e profissionalmente ou escolher o melhor candidato entre os descendentes.
-•Em empresas familiares, o critério principal para a escolha do sucessor é preservar o comando familiar, diferentemente das empresas estatais, onde o critério pode ser o interesse político.
+- A sucessão do patriarca em empresas familiares não segue necessariamente critérios totalmente profissionais, pois a prioridade é manter o comando dentro da família. No entanto, isso não exclui a intenção de adotar critérios meritocráticos.
+- O patriarca pode garantir que o herdeiro esteja bem preparado educacional e profissionalmente ou escolher o melhor candidato entre os descendentes.
+- Em empresas familiares, o critério principal para a escolha do sucessor é preservar o comando familiar, diferentemente das empresas estatais, onde o critério pode ser o interesse político.
 
-#### preparacao do herdeiro 
+#### Preparacao do herdeiro 
 
 Em algumas empresas, especialmente familiares, existe a prática de preparar um "príncipe herdeiro" para assumir o comando antes mesmo de a vaga estar aberta. Isso é comum em empresas familiares, onde um filho é preparado pelo pai para sucedê-lo. A forte valorização dos laços afetivos influencia os processos de sucessão, muitas vezes deixando em segundo plano a eficácia e capacidade para o cargo.
 
@@ -267,13 +267,13 @@ a melhor forma de se fazer a sucessao é em vida.
 ##### Herdeiro 
 
 O que é ser herdeiro
-•Nascer recebendo algo que não escolheu ou construiu
-•Ser incentivado a permanecer sempre no grupo
-•Ter expectativas do mundo em relação a você e à sua performance
-•Não receber manual de instruções
-•Ser sócio
-•Ser muito exigido ou muito poupado
-•Ter herança tangível e intangível
+- Nascer recebendo algo que não escolheu ou construiu
+- Ser incentivado a permanecer sempre no grupo
+- Ter expectativas do mundo em relação a você e à sua performance
+- Não receber manual de instruções
+- Ser sócio
+- Ser muito exigido ou muito poupado
+- Ter herança tangível e intangível
 
 Outra consequência de relevo é gerada pelo chamado “conforto” de um caminho previamente estabelecido. Herdar uma empresa, a carreira artística, política ou profissional dos pais pode inviabilizar a “descoberta” do sonho próprio.
 
@@ -281,40 +281,41 @@ Outra consequência de relevo é gerada pelo chamado “conforto” de um caminh
 
 
 #### Sucessão
-•remete à ideia de morte
-•confronta questões de futuro e ideias distintas das gerações
-•pede nossa atuação em papéis que nunca exercemos
-•provoca reflexões sobre nossa competência e a de nossos familiares
-•envolve agregar valor ao patrimônio
-•dá trabalho e o planejado pode não acontecer
+- remete à ideia de morte
+- confronta questões de futuro e ideias distintas das gerações
+- pede nossa atuação em papéis que nunca exercemos
+- provoca reflexões sobre nossa competência e a de nossos familiares
+- envolve agregar valor ao patrimônio
+- dá trabalho e o planejado pode não acontecer
 
 ##### Confusão entre “herdeiro” e “sucessor”
-•ser herdeiro não significa, necessária ou naturalmente, ser um sucessor. Ser herdeiro é decorrência de um direito legal. Você poderá encontrar este assunto estabelecido no Direito de Família, Societário e de Heranças. Portanto, a condição de herdeiro lhe é outorgada a partir de determinações previstas nas diferentes leis que tratam do tema. E, para tanto, não se requer nenhuma competência ou habilidade.
-•Já a condição de sucessor é diferente. Ela deve ser produto de uma conquista pessoal que exige méritos e competência. Portanto, não é simplesmente algo herdado.
+ser herdeiro não significa, necessária ou naturalmente, ser um sucessor. Ser herdeiro é decorrência de um direito legal. Você poderá encontrar este assunto estabelecido no Direito de Família, Societário e de Heranças. Portanto, a condição de herdeiro lhe é outorgada a partir de determinações previstas nas diferentes leis que tratam do tema. E, para tanto, não se requer nenhuma competência ou habilidade.
 
-•O fundador ou patriarca “designa” seu sucessor de forma arbitrária e sem a devida legitimidade do grupo não têm apresentado bons resultados.
+Já a condição de sucessor é diferente. Ela deve ser produto de uma conquista pessoal que exige méritos e competência. Portanto, não é simplesmente algo herdado.
 
-•A condição de sucessor exige um processo de legitimação de todo o grupo de herdeiros. E isto significa que herdeiros serão todos os que tiverem seu direito assegurado.
-
-•Mas o sucessor terá de ser preparado, escolhido e legitimado pelo grupo a que pertence.
+- O fundador ou patriarca “designa” seu sucessor de forma arbitrária e sem a devida legitimidade do grupo não têm apresentado bons resultados.
+- A condição de sucessor exige um processo de legitimação de todo o grupo de herdeiros. E isto significa que herdeiros serão todos os que tiverem seu direito assegurado.
+- Mas o sucessor terá de ser preparado, escolhido e legitimado pelo grupo a que pertence.
 
 
 ##### 3 diferentes sistemas que funcionam ao longo do surgimento e existência de uma Empresa Familiar
 
 1 ) 
-•O primeiro deles é a própria Família. Nela, estabelece-se uma série de vínculos e condutas que terão importância vital para o futuro dos negócios. Para tanto, devemos entender que existe um primeiro processo de sucessão, no âmbito da própria família. Na falta das figuras centrais — em geral, pai e mãe —, existe a necessidade de legitimar uma figura que mantenha o vínculo de ligação dos familiares.
-•Esta pessoa deve possuir habilidades muito especiais de “trânsito” e aceitação pela via do afeto e respeito. Portanto, não podemos falar de sucessão na Empresa Familiar sem incluir a família neste processo.
+O primeiro deles é a própria Família. Nela, estabelece-se uma série de vínculos e condutas que terão importância vital para o futuro dos negócios. Para tanto, devemos entender que existe um primeiro processo de sucessão, no âmbito da própria família. Na falta das figuras centrais — em geral, pai e mãe —, existe a necessidade de legitimar uma figura que mantenha o vínculo de ligação dos familiares.
+
+Esta pessoa deve possuir habilidades muito especiais de “trânsito” e aceitação pela via do afeto e respeito. Portanto, não podemos falar de sucessão na Empresa Familiar sem incluir a família neste processo.
 
 2 ) 
-•Existe um segundo sistema importante que surge no processo de transferência da propriedade. Refiro-me ao surgimento da sociedade entre os herdeiros. E, agravado pelo fato de que esta é uma sociedade imposta, em que não há liberdade de escolha.
-•Nesta relação, a figura do sucessor deve possuir outras características distintas do líder da Família. Aqui serão necessárias habilidades de liderança, justiça, equidade, arbitragem de conflitos dos interesses individuais, visão do capital, forte noção do “coletivo” e uma legitimidade permanente, ou seja, por meio de mandatos que deverão ser avaliados em períodos fixados de comum acordo.
+Existe um segundo sistema importante que surge no processo de transferência da propriedade. Refiro-me ao surgimento da sociedade entre os herdeiros. E, agravado pelo fato de que esta é uma sociedade imposta, em que não há liberdade de escolha.
+
+Nesta relação, a figura do sucessor deve possuir outras características distintas do líder da Família. Aqui serão necessárias habilidades de liderança, justiça, equidade, arbitragem de conflitos dos interesses individuais, visão do capital, forte noção do “coletivo” e uma legitimidade permanente, ou seja, por meio de mandatos que deverão ser avaliados em períodos fixados de comum acordo.
 
 3 ) 
-•A legitimidade que tinha o fundador, na qualidade de patriarca, dono e gestor, não é transferível.
+A legitimidade que tinha o fundador, na qualidade de patriarca, dono e gestor, não é transferível.
 
-•Exige-se do sucessor nos negócios habilidades muito próprias de um executivo estratégico. E estas, sim, podem ser adquiridas nas escolas e por meio das experiências empresariais.
+Exige-se do sucessor nos negócios habilidades muito próprias de um executivo estratégico. E estas, sim, podem ser adquiridas nas escolas e por meio das experiências empresariais.
 
-•Mas esta condição nem sempre vem acompanhada da compreensão de que o sucessor não será o “dono” e que estará “subordinado” aos interesses dos acionistas.
+Mas esta condição nem sempre vem acompanhada da compreensão de que o sucessor não será o “dono” e que estará “subordinado” aos interesses dos acionistas.
 # Aula 12/05
 
 ## APL's 
