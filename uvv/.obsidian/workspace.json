@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e576d3a3f1b1f541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 periodo/Engenharia transformacional/Caderno - aula presencial.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Caderno - aula presencial"
-            }
-          },
-          {
             "id": "054539e5142b510c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 periodo/Engenharia transformacional/Caderno resumo.md",
+                "file": "1 periodo/Gestao de micro e pequenas empresas/Caderno 2 bimestre.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caderno resumo"
+              "title": "Caderno 2 bimestre"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,22 +170,34 @@
   },
   "active": "054539e5142b510c",
   "lastOpenFiles": [
-    "1 periodo/Engenharia transformacional/Caderno - aula presencial.md",
-    "1 periodo/Engenharia transformacional/Caderno resumo.md",
-    "1 periodo/Engenharia transformacional/Caderno AVA.md",
     "1 periodo/Gestao de micro e pequenas empresas/Caderno.md",
+    "1 periodo/Gestao de micro e pequenas empresas/Caderno 2 bimestre.md",
+    "Pasted image 20250608101854.png",
+    "1 periodo/Engenharia transformacional/Caderno resumo.md",
     "1 periodo/IoT/Caderno.md",
+    "1 periodo/IoT/entendendo_iot.pdf",
+    "1 periodo/Gestao de micro e pequenas empresas/Resumo livro.md",
+    "1 periodo/Engenharia transformacional/Caderno - aula presencial.md",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607215854.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607221906.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607225102.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607225047.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607225024.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607225012.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607225003.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607224951.png",
+    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250607224936.png",
+    "1 periodo/Gestao de micro e pequenas empresas/Revisão.md",
+    "1 periodo/Low code/Caderno.md",
+    "1 periodo/Engenharia transformacional/Caderno AVA.md",
     "1 periodo/IoT/trabalho/ola_mundo",
     "1 periodo/IoT/trabalho/ola_mundo.c",
     "1 periodo/IoT/trabalho/ola_fulano.c",
     "1 periodo/IoT/trabalho",
     "1 periodo/IoT/funcao",
     "1 periodo/IoT/funcao.c",
-    "1 periodo/Low code/Caderno.md",
     "1 periodo/IoT/impressao",
     "1 periodo/IoT/impressao.c",
-    "1 periodo/IoT/teste",
-    "1 periodo/IoT/teste.c",
-    "1 periodo/Gestao de micro e pequenas empresas/Revisão.md"
+    "1 periodo/IoT/teste"
   ]
 }
