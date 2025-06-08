@@ -12,9 +12,6 @@ Os investimentos podem ser:
 
 Quando a empresa é uma sociedade anonima ela precisa publicar o balanco financeiro
 
-
-# Aula 14/04 - FALTEI
-
 # Aula 15/04
 
 “Estratégia é um plano, ou algo equivalente – uma direção, um guia ou curso de ação para o futuro, um caminho para ir daqui até ali”.
@@ -214,36 +211,110 @@ requisitos dos indicadores:
 
 ## Empresa familiar 
 
-- Para ser empresa familiar precisa ter a propriedade e a maioria da gestao da empresa
+##### “O que caracteriza uma empresa familiar?”
+
+Uma empresa familiar é aquela na qual a propriedade e a gestão estão majoritariamente nas mãos de uma ou mais famílias.
+
+Características:
+- Propriedade: A família ou as famílias envolvidas possuem uma parte significativa das ações ou do capital da empresa, garantindo controle sobre as decisões estratégicas.
+- Gestão: Membros da família frequentemente ocupam posições de liderança e gestão, influenciando diretamente a operação e a direção da empresa.
+- Sucessão: A continuidade da empresa é planejada para ser passada de geração em geração dentro da família, mantendo o controle familiar ao longo do tempo.
+- Valores e Cultura: As empresas familiares tendem a incorporar e preservar os valores e a cultura da família fundadora, o que pode influenciar a identidade e a visão de longo prazo da empresa.
+- Governança: Muitas empresas familiares estabelecem estruturas de governança específicas, como conselhos de família e acordos de acionistas, para gerenciar a relação entre a família e a empresa.
+
 
 Na empresa familiar é importar estabelecer claramente as funcoes das pessoas.
 
 Como deve ser feito a sucessão.
-
-
 #### Patriarca 
 
+Nas empresas familiares, quase invariavelmente o patriarca é alguém cujo posto e autoridade são inquestionáveis. Ele ficará na presidência pelo tempo que quiser, só deixando o cargo em quatro circunstâncias:
 só deixa o cargo em:
 - morte
 - algum motivo de forca maior (doenca, imposicao da familia, problemas legais)
 - vontade própria
 - venda do controle acionário
 
+##### Passando o bastão
+•A sucessão do patriarca em empresas familiares não segue necessariamente critérios totalmente profissionais, pois a prioridade é manter o comando dentro da família. No entanto, isso não exclui a intenção de adotar critérios meritocráticos.
+•O patriarca pode garantir que o herdeiro esteja bem preparado educacional e profissionalmente ou escolher o melhor candidato entre os descendentes.
+•Em empresas familiares, o critério principal para a escolha do sucessor é preservar o comando familiar, diferentemente das empresas estatais, onde o critério pode ser o interesse político.
 
 #### preparacao do herdeiro 
 
-a preparacao do herdeiro pode ocorrer de três formas principais:
-- formacao de primeira linha: investir em educacao formal e cursos de excelência, tanto nacionais quanto internacionais.
-- experiência externa: o herdeiro faz carreira em outras empresas para ganhar experiência antes de ingressar na empresa familiar.
-- trabalho na empresa familiar: o herdeiro comeca a trabalhar desde cedo na própria empresa, familiarizando-se com o negócio.
+Em algumas empresas, especialmente familiares, existe a prática de preparar um "príncipe herdeiro" para assumir o comando antes mesmo de a vaga estar aberta. Isso é comum em empresas familiares, onde um filho é preparado pelo pai para sucedê-lo. A forte valorização dos laços afetivos influencia os processos de sucessão, muitas vezes deixando em segundo plano a eficácia e capacidade para o cargo.
+
+A preparação do herdeiro pode ocorrer de três formas principais:
+- Formação de Primeira Linha: Investir em educação formal e cursos de excelência, tanto nacionais quanto internacionais.
+- Experiência Externa: O herdeiro faz carreira em outras empresas para ganhar experiência antes de ingressar na empresa familiar.
+- Trabalho na Empresa Familiar: O herdeiro começa a trabalhar desde cedo na própria empresa, familiarizando-se com o negócio.
 
 a escolha da forma de preparacão depende do que pais e filhos consideram mais válido para um processo de sucessão eficaz.
 
+Preparar-se adequadamente para atuar no negócio da família é um dos requisitos para ser bem-sucedido ao assumi-lo. Mas há pelo menos mais três outros requisitos a cumprir:
+- Interesse nos Negócios da Família: O herdeiro deve demonstrar, através de suas atitudes e comportamentos, um verdadeiro interesse em participar ativamente dos negócios da família. Muitos herdeiros não têm esse desejo, e isso se reflete em suas ações.
+- Harmonia e Separação de Ambientes: O herdeiro deve trabalhar para promover a harmonia e sinergia entre os membros da família, além de separar adequadamente os ambientes familiar e empresarial. Com o poder e a responsabilidade que assume, o novo presidente tem a missão de contribuir para o bem-estar da empresa e da família, mantendo as finanças protegidas e estimulando a união entre parentes.
+- Profissionalização da Empresa: O herdeiro deve contribuir para a profissionalização da empresa, introduzindo competência profissional através de sua própria aprendizagem e práticas de trabalho. Quanto mais profissional for o sucessor, maiores serão as chances de uma administração racional e eficaz, levando a empresa adiante em boas condições.
 
+•É muito forte nas empresas familiares a tradicional percepção da herdade (ou seja, a grande propriedade da família, que simboliza o poder desta e do qual todos seus membros devem se orgulhar) sobre aquela de comportar-se como um player econômico no mercado, postura bem mais afinada com o espírito do capitalismo.
+
+•Em outras palavras, quando se trata de uma empresa familiar, tão logo se avizinha a perspectiva de uma sucessão no comando, sua característica de bem que é propriedade de uma família sobrepõe-se totalmente àquela outra imagem, de um ativo produtivo a gerar riqueza e valor para a sociedade.
+
+•A sucessão no topo da empresa familiar é, portanto, uma questão essencial no estudo da Governança Corporativa.
 
 a melhor forma de se fazer a sucessao é em vida.
 
+##### Herdeiro 
 
+O que é ser herdeiro
+•Nascer recebendo algo que não escolheu ou construiu
+•Ser incentivado a permanecer sempre no grupo
+•Ter expectativas do mundo em relação a você e à sua performance
+•Não receber manual de instruções
+•Ser sócio
+•Ser muito exigido ou muito poupado
+•Ter herança tangível e intangível
+
+Outra consequência de relevo é gerada pelo chamado “conforto” de um caminho previamente estabelecido. Herdar uma empresa, a carreira artística, política ou profissional dos pais pode inviabilizar a “descoberta” do sonho próprio.
+
+É importante que os herdeiros percebam que ser filho de uma figura brilhante não significa, necessariamente, também ser brilhante. O importante é encontrar sua identidade e procurar tornar-se feliz com ela, na dimensão e nos limites do sucesso que cada um deve se estabelecer.
+
+
+#### Sucessão
+•remete à ideia de morte
+•confronta questões de futuro e ideias distintas das gerações
+•pede nossa atuação em papéis que nunca exercemos
+•provoca reflexões sobre nossa competência e a de nossos familiares
+•envolve agregar valor ao patrimônio
+•dá trabalho e o planejado pode não acontecer
+
+##### Confusão entre “herdeiro” e “sucessor”
+•ser herdeiro não significa, necessária ou naturalmente, ser um sucessor. Ser herdeiro é decorrência de um direito legal. Você poderá encontrar este assunto estabelecido no Direito de Família, Societário e de Heranças. Portanto, a condição de herdeiro lhe é outorgada a partir de determinações previstas nas diferentes leis que tratam do tema. E, para tanto, não se requer nenhuma competência ou habilidade.
+•Já a condição de sucessor é diferente. Ela deve ser produto de uma conquista pessoal que exige méritos e competência. Portanto, não é simplesmente algo herdado.
+
+•O fundador ou patriarca “designa” seu sucessor de forma arbitrária e sem a devida legitimidade do grupo não têm apresentado bons resultados.
+
+•A condição de sucessor exige um processo de legitimação de todo o grupo de herdeiros. E isto significa que herdeiros serão todos os que tiverem seu direito assegurado.
+
+•Mas o sucessor terá de ser preparado, escolhido e legitimado pelo grupo a que pertence.
+
+
+##### 3 diferentes sistemas que funcionam ao longo do surgimento e existência de uma Empresa Familiar
+
+1 ) 
+•O primeiro deles é a própria Família. Nela, estabelece-se uma série de vínculos e condutas que terão importância vital para o futuro dos negócios. Para tanto, devemos entender que existe um primeiro processo de sucessão, no âmbito da própria família. Na falta das figuras centrais — em geral, pai e mãe —, existe a necessidade de legitimar uma figura que mantenha o vínculo de ligação dos familiares.
+•Esta pessoa deve possuir habilidades muito especiais de “trânsito” e aceitação pela via do afeto e respeito. Portanto, não podemos falar de sucessão na Empresa Familiar sem incluir a família neste processo.
+
+2 ) 
+•Existe um segundo sistema importante que surge no processo de transferência da propriedade. Refiro-me ao surgimento da sociedade entre os herdeiros. E, agravado pelo fato de que esta é uma sociedade imposta, em que não há liberdade de escolha.
+•Nesta relação, a figura do sucessor deve possuir outras características distintas do líder da Família. Aqui serão necessárias habilidades de liderança, justiça, equidade, arbitragem de conflitos dos interesses individuais, visão do capital, forte noção do “coletivo” e uma legitimidade permanente, ou seja, por meio de mandatos que deverão ser avaliados em períodos fixados de comum acordo.
+
+3 ) 
+•A legitimidade que tinha o fundador, na qualidade de patriarca, dono e gestor, não é transferível.
+
+•Exige-se do sucessor nos negócios habilidades muito próprias de um executivo estratégico. E estas, sim, podem ser adquiridas nas escolas e por meio das experiências empresariais.
+
+•Mas esta condição nem sempre vem acompanhada da compreensão de que o sucessor não será o “dono” e que estará “subordinado” aos interesses dos acionistas.
 # Aula 12/05
 
 ## APL's 
