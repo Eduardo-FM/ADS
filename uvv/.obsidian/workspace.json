@@ -11,10 +11,14 @@
             "id": "a0c791d57217c030",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2 periodo/Laboratorio de programacao/Caderno.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Caderno"
             }
           }
         ]
@@ -164,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ddf79b63ffff98b3",
+  "active": "a0c791d57217c030",
   "lastOpenFiles": [
+    "2 periodo/Gestao de projetos/Caderno.md",
+    "2 periodo/Laboratorio de programacao/Caderno.md",
     "1 periodo/Low code/imagens/Pasted image 20250409212254.png",
     "1 periodo/Low code/imagens/Pasted image 20250409212243.png",
     "1 periodo/Low code/imagens/Pasted image 20250409212222.png",
@@ -191,7 +197,6 @@
     "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250608154220.png",
     "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250608154210.png",
     "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250608154156.png",
-    "1 periodo/Gestao de micro e pequenas empresas/imagens/Pasted image 20250608153952.png",
     "1 periodo/Gestao de micro e pequenas empresas/Caderno 2 bimestre.md",
     "1 periodo/IoT/Caderno.md",
     "Untitled.md",
