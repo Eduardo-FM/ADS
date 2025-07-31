@@ -1,33 +1,16 @@
-# Aula - 10/02
 
-## Introdução a IoT
+# Historia da internet 
 
-Um computador conversa com outros através de um protocolo de rede 
+# Protocolos
+
+##### o que é um protocolo?
+
+Um protocolo, em geral, é um ==conjunto de regras e procedimentos que regulam uma interação ou um processo==.
 
 - Protocolo de rede 
 -> Um conjunto de regras que padronizam como um computador conversa com outro.
 
----
--> Ex:
-- IP
-- TCP 
-- UDP
-- ICMP
-- DNS
-- HTTP 
-- DHCP
-- POP
-- IMAP
-- IRC
-- MQTT
-- HTTPS
-- FTPS
-- SSH
-- TELNET
-
-------
-
-## Protocolo IP
+### IP
 
 - Internet Protocol
 
@@ -64,7 +47,55 @@ Quando voce se conecta em uma rede o computador recebe o seu endereco IP privado
 
 Todo gateway tem 2 enderecos: o endereco da rede interna e o endereco externo.
 
-## Protocolo DNS
+
+---
+
+Um endereço IP (Internet Protocol) ==é um identificador numérico exclusivo atribuído a cada dispositivo conectado à internet ou a uma rede de computadores==. É como um endereço postal para a internet, permitindo que os dispositivos comuniquem uns com os outros. 
+
+Em detalhes:
+
+- **Identificação:**
+    O endereço IP serve para identificar um dispositivo específico em uma rede, garantindo que os dados sejam enviados para o destino correto. 
+
+- **Comunicação:**
+    Ele permite que os dispositivos se comuniquem entre si, enviando e recebendo dados pela internet ou por uma rede local. 
+
+- **Protocolo da Internet:**
+    O IP é parte do Protocolo de Internet, que é o conjunto de regras que define como os dados são enviados e recebidos na internet. 
+
+- **Tipos de endereços IP:**
+    Existem endereços IP públicos (visíveis para a internet) e privados (usados dentro de uma rede local). Também existem endereços IP estáticos (fixos) e dinâmicos (mudam com o tempo). 
+
+- **Exemplo:**
+    Um endereço IP pode ser algo como `192.168.1.100` (privado) ou `123.45.67.89` (público).
+
+---
+
+### DHCP 
+
+DHCP, ou Dynamic Host Configuration Protocol, ==é um protocolo de rede que atribui automaticamente endereços IP a dispositivos em uma rede==. Isso significa que os dispositivos não precisam ser configurados manualmente com um endereço IP, tornando a configuração de rede mais fácil e eficiente. 
+
+Em termos mais detalhados:
+- **Atribuição Automática de Endereços IP:**
+    O DHCP permite que um servidor central (servidor DHCP) distribua automaticamente endereços IP para dispositivos que se conectam à rede. 
+    
+- **Simplificação da Configuração:**
+    Isso elimina a necessidade de configurar manualmente cada dispositivo com um endereço IP, economizando tempo e reduzindo erros. 
+    
+
+- **Gerenciamento Dinâmico:**
+    Os endereços IP podem ser alocados temporariamente ou permanentemente, e o DHCP permite que os endereços IP sejam reatribuídos a outros dispositivos quando um dispositivo se desconecta ou se move para outro local na rede. 
+    
+
+- **Outras Configurações:**
+    Além de endereços IP, o DHCP também pode fornecer outras informações de configuração, como a máscara de sub-rede, o gateway padrão e os endereços DNS, que são essenciais para que os dispositivos se comuniquem na rede e na internet. 
+
+
+- **Uso Comum:**
+    
+    O DHCP é amplamente utilizado em redes domésticas, em redes corporativas e em ambientes de nuvem, facilitando a configuração e o gerenciamento de dispositivos conectados.
+
+### DNS
 
 - Domain Name System
 
@@ -76,9 +107,106 @@ Quando vc digita um site, é feito uma conexao com um servidor DNS raiz pergunta
 
 O protocolo DNS faz a traducão de nomes para enderecos.
 
+---
+O protocolo DNS (Domain Name System) ==é um sistema que traduz nomes de domínio (como google.com) em endereços IP (como 172.217.160.142), que são os endereços numéricos que os computadores usam para se comunicar==. Em resumo, é como a agenda telefônica da internet, permitindo que os usuários naveguem usando nomes fáceis de lembrar, em vez de endereços IP complexos. 
 
-# Aula 17/02
+Função:
+- **Tradução de Domínio para IP:**
+    O DNS converte os nomes de domínio em endereços IP, que são necessários para que os computadores se conectem a outros dispositivos na internet. 
 
+- **Facilidade de Uso:**
+    Simplifica a navegação na web, permitindo que os usuários digitem nomes de domínio em vez de endereços IP. 
+
+- **Mapeamento de Nomes:**
+    O DNS mantém um banco de dados distribuído com os mapeamentos entre nomes de domínio e endereços IP. 
+
+Como funciona:
+- **1.** **Solicitação:**
+    Quando você digita um nome de domínio em um navegador, a solicitação é enviada a um servidor DNS.
+    
+
+- **2.** **Resolução:**
+    O servidor DNS procura no seu banco de dados o endereço IP correspondente ao nome de domínio solicitado.
+    
+
+- **3.** **Envio do IP:**
+    O servidor DNS envia o endereço IP para o navegador.
+    
+
+- **4.** **Conexão:**
+    O navegador utiliza o endereço IP para se conectar ao servidor do site desejado. 
+    
+
+Importância:
+- **Indispensável para a internet:**
+    O DNS é essencial para que a internet funcione, pois permite que os computadores se comuniquem usando nomes de domínio. 
+    
+
+- **Facilidade de uso para os usuários:**
+    Permite que os usuários naveguem na internet com nomes de domínio fáceis de lembrar, em vez de endereços IP numéricos. 
+    
+
+- **Redução de complexidade:**
+    Simplifica o processo de navegação na web, reduzindo a necessidade de lembrar endereços IP complexos.
+---
+
+### TCP/UDP
+
+TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são ==dois protocolos usados para a transferência de dados na camada de transporte da Internet==. O TCP é orientado à conexão, garantindo a entrega confiável e ordenada dos dados, enquanto o UDP é um protocolo sem conexão, focado em velocidade e eficiência, mesmo que a entrega não seja garantida. 
+
+TCP (Transmission Control Protocol):
+
+- **Orientado à conexão:**
+    O TCP estabelece uma conexão entre o remetente e o destinatário antes de enviar os dados, garantindo a entrega confiável e ordenada.
+
+- **Confiabilidade:**
+    O TCP garante que todos os dados sejam entregues corretamente, na ordem correta e sem erros, através de um processo de controle de erros e retransmissão.
+
+- **Uso:**
+    É usado em aplicações onde a confiabilidade é essencial, como acesso a páginas da web (HTTP), transferência de ficheiros (FTP), e-mail (SMTP) e acesso remoto (SSH). 
+
+UDP (User Datagram Protocol):
+- **Sem conexão:**
+    O UDP não estabelece uma conexão antes de enviar os dados, o que o torna mais rápido, mas menos confiável.
+
+- **Velocidade e eficiência:**
+    O UDP é mais rápido porque não há sobrecarga de estabelecer e manter uma conexão, sendo ideal para aplicações onde a velocidade é mais importante que a garantia da entrega, como streaming de vídeo, jogos online e chamadas de voz.
+
+- **Uso:**
+    É usado em aplicações onde a velocidade é mais importante que a confiabilidade, como jogos online, streaming de vídeo, VoIP e pesquisas de DNS.
+    
+### GATEWAY
+
+Um gateway, em redes de computadores, ==é um dispositivo ou sistema que facilita a comunicação entre diferentes redes, sistemas ou dispositivos que usam protocolos, linguagens ou arquiteturas distintas==. Pode ser visto como uma "porta" que permite que os dados fluam entre esses ambientes. 
+
+Em resumo:
+
+- **Função:** Atua como intermediário na comunicação entre redes diferentes. 
+- **Exemplos:** Roteadores, firewalls e modems podem atuar como gateways. 
+- **Importância:** Garante que dados possam ser transmitidos entre sistemas com diferentes protocolos, como redes locais e a internet. 
+
+- **Tipos:** Existem gateways de rede, de API e gateways de pagamento, entre outros. 
+
+Explicação mais detalhada:
+
+- **Gateway de Rede:**
+    
+    Permite a comunicação entre diferentes redes, traduzindo protocolos e endereços. 
+    
+
+- **Gateway de API:**
+    
+    Gerencia o tráfego de APIs, facilitando a comunicação entre diferentes sistemas sem expô-los diretamente. 
+    
+
+- **Gateway de Pagamento:**
+    
+    Facilita transações online, permitindo que consumidores paguem por produtos ou serviços. 
+    
+
+O conceito de gateway é fundamental para a interoperabilidade de sistemas e redes, garantindo que diferentes tecnologias possam interagir entre si.
+
+# Cabo de rede
 
 há varios meios de conexos com rede
 
@@ -134,8 +262,6 @@ O Brasil usa o Americano.
 - branco marrom
 - marrom
 
-# Aula 25/02
-
 #### Configurar o modem
 
 É preciso criar uma rede, e conectar esse rede a rede da operadora (no nosso caso a rede da uvv)
@@ -150,30 +276,9 @@ Para configurar o IP do roteador é necessário saber o IP do roteador. Para con
 
 Apos digitar a senha, e escolher "IP dinamico",  quando ligar o roteador a rede da uvv e o roteador da UVV vai, atraves do DHCP, dar o endereco IP da rede. O endereco gateway do rodetador será o gateway da uvv, o gateway do roteador da uvv será o gateway da internet.
 
+# Wifi
 
-# Aula 10/03
-
-
-#### Arduino
-
-Com o arduino se faz prototipos de dispositivos de Iot
-
-o Arduino é uma placa para criar prototipos
-
----
-
-Para trabalhar com IoT é necessário aprender sobre:
-- circuitos eletricos
-- circuitos analogico
-- circuitos digitais 
-
-Depois vamos criar os primeiros dispositivos não conectados a internet.
-
-Depois iremos aprender a usar shields de internet, que fazem o arduino a conectar a internet.
-
-Depois vamos utilizar o ESP32
-
----
+# Circuito elétrico
 
 ## Fundamentos físicos da computação
 
@@ -244,15 +349,28 @@ Corrente alternada:  polo do fluxo da corrente alterna com o tempo (o positivo e
 - Isso significa que se uma bateria fornece 9v para um circuito, os vários elementos do circuito devem "consumir' esses 9v.
 - ==tem mais coisa aqui==
 
-# Aula 11/03
+# Arduino
 
-==exercicio
+#### Arduino
 
-# Aula 17/03 
+Com o arduino se faz prototipos de dispositivos de Iot
 
-==Aula no laboratorio
+o Arduino é uma placa para criar prototipos
 
-# Aula 25/03
+---
+
+Para trabalhar com IoT é necessário aprender sobre:
+- circuitos eletricos
+- circuitos analogico
+- circuitos digitais 
+
+Depois vamos criar os primeiros dispositivos não conectados a internet.
+
+Depois iremos aprender a usar shields de internet, que fazem o arduino a conectar a internet.
+
+Depois vamos utilizar o ESP32
+
+---
 
 #### Arduíno 
 
@@ -274,7 +392,7 @@ As desvantagens são: falta velocidade, pouco armazenamento.
 O microcontrolador tem 3 tipos de memória:
 - memória flash (aonde guarda o programa)
 - SRAM (memória aonde fica as variaveis do programa) (memória volátil)
-- EEPROM(funciona como um HD) (não volátil) (variaveis)
+- EEPRUM (funciona como um HD) (não volátil) (variaveis)
 
 para alimentar o arduino há 3 opcoes:
 - cabo USB ligado ao computador (fornece 5V)
@@ -315,499 +433,3 @@ void loop() {
 
 
 
-# Aula 06/05
-
-## histórico da IoT
-
-### Percusores
-
-- 1982: universidade de Carnegie Mellon:
-	- máquina de coca cola
-	- david nichols, mike kazar, john zsarnay
-	- conectada na ARPANET e na LAN da Carnegie Mellon
-
-### Termo IoT 
-
-- 1985: surgiu o termo
-	- Peter Lewis
-	- publicou o termo em uma revista.
-
-### 1 dispositivo IoT 
-- 1990: torradeira
-	- John Romkey
-	- Conectou à internet 
-	- ligava/desligava
-- 1 Webcam
-	- 1983: Cambridge Computer Lab
-		- cafeteira monitorada por vídeo 
-		- vídeo transmitido pela rede
-- 2 Webcam
-	- 1994: Wearcam
-		- Steve Man
-		- Câmara nos óculos
-		- inspirada pela cafeteira de Cambridge
-- Termo IoT
-	- 1999: Surgiu o termo
-		- Kevin Ashton
-		- publicou o termo em uma revista cientifica conhecida
-- RFID
-	- a partir de 2004 o Wallmart resolveu utilizar dispositivos de rádio frequência em seus produtos
-	- 2004: RFID no Walmart
-
- A partir de 2005, explosão de dispositios:
- - carros 
- - óculos
- - briquedos
- - TVs
- - Relógios
- - geladeiras
- - etc
-
-### Por que a explosão
-
-- tipos diferentes de sensores 
-- formas para a identificacao
-- computacao ficou barata
-- criados diversos servicos de comunicacao
-
-
-# Aula 12/05
-
-## Tópico 002
-
----
-autolab.compatucaoraiz.com.br
-
----
-
-#### Conceitos básicos sobre IoT
-
-IoT 
-- basicamente significa conectar dispositivos na internet
-	- sensores para monitoramento
-	- atuadores para acoes
-- Os dispositivos de IoT são geralmente fabricados por engenheiros de forma bem específica e personalizada;
-	- tv
-	- alexa
-	- relógio de pontoo
-
-
----
-==IMPORTANTE==
-
-Microprocessador
-- Unidade de controle 
-- ULA
-
-Microcontrolador
-- Unidade de controle 
-- ULA
-- Memória RAM
-- Memoria SRAM
-- Memória ESFROM
-- I/O
-- AD
-
----
-
-#### Arduino: hardware - microcontrolador
-- é um pequeno ¨computador completo" em um único chip
-- baseado em microcontroladores AVR de Atmel
-- arquitetura Harvard modificada, 8-bits
-
-Para o arduino conversar com o seu computador é necessário outro micro controlador "USB TO SERIAL CHIP"  
-
-
-#### Memoria
-- Geralmente 2 tipos de memória 
-	- SRAM (memória de acesso randomico estatica): memoria volatil e temporaria, para uso nos programas, quantidade varia conforme o modelo:
-		- UNO: 2KB
-		- Nano: 32 KB
-	- FLASH (armazena o programa, as intrucoes para o microcontrolador). Quantidade varia conforme o modelo:
-		- UNO: 23kb
-		- Nano: 256 KB
-	- EEPROM (memória especial, memória permanente)
-- Arquitetura Harvard
-	- Diferente da arquitetura de Von Neumann (na arquitura os programas e os dados estão na mesma memória)
-	- Na harvard a memoria do programa é separada da memoria dos dados
-
-
-
-### Objetos de IoT x Objetos Inteligentes de IoT
-
-Os objetos inteligentes de IoT pretendem tornar a interacao homem-maquina mais natural, gerando conexoes e servicos sem a necessidade de acoes humanas.
-
-
-### C
-
-Há linguagens de Alto nivel e linguagens de baixo nivel, a linguagem de mais baixo nível é a linguagem de máquina.
-
-Em 1972 foi criado a linguagem em C (é uma linguagem de alto nivel)
-
-Para ir do cógio fonte para o código de máquina é necessário um compilador:
-- os principais sao:
-	- GCC 
-	- Clange
-
-
-#### Comandos servidores linux 
-
-- pwd (print work directory)
-- ls 
-- code 'nome_do_arquivo'.c
-
-``` C
-
-#include <stdio.h>
-
-int main (void) 
-{
- printf("Olá mundo! \n");
-}
-
- //Para rodar precisa usar o comando
- make 'nome_do_arquivo'
-
-//Para rodar 
-./'nome_do_arquivo'
-
-
-```
-
-# Aula 13/05
-
-### big data
-
-- volume 
-- velocidade 
-- variedade 
-- veracidade 
-- + valor 
-
-
-## C
-
-todo programa C inicia pelo 'main'
-
-o include serve para incluir bibliotecas
-
-para formatar uma string é necessário utlizar um especificador de formato:
-
-``` C
-
-%s string 
-
-%c caracter
-
-%d inteiro
-
-%f float ou double
-```
-
-```c
-
-#include <cs50.h>
-
-#include <stdio.h>
-
-  
-
-int main (void)
-
-{
-
-int idade = 50;
-
-double pi = 3.14;
-
-string nome = "Abrantes";
-
-  
-  
-
-printf ("Olá, %s, você tem %d anos! \n", nome, idade);
-
-}
-
-```
-
-```c
-#include <cs50.h>
-
-#include <stdio.h>
-
-  
-
-int main (void)
-
-{
-
-string nome = get_string("Qaul seu nome? ");
-
-int idade = get_int("Sua idade é: ");
-
-double numero = get_double("Qual seu número favorito? ");
-
-  
-  
-
-printf ("Olá, %s, você tem %d anos! \n", nome, idade);
-
-printf("Seu número favorito é %.2f.\n", numero);
-
-}
-```
-
-
-# Aula 19/05
-
-### IoT como um negócio 
-
-- Area em franco crescimento 
-- grande demanda profissional (redes, eletrônica, programacao)
-- inovacao como diferencial competitivo
-
-
-## C
-
-``` c
-#include <stdio.h>
-
-#include <cs50.h>
-
-  
-
-int main(void)
-
-{
-
-//if/else
-
-char letra = get_char("Você concorda com o nosso pacto? (S/N)");
-
-  
-
-if (letra == 'S')
-
-{
-
-printf("Sua alma é minha!!!\n");
-
-}
-
-else if (letra == 's')
-
-{
-
-printf("Sua alma é minha!!!\n");
-
-}
-
-else
-
-{
-
-printf("SNIF, SNIF, você é do time de Jesus\n");
-
-}
-
-}
-```
-
-
-
-#### OR ou AND
-
-**Lógica matemática**
-
-| nome      | Símero | Significado | C    |
-| --------- | ------ | ----------- | ---- |
-| CONJUNCAO | /\     | AND (E)     | &&   |
-| DISJUNCAO | V      | OR (OU)     | \|\| |
-| NEGACAO   | ~      | NOT (NAO)   | !    |
-
-``` c
-#include <stdio.h>
-
-#include <cs50.h>
-
-  
-
-int main(void)
-
-{
-
-//OR e AND
-
-char letra = get_char("Você concorda com o nosso pacto? (S/N)");
-
-  
-
-if (letra == 'S' || letra == 's')
-
-{
-
-printf("Sua alma é minha!!!\n");
-
-}
-
-else if (letra == 'N' || letra == 'n')
-
-{
-
-printf("SNIF, SNIF, você é do time de Jesus\n");
-
-} else
-
-{
-
-printf("Não sei o que você quer!\n");
-
-}
-
-}
-
-``` 
-
-**Igualdade**
-
-| nome      | C   |
-| --------- | --- |
-| Igual     | ==  |
-| diferente | !=  |
-
-**Relacao**
-
-
-| nome           | C   |
-| -------------- | --- |
-| maior          | >   |
-| mair ou igual  | >=  |
-| menor          | <   |
-| menor ou igual | <=  |
-
-
-### Estrutura de repeticao
-
-``` c
-#include <cs50.h>
-
-#include <stdio.h>
-
-  
-
-int main(void)
-
-{
-
-// FOR
-
-string nome = get_string("Qual o seu nome?\n");
-
-  
-
-for (int i = 0; i < 10; i++)
-
-{
-
-printf("Olá, %s!\n", nome);
-
-}
-
-  
-
-// WHILE
-
-int numero = get_int("Digite um número:\n");
-
-while (numero < 10)
-
-{
-
-printf("Número: %d\n", numero);
-
-numero++;
-
-}
-
-  
-
-// DO WHILE
-
-int tabuada = get_int("Digite um número para a tabuada:\n");
-
-int i = 1;
-
-do
-
-{
-
-printf("%d x %d = %d\n", tabuada, i, tabuada * i);
-
-i++;
-
-} while (i <= 10);
-
-  
-
-return 0;
-
-}
-```
-
-
-# Aula 20/05
-
-### impressao
-
-```c
-#include <cs50.h>
-#include <stdio.h>
-
-int main(void)
-
-{
-	
-	int linhas = get_int("Quantas linhas? \n");
-	int colunas = get_int("Quantas colunas? \n");
-	
-	for (int l = 1; l <= linhas; l++)
-	{
-		for (int c = 1; c <= colunas; c++)
-		{
-			printf("#");
-		}
-		printf("\n");
-	}
-}
-```
-
-# Aula 26/05
-
-### funcoes 
-
-as variaveis dentro da funcao se chamam parametro
-
-``` c
-#include <stdio.h>
-#include <cs50.h>
-
-int potencia(int base, int expoente); //PROTÓTIPO DAS FUNCOES
-
-int main(void)
-{
-	printf("Valor: %d \n", potencia(3, 2));
-	
-	return 0;
-}
-
-int potencia(int base, int expoente)
-{
-	int valor = 1;	
-	for (int i = 1; i <= expoente; i++)	
-	{
-		valor *= base;
-	}
-	return valor;
-}
-```

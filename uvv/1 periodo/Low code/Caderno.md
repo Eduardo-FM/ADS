@@ -209,5 +209,8 @@ O algoritmo é um conjunto de instrucoes que descrevem de forma textual ou grafi
 Independente da aplicacao é necessário saber o processo lógico. 
 
 
+<<<<<<< HEAD
 # Aula 25/04
+=======
+>>>>>>> b4b63e4e08c8fc827e235dbbd78c3fcc81449ea8
 
