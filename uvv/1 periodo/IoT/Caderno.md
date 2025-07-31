@@ -274,7 +274,7 @@ As desvantagens são: falta velocidade, pouco armazenamento.
 O microcontrolador tem 3 tipos de memória:
 - memória flash (aonde guarda o programa)
 - SRAM (memória aonde fica as variaveis do programa) (memória volátil)
-- EEPRUM (funciona como um HD) (não volátil) (variaveis)
+- EEPROM(funciona como um HD) (não volátil) (variaveis)
 
 para alimentar o arduino há 3 opcoes:
 - cabo USB ligado ao computador (fornece 5V)

@@ -18,11 +18,14 @@
  */
 
 // Comece aqui seu programa.
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
 int main(void)
 {
-    char c = 'c';
-    printf("%c\n", c);
+    int num = get_int("Você quer a tabuada de qual número? ");
+    for (int i = 0; i <= 10; i++)
+    {
+        printf("%d x %d = %d\n", num, i, num * i);
+    }
 }

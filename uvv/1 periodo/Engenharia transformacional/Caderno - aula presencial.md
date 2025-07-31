@@ -446,7 +446,12 @@ Ambientes perigosos/inacessíveis
 ##### tipos de juntas 
 - junta prismática
 - junta de rotacao
-- junta esférica 
+- j- duas juntas prismaticas e uma junta de rotacao (RPP)
+- Menor rigidez radial
+- bom acesso em cavidades horizontais 
+- apresenta menor resolucao de posicionamento na direcao horizontal
+- em geral com atuadores hidraulicos
+unta esférica 
 
 Classificaçâo de robôs pela estrutura mecânica
 - De cadeia cinemática aberta
