@@ -1,5 +1,5 @@
 # Ignora configurações do Obsidian
-**/.obsidian/
+.obsidian/
 
 # Ignora configurações do VS Code
-**/.vscode/
+.vscode/
