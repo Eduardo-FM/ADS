@@ -64,9 +64,3 @@ d) A única entrega importante em um projeto de software é o software funcionan
 - Eficiência – Otimizar recursos e desempenho do sistema. 
 - Confiabilidade – Garantir que o software funcione corretamente e com segurança.
 
-
----
-Dinamica:
-
-aplicativo para personal treiiner com acompanhamento
-
