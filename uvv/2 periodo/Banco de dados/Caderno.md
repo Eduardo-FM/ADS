@@ -54,3 +54,15 @@ Entidades continuantes - as quais existem totalmente durante todo dempo de sua e
 - Continuantes dependentes: é uma entidade que mantem inerencia de outras entidades 
 
 
+### Sistema de gerenciamento de banco de dados 
+
+Um sistema de gerenciamento de banco de dados(SGBD) é um software que possui recrusos capazes
+
+==...==
+
+### Sistema de Banco de dados
+
+
+
+
+
