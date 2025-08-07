@@ -82,12 +82,15 @@ Indução:
 Discussão: 
 •Quando usar cada abordagem e as limitações de cada método.
 
+---
 
 Joao: tesoureiro
 Pedro: diretor
 Antonio: gerente
 
 Como Antônio não é filho único ele não pode ser o tesoureiro. Como Pedro recebe mais que o gerente, ele não pode ser o tesoureiro porque esse cargo tem o menor salário. Logo, João é o tesoureiro, Pedro é o diretor porque recebe mais que o gerente, e Antônio é o gerente. 
+
+---
 
 2 Cadeiras e 3 poltronas
 
@@ -99,3 +102,17 @@ A, B e E: poltrona
 C e D: cadeira
 
 Como "A 
+
+---
+
+Juarez e Armando estao falando a verdade
+
+Celso, Edu, Tarso
+
+---
+
+O boato é falso, pois se fosse segunda-feira, Jal estaria mentindo então ele não falaria que era segunda-feira, porém se não fosse segunda-feira Jal só fala a verdade então ele estaria falando o dia da semana do ocorrido.
+
+---
+
+Isso se passou na quinta-feira, pois Jal só pode mentir na segunda-feira, e caso ele afirma-se na segunda que "Amanhã é terça-feira" ele vai está falando a verdade, oque não pode ocorrer e em todos os outros dias da semana ele falará a verdade então a primeira frase irá entrar em contradição. já o Tak, se não fosse quinta-feira ele estaria falando a verdade então a primeira afirmação entraria em contradição com os outros dias da semana que não seja segunda-feira, pois o "amanhã" não seria terça-feira, porém na segunda-feira a segunda afirmação seria falsa pois no dia seguinte ele estaria falando a verdade, porém na quinta-feira ele vai mentir nas duas afirmações pois o amanhã não será terça-feira e como ele está mentindo ele estará falando a verdade no dia seguinte.
