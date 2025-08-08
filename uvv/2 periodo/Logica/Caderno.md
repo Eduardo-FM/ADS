@@ -116,3 +116,8 @@ O boato é falso, pois se fosse segunda-feira, Jal estaria mentindo então ele n
 ---
 
 Isso se passou na quinta-feira, pois Jal só pode mentir na segunda-feira, e caso ele afirma-se na segunda que "Amanhã é terça-feira" ele vai está falando a verdade, oque não pode ocorrer e em todos os outros dias da semana ele falará a verdade então a primeira frase irá entrar em contradição. já o Tak, se não fosse quinta-feira ele estaria falando a verdade então a primeira afirmação entraria em contradição com os outros dias da semana que não seja segunda-feira, pois o "amanhã" não seria terça-feira, porém na segunda-feira a segunda afirmação seria falsa pois no dia seguinte ele estaria falando a verdade, porém na quinta-feira ele vai mentir nas duas afirmações pois o amanhã não será terça-feira e como ele está mentindo ele estará falando a verdade no dia seguinte.
+
+
+---
+
+O dia da semana é segunda-feira, pois para a primeira frase com o Tak falando na segunda que "Amanhã é terça-feira" ele estará falando a verdade, portanto não estará em contradição, e na outra semana com Jal falando que "Amanhã estarei mentindo" essa afirmação será uma mentira já que na terça-feira ele falará a verdade, em todos os outros dias da semana haverá contradição para o caso.[[]]
