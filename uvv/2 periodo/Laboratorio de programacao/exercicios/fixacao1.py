@@ -33,8 +33,8 @@ Atividade:
 ● Exiba os valores após a troca.
 """
 
-inteiro1: int = int(print("Digite o primeiro número inteiro: "))
-inteiro2: int = int(print("Digite o segundo número inteiro: "))
+inteiro1: int = int(input("Digite o primeiro número inteiro: "))
+inteiro2: int = int(input("Digite o segundo número inteiro: "))
 
 inteiro1, inteiro2 = inteiro2, inteiro1
 print(f"Primeiro número: {inteiro1}. Segundo número: {inteiro2}")
@@ -63,7 +63,7 @@ Atividade:
 
 nome: str = input("Digite seu nome completo: ")
 print(f"Seu nome em letras maiúsculas: {nome.upper()}")
-print(f"Seu nome em letras minusculas: {nome.lower()}")
+print(f"Seu nome em letras minúsculas: {nome.lower()}")
 print(f"Quantidade de caracteres: {len(nome.replace(' ', ''))}")
 
 """
@@ -74,8 +74,8 @@ Atividade:
 ● Mostre soma, subtração, multiplicação e divisão.
 ● Exiba os resultados formatados.
 """
-num1:float = print("Digite o primeiro número: ")
-num2:float = print("Digite o segundo número: ")
+num1:float = input("Digite o primeiro número: ")
+num2:float = input("Digite o segundo número: ")
 print(f"Soma: {num1 + num2}")
 print(f"Subtração: {num1 - num2}")
 print(f"Multiplicação:  {num1 * num2}")
