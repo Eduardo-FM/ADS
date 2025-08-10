@@ -64,3 +64,73 @@ d) A única entrega importante em um projeto de software é o software funcionan
 - Eficiência – Otimizar recursos e desempenho do sistema. 
 - Confiabilidade – Garantir que o software funcione corretamente e com segurança.
 
+
+# Aula 08/08
+
+*Requisitos:* características e funcionalidade de sistemas, quem defini é o cliente.
+
+    funcionais: Defini o que o sistema deve fazer . ex: validação do usuário
+
+    não funcional: defini restrições ou qualidades do sistemas. Ex: Identidade visual do sistema.
+
+### Processo de engenharia de requisitos 
+
+##### 1 - Levantamento(Elicitacao) de requisitos: 
+Coleta das necessidades do cliente e usuarios por meio de entrevistas,, questionários, workshops, entre outrsa tecnicas
+
+##### 2 - Analise e negociacao:
+
+Avaliacao da viabilidade tecnica, economica e organizacional dos requisitos, ajustando ou priorizando conforme necessario
+
+##### 3 - Especificacao
+Documentacao detalhada dos requisitos de forma clara e estruturada, geralmente em um Documento de requisitos ou backlog
+
+##### 4 - Verificacao dos requisitos 
+Revisao para garantir que os requisitos estao completos, consistentes e nao contraditorios
+
+##### 5 - Validacao dos requisitos 
+Confirmacao de que os requisitos atendem as necessidades dos stakeholders e aos objetivos do sistema, garantindo que sejam corretos e uteis. 
+
+#### Tecnicas de levantamento de requisitos 
+
+- entrevistas com clientes e usuarios 
+- questionarios 
+- observacao do ambiente de trabalho
+- prototipacao 
+
+### Modelos de ciclo de vida do software 
+
+Vamos entender como construir software de forma estruturada e eficiente, utilizando o Modelo de ciclo de vida do software. Descubra as etapas essenciais para o sucesso do seu projeto. 
+
+##### Modelo cascata (waterfall)
+
+Segue uma sequencia linear e rígida de fases:
+Requisitos -> projeto -> implementacao -> testes -> implementacao -> manutencao 
+
+- Cada fase deve ser concluida antes da proxima comecar 
+- indicado para projetos com requisitos bem definidos e pouca necessidade de mudancas
+
+- *Desvantagem*: dificuldade em lidar com mudancas apos o inicio do projeto
+
+#### Modelos incremental
+- divide o desenvolvimento em pequenas partes(incremental)
+- cada incremento entrega uma parte funcional do sistema, permitindo ajustes e melhorias ao longo do processo
+- vantagem: feedback continuo
+- desvantagem: ==...==
+
+#### Modelo espiral
+
+O modelo espiral é como dar varias voltas ==...==
+
+
+#### Modelo V (Validacao e verificacao)
+
+Ele é uma evolucao do modelo cascatas, mas com u foco maior em testes e qualidade. Em vez de seguir apenas um fluxo linear, o Modelo V organiza o desenvolvimento e os testes em paralelo
+
+Imagine a letra V
+- No lado esquedo, temos as etapas de desenvolvimento 
+- No lado direito, cada fase tem uma etapa correspondente de teste
+- no centro, o sistema é construido
+
+
+

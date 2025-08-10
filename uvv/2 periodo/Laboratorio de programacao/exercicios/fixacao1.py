@@ -6,6 +6,11 @@ Atividade:
 ● Calcule o valor final com desconto e exiba o resultado.
 """
 
+valor: float = float(input("Digite o valor da compra: "))
+desconto: float = valor * 0.1
+print(f"Valor final com desconto: {valor - desconto}")
+
+
 """
 2. Conversor de Temperatura: Um meteorologista precisa converter temperaturas de
 Celsius para Fahrenheit.

@@ -64,5 +64,51 @@ Um sistema de gerenciamento de banco de dados(SGBD) é um software que possui re
 
 
 
+# Aula 08/08
+
+### Abstracao de dados
+
+Um SGBD é composto de uma colecao de arquivos inter-relacionados e de um conjunto de programas que permitem aos usuarios fazer o acesso a estes arquivos e modificar os mesmos
+
+O grande objetivo de um sistema de banco de dados é prover os usuários com uma visao abstrata dos dados. 
+
+Isto é. o sistema omite certos detalhes de como os dados sao armazenados e mantidos 
+
+#### Nivel externo 
+
+A mais alto nivel de abstracao descreve apenas parte do banco de dados 
+
+Apesar do uso de estruturas mais simples do que no nivel conceitual, alguma complexidade perdura devido ao grande tamanho do banco de dados. Muitos usuarios do sistema de banco de dados nao estarao interessados em todas as informacoes
+
+Em vez disso precisam de apenas uma parte do banco de dados. O nivel de abstracao das visoes de dados é definido para simplificar esta interacao com o sistema, que pode fornecer muitas visoes para o mesmo banco de dados. 
+
+#### Nivel fisico
+
+O nivel mais baixo de abstracao descreve como os dados estao realmente armazenados.
+
+No nivel fisico, complexas estruturas de dados de baixo nivel sao descritas em detalhes. 
 
 
+##### Nivel conceitual
+
+O descreve quais dados estao armazenados de fato no banco de dados e as relacoes que existem entre eles,
+
+Aqui o banco de dados inteiro é descrito em termos de um pequeno numero de estruturas relativamente simples
+
+Embora as implementacoes de estruturas simples no nivel conceitual possa envolver complexas estruturas de nivel fisico, o usuario do nivel conceitual nao precisa preocupar-se com isso
+
+O nivel conceitual de abstracao é usado por administradores do banco de dados, que podem decidir quais informacoes devem ser mantidas no DB.
+
+### Independen6icas de dados 
+
+o conceito de independencia de dados e similar em muitos aspectos ao conceito de tipos abstratos de dados em modernas linguaguens de programacao.
+
+Ambos esconcem detalhes de implementacao do usuario
+
+Isto permite ao usuario concentra-se na estrutura geral em vez de detalhes de baixo nivel de implementacao
+
+### independencia fisica de dados
+
+É a habilidade de modificar o esquema fisico sem a necessidade de reescrever os programas aplicativos
+
+As modificacoes no nivel fisico sao ocasionalmente necessarias para melhorar o desempehno;
