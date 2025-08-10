@@ -22,7 +22,7 @@ Atividade:
 
 temperatura: float = float(input("Digite a temperatura em graus Celsius: "))
 fahrenheit: float = (temperatura * 9/5) + 32
-print(f"Temperatura em fahrenheit: {fahrenheit}")
+print(f"Temperatura em fahrenheit: {fahrenheit:.2f}")
 
 """
 3. Troca de Valores: Em um algoritmo de controle, dois valores foram digitados
@@ -46,7 +46,10 @@ Atividade:
 ● Mostre o resultado com duas casas decimais.
 """
 
-peso: float = float(input())
+peso: float = float(input("Informe seu peso: "))
+altura: float = float(input("Informe sua altura: "))
+imc: float = peso / (altura ** 2)
+print(f"O seu imc é: {imc:.2f}")
 
 """
 5. Operações com Strings: Um formulário pede nome completo do usuário.
@@ -58,6 +61,11 @@ Atividade:
 3. Quantos caracteres possui sem contar espaços.
 """
 
+nome: str = input("Digite seu nome completo: ")
+print(f"Seu nome em letras maiúsculas: {nome.upper()}")
+print(f"Seu nome em letras minusculas: {nome.lower()}")
+print(f"Quantidade de caracteres: {len(nome.replace(' ', ''))}")
+
 """
 6. Calculadora Simples Um sistema simples precisa realizar operações matemáticas
 básicas.
@@ -66,7 +74,12 @@ Atividade:
 ● Mostre soma, subtração, multiplicação e divisão.
 ● Exiba os resultados formatados.
 """
-
+num1:float = print("Digite o primeiro número: ")
+num2:float = print("Digite o segundo número: ")
+print(f"Soma: {num1 + num2}")
+print(f"Subtração: {num1 - num2}")
+print(f"Multiplicação:  {num1 * num2}")
+print(f"Divisão: {num1 / num2}")
 """
 7. Analisando Entrada: Um sistema precisa validar o que o usuário digita.
 Atividade:
@@ -77,6 +90,12 @@ Atividade:
 ○ Se está em maiúsculo ou minúsculo
 Dica: Explorar métodos de string: .isnumeric(), .isalpha(), .islower(), .isupper().
 """
+entrada: str = input("Digite algo: ")
+
+print(f"É numérico? {entrada.isnumeric()}")
+print(f"É alfabético? {entrada.isalpha()}")
+print(f"Está em maiúsculo? {entrada.isupper()}")
+print(f"Está em minúsculo? {entrada.islower()}")
 
 """
 8. Conversão Monetária: Um usuário precisa converter valores de dólar para real.
@@ -84,6 +103,12 @@ Atividade:
 ● Peça o valor em dólar e a cotação atual.
 ● Calcule e mostre o valor em reais.
 """
+dolar: float = float(input("Digite o valor em dólar: "))
+cotacao: float = float(input("Digite a cotação atual do dólar: "))
+
+reais: float = dolar * cotacao
+
+print(f"O valor em reais é: R$ {reais:.2f}")
 
 """
 9. Questão Conceitual - Responda as seguintes perguntas abaixo:
@@ -95,3 +120,18 @@ D. Explique por que em Python não é necessário declarar o tipo de uma variáv
 antes de utilizá-la.
 E. Dê um exemplo de como o tipo pode mudar dependendo do valor atribuído.
 """
+
+"""
+A) 
+Variável é um espaço de memória que pode armazenar um valor que pode mudar durante a execução do programa. Ja constante é um valor que não deve mudar após ser definido.
+B)
+Porque o Python não implementa constantes de forma nativa. A linguagem é dinamicamente tipada e flexível, então não há um mecanismo que obrigue um valor a permanecer imutável.
+C) 
+Usam convenção de nomenclatura, escrevem o nome da constante todo em maiúsculas e, se necessário, com _ separando palavras.
+D)
+Porque Python é uma linguagem de tipagem dinâmica, o tipo é atribuído automaticamente de acordo com o valor informado.
+x = 10       # int
+x = "Python" # String
+"""
+
+
