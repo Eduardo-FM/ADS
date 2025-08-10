@@ -20,6 +20,10 @@ Atividade:
 ● Mostre o resultado formatado.
 """
 
+temperatura: float = float(input("Digite a temperatura em graus Celsius: "))
+fahrenheit: float = (temperatura * 9/5) + 32
+print(f"Temperatura em fahrenheit: {fahrenheit}")
+
 """
 3. Troca de Valores: Em um algoritmo de controle, dois valores foram digitados
 incorretamente e precisam ser trocados.
@@ -29,6 +33,11 @@ Atividade:
 ● Exiba os valores após a troca.
 """
 
+inteiro1: int = int(print("Digite o primeiro número inteiro: "))
+inteiro2: int = int(print("Digite o segundo número inteiro: "))
+
+inteiro1, inteiro2 = inteiro2, inteiro1
+print(f"Primeiro número: {inteiro1}. Segundo número: {inteiro2}")
 """
 4. Calculadora de IMC: Uma clínica médica quer calcular o IMC dos pacientes.
 Atividade:
@@ -36,6 +45,8 @@ Atividade:
 ● Calcule o IMC: IMC = peso / (altura ** 2).
 ● Mostre o resultado com duas casas decimais.
 """
+
+peso: float = float(input())
 
 """
 5. Operações com Strings: Um formulário pede nome completo do usuário.
