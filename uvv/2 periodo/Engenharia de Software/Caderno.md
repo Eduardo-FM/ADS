@@ -134,3 +134,6 @@ Imagine a letra V
 
 
 
+# Aula 15/08
+
+![[Pasted image 20250815223359.png]]

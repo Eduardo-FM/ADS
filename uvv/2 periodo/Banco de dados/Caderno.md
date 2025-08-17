@@ -112,3 +112,30 @@ Isto permite ao usuario concentra-se na estrutura geral em vez de detalhes de ba
 É a habilidade de modificar o esquema fisico sem a necessidade de reescrever os programas aplicativos
 
 As modificacoes no nivel fisico sao ocasionalmente necessarias para melhorar o desempehno;
+
+
+# Aula 13/08
+
+## Conceitos do Modelo entidade-relacionamento
+
+Entidades e Atrabitutos
+O objeto básico que o MER representa é a entidade. Uma entidade é algo do mundo real que possui uma existencia independente. Uma entidade pode ser um objeto com uma existencia fisic. ==...==
+
+Cada entidade tem propriedades particulares, chamadas atributos, que a descrevem.
+
+Por exemplo, uma entidade EMPREGADO pode ser descrita pelo seu nome, o trabalho que realiza, idade, endereco e salário. Uma entidade em particular tera um valor para cada um de seus atributos. 
+
+Os valores de atributos que descrevem cada entidade ocupam a maior parte dos dados armazenados na base de dados. 
+
+### Exemplo de entidades e seus respectivos atributos 
+
+Alguns atributos podem ser divididos em subpartes com significados ==...==
+
+### Tipos de entidades 
+
+Uma base de dados irá conter normalmente grupos de entidades que sao similares.
+
+Uma companhia com centenas de empregados pode querer agrupar as informacoes similares com respeito a emrpegados. 
+
+Estas entidades, empregados compartilham os mesmos atributos, mas cada entidade terá seus próprias valores para cada atributo. 
+

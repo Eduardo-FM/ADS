@@ -54,4 +54,15 @@ Para retornar dados do tipo inteiro ou float, é preciso converter o tipo inteir
 
 ==...==
 
+# aula 11/08
+
+## numeros de ponto flutuante 
+
+==...==
+
+## numeros complexos
+
+Representandos como dois numeros de ponto flutuante. ==...==
+
+## Strings 
 

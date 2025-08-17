@@ -121,3 +121,57 @@ Isso se passou na quinta-feira, pois Jal só pode mentir na segunda-feira, e cas
 ---
 
 O dia da semana é segunda-feira, pois para a primeira frase com o Tak falando na segunda que "Amanhã é terça-feira" ele estará falando a verdade, portanto não estará em contradição, e na outra semana com Jal falando que "Amanhã estarei mentindo" essa afirmação será uma mentira já que na terça-feira ele falará a verdade, em todos os outros dias da semana haverá contradição para o caso.[[]]
+
+
+# Aula 14/08
+
+## Problemas envolvendo correlacao entre elementos 
+
+Problemas em que são prestadas informações de diferentes tipos, como por exemplo: nomes, carros, cores, qualidades, profissões, atitudes, atividades etc. O objetivo é descobrir o correlacionamento entre os dados dessas informações. 
+
+Dito de outra forma, quando o exercício lhe pedir que identifique "quem usou o quê, quando, com quem, aonde, de que cor etc.". 
+
+- Primeiro passo: preparação da tabela principal.
+
+A ordem em que você copia as colunas para as linhas é importante para criar esses "degraus" na tabela. Isto é, primeiro os elementos do grupo mais à direita passam para as linhas, depois o segundo mais à direita e assim por diante, até que fique apenas o primeiro grupo (mais à esquerda) sem ter sido copiado como linha.
+
+Esses "buracos" na tabela representam regiões onde as informações seriam cruzadas com elas mesmas, o que é desnecessário.
+
+
+- Segundo passo: construção da tabela-gabarito
+
+Essa tabela não servirá apenas como gabarito, mas em alguns casos ela é fundamental para que você enxergue informações que ficam meio escondidas na tabela principal.
+
+Haverá também ocasiões em que ela lhe permitirá conclusões sobre um determinado elemento. É o caso, por exemplo, de serem quatro possibilidades e você notar que três já estão preenchidas na tabela-gabarito. Nesse caso, você perceberá que só resta uma alternativa para a célula nãopreenchida.
+
+Um outro ponto que deve ser ressaltado é que as duas tabelas se complementam para visualização das informações. Por isso, a tabela-gabarito deve ser usada durante o preenchimento da tabela principal, e não depois.
+
+A primeira linha de cabeçalho será preenchida com os nomes dos grupos.
+
+Nas outras linhas, serão colocados os elementos do grupo de referência inicial na tabela principal (no nosso exemplo, o grupo dos homens).
+
+
+- Terceiro passo: 
+início do preenchimento das tabelas (principal e gabarito) com as informações mais óbvias do problema, aquelas que não deixam margem a dúvidas.
+
+[file:///home/eduardo/Downloads/Material%20sobre%20Problemas%20de%20Correlacionamento%20-%20Atualizado-converted.pdf]
+
+---
+
+O médico é casado com Maria
+Paulo é advogado
+Patricia nao é casada com Paulo
+Carlos nao é medico
+
+
+Paulo 
+- Advogado
+- Lucia
+
+Luis 
+- Medico
+- Maria
+
+Carlos
+- Engenheiro
+- Patricia 
