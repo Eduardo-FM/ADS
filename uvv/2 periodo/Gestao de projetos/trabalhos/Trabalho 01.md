@@ -2,59 +2,17 @@
 
 **a) Eficiência:**
 
-- Está relacionada a **como** os recursos são utilizados para alcançar um objetivo.
-    
-- Foco em **fazer as coisas da melhor forma possível**, com o menor desperdício de tempo, dinheiro, energia e outros recursos.
-    
-- Medida pelo **uso racional e otimizado** dos meios disponíveis, independentemente de atingir ou não o objetivo final.
-    
-- Ex.: Produzir 100 unidades de um produto utilizando menos matéria-prima e tempo.
+A eficiência está relacionada a como os recursos são utilizados para alcançar um objetivo, tendo como foco fazer as coisas da melhor forma possível, com o mínimo desperdício de tempo, dinheiro, energia e outros recursos. Ela é medida pelo uso racional e otimizado dos meios disponíveis, independentemente de se atingir ou não o objetivo final.
     
 
 **b) Eficácia:**
 
-- Está relacionada ao **resultado final** e ao alcance do objetivo proposto.
-    
-- Foco em **fazer as coisas certas** — isto é, executar ações que realmente levam ao objetivo desejado.
-    
-- Medida pela **capacidade de atingir metas** e gerar os resultados esperados, mesmo que os recursos não tenham sido utilizados da forma mais otimizada.
-    
-- Ex.: Produzir exatamente o que o cliente pediu, na quantidade e qualidade corretas, no prazo estabelecido.
-    
+A eficácia está relacionada ao resultado final e ao alcance do objetivo proposto, com foco em fazer as coisas certas, ou seja, executar ações que realmente conduzem ao objetivo desejado. Ela é medida pela capacidade de atingir metas e gerar os resultados esperados, mesmo que os recursos não tenham sido utilizados da forma mais otimizada. 
 
 ---
 
 **2ª) O que é ser "Eficiente" e o que é ser "Eficaz" para cada estratégia empresarial:**
 
-**estratégias empresariais voltadas à inovação**
+Nas **estratégias empresariais voltadas à inovação**, a eficiência e a eficácia assumem papéis complementares e fundamentais. **Ser eficiente** em uma estratégia empresarial significa executar os processos de forma otimizada, reduzindo custos e desperdícios sem comprometer a qualidade. No contexto da inovação, isso se traduz em desenvolver novos produtos ou serviços utilizando os recursos de maneira racional, com prazos de desenvolvimento mais curtos e processos enxutos. Já **ser eficaz** em uma estratégia empresarial envolve garantir que os resultados alcancem os objetivos estratégicos da organização. Aplicado à inovação, significa criar produtos ou serviços que realmente gerem valor ao cliente, aumentem a competitividade e atendam às necessidades do mercado — ainda que o processo de desenvolvimento não tenha sido o mais econômico.
 
-- **Ser Eficiente em uma estratégia empresarial:**
-    
-    - Executar os processos de forma otimizada, reduzindo custos e desperdícios, sem comprometer a qualidade.
-        
-    - Em inovação, significa desenvolver novos produtos ou serviços com uso racional de recursos, tempo de desenvolvimento curto e processos enxutos.
-        
-- **Ser Eficaz em uma estratégia empresarial:**
-    
-    - Garantir que o resultado atinja os objetivos estratégicos definidos pela empresa.
-        
-    - Em inovação, significa criar um produto ou serviço que realmente gere valor ao cliente, aumente a competitividade e atenda às necessidades do mercado — mesmo que o processo não tenha sido o mais econômico.
-
- **estratégia empresarial pobre em inovação
-
-**Ser Eficiente numa estratégia pobre em inovação:**
-
-- Otimizar ao máximo os recursos para manter a operação funcionando, já que não há grandes investimentos em novos produtos ou tecnologias.
-    
-- Ex.: Reduzir custos de produção, melhorar logística, treinar equipes para aumentar produtividade sem gastar muito.
-    
-- O foco é **fazer bem o que já se faz**, evitando desperdícios e mantendo margens de lucro.
-    
-
-**Ser Eficaz numa estratégia pobre em inovação:**
-
-- Conseguir alcançar os objetivos da empresa mesmo sem apostar fortemente em novidades.
-    
-- Ex.: Manter participação de mercado, fidelizar clientes, garantir que os produtos/serviços existentes atendam plenamente às necessidades do público-alvo.
-    
-- O foco é **atingir os resultados planejados** com o portfólio atual, mesmo que não haja diferenciação por inovação.
+Numa **estratégia empresarial pobre em inovação**, a eficiência e a eficácia também podem ser observadas, mas de maneira mais limitada e conservadora. **Ser eficiente** nesse contexto significa otimizar ao máximo os recursos disponíveis para manter a operação funcionando, já que não há grandes investimentos em novos produtos ou tecnologias. Isso envolve reduzir custos de produção, melhorar a logística, treinar equipes para aumentar a produtividade sem grandes gastos e, em resumo, **fazer bem o que já se faz**, evitando desperdícios e preservando as margens de lucro. Já **ser eficaz** numa estratégia pobre em inovação significa conseguir alcançar os objetivos da empresa mesmo sem apostar fortemente em novidades. Nesse caso, o foco está em manter a participação de mercado, fidelizar clientes e garantir que os produtos ou serviços existentes atendam plenamente às necessidades do público-alvo. Assim, a ênfase recai sobre **atingir os resultados planejados** com o portfólio atual, mesmo que não haja diferenciação significativa por meio da inovação.
