@@ -385,3 +385,37 @@ Participação: Especifica se a existência de uma entidade depende de seu relac
 Especialização: Processo de definição de um conjunto de subclasses (sub-tipos) de um tipo de entidade
 
 Generalização: Processo de definição de um tipo de entidade genérico (super-classe ou super-tipo) a partir de um conjunto de tipos de entidade
+
+![[Pasted image 20250820213826.png]]
+
+![[Pasted image 20250820213845.png]]
+![[Pasted image 20250820214515.png]]
+![[Pasted image 20250820214558.png]]
+![[Pasted image 20250820214735.png]]
+
+### Especialização e Generalização
+
+Toda instância de uma sub-classe (ou subtipo) é também uma instância de sua superclasse (ou super-tipo)
+
+● Ex.: “John Smith” é um engenheiro e também um empregado
+
+Herança de atributos e relacionamentos:
+- Uma entidade de uma sub-classe possui todos os atributos e relacionamentos de sua super-classe, ou seja, ela herda todos os atributos e relacionamentos da super-classe
+- Além disso, uma entidade de uma sub-classe pode possuir seus próprios atributos e relacionamentos locais ou específicos
+
+### Especialização
+
+O processo de especialização permite: 
+- Definir um conjunto de sub-classes (subtipos) de um determinado tipo de entidade 
+- Estabelecer atributos específicos adicionais para cada sub-classe (sub-tipo) 
+- Estabelecer tipos de relacionamento específicos adicionais entre cada sub-classe (sub-tipo) e outros tipos de entidade ou sub-classes (sub-tipos)
+
+# Aula 22/08
+
+Disjunta: no maximo uma ocorrencia (d)
+
+Sobreposta: pode uma ou mais (o)
+
+Total: deve (obrigatório)
+
+Parcial: pode (opcional)

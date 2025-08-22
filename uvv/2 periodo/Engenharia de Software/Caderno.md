@@ -137,3 +137,54 @@ Imagine a letra V
 # Aula 15/08
 
 ![[Pasted image 20250815223359.png]]
+
+# Aula 18/08
+
+Imagine um sistema de caixa eletronico
+
+Ator: Cliente
+
+**Casos de Uso:**
+- sacar dinheiro 
+- depositar dinheiro
+- consultar saldo
+
+### Documentacao do caso de uso
+
+Para cada caso de uso, precisa de uma descricao detalhada, com as seguintes informacoes
+- Nome do caso de uso
+- ator(es) envolvidos(s)
+- Objetivo do caso de uso
+- Fluxo principal(passos principais que o ator e o sistema devem seguir)
+- Fluxo alternativo(possiveis variacoes no processo)
+- Pre-condicoes(o que precisar estar correto antes de executar o caso de uso)
+- Pos-condicoes(o que deve ocorrer apos a execucao do caso de uso)
+
+
+### Desenvolvimento agil
+
+Sao abordagens flexiveis e iterativas para o desenvolvimento de software, focadas na entrega continua de valor ao cliente. Diferente dos modelos tradicionais, como o Cascata, que seguem uma sequencia rigida de etapas, os metodos ageis promovem adaptacao as mudancas, colaboracao entre equipes e entregas incrementais. 
+
+
+- SCRUM
+- KANBAM
+- XP
+
+#### Vantagens dos metodos ageis
+
+- Flexibilidade para mudancas 
+- Entrega continua e incremental
+- Maior colaboracao entre equipe e cliente 
+- Identificaco rapida de problemas 
+- Maior satisfacao do usuario final. 
+
+#### Metodos ageis em engenharia de software\
+
+Os metodos ageis surgiram como uma resposta as limitacoes dos modelos tradicionais de desenvolvimento de software, como o Cascata, Incremental, Espiral e V.
+
+A principal motivacao foi a necessidade de maior flexibilidade, adaptacao as mudancas e ==...==
+
+### Scrum
+
+O Scrum é um dos métodos ageis ==...==
+

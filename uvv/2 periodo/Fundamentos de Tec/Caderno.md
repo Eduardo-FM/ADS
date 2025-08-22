@@ -56,3 +56,21 @@ A norma permite que do MCC sai um HC para atender uma WA que está no mesmo anda
 é no MCC quue chega o link da internet, ele entra por uma entrada de facilidades (entrance facilities)
 
 
+# Aula 19/08
+
+7 Subsistemas do cabeamento estruturado (Pode ser usado para uma ampla gama de finalidades)
+- Work Area (WA)
+- Horizontal Cablign (HC)
+- Telecommunication room (TR)
+	- Telecommonucation closet 
+- Backbone Cabling 
+- Equipament room(ER)
+- Entrance Facilities (EF)
+- Administration
+
+a Rede externa pode ser de dois tipos:
+- area 
+- subterranea 
+
+
+

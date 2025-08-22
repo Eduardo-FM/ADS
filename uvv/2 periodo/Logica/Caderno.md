@@ -175,3 +175,163 @@ Luis
 Carlos
 - Engenheiro
 - Patricia 
+---
+
+# 20/08
+
+==...== mais na apostila
+
+### proposicoes 
+
+A logica matematica adota como regras fundamentais do pensamento os dois seguintes axiomas: 
+
+1) **Principio da não contradicao**: uma proposicao nao pode ser verdadeira e falsa ao mesmo tempo
+2) **Principio do terceiro excluido**: toda a proposicao ou é verdadeira ou é falsa, isto é, verifica-se sempre um destes casos e nunca um terceiro.
+**Valores lógicos das proposicoes**: Chama-se **valor lógico** de um proposicao a **verdade(V)** se ela é verdadeira e a **falsidade(F)** se ela é falsa.
+
+Classificação das proposições: 
+
+a) Simples ou atômica: é aquela proposição que não contem nenhuma outra proposição como parte integrante de si. São designadas por letras minúsculas. 
+
+p: Carlos é careca 
+q: Pedro é estudante 
+r: Mônica é jovem
+
+b) Composta ou molecular: é aquela formada pela combinação de duas ou mais proposições. São designadas por letras maiúsculas.
+
+P: Carlos é careca e Pedro é estudante 
+Q: Carlos é careca ou Pedro é estudante 
+R: Se Carlos é careca, então é infeliz
+
+==P(p,q): p ^ q
+Q(p, q): p v q
+R (p, s): p -> s==
+
+
+### Conectivos:
+
+São palavras (e, ou, não, se... então, se e somente se...) que possibilitam formar novas proposições a partir de outras proposições
+
+### Tabela-verdade:
+
+Segundo do Princípio do terceiro excluído, toda proposição simples p é verdadeira ou falsa.
+
+![[Pasted image 20250820193416.png]]
+
+Em se tratando de uma proposição composta, a determinação do seu valor se faz com base no seguinte princípio:
+
+O valor lógico de qualquer proposição composta depende unicamente dos valores lógicos das proposições simples componentes, ficando por eles univocamente determinado.
+
+Exemplo: Considere uma proposição composta cujas proposições simples são p e q. Os valores lógicos possíveis são:
+
+![[Pasted image 20250820193556.png]]
+
+| N. proposicoes simples | n. de linhas  |
+| ---------------------- | ------------- |
+| 1                      | 2 = 2 ^ 1     |
+| 2                      | 4 = 2 ^ 2     |
+| 3                      | 8 = 2 ^ 3     |
+| ...                    |               |
+| 2 ^ 10                 | 1024 = 2 ^ 10 |
+
+Exemplo: Considere uma proposição composta cujas proposições simples são p, q e r. Os valores lógicos possíveis são:
+
+![[Pasted image 20250820193840.png]]
+
+Notação: 
+
+V(p) = V assim p é verdadeira 
+V(p) = F assim p é falsa
+
+#### Operações lógicas sobre proposições:
+
+a) Negação: Chame-se a negação de uma proposição p a proposição representada por “não p”, cujo valor lógico é verdade quando p é falsa e é falsidade quando p é verdadeira. Assim “não p” tem o valor oposto de p.
+
+![[Pasted image 20250820194458.png]]
+
+Ou seja: 
+~V = F 
+~F = V 
+V(~p) = ~V(p)
+
+Exemplos:
+p: O Sol é uma estrela 
+~p: O Sol não é uma estrela
+
+q: Carlos é mecânico 
+~q: Carlos não é mecânico 
+~q: Não é verdade que Carlos é mecânico 
+~q: É falso que Carlos é mecânico
+
+r: 2 + 3 = 5 
+~r: 2 + 3  não é igual 5
+
+
+==Ou é tudo proposicao ou tudo valor logico, nao pode misturar 
+Ex: 
+p -> q v r <-> s
+V(6) -> V v F <-> V(s)
+
+b) Conjunção: Chame-se conjunção de duas proposições p e q a proposição representada por “p e q”, cujo valor lógico é verdade quando p e q são verdadeiras e é falsidade nos demais casos.
+
+![[Pasted image 20250820195455.png]]
+
+Ou seja: 
+V ^ V = V 
+V ^ F = F 
+F ^ V = F 
+F ^ F = F 
+V(p ^ q) = V(p) ^ V(q)
+
+Exemplos:
+1. 
+p: A neve é branca 
+q: 2 < 5
+
+p ^ q: A neve é branca e 2 < 5 
+V(p ^ q) = V(p) ^ V(q) = V ^ V = V
+
+2. 
+p: O enxofre é verde 
+q: 7 é um número primo 
+p ^ q: O enxofre é verde e 7 é um número primo 
+V(p ^ q) = V(p) ^ V(q) = F ^ V = F
+
+c) Disjunção: Chame-se disjunção de duas proposições p e q a proposição representada por “p ou q”, cujo valor lógico é verdade quando ao menos uma das proposições p e q é verdadeira e é falsidade quando p e q são falsas.
+
+![[Pasted image 20250820195857.png]]
+![[Pasted image 20250820195938.png]]
+
+d) Disjunção exclusiva: Chame-se disjunção exclusiva de duas proposições p e q a proposição representada por “ou p ou q”, cujo valor lógico é verdade quando p é verdadeira ou q é verdadeira, mas não ambas; e é falsidade quando p e q são ambas verdadeiras ou ambas falsas.
+
+![[Pasted image 20250820200010.png]]
+
+![[Pasted image 20250820200022.png]]
+
+e) Condicional: Chame-se condicional uma proposição representada por “se p então q”, cujo valor lógico é falsidade quando p é verdadeira e q é falsa; e é verdade nos demais casos.
+
+![[Pasted image 20250820200142.png]]
+
+![[Pasted image 20250820200156.png]]
+
+Uma condicional p → q não afirma que o conseqüente q se deduz ou é conseqüência do antecedente p, o que uma condicional afirma é unicamente uma relação entre os valores lógicos do antecedente e do conseqüente de acordo com uma tabela-verdade.
+
+![[Pasted image 20250820200223.png]]
+
+Bicondicional: Chame-se bicondicional uma proposição representada por “p se e somente se q”, cujo valor lógico é verdade quando p e q são ambas verdadeiras ou ambas falsa, e é falsidade nos demais casos.
+
+![[Pasted image 20250820200514.png]]
+
+![[Pasted image 20250820200523.png]]
+
+![[Pasted image 20250820200536.png]]
+
+---
+
+1) a 
+a) nao esta frio
+b) estao frio e esta chovendo
+c) estao frio ou esta chovendo 
+d) Esta frio se e somente se está chovendo
+e) 
+g) nao esta frio e nao esta chovendo
