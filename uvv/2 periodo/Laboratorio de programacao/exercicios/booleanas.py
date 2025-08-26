@@ -1,0 +1,11 @@
+print((10 > 5) and (5 > 2 or 8==8))
+print((3!=4) and not (7<= 12))
+print((6 >= 2) or (4 < 1 and 9 ==9))
+print(not ((10 < 20) and (5==5)))
+print(((10 > 5) and (5 > 2 or 8==8)) or ((3!=4) and not (7<= 12)) and ((6 >= 2) or (4 < 1 and 9 ==9)) and not((not ((10 > 20) and (5==5)))))
+print((5+3 > 7) and (10-2 == 8) or not(15<20))
+print((20 / 2 == 0) and ((15 / 15)==36) or (7 * 2 < 10))
+print(not ((7%3==1) or (9 // 2 < 4)) and (10 - 5 == 5))
+print(not(not(not(1))))
+
+print(9//2 < 4)

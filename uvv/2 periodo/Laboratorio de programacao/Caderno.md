@@ -339,3 +339,105 @@ print(final)
 ['H', 'He', 'Li', 'Be']
 ```
 
+
+# Aula 25/08
+
+### Expressoes booleanas 
+
+#### funcoes embutidas 
+
+alem dos operadores, é possivel usar funcoes para computar valores
+
+as funcoes podem ser definidas: 
+
+- Pelo programador 
+- ==...==
+
+
+- abs(x) 
+- chr(x)
+- ord(s)
+
+
+#### importar modulos
+
+Muitas funcoes importantes sao disponibiladas em modulos da biblioteca padrao
+
+Ex.: o módulo math tem funcoes transcententais como sin,cos, exp e outras 
+
+Um modulo pode contaer nao so funcoes mas tambem variaveis ou classes 
+Por Exemplo, o módulo math define a constante pi
+
+
+#### importando modulos
+
+```python
+import math
+
+a = math.sin(30)  
+print(a)
+```
+
+
+## Expressoes booleans
+
+Tambem chamadas expressoes logicas
+
+Resultam em verdadeiro (True) ou falso (false)
+
+Sao usadas em comandos condicionais e de repeticao 
+
+Servem para analisar o estado de uma computacao e permitir escohler o proximo passo 
+
+### Operadores 
+
+Relacionais: >, <, \==, !=, >=. <=
+Booleanos: and, or, not
+
+
+Avaliacao feita em "Curtocirciuito"
+
+Expressao avaliada da esquerda para a direita
+
+Se o resultado (verdadeiro ou falso) puder ser determinado sem avaliar o restante, este é retornado imediatamente 
+
+``` python
+print(1==1)
+
+print(1==2)
+
+print(1==1 or 1==2)
+
+print(1==1 and 1==2)
+
+print(1<2 and 2<3)
+
+print(not 1<2)
+
+print(not 1<2 or 2<3)
+
+print(not (1<2 or 2<3))
+
+print("alo" and 11)
+
+#print("alo" pr 1'alo')
+
+####
+
+True
+False
+True
+False
+True
+False
+True
+False
+11
+```
+
+As contantes True e False sao apenas simbolos convenientes 
+Qualquer valor nao nulo é visto como verdadeiro enquanto que 0 (ou False) 
+e visto como falso
+
+O operador ==...==
+
