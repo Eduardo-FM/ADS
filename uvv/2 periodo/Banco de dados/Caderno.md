@@ -419,3 +419,7 @@ Sobreposta: pode uma ou mais (o)
 Total: deve (obrigatório)
 
 Parcial: pode (opcional)
+
+# Aula 27/08
+
+### Cardinalidade 

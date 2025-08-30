@@ -441,3 +441,21 @@ e visto como falso
 
 O operador ==...==
 
+# Aula 26/08
+
+### Comandos condicionadores
+
+```python 
+if condicao:
+	#Bloco de comandos
+else: 
+	#dentro do else
+
+	
+comando_apos_if
+
+
+```
+
+
+

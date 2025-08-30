@@ -335,3 +335,46 @@ c) estao frio ou esta chovendo
 d) Esta frio se e somente se está chovendo
 e) 
 g) nao esta frio e nao esta chovendo
+
+# Aula 27/08
+
+#### Exercicios
+
+
+# Aula 28/08
+
+## Tautologia
+
+Chama-se tautologia toda a proposicao composta cujo o valor logico é sempre V (verdade).
+
+P -> P 
+P <-> P 
+P v ~P
+
+![[Pasted image 20250828211725.png]]
+
+## Contradição
+
+Chama-se contradição toda a proposição composta cujo valor lógico é sempre F (falsidade). 
+
+Logo, P( p, q, r,..) é uma tautologia se e somente se ~P( p, q, r,..) é uma contradição.
+
+P ^ ~P
+P <-> ~P 
+
+![[Pasted image 20250828212120.png]]
+![[Pasted image 20250828212141.png]]
+
+## Contingência 
+
+Chama-se contingência toda a proposição composta que não é tautologia nem contradição.
+
+![[Pasted image 20250828212238.png]]
+
+## Princípio da Substituição para as Tautologias
+
+Seja P( p, q, r, ...) uma tautologia e sejam P0(p,q,r,...) , Q0(p,q,r,...) , R0(p,q,r,...) , ... proposições quaisquer. 
+
+Se P( p, q, r, ...) é uma tautologia, então P(P0, Q0, R0, ...) também é uma tautologia, quaisquer que sejam as proposições P0, Q0, R0,... 
+
+Isto significa que se trocarmos uma proposição simples de em uma tautologia a mesma continuará sendo tautológica. Exemplo: P(p): p  ~p é tautológica. Se substituirmos o p por qualquer proposição composta, digamos: p → q, a proposição composta resultante P( p, q): (p → q ) v ~(p → q) continua sendo uma tautologia. Fica como exercício verificar tal fato.

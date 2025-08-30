@@ -74,3 +74,53 @@ a Rede externa pode ser de dois tipos:
 
 
 
+# Aula 26/08
+
+#### Modelo OSP
+
+HOSt A 
+- Aplicacao (SW)
+- apresentacao (SW)
+- sessao (SW)
+- transporte
+- rede (HW)
+- enlace (HW)
+- fisica (HW)
+
+Host B
+- aplicacao 
+- apresentacao
+- sessao
+- transpporte
+- rede
+- enlace
+- fisica
+
+Roteador Switch Hub (repetidor)
+
+O host A se comunica com o B através do meio fisico, pode ser por cabeamento, wi-fi
+
+O Hub so atua na camada fisica. O Switch trabalha na camada de enlace, ele faz isso usando o endereco MAC, atraveps do swtiching -> cadeamento, enlace, ponto -a-ponto, o switch é um equipamento de camada dois, o enlace feito pelo swtich é uma ligacao ponto-a-ponto, chaveando o mac adress.
+
+
+o Switch encherga comunicao ponto-a-ponto, o switch nao consegue comunicar dispositivos em redes logicas distintas 
+
+O roteador é um dispositivo de rede, atua na camada de rede, ele consegue roteador dados de um lado para o outro lado.
+
+Quando o endereco IP destino nao existe dentro da rede, o pacote é encaminhado para o default gateway, ai o roteador verifica se há o endereco IP do outro lado e faz uma rota para os dados
+
+A funcao do roteador é de fazer a interlegicao entre redes locais, ou com a web.
+
+Para criar a comunicacao entre host autenticados/identificadas é a camada de sessao, que cria uma sessao identifica que tem um ID que tem a sessao que esta sendo feita.
+
+As 3 camadas de cima (aplicacao, apresentacao e sessao) sao mais ligadas ao software, ja as tres ultimas sao ligadas ao hardware. A camada de transporte faz a ligacao entre as duas.
+
+a camada de transporte separa a parte fisica, da parte do software, faz o disfarce de ambas as partes 
+
+O protocolo IP incorpora as camadas de Rede, enlace, fisica. 
+
+O TCP é capaz de fazer uma comunicao confiavel, ele tem um campo dados que é encapsulado dentro do IP.
+
+Transmissoes de Streaming usando o UDP, que nao garante a entrega
+
+
