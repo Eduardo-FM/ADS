@@ -122,6 +122,8 @@ Isso se passou na quinta-feira, pois Jal só pode mentir na segunda-feira, e cas
 
 O dia da semana é segunda-feira, pois para a primeira frase com o Tak falando na segunda que "Amanhã é terça-feira" ele estará falando a verdade, portanto não estará em contradição, e na outra semana com Jal falando que "Amanhã estarei mentindo" essa afirmação será uma mentira já que na terça-feira ele falará a verdade, em todos os outros dias da semana haverá contradição para o caso.[[]]
 
+---
+
 
 # Aula 14/08
 
@@ -179,17 +181,31 @@ Carlos
 
 # 20/08
 
-==...== mais na apostila
+## Linguagem Natural x Linguagem Lógica
 
+Linguagem natural é qualquer linguagem que os seres humanos aprendem em seu ambiente de vida e comunicação com outros seres humanos, como é o caso do português. 
+
+Cabe não nos esquecermos de que a linguagem natural é vaga, ambígua e imprecisa, sendo adequada para a poesia, literatura e folclore, mas não para a ciência e a tecnologia. 
+
+Linguagem artificial/formal/simbólica é a linguagem construída para fins específicos, como as linguagens de programação e os diversos cálculos da Lógica e da Matemática. 
+
+Linguagens artificiais exprimem com correção e exatidão o pensamento e os resultados do conhecimento científico, de forma sintética.
+
+![[Pasted image 20250830170513.png]]
 ### proposicoes 
+
+Conjunto de palavras ou símbolos que exprimem um pensamento de sentido completo. São expressões a respeito das quais tem sentido dizer que são verdadeiras ou falsas.
+
+![[Pasted image 20250830170603.png]]
 
 A logica matematica adota como regras fundamentais do pensamento os dois seguintes axiomas: 
 
 1) **Principio da não contradicao**: uma proposicao nao pode ser verdadeira e falsa ao mesmo tempo
 2) **Principio do terceiro excluido**: toda a proposicao ou é verdadeira ou é falsa, isto é, verifica-se sempre um destes casos e nunca um terceiro.
+
 **Valores lógicos das proposicoes**: Chama-se **valor lógico** de um proposicao a **verdade(V)** se ela é verdadeira e a **falsidade(F)** se ela é falsa.
 
-Classificação das proposições: 
+#### Classificação das proposições: 
 
 a) Simples ou atômica: é aquela proposição que não contem nenhuma outra proposição como parte integrante de si. São designadas por letras minúsculas. 
 
@@ -336,6 +352,29 @@ d) Esta frio se e somente se está chovendo
 e) 
 g) nao esta frio e nao esta chovendo
 
+# Aula 21/08
+
+### Construção de Tabelas-Verdade
+
+Dadas várias proposições simples, podemos combiná-las pelos conectivos e construir proposições compostas.
+
+Com o emprego das tabelas-verdade das operações lógicas fundamentais é possível construir a tabela-verdade correspondente a qualquer proposição composta.
+
+Número de linhas de uma tabela-verdade: A tabela-verdade de uma proposição composta com n proposições simples contém 2^n linhas.
+
+![[Pasted image 20250830171837.png]]
+
+![[Pasted image 20250830171911.png]]
+![[Pasted image 20250830171934.png]]
+
+Uso de parênteses: É necessário o uso de parênteses na simbolização das proposições para evitar qualquer tipo de ambigüidade.
+
+![[Pasted image 20250830172000.png]]
+![[Pasted image 20250830172027.png]]
+
+Valor lógico de uma proposição composta: Dada uma proposição composta P(p, q, r, ...), pode-se sempre determinar o seu valo lógico quando são dados ou conhecidos os valores lógicos respectivos das proposições simples.
+
+![[Pasted image 20250830172300.png]]
 # Aula 27/08
 
 #### Exercicios
@@ -349,7 +388,7 @@ Chama-se tautologia toda a proposicao composta cujo o valor logico é sempre V (
 
 P -> P 
 P <-> P 
-P v ~P
+P v ~P 
 
 ![[Pasted image 20250828211725.png]]
 

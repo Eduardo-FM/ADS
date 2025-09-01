@@ -420,6 +420,124 @@ Total: deve (obrigatório)
 
 Parcial: pode (opcional)
 
+### Generalização 
+
+![[Pasted image 20250831160452.png]]
+![[Pasted image 20250831160518.png]]
+
+
+### Subclasse/Superclasse
+
+![[Pasted image 20250831160528.png]]
+
+### Restrições sobre Hierarquias de Especialização / Generalização
+
+![[Pasted image 20250831160632.png]]
+![[Pasted image 20250831160637.png]]
+![[Pasted image 20250831160642.png]]
+
+
+### Restrição de Disjunção
+![[Pasted image 20250831172622.png]]
+
+![[Pasted image 20250831172632.png]]
+
+![[Pasted image 20250831172641.png]]
+
+### Restrição de Completude
+
+![[Pasted image 20250831172658.png]]
+
+![[Pasted image 20250831172704.png]]
+
+![[Pasted image 20250831172718.png]]
+
+#### Restrições sobre Hierarquias de Especialização / Generalização
+
+![[Pasted image 20250831172734.png]]
+
+![[Pasted image 20250831172746.png]]
+
+![[Pasted image 20250831172752.png]]
+
+![[Pasted image 20250831172759.png]]
+
+![[Pasted image 20250831172807.png]]
+
+### Herança
+
+![[Pasted image 20250831172834.png]]
+
+![[Pasted image 20250831172840.png]]
+
+![[Pasted image 20250831172849.png]]
+![[Pasted image 20250831172857.png]]
+
+### Reforçando
+
+![[Pasted image 20250831172948.png]]
+
+![[Pasted image 20250831172957.png]]
+
+![[Pasted image 20250831173004.png]]
+
+![[Pasted image 20250831173010.png]]
+
+![[Pasted image 20250831173230.png]]
+
+![[Pasted image 20250831173237.png]]
+
+### As regras de integridade
+
+![[Pasted image 20250831173252.png]]
+
+
 # Aula 27/08
 
-### Cardinalidade 
+## Cardinalidade 
+
+### Modelagem de Dados
+
+
+![[Pasted image 20250831174729.png]]
+
+![[Pasted image 20250831174734.png]]
+
+![[Pasted image 20250831174738.png]]
+
+### Cardinalidade
+
+![[Pasted image 20250831174747.png]]
+
+![[Pasted image 20250831174752.png]]
+
+### Entidade Fraca
+
+![[Pasted image 20250831174801.png]]
+
+![[Pasted image 20250831174805.png]]
+
+![[Pasted image 20250831174810.png]]
+
+![[Pasted image 20250831174816.png]]
+
+![[Pasted image 20250831174825.png]]
+
+![[Pasted image 20250831174832.png]]
+
+![[Pasted image 20250831174838.png]]
+![[Pasted image 20250831174843.png]]
+
+![[Pasted image 20250831174847.png]]
+
+![[Pasted image 20250831174852.png]]
+
+![[Pasted image 20250831174859.png]]
+
+![[Pasted image 20250831174904.png]]
+
+![[Pasted image 20250831174910.png]]
+
+![[Pasted image 20250831174916.png]]![[Pasted image 20250831180101.png]]
+![[Pasted image 20250831180107.png]]
+
