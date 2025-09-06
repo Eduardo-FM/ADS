@@ -124,3 +124,37 @@ O TCP é capaz de fazer uma comunicao confiavel, ele tem um campo dados que é e
 Transmissoes de Streaming usando o UDP, que nao garante a entrega
 
 
+# Aula 02 /09
+
+Quando falamos de um modelo de comunicacao em redes, falamos sobre um modelo de 7 camadas:
+
+- Aplicacao (SW)
+- apresentacao (SW)
+- sessao (SW)
+- transporte
+- rede (HW)
+- enlace (HW)
+- fisica (HW)
+
+A comunicacao entre host é feito através da camada fisica
+
+funcao da camada fisica: adequar o sinal ao bem fisico, ela cuida da midia (um dispositivo tipico é o: repertidor(hub))
+
+Quando precisa fechar um enlace entre dois host, se utiliza a camada de enlace, que faz o fechamento da camada de enlace pelo o SWITCH, ele fecha essa enlace através da placa de rede, com o NIC (Network Interface Card), através do MAC adress
+
+Quando tem uma rede so com switch as maquinas conseguem se enxergar des de que elas estejam na mesma familia de IP. 
+
+Os dispositivos nao enxergar as informacoes das camadas de cima, apenas das camadas de baixo
+
+
+Para a camada de Rede, se utiliza um roteador, que é um dispositivo da camada de rede, o roteador conecta dos computadores através de um endereco IP
+
+Ha duas formas de se atribiur um IP:
+- o servidor DHCP atribuir ele dinamicamente 
+- atribuilo de forma estatica 
+
+Apenas o roteador consegue rotear os dados de uma red LAN para outras redes LAN 
+
+O Roteador é o default gateway 
+
+mm

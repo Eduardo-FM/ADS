@@ -417,3 +417,16 @@ Seja P( p, q, r, ...) uma tautologia e sejam P0(p,q,r,...) , Q0(p,q,r,...) , R0(
 Se P( p, q, r, ...) é uma tautologia, então P(P0, Q0, R0, ...) também é uma tautologia, quaisquer que sejam as proposições P0, Q0, R0,... 
 
 Isto significa que se trocarmos uma proposição simples de em uma tautologia a mesma continuará sendo tautológica. Exemplo: P(p): p  ~p é tautológica. Se substituirmos o p por qualquer proposição composta, digamos: p → q, a proposição composta resultante P( p, q): (p → q ) v ~(p → q) continua sendo uma tautologia. Fica como exercício verificar tal fato.
+
+
+# Aula 03/09 
+
+### Implicação Lógica
+
+Diz-se que uma proposição P( p, q, r,...) implica logicamente (ou abreviadamente, implica) uma proposição Q( p, q, r, ...), se Q é verdadeira todas as vezes que P é verdadeira.
+
+![[Pasted image 20250903201819.png]]
+
+![[Pasted image 20250903201852.png]]
+
+A implicacao é uma relacao entre duas proposicoes. O se ... entao é um conectivo lógico.
