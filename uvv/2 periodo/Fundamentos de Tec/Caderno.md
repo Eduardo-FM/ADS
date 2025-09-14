@@ -157,4 +157,5 @@ Apenas o roteador consegue rotear os dados de uma red LAN para outras redes LAN
 
 O Roteador é o default gateway 
 
-mm
+# Aula 09/09
+

@@ -430,3 +430,51 @@ Diz-se que uma proposição P( p, q, r,...) implica logicamente (ou abreviadamen
 ![[Pasted image 20250903201852.png]]
 
 A implicacao é uma relacao entre duas proposicoes. O se ... entao é um conectivo lógico.
+
+# Aula 10/09
+
+## Equivalência Lógica
+
+Diz-se que uma proposição P( p, q, r, ...) é logicamente equivalente (ou abreviadamente, equivalente) a proposição Q( p, q, r, ...), se a tabela verdade dessas duas proposições são idênticas.
+
+Notação:
+![[Pasted image 20250910194430.png]]
+
+
+Ficará claro mais tarde que, em certas circunstâncias, é necessário “transformar” uma proposição composta em outra proposição. Isto é feito substituindo uma proposição composta (em uma proposição composta) por outra proposição composta equivalente. Este processo é repetido até que a forma desejada para a proposição composta seja obtida.
+
+![[Pasted image 20250910194418.png]]
+
+### Tautologias e Equivalência Lógica
+
+P( p, q, r, ...)  Q( p, q, r, ...) se e somente se a bicondicional P( p, q, r, ...)  Q( p, q, r, ...) é uma tautologia.
+
+Demonstração:
+Se P( p, q, r, ...) e Q( p, q, r, ...) são equivalentes suas tabelas verdades são idênticas, portanto o valor lógico da bicondicional é sempre verdade (tautológico).
+Se a bicondicional é tautológica (somente verdade) os valores lógicos de P( p, q, r, ...) e Q( p, q, r, ...) são sempre idênticos, isto é, P( p, q, r, ...) e Q( p, q, r, ...) são equivalentes.
+
+![[Pasted image 20250910195237.png]]
+
+## Propriedades da Equivalência Lógica
+![[Pasted image 20250910195455.png]]
+
+==Principio da identidade da lógica = uma coisa é sempre igual a ela mesmo ==
+
+### Proposições associadas a uma condicional
+
+Dada a condicional p → q, chama-se proposições associadas a p → q as três seguintes proposições condicionais que contêm p e q:
+
+![[Pasted image 20250910200642.png]]![[Pasted image 20250910200652.png]]
+
+Podemos afirmar que:
+
+(i) A condicional p → q e sua contrapositiva ~q → ~p são equivalentes; 
+(ii) A recíproca q → p e a contrária ~p → ~q da condicional p → q são equivalentes.
+
+### Negação conjunta de duas proposições
+
+![[Pasted image 20250910200738.png]]
+
+### Negação disjunta de duas proposições
+
+![[Pasted image 20250910200809.png]]
