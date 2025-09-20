@@ -6,9 +6,9 @@ Software é um conjunto de instruções que um computador pode executar para rea
 
 Sim, existe uma diferença entre sistema e software, embora os termos sejam frequentemente usados de forma intercambiável.
 
-**Software**: É um conjunto de programas e dados que executam tarefas específicas em um computador ou outro dispositivo. Exemplo: Windows, Microsoft Word, Google Chrome, aplicativos de celular. 
+==**Software**: É um conjunto de programas e dados que executam tarefas específicas em um computador ou outro dispositivo. Exemplo: Windows, Microsoft Word, Google Chrome, aplicativos de celular. ==
 
-**Sistema**: Um sistema é um conjunto de componentes interconectados que trabalham juntos para atingir um objetivo. Exemplo: Um sistema bancário inclui não apenas os programas, mas também caixas eletrônicos, funcionários, regulamentos e procedimentos.
+==**Sistema**: Um sistema é um conjunto de componentes interconectados que trabalham juntos para atingir um objetivo. ==Exemplo: Um sistema bancário inclui não apenas os programas, mas também caixas eletrônicos, funcionários, regulamentos e procedimentos.
 
 
 ### A Crise dos desenvolvedores de Softwares menos preparados 
@@ -34,7 +34,7 @@ Os softwares estão em todos os lugares: na saúde, na educação, no comércio 
 
 São conhecidos os mitos do software identificados por Pressman (2005). 
 
-Pressman classifica os mitos em três grupos: administrativo, do cliente e do profissional.
+==Pressman classifica os mitos em três grupos: administrativo, do cliente e do profissional.==
 
 #### Administrativo
 
@@ -122,6 +122,7 @@ Revisão para garantir que os requisitos estão completos, consistentes e não c
 ##### 5 - Validacao dos requisitos 
 Confirmação de que os requisitos atendem às necessidades dos stakeholders e aos objetivos do sistema, garantindo que sejam corretos e úteis.
 
+![[Pasted image 20250906195954.png]]
 #### Tecnicas de levantamento de requisitos 
 
 - entrevistas com clientes e usuarios 
@@ -423,3 +424,235 @@ Parte funcional do produto entregue ao final da sprint.
 4. Todos os dias, há a Daily Scrum para acompanhar o progresso. 
 5. No final da sprint, ocorre a Sprint Review, onde o incremento é apresentado. 
 6. A equipe realiza a Sprint Retrospective para aprender com a experiência e melhorar.
+
+## Nem todo programa é um software
+
+![[Pasted image 20250906204442.png]]![[Pasted image 20250906204447.png]]
+![[Pasted image 20250906204456.png]]
+
+## O que é Elicitação de Requisitos?
+
+
+![[Pasted image 20250906204521.png]]
+![[Pasted image 20250906204527.png]]![[Pasted image 20250906204538.png]]
+
+### Entrevista
+
+A entrevista é uma conversa planejada entre o analista de requisitos (P.O.) e as partes interessadas (cliente, usuários, gestores), com o objetivo de entender necessidades, expectativas, problemas e desejos em relação ao sistema a ser desenvolvido.
+
+
+#### Por que usar entrevistas?
+
+![[Pasted image 20250906204607.png]]
+
+#### Etapas para realizar uma entrevista com o cliente
+
+![[Pasted image 20250906204612.png]]
+
+##### Planejamento
+![[Pasted image 20250906204643.png]]
+![[Pasted image 20250906204656.png]]
+
+##### Abertura da entrevista
+![[Pasted image 20250906204710.png]]
+
+##### Condução da Entrevista
+![[Pasted image 20250906204723.png]]
+
+##### Encerramento
+
+![[Pasted image 20250906204733.png]]
+
+### Tipos de Perguntas
+
+![[Pasted image 20250906204756.png]]
+
+### Estrutura de um Roteiro de Entrevista 
+
+![[Pasted image 20250906204817.png]]
+
+### Questões Éticas e Proteção de Dados
+![[Pasted image 20250906205717.png]]
+![[Pasted image 20250906205723.png]]
+
+### Dicas Práticas
+
+![[Pasted image 20250906205740.png]]
+
+### Documento de Visão
+
+![[Pasted image 20250906210122.png]]
+![[Pasted image 20250906205759.png]]
+
+Ele não entra em detalhes técnicos profundos, mas serve como um guia estratégico e uma referência durante todo o projeto
+
+![[Pasted image 20250906205812.png]]
+
+![[Pasted image 20250906205825.png]]
+
+#### Escopo do Projeto
+
+O escopo é como o contrato de expectativas entre a equipe e o cliente. Ele mostra o que vamos desenvolver neste projeto e o que vai ficar para depois. Isso ajuda a equipe a manter o foco, evita retrabalho e garante que todos estejam de acordo com o que será entregue.
+
+![[Pasted image 20250906205843.png]]
+![[Pasted image 20250906205849.png]]
+
+![[Pasted image 20250906205941.png]]
+
+#### Contextualização
+
+![[Pasted image 20250906205953.png]]![[Pasted image 20250906210002.png]]
+
+#### Visão do Produto
+
+![[Pasted image 20250906210013.png]]![[Pasted image 20250906210027.png]]
+
+#### Valor para o Cliente
+
+![[Pasted image 20250906210042.png]]
+
+![[Pasted image 20250906210048.png]]
+
+#### Objetivos de Negócio
+
+![[Pasted image 20250906210157.png]]
+
+#### Objetivos Técnicos
+
+![[Pasted image 20250906210209.png]]
+
+#### Funcionalidades (Características-Chave)
+
+![[Pasted image 20250906210241.png]]
+![[Pasted image 20250906210252.png]]
+![[Pasted image 20250906210311.png]]
+
+#### Restrições
+
+![[Pasted image 20250906210323.png]]![[Pasted image 20250906210333.png]]
+
+#### Partes Interessadas (Stakeholders)
+
+![[Pasted image 20250906210347.png]]
+#### Requisitos Funcionais
+
+![[Pasted image 20250906210359.png]]
+
+#### Requisitos Não Funcionais
+
+![[Pasted image 20250906210412.png]]
+
+#### Interface do Usuário
+
+![[Pasted image 20250906210425.png]]
+
+
+#### Protótipos e Wireframes
+
+![[Pasted image 20250906210439.png]]
+
+####   Metodologia de Desenvolvimento
+![[Pasted image 20250906211658.png]]
+
+#### Anexos do Projeto
+
+![[Pasted image 20250906211707.png]]
+
+
+## Modelo de Classes na Análise Orientada a Objetos
+
+### Diagrama de Casos de Uso x Diagrama de Classes
+![[Pasted image 20250906211751.png]]
+
+![[Pasted image 20250906211804.png]]
+![[Pasted image 20250906211820.png]]
+
+
+#### Modelo de Classes na Análise Orientada a Objetos
+
+![[Pasted image 20250906211915.png]]
+
+### O que são objetos em um Diagrama de Classes?
+
+![[Pasted image 20250906211928.png]]![[Pasted image 20250906211935.png]]
+
+Uma classe é como uma receita de bolo – ela define os ingredientes (atributos) e o modo de preparo (métodos). Um objeto é um bolo real, feito a partir da receita, com ingredientes específicos.
+
+![[Pasted image 20250906211945.png]]
+
+### Estágios do Modelo de Classes na Análise Orientada a Objetos
+![[Pasted image 20250906212007.png]]
+
+#### Elementos Principais de um Diagrama de Classes
+
+![[Pasted image 20250906212034.png]]
+
+### Técnicas para Identificação de Classes e Construção do Modelo de Classes
+![[Pasted image 20250906215755.png]]
+
+### Relação Entre o Modelo de Classes e o Desenvolvimento de Software
+
+![[Pasted image 20250906215810.png]]
+
+### Diagrama de classes
+
+![[Pasted image 20250906215825.png]]
+
+
+### Tipos de relacionamento
+
+![[Pasted image 20250906215838.png]]
+
+![[Pasted image 20250906215847.png]]
+
+
+#### Associação
+
+![[Pasted image 20250906215903.png]]![[Pasted image 20250906215909.png]]
+
+#### Herança ou Generalização
+
+![[Pasted image 20250906215921.png]]![[Pasted image 20250906215927.png]]
+![[Pasted image 20250906215935.png]]![[Pasted image 20250906215941.png]]
+
+#### Dependência
+![[Pasted image 20250906220042.png]]![[Pasted image 20250906220050.png]]![[Pasted image 20250906220101.png]]
+
+#### Agregação
+
+![[Pasted image 20250906220115.png]]![[Pasted image 20250906220121.png]]
+![[Pasted image 20250906220127.png]]![[Pasted image 20250906220137.png]]
+
+#### Composição
+![[Pasted image 20250906220155.png]]
+![[Pasted image 20250906220202.png]]
+![[Pasted image 20250906220209.png]]
+
+### Principais Tipos de Multiplicidade
+
+![[Pasted image 20250906220236.png]]
+
+#### Um para Um
+
+![[Pasted image 20250906220251.png]]
+
+#### Um para Muitos
+
+![[Pasted image 20250906220303.png]]
+
+#### Muitos para Muitos
+
+![[Pasted image 20250906220312.png]]
+
+![[Pasted image 20250906220319.png]]![[Pasted image 20250906220345.png]]
+
+### Relacionamentos Ternários
+
+![[Pasted image 20250906220402.png]]
+
+### Auto relacionamento / Relacionamento Reflexivo
+
+![[Pasted image 20250906220412.png]]
+
+### Visibilidade
+![[Pasted image 20250906220422.png]]![[Pasted image 20250906220429.png]]

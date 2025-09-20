@@ -9,4 +9,4 @@ for num in range(0, 10):
         pares += numero
 
 
-print(f"Quantidade de pares: {pares}")
+print(f"Soma dos pares: {pares}")
