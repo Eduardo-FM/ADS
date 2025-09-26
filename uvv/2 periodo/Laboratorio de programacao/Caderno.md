@@ -384,7 +384,12 @@ of all fruits banana is my favorite
 ### Listas e Tuplas
 
 - Estruturas de mapas nativas: list, tuple
-- ==...==
+● Coleções de objetos heterogêneos 
+● Crescem até o limite da memória 
+● Acesso sequencial, em fatias ou direto 
+● Métodos para adicionar, remover, ordenar, procurar, contar 
+● Listas são mutáveis e tuplas são imutáveis ○ Tuplas não podem ser alteradas depois de criadas ● Listas são delimitadas por [ e ] 
+● Tuplas são delimitadas por ( e )
 
 #### Tuplas
 
@@ -398,7 +403,8 @@ Tupla aninhada
 
 Heterogenea 
 
-
+![[Pasted image 20250920192216.png]]
+![[Pasted image 20250920192234.png]]
 ### Listas
 
 ``` Python
@@ -475,12 +481,15 @@ alem dos operadores, é possivel usar funcoes para computar valores
 as funcoes podem ser definidas: 
 
 - Pelo programador 
-- ==...==
+- Em módulos da biblioteca padrão
+- Por default: são as funções embutidas (built in)
+	- Na verdade, fazem parte do módulo __builtins__, que é sempre importado em toda aplicação
 
 
-- abs(x) 
-- chr(x)
-- ord(s)
+
+- abs(x) retorna o valor absoluto do número x
+- chr(x) retorna uma string com um único caractere cujo código ASCII é x
+- ord(s)retorna o código ASCII do caractere s
 
 
 #### importar modulos
@@ -563,8 +572,11 @@ As contantes True e False sao apenas simbolos convenientes
 Qualquer valor nao nulo é visto como verdadeiro enquanto que 0 (ou False) 
 e visto como falso
 
-O operador ==...==
+O operador or retorna o primeiro operando se for vista como verdadeiro, caso contrário retorna o segundo
 
+O operador and retorna o primeiro operando se for vista como falso, caso contrário retorna o segundo
+
+Operadores relacionais são avaliados antes de not, que é avaliado antes de and, que é avaliado antes de or
 # Aula 26/08
 
 ### Comandos condicionadores
@@ -582,4 +594,88 @@ comando_apos_if
 ```
 
 
+### Execução condicional e alternativas: if, if-else e if-elif-else
 
+O comando if (que significa se em português) permite que uma parte do programa seja executada apenas quando uma condição for verdadeira. A sintaxe do comando ìf é a seguinte:
+
+![[Pasted image 20250920194928.png]]
+
+Apenas caso a condição for verdadeira, o bloco contendo os comandos comando_1 a comando_m é executado. Caso contrário, esse bloco não é executado e a execução do programa continua com o comando comando_apos_if.
+
+Dessa forma, o if permite resolver problemas do tipo:
+
+![[Pasted image 20250920194958.png]]
+
+### Comando if-else
+
+Em várias ocasiões é necessário executar blocos de forma alternativa. Nesses casos, podemos utilizar o comando if-else (que significa se-senão em português), cuja sintaxe é a seguinte
+
+![[Pasted image 20250920195021.png]]
+
+![[Pasted image 20250920195028.png]]
+
+Podemos melhorar???
+
+![[Pasted image 20250920195041.png]]
+
+
+### if-else
+
+Essa construção é mais elegante pois evita a computação de “n não é múltiplo de 2” e torna o programa mais fácil de ler, corrigir e modificar
+
+Um if-else é utilizado quando temos apenas duas alternativas. Quando o número de alternativas é maior, podemos aninhar comandos if-else. Por exemplo, considere o problema de ler a nota de um aluno para verificar se ele está reprovado, está de recuperação ou foi aprovado. Suponha que as notas são números inteiros entre 0 e 100. Um aluno está reprovado se sua nota é menor que 30, está de recuperação se sua nota é um inteiro entre 30 e 49 e está aprovado se sua nota é pelo menos 50. Uma solução aninhando comandos if-else seria:
+
+![[Pasted image 20250920195115.png]]
+
+![[Pasted image 20250920195124.png]]
+
+### Comando if-elif-else
+
+Para simplificar ainda mais o código de programas com if-else aninhados, o Python oferece o comando if-elif-else.
+
+Usando esse comando poderíamos escrever o programa para saber a condição de um aluno da seguinte forma:
+
+![[Pasted image 20250920195954.png]]
+
+O elif portanto é apenas uma contração do else if que torna mais claro o tratamento das várias alternativas, encadeando as condições. Blocos de elif podem ser repetido várias vezes. Suponha por exemplo que gostaríamos de conhecer os alunos aprovados com louvor, ou seja, com nota superior a 90. Nesse caso, o código seria o seguinte
+
+![[Pasted image 20250920200017.png]]
+
+Ou seja, o if-elif-else pode ter um ou mais blocos com elif, cada um com a sua condição específica. Cada bloco (condição) é testado um de cada vez, até que uma condição seja satisfeita e apenas os comandos dentro desse bloco são executados. Quando nenhuma condição é satisfeita, os comandos dentro do else são executados. Assim, não é necessário que haja um else no final.
+
+## Estruturas de repetição
+
+As estruturas de repetição são utilizadas quando queremos que um bloco de código seja executado várias vezes.
+
+Em Python existem duas formas de criar uma estrutura de repetição:
+● O for é usado quando se quer iterar sobre um bloco de código um número determinado de vezes.
+
+● O while é usado quando queremos que o bloco de código seja repetido até que uma condição seja satisfeita. Ou seja, é necessário que uma expressão boleana dada seja verdadeira. Assim que ela se tornar falsa, o while para.
+
+![[Pasted image 20250920204454.png]]
+
+### FOR em Python
+
+O loop for em Python itera sobre os itens de um conjunto, sendo assim, o range(0, 3) precisa ser um conjunto de elementos. E na verdade ele é:
+
+![[Pasted image 20250920205332.png]]
+
+#### Listas
+![[Pasted image 20250920205344.png]]
+
+#### Strings
+![[Pasted image 20250920205400.png]]
+
+#### Dicionários
+
+Em dicionários podemos fazer assim:
+
+![[Pasted image 20250920205421.png]]
+
+Para auxiliar as estruturas de repetição, existem dois comandos:
+
+● break: É usado para sair de um loop, não importando o estado em que se encontra. 
+
+● continue: Funciona de maneira parecida com a do break, porém no lugar de encerrar o loop, ele faz com que todo o código que esteja abaixo (porém ainda dentro do loop) seja ignorado e avança para a próxima iteração
+
+![[Pasted image 20250920205500.png]]
