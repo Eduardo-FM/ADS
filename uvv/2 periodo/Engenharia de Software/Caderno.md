@@ -6,9 +6,9 @@ Software é um conjunto de instruções que um computador pode executar para rea
 
 Sim, existe uma diferença entre sistema e software, embora os termos sejam frequentemente usados de forma intercambiável.
 
-==**Software**: É um conjunto de programas e dados que executam tarefas específicas em um computador ou outro dispositivo. Exemplo: Windows, Microsoft Word, Google Chrome, aplicativos de celular. ==
+==**Software**: É um conjunto de programas e dados que executam tarefas específicas em um computador ou outro dispositivo. Exemplo: Windows, Microsoft Word, Google Chrome, aplicativos de celular.==
 
-==**Sistema**: Um sistema é um conjunto de componentes interconectados que trabalham juntos para atingir um objetivo. ==Exemplo: Um sistema bancário inclui não apenas os programas, mas também caixas eletrônicos, funcionários, regulamentos e procedimentos.
+==**Sistema**: Um sistema é um conjunto de componentes interconectados que trabalham juntos para atingir um objetivo.==Exemplo: Um sistema bancário inclui não apenas os programas, mas também caixas eletrônicos, funcionários, regulamentos e procedimentos.
 
 
 ### A Crise dos desenvolvedores de Softwares menos preparados 
@@ -22,10 +22,10 @@ Com o aumento da demanda por softwares complexos, muitos sistemas são desenvolv
 
 Problemas relatados por Dijkstra: 
 
-a) Projetos que estouram o cronograma 
+==a) Projetos que estouram o cronograma 
 b) Projetos que estouram o orçamento 
 c) Produto final de baixa qualidade ou que não atenda aos requisitos 
-d) Produtos não gerenciáveis e difíceis de manter ou evoluir
+d) Produtos não gerenciáveis e difíceis de manter ou evoluir==
 
 ### Importância do Software para a Sociedade
 
@@ -36,19 +36,19 @@ São conhecidos os mitos do software identificados por Pressman (2005).
 
 ==Pressman classifica os mitos em três grupos: administrativo, do cliente e do profissional.==
 
-#### Administrativo
+#### ==Administrativo==
 
 a) A existência de um manual de procedimentos e padrões é suficiente para a equipe produzir com qualidade. 
 b) A empresa deve produzir com qualidade, pois tem ferramentas e computadores de última geração. 
 c) Se o projeto estiver atrasado, sempre é possível adicionar mais programadores para cumprir o cronograma. 
 d) Um bom gerente pode gerenciar qualquer projeto.
 
-#### Cliente
+#### ==Cliente==
 
 a) Uma declaração geral dos objetivos é suficiente para iniciar a fase de programação. Os detalhes podem ser adicionados depois. 
 b) Os requisitos mudam com frequência, mas sempre é possível acomodá-los, pois o software é flexível. 
 c) "Eu sei do que preciso"
-#### Profissional
+#### ==Profissional==
 
 a) Assim que o programa for colocado em operação, nosso trabalho terminou. 
 b) Enquanto o programa não estiver funcionando, não será possível avaliar sua qualidade. 
@@ -57,19 +57,19 @@ d) A única entrega importante em um projeto de software é o software funcionan
 
 ### O que é Engenharia de software?
 
-"Engenharia de Software é a aplicação de abordagens sistemáticas, disciplinadas e quantificáveis ao desenvolvimento, operação e manutenção de software. "
+=="Engenharia de Software é a aplicação de abordagens sistemáticas, disciplinadas e quantificáveis ao desenvolvimento, operação e manutenção de software. "==
 
-"É a área da computação que aplica princípios da engenharia para projetar, desenvolver e manter softwares eficientes, confiáveis e escaláveis."
+=="É a área da computação que aplica princípios da engenharia para projetar, desenvolver e manter softwares eficientes, confiáveis e escaláveis."==
 
 ### Sobre o Engenheiro de Software
 
 "Segundo Wazlawick (2019), o engenheiro de software é responsável por viabilizar e monitorar o processo de desenvolvimento, selecionando e avaliando as ferramentas e técnicas mais adequadas para cada projeto ou organização"
 
 Engenheiro de Software → Engenheiro Civil 
-	Ele projeta, planeja e define os requisitos do sistema, garantindo que a estrutura do software seja sólida, eficiente e sustentável a longo prazo.
+	==Ele projeta, planeja e define os requisitos do sistema, garantindo que a estrutura do software seja sólida, eficiente e sustentável a longo prazo.==
 
 Desenvolvedor de Software → Pedreiro ou Mestre de Obras 
-	Ele implementa o projeto criado pelo engenheiro, codificando e construindo as funcionalidades do sistema, seguindo especificações previamente estabelecidas.
+	==Ele implementa o projeto criado pelo engenheiro, codificando e construindo as funcionalidades do sistema, seguindo especificações previamente estabelecidas.==
 ### Tipos de Software
 
 - Software de Sistema – Ex.: Sistemas operacionais (Windows, Linux). 
@@ -79,11 +79,11 @@ Desenvolvedor de Software → Pedreiro ou Mestre de Obras
 
 ### Princípios da Engenharia de Software
 
-- Modularidade – Dividir o software em partes menores e independentes. 
-- Reusabilidade – Aproveitar códigos e componentes em diferentes projetos. 
-- Manutenibilidade – Criar softwares fáceis de atualizar e corrigir. 
-- Eficiência – Otimizar recursos e desempenho do sistema. 
-- Confiabilidade – Garantir que o software funcione corretamente e com segurança.
+- ==Modularidade== – Dividir o software em partes menores e independentes. 
+- ==Reusabilidade== – Aproveitar códigos e componentes em diferentes projetos. 
+- ==Manutenibilidade== – Criar softwares fáceis de atualizar e corrigir. 
+- ==Eficiência== – Otimizar recursos e desempenho do sistema. 
+- ==Confiabilidade== – Garantir que o software funcione corretamente e com segurança.
 
 
 # Aula 08/08
@@ -92,14 +92,14 @@ Desenvolvedor de Software → Pedreiro ou Mestre de Obras
 
 A Engenharia de Requisitos é uma das fases mais importantes do desenvolvimento de software porque:
 
-A) Define a arquitetura e a programação do sistema. 
+==A) Define a arquitetura e a programação do sistema. 
 B) Garante que o sistema funcione sem erros após a implementação. 
 C) Determina o que o sistema deve fazer antes mesmo da implementação. 
-D) Testa o software para verificar sua qualidade.
+D) Testa o software para verificar sua qualidade.==
 
 A Engenharia de Requisitos é uma das fases mais importantes do desenvolvimento de software, pois define o que o sistema deve fazer antes mesmo da implementação.
 
-*Requisitos:* características e funcionalidade de sistemas, quem defini é o cliente.
+==*Requisitos:* características e funcionalidade de sistemas, quem defini é o cliente.==
 
     funcionais: Defini o que o sistema deve fazer . ex: validação do usuário
 
@@ -136,7 +136,7 @@ Vamos entender como construir software de forma estruturada e eficiente, utiliza
 
 ##### Modelo cascata (waterfall)
 
-Segue uma sequencia linear e rígida de fases:
+==Segue uma sequencia linear e rígida de fases==:
 Requisitos -> projeto -> implementacao -> testes -> implementacao -> manutencao 
 
 - Cada fase deve ser concluída antes da proxima comecar 
@@ -213,7 +213,7 @@ A escolha do modelo de desenvolvimento depende do tipo de projeto, requisitos do
 
 ![[Pasted image 20250823170734.png]]
 
-O que é o Ciclo de Vida do Software?
+### O que é o Ciclo de Vida do Software?
 ![[Pasted image 20250823170804.png]]
 
 ![[Pasted image 20250823170816.png]]
@@ -257,8 +257,10 @@ Eles ajudam a responder perguntas como:
 
 • Sistema: Projeto que está sendo desenvolvimento 
 • Atores: Representam os usuários ou outros sistemas que interagem com o sistema. 
-• Ações: Funcionalidades • Cenários: Sequência de ações entre ator e sistema. 
-• Fluxo Principal: Caminho ideal da funcionalidade. • Fluxos Alternativos: Outras possibilidades, incluindo erros.
+• Ações: Funcionalidades 
+• Cenários: Sequência de ações entre ator e sistema. 
+• Fluxo Principal: Caminho ideal da funcionalidade. 
+• Fluxos Alternativos: Outras possibilidades, incluindo erros.
 
 Atores:
 Dentro da modelagem de Casos de Uso, os atores representam pessoas, sistemas ou dispositivos que interagem com o sistema. Eles podem ser classificados em diferentes tipos dependendo do papel que desempenham.
@@ -505,7 +507,8 @@ O escopo é como o contrato de expectativas entre a equipe e o cliente. Ele most
 
 #### Visão do Produto
 
-![[Pasted image 20250906210013.png]]![[Pasted image 20250906210027.png]]
+![[Pasted image 20250906210013.png]]
+![[Pasted image 20250906210027.png]]
 
 #### Valor para o Cliente
 
@@ -656,3 +659,53 @@ Uma classe é como uma receita de bolo – ela define os ingredientes (atributos
 
 ### Visibilidade
 ![[Pasted image 20250906220422.png]]![[Pasted image 20250906220429.png]]
+
+## Diagrama de objetos
+
+O Diagrama de Objetos faz parte da UML (Unified Modeling Language) e serve para representar instâncias concretas das classes em um determinado momento da execução do sistema.
+
+![[Pasted image 20250927184512.png]]
+
+Se o Diagrama de Classes mostra a estrutura e os relacionamentos de forma genérica, o Diagrama de Objetos mostra exemplos reais desses relacionamentos, com dados específicos.
+
+### Principais características
+
+![[Pasted image 20250927184531.png]]
+
+![[Pasted image 20250927184539.png]]
+
+### Notação do Diagrama de Objetos
+
+Os objetos no diagrama são representados por retângulos, assim como as classes, mas com algumas diferenças na notação:
+
+• O nome do objeto segue este formato: nomeObjeto : NomeClasse 
+• Os atributos do objeto mostram valores reais. 
+•O sublinhado indica que estamos falando de um objeto e não de uma classe
+
+![[Pasted image 20250927184630.png]]
+![[Pasted image 20250927184636.png]]
+![[Pasted image 20250927184640.png]]
+
+### Apoio na Análise de Requisitos
+
+![[Pasted image 20250927184657.png]]
+
+### Validação de Cenários
+
+![[Pasted image 20250927184713.png]]
+
+### Comunicação entre Stakeholders
+
+![[Pasted image 20250927184751.png]]
+
+### Suporte ao Design do Sistema
+
+![[Pasted image 20250927184807.png]]
+
+### Ferramenta CASE
+
+![[Pasted image 20250927184819.png]]
+
+#### Principais funções das ferramentas CASE:
+
+![[Pasted image 20250927185034.png]]

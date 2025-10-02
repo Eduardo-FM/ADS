@@ -10,7 +10,7 @@ A partir de 80: Introdução de normas para fabricação de cabos;
 A partir de 88: Início de Sistemas integrando voz, dados e vídeo;
 
 Instalações prediais atualmente devem suportar:
-- Controle e gerenciamento tota de energia elétrica;
+- Controle e gerenciamento total de energia elétrica;
 - Sensores de incêndio, ar-condicionado e sistemas de emergência;
 - Conexões de estações de trabalho a Servidores (banco de dados);
 - Comunicação de voz, e-mail, acesso Internet e Intranet; 
@@ -114,3 +114,90 @@ São proibidas extensões e emendas no cabeamento horizontal. Para fibras óptic
 ### Entrada do edifício 
 
 ![[Pasted image 20250926181422.png]]
+
+# Computação
+
+![[Pasted image 20250927100755.png]]
+![[Pasted image 20250927100808.png]]
+![[Pasted image 20250927100819.png]]
+![[Pasted image 20250927100831.png]]![[Pasted image 20250927100943.png]]
+![[Pasted image 20250927101009.png]]
+![[Pasted image 20250927101021.png]]![[Pasted image 20250927101033.png]]
+![[Pasted image 20250927101109.png]]
+
+### Resumo
+![[Pasted image 20250927101212.png]]
+![[Pasted image 20250927101221.png]]
+
+# Representação de dados
+
+![[Pasted image 20250927101445.png]]
+![[Pasted image 20250927101456.png]]
+![[Pasted image 20250927101509.png]]
+![[Pasted image 20250927101523.png]]
+
+### noção intuitiva
+
+![[Pasted image 20250927101604.png]]
+![[Pasted image 20250927101610.png]]
+![[Pasted image 20250927101621.png]]![[Pasted image 20250927102855.png]]
+
+### Por que os computadores "falam" binário?
+
+![[Pasted image 20250927103129.png]]
+![[Pasted image 20250927103159.png]]
+![[Pasted image 20250927103206.png]]![[Pasted image 20250927103234.png]]
+![[Pasted image 20250927103252.png]]
+### Representação
+
+![[Pasted image 20250927103309.png]]
+![[Pasted image 20250927103352.png]]
+![[Pasted image 20250927103406.png]]
+![[Pasted image 20250927105254.png]]![[Pasted image 20250927105304.png]]
+![[Pasted image 20250927105313.png]]![[Pasted image 20250927105350.png]]
+![[Pasted image 20250927105402.png]]
+![[Pasted image 20250927105414.png]]
+![[Pasted image 20250927105428.png]]
+![[Pasted image 20250927105435.png]]
+![[Pasted image 20250927105441.png]]
+![[Pasted image 20250927105504.png]]
+
+### Representação de dados: texto
+
+![[Pasted image 20250927105624.png]]![[Pasted image 20250927105640.png]]
+![[Pasted image 20250927111206.png]]
+![[Pasted image 20250927111215.png]]
+![[Pasted image 20250927111221.png]]
+![[Pasted image 20250927111228.png]]
+![[Pasted image 20250927111303.png]]
+![[Pasted image 20250927111309.png]]
+![[Pasted image 20250927111317.png]]
+![[Pasted image 20250927111327.png]]
+![[Pasted image 20250927111336.png]]![[Pasted image 20250927111352.png]]
+
+### Representação de dados: cores
+
+![[Pasted image 20250927111505.png]]
+![[Pasted image 20250927111514.png]]![[Pasted image 20250927111538.png]]
+![[Pasted image 20250927111555.png]]
+![[Pasted image 20250927111607.png]]
+![[Pasted image 20250927111620.png]]
+![[Pasted image 20250927111633.png]]
+![[Pasted image 20250927111652.png]]
+
+### Representação de dados: áudio
+
+![[Pasted image 20250927111714.png]]
+![[Pasted image 20250927111734.png]]
+![[Pasted image 20250927111746.png]]
+![[Pasted image 20250927111753.png]]
+
+### Representação de dados: vídeos
+
+![[Pasted image 20250927111810.png]]
+![[Pasted image 20250927111818.png]]
+![[Pasted image 20250927111826.png]]
+
+### Representação de dados: tudo é binário!
+
+![[Pasted image 20250927111852.png]]

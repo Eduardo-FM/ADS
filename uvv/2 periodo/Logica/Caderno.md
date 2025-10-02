@@ -192,7 +192,7 @@ Linguagem artificial/formal/simbólica é a linguagem construída para fins espe
 Linguagens artificiais exprimem com correção e exatidão o pensamento e os resultados do conhecimento científico, de forma sintética.
 
 ![[Pasted image 20250830170513.png]]
-### proposicoes 
+### proposições 
 
 Conjunto de palavras ou símbolos que exprimem um pensamento de sentido completo. São expressões a respeito das quais tem sentido dizer que são verdadeiras ou falsas.
 
@@ -288,7 +288,7 @@ Ex:
 p -> q v r <-> s
 V(6) -> V v F <-> V(s)
 
-b) Conjunção: Chame-se conjunção de duas proposições p e q a proposição representada por “p e q”, cujo valor lógico é verdade quando p e q são verdadeiras e é falsidade nos demais casos.
+b) ==Conjunção==: Chame-se conjunção de duas proposições p e q a proposição representada por “p e q”, cujo valor lógico é verdade quando p e q são verdadeiras e é falsidade nos demais casos.
 
 ![[Pasted image 20250820195455.png]]
 
@@ -313,18 +313,18 @@ q: 7 é um número primo
 p ^ q: O enxofre é verde e 7 é um número primo 
 V(p ^ q) = V(p) ^ V(q) = F ^ V = F
 
-c) Disjunção: Chame-se disjunção de duas proposições p e q a proposição representada por “p ou q”, cujo valor lógico é verdade quando ao menos uma das proposições p e q é verdadeira e é falsidade quando p e q são falsas.
+c) ==Disjunção==: Chame-se disjunção de duas proposições p e q a proposição representada por “p ou q”, cujo valor lógico é verdade quando ao menos uma das proposições p e q é verdadeira e é falsidade quando p e q são falsas.
 
 ![[Pasted image 20250820195857.png]]
 ![[Pasted image 20250820195938.png]]
 
-d) Disjunção exclusiva: Chame-se disjunção exclusiva de duas proposições p e q a proposição representada por “ou p ou q”, cujo valor lógico é verdade quando p é verdadeira ou q é verdadeira, mas não ambas; e é falsidade quando p e q são ambas verdadeiras ou ambas falsas.
+d) ==Disjunção exclusiva==: Chame-se disjunção exclusiva de duas proposições p e q a proposição representada por “ou p ou q”, cujo valor lógico é verdade quando p é verdadeira ou q é verdadeira, mas não ambas; e é falsidade quando p e q são ambas verdadeiras ou ambas falsas.
 
 ![[Pasted image 20250820200010.png]]
 
 ![[Pasted image 20250820200022.png]]
 
-e) Condicional: Chame-se condicional uma proposição representada por “se p então q”, cujo valor lógico é falsidade quando p é verdadeira e q é falsa; e é verdade nos demais casos.
+e) ==Condicional==: Chame-se condicional uma proposição representada por “se p então q”, cujo valor lógico é falsidade quando p é verdadeira e q é falsa; e é verdade nos demais casos.
 
 ![[Pasted image 20250820200142.png]]
 
@@ -334,7 +334,7 @@ Uma condicional p → q não afirma que o conseqüente q se deduz ou é conseqü
 
 ![[Pasted image 20250820200223.png]]
 
-Bicondicional: Chame-se bicondicional uma proposição representada por “p se e somente se q”, cujo valor lógico é verdade quando p e q são ambas verdadeiras ou ambas falsa, e é falsidade nos demais casos.
+==Bicondicional==: Chame-se bicondicional uma proposição representada por “p se e somente se q”, cujo valor lógico é verdade quando p e q são ambas verdadeiras ou ambas falsa, e é falsidade nos demais casos.
 
 ![[Pasted image 20250820200514.png]]
 
@@ -473,8 +473,33 @@ Podemos afirmar que:
 
 ### Negação conjunta de duas proposições
 
+==Contrário do OU (v)==
+
 ![[Pasted image 20250910200738.png]]
 
 ### Negação disjunta de duas proposições
 
+==Contrário do E (^)==
+
 ![[Pasted image 20250910200809.png]]
+
+## Álgebra das proposições
+
+### Propriedades da conjunção:
+
+![[Pasted image 20250927153854.png]]![[Pasted image 20250927153912.png]]
+
+### Propriedades da disjunção:
+
+![[Pasted image 20250927153938.png]]
+![[Pasted image 20250927153950.png]]
+
+### Propriedades da conjunção e da disjunção:
+![[Pasted image 20250927154044.png]]
+![[Pasted image 20250927154121.png]]
+
+### Negação da bicondicional:
+
+![[Pasted image 20250927154139.png]]
+
+![[Pasted image 20250927154155.png]]
