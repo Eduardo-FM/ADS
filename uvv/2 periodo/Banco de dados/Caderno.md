@@ -128,7 +128,7 @@ Nos sistemas de arquivos, os dados ficam armazenados em locais isolados e só ac
 	• facilita integração de aplicações;
 	• evita redefinição de dados
 • Dados mais independentes das aplicações
-	• novas operações de manipulação de 43dos não requerem modificação "pesada" no código da
+	• novas operações de manipulação de dados não requerem modificação "pesada" no código da
 	aplicação
 	aplicações não se preocupam mais com o gerenciamento dos dados
 • Maior flexibilidade de acesso
@@ -521,23 +521,174 @@ Parcial: pode (opcional)
 
 ![[Pasted image 20250831174816.png]]
 
+#### Tipo-Relacionamento (1:1)
+
 ![[Pasted image 20250831174825.png]]
 
 ![[Pasted image 20250831174832.png]]
+
+##### Solução 1 - Chave Estrangeira
 
 ![[Pasted image 20250831174838.png]]
 ![[Pasted image 20250831174843.png]]
 
 ![[Pasted image 20250831174847.png]]
 
+
+##### Solução 2 - Relação de Relacionamento
+
 ![[Pasted image 20250831174852.png]]
 
 ![[Pasted image 20250831174859.png]]
+
+##### Tipo-Relacionamento (1:1) - outro exemplo
 
 ![[Pasted image 20250831174904.png]]
 
 ![[Pasted image 20250831174910.png]]
 
+##### Tipo-Relacionamento (1:n)
+
 ![[Pasted image 20250831174916.png]]![[Pasted image 20250831180101.png]]
+
+##### Tipo-Relacionamento (n:n)
+
 ![[Pasted image 20250831180107.png]]
 
+
+# Modelo lógico
+
+Compreende uma descrição das estruturas que serão armazenadas no banco e que resulta numa representação gráfica dos dados de uma maneira lógica, inclusive nomeando os componentes e ações que exercem uns sobre os outros.
+
+![[Pasted image 20251004143630.png]]
+
+Os relacionamentos já não são mais nomeados. Só será necessário nomear um relacionamento quando houver mais de um relacionamento entre duas tabelas.
+
+A grande vantagem dessa proposta é que, a partir do modelo conceitual gerado, poderemos aplicar regras predefinidas em função da tecnologia a ser empregada e, assim, obter os modelos necessários.
+
+Isso fará com que, a partir de um mesmo modelo conceitual, possamos gerar modelos lógicos para bancos de dados baseados na abordagem “relacional” ou até mesmo em novas abordagens, tais como bancos de dados orientados a objetos.
+
+Assim, podemos definir que o processo de obtenção de um modelo lógico a partir de um modelo conceitual segue os seguintes passos, segundo Cougo (1997):
+
+![[Pasted image 20251004143954.png]]
+
+### REGRAS DE DERIVAÇÃO
+
+A obtenção de um modelo lógico deveria ser feita a partir de um modelo conceitual previamente gerado.
+
+#### Etapa 1: Mapeamento de tipos de entidade regular
+
+![[Pasted image 20251004144016.png]]
+
+Se várias chaves fossem identificadas para “E” durante o projeto conceitual, a informação que descreve os atributos que formam cada chave adicional é mantida a m de especificar chaves secundárias (únicas) da tabela “T”. 
+
+O conhecimento sobre as chaves também é mantido para ns de indexação e outros tipos de análises.
+
+#### Etapa 2: Mapeamento de tipos de entidade fraca
+
+![[Pasted image 20251004145341.png]]
+
+Isso consegue mapear o tipo de relacionamento de identificação de “F”
+
+A chave primária de “T” é a combinação das chaves primárias do proprietário “E” e a chave parcial do tipo de entidade fraca “F”, se houver.
+
+#### Etapa 3: Mapeamento dos tipos de relacionamento binários 1:1
+
+![[Pasted image 20251004145402.png]]
+
+#### Etapa 4: Mapeamento de tipos de relacionamento binário 1:N
+
+![[Pasted image 20251004145412.png]]
+
+![[Pasted image 20251004145418.png]]
+
+#### Etapa 5: Mapeamento de tipos de relacionamento binário N:N
+
+![[Pasted image 20251004150017.png]]
+
+![[Pasted image 20251004150021.png]]
+
+#### Etapa 6: Mapeamento de atributos multivalorados
+
+![[Pasted image 20251004150204.png]]
+![[Pasted image 20251004150635.png]]
+
+#### ETAPA 7: MAPEAMENTO DE AUTO RELACIONAMENTO 1:N
+
+![[Pasted image 20251004150646.png]]
+
+![[Pasted image 20251004150652.png]]
+
+![[Pasted image 20251004150700.png]]
+
+![[Pasted image 20251004150717.png]]
+
+![[Pasted image 20251004150724.png]]
+
+![[Pasted image 20251004151304.png]]
+
+#### Etapa 9: Mapeamento de tipos de relacionamento n-ário (qualquer relacionamento maior que o binário).
+
+![[Pasted image 20251004151314.png]]![[Pasted image 20251004151351.png]]
+![[Pasted image 20251004151355.png]]![[Pasted image 20251004151403.png]]
+#### Etapa 10: Mapeamento da especialização / generalização
+
+![[Pasted image 20251004151444.png]]
+![[Pasted image 20251004151449.png]]
+![[Pasted image 20251004151455.png]]![[Pasted image 20251004152322.png]]
+![[Pasted image 20251004152328.png]]
+
+
+### Tipos de Dados
+
+#### Tipos de Valores Numéricos
+
+![[Pasted image 20251004152349.png]]
+
+### Tipos de Valores String
+
+![[Pasted image 20251004152528.png]]
+
+#### Tipos de Valores Temporais
+![[Pasted image 20251004152548.png]]
+
+### Normalização
+
+![[Pasted image 20251004152833.png]]
+![[Pasted image 20251004153300.png]]
+![[Pasted image 20251004152837.png]]
+![[Pasted image 20251004153319.png]]
+![[Pasted image 20251004153326.png]]
+
+#### Primeira Forma Normal (1FN)
+
+![[Pasted image 20251004152848.png]]![[Pasted image 20251004152854.png]]
+![[Pasted image 20251004153351.png]]
+![[Pasted image 20251004153357.png]]
+![[Pasted image 20251004153401.png]]
+![[Pasted image 20251004153406.png]]![[Pasted image 20251004153413.png]]
+![[Pasted image 20251004153418.png]]![[Pasted image 20251004153436.png]]
+![[Pasted image 20251004153441.png]]
+![[Pasted image 20251004153445.png]]
+![[Pasted image 20251004153453.png]]
+
+#### Segunda Forma Normal (2FN)
+
+![[Pasted image 20251004152903.png]]
+![[Pasted image 20251004152907.png]]
+![[Pasted image 20251004152912.png]]
+![[Pasted image 20251004153516.png]]
+![[Pasted image 20251004153522.png]]
+![[Pasted image 20251004153526.png]]
+![[Pasted image 20251004153531.png]]
+![[Pasted image 20251004153537.png]]
+![[Pasted image 20251004153543.png]]
+![[Pasted image 20251004153548.png]]![[Pasted image 20251004153557.png]]
+![[Pasted image 20251004153604.png]]
+
+#### TERCEIRA FORMA NORMAL (3FN)
+
+![[Pasted image 20251004153226.png]]![[Pasted image 20251004153232.png]]
+![[Pasted image 20251004155534.png]]
+![[Pasted image 20251004155539.png]]
+![[Pasted image 20251004155543.png]]

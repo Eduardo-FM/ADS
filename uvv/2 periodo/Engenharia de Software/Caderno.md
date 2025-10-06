@@ -438,7 +438,7 @@ Parte funcional do produto entregue ao final da sprint.
 ![[Pasted image 20250906204521.png]]
 ![[Pasted image 20250906204527.png]]![[Pasted image 20250906204538.png]]
 
-### Entrevista
+## Entrevista
 
 A entrevista é uma conversa planejada entre o analista de requisitos (P.O.) e as partes interessadas (cliente, usuários, gestores), com o objetivo de entender necessidades, expectativas, problemas e desejos em relação ao sistema a ser desenvolvido.
 
@@ -709,3 +709,111 @@ Os objetos no diagrama são representados por retângulos, assim como as classes
 #### Principais funções das ferramentas CASE:
 
 ![[Pasted image 20250927185034.png]]
+
+# Diagrama de classes
+## Tipos de variáveis
+
+![[Pasted image 20251004193838.png]]
+![[Pasted image 20251004193844.png]]![[Pasted image 20251004193850.png]]
+
+### int (inteiro)
+![[Pasted image 20251004193900.png]]
+
+### float ou double (ponto flutuante)
+![[Pasted image 20251004193918.png]]
+
+### char (caractere)
+
+![[Pasted image 20251004193928.png]]
+
+### string (texto)
+
+![[Pasted image 20251004193938.png]]
+
+### bool ou boolean (lógico)
+
+![[Pasted image 20251004193949.png]]
+
+### data / Date (data)
+![[Pasted image 20251004194001.png]]
+
+### long
+
+![[Pasted image 20251004194013.png]]
+
+### Retorno dos métodos
+
+![[Pasted image 20251004194027.png]]
+
+## Onde estão as variáveis? Qual sua classificação?
+
+![[Pasted image 20251004194035.png]]
+
+### Variáveis de Instância
+
+![[Pasted image 20251004194043.png]]
+
+### Variáveis de Classe (ou Estáticas)
+
+![[Pasted image 20251004194055.png]]
+![[Pasted image 20251004194104.png]]
+
+### Variáveis locais
+
+![[Pasted image 20251004194113.png]]
+
+### Variáveis de Parâmetro
+
+![[Pasted image 20251004194122.png]]
+
+## Visibilidade de Atributos e Métodos
+
+![[Pasted image 20251004194136.png]]
+![[Pasted image 20251004194141.png]]
+![[Pasted image 20251004194156.png]]
+![[Pasted image 20251004194201.png]]
+
+
+### Tipos de Visibilidade
+
+![[Pasted image 20251004194210.png]]
+
+### Pública (+)
+
+![[Pasted image 20251004194223.png]]
+![[Pasted image 20251004194229.png]]
+
+
+### Privada (-)
+
+![[Pasted image 20251004194240.png]]
+![[Pasted image 20251004194245.png]]
+
+### Protegida (#)
+![[Pasted image 20251004194256.png]]
+![[Pasted image 20251004194302.png]]
+
+## Por que construir diagramas de classes consistentes é importante na engenharia de software?
+
+![[Pasted image 20251004194316.png]]
+![[Pasted image 20251004194324.png]]
+
+## O forma de construir o diagrama de classes tem a ver o tipo de desenvolvimento escolhido no ciclo de vida do software?
+
+![[Pasted image 20251004194336.png]]
+
+### Modelo em Cascata
+
+![[Pasted image 20251004194343.png]]
+
+## Modelo Incremental
+
+![[Pasted image 20251004194350.png]]
+
+## Modelo Espiral
+
+![[Pasted image 20251004194357.png]]
+
+## Modelo V
+
+![[Pasted image 20251004194407.png]]
