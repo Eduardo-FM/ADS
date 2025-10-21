@@ -817,3 +817,96 @@ Os objetos no diagrama são representados por retângulos, assim como as classes
 ## Modelo V
 
 ![[Pasted image 20251004194407.png]]
+
+
+# ISO 
+
+## Introducao e proposito da norma
+
+- norma interrnacional que definine ==...==
+
+
+## Qualidade 
+
+Qualidade na engenharia de software tem haver com cumprir os requisitos
+
+
+# Modelo de interacao:
+
+### Principais diagramas 
+
+1 - Diagrama de Sequência
+2 - Diagrama de Comunicacao(anteriormente chamado de colaboracao)
+3 - Diagrama de tempo (Timing Diagram6
+4 - Diagrama de interacao Geral
+
+#### Caracteristicas
+
+- baseada na troca de mensagens entre objetos
+- representa eventos temporais (quem faz o que e quando)
+- complementa os diagramas de classe e caos e casos de uso com detalhamento de comportamento
+- pode mostrar criacao e destruicao de objetos 
+- é focada em cenários especificos (como os descritos nos casos de uso)
+
+##### Vantagens 
+- ajuda a entender comos os componentes do sistema se comunicam
+- facilita a deteccao de erros de logica ou de responsabilidade entre classes
+- suporte à análise e validacao de requisitos
+- facilita o trabalho em equipe com uma visualizacao clara do comportamento dos sistema
+- util na documentacao do sistema e comunicacao entre analistas, desenvolvedores e clientes 
+
+#### Relacao com o diagrama de casos de uso
+
+- o caso de uso mostra  oque o sistema deve fazer 
+- o diagrama de interacao mostra como os objetos interagem para executar um caso de uso especifico
+
+Exemplo:
+==Casp de uso: Realizar login==
+Diagrama de sequencia: mostra o passo a passo entre usuario, tela de login, controlador e banco de dados durante o processo de login. 
+
+
+Não é um gabarito,  há formas diferentes de serem feitos
+
+#### Porque faszer os diagrams de interacao
+
+- ==....==
+
+### Diagrama de sequencia (UML)
+
+o dagrama de sequencia mostara quem faz o que e a sequencia 
+
+##### Como funciona
+
+- o diagrama é lido de cima para baixo, representando a ordem das mensagens no tempo
+- cada objeto envolvido é representado horizontalmente, e o tempo (a sequencia dos eventos) é representado verticalmente 
+- as mensagens trocadas sao representadas por setas horizontais 
+- o foco é no comportamento do sistema durante a execucao de uma operacao ou caso de uso
+
+
+### Principais elementos 
+
+==...==
+
+### Como modelar m diagrama de sequencia 
+
+- escolha um cenário (geralemnte com base em um caso de uso)
+- identifique os obejtos ==...==
+
+
+### O que sao estereotipos em UML?
+
+estereotipos sao rotulos que colocamos nos elementos da UML (Como objetos, classes, ou participantes do diagrama) para indicar o papel que aquele elementos exerce emm uma interecao
+
+#### boundary: fronteira
+
+- representa a interface que interagem com o mundo exterior (usuario ou outro sistema)
+- pode ser uma tela, formulario, API, etc
+- é onde a cao comeca no sistema
+#### Control - controle
+- representa o "cerebro" que cordena as acoes, valida dados, chama as entidades, decide oque fazer 
+- geralmente é uma classe responsavel por controlar um caso de uso
+
+#### entity - entidade
+
+- representa os dados do sistema ou objetos de nefocio
+- sao geralmente classes persistentes, ligadas a banco de dados ou modelo de negocio
