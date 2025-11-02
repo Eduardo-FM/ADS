@@ -910,3 +910,32 @@ estereotipos sao rotulos que colocamos nos elementos da UML (Como objetos, class
 
 - representa os dados do sistema ou objetos de nefocio
 - sao geralmente classes persistentes, ligadas a banco de dados ou modelo de negocio
+
+
+# Diagrama de comunicacao (UML)
+
+O ==diagrama de comunicacao== mostra como os objetos interagem entre si por meio de mensagens, como foco na estrutura da comunicacao entre eles e menos foco na ordem temporal (embora a ordem aidna exista)
+
+ele é util para representar a estrutura das interacoes em um cenario espeifico, destacando os relacionamentos entre os objetos e as mensagens trocadas entre eles. 
+
+- sequencia = "quando" as mensagens acontecem
+- comunicacao = "quem fala com quem"
+
+### quando usar o diagrama de comiunicacao 
+
+- quando quiser mostrar a estrutura dos relacionamentos entre objetos durante um cenário específico
+- quando o layout dem rede é facil ==...==
+
+### Palavra-chave: vínculo
+
+
+### Vantagens
+
+- oferece uma visao compacta e estruturada da interacao entre objetos 
+- util para visualizar quem pode quem
+- ==..==
+
+### Condicoes
+
+- indica quem uma mensagem so sera enviada quando uma determinada condicao for satisfeita 
+- a condicao vem entre colchetes antes da mensagem
