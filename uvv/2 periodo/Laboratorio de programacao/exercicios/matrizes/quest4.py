@@ -16,10 +16,10 @@ Implemente funções para: Adicionar um novo aluno; Adicionar ou remover discipl
 
 alunos = [{"nome": "Ana", "disciplinas": ["Matemática", "História"]}, {"nome": "Carlos", "disciplinas": ["Física", "Biologia"]}]
 
-#novoAluno = {"nome": "Eduardo", "disciplinas": ["Química", "Português"]}
-#nomeAluno = input("Digite o nome do aluno: ")
-#disciplinaParaAdicionar = input("Digite a disciplina para ser adicionada: ")
-#disciplinaParaRemover = input("Digite a disciplina para ser removida: ")
+novoAluno = {"nome": "Eduardo", "disciplinas": ["Química", "Português"]}
+nomeAluno = input("Digite o nome do aluno: ")
+disciplinaParaAdicionar = input("Digite a disciplina para ser adicionada: ")
+disciplinaParaRemover = input("Digite a disciplina para ser removida: ")
 
 
 def adicionarAluno(aluno: object) -> None:
@@ -55,7 +55,7 @@ def listarAlunosEDisciplinas(alunos:  list[dict[str, str | list[str]]]) -> None:
         disciplinas = ", ".join(aluno["disciplinas"])
         print(f"Aluno: {aluno['nome']}, Disciplinas: {disciplinas}")
 
-#adicionarAluno(novoAluno)
-#adicionarDisciplina(nomeAluno, disciplinaParaAdicionar)
-#removerDisciplina(nomeAluno, disciplinaParaRemover)
+adicionarAluno(novoAluno)
+adicionarDisciplina(nomeAluno, disciplinaParaAdicionar)
+removerDisciplina(nomeAluno, disciplinaParaRemover)
 listarAlunosEDisciplinas(alunos)
