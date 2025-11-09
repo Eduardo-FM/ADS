@@ -1,19 +1,37 @@
 """
-5 -
-Dada uma lista com as pontuações de jogadores em um torneio: pontuacoes = [120, 350, 200, 480, 310, 90]
-Crie um programa que: Organize o ranking do maior para o menor; Exiba o top 3;
-Mostre a posição de um jogador com determinada pontuação informada pelo usuário.
+5) Implemente um programa que gere senhas aleatórias de acordo com o tamanho informado pelo usuário.
+
+Funções:
+
+gerar_senha(tamanho) ? retorna uma senha aleatória contendo letras e números.
+
+mostrar_senha(senha) ? exibe a senha formatada e a contagem de caracteres.
+
+Use o módulo random.
 """
 
-pontuacoes = [120, 350, 200, 480, 310, 90]
-ranking = sorted(pontuacoes, reverse=True)
-print("Ranking do maior para o menor:", ranking)
-print("Top 3 jogadores:", ranking[:3])
+import random
 
-pontuacao_usuario = int(input("Digite a pontuação do jogador para ver a posição: "))
+letras = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+numeros = "0123456789"
 
-if pontuacao_usuario in ranking:
-    posicao = ranking.index(pontuacao_usuario) + 1  # +1 pois o índice começa em 0
-    print(f"O jogador com {pontuacao_usuario} pontos está na posição {posicao}º do ranking.")
-else:
-    print("Pontuação não encontrada no ranking.")
+def gerar_senha(tamanho: int) -> str:
+    """
+    :param tamanho: tamanho da senha a ser gerada
+    :return: retorna uma senha aleatória contendo letras e números
+    """
+    senha = []
+    for index in range(tamanho):
+        senha.append(random.choice(letras + numeros))
+    return "".join(senha)
+
+def mostrar_senha(senha: str) -> None:
+    """
+    :param senha: senha para a contagem
+    :return: exibe a senha formatada e a contagem de caracteres.
+    """
+    print(f"Senha: {senha}")
+    print(f"Quantidade de caracteres: {len(senha)}")
+
+senha:str = gerar_senha(10)
+mostrar_senha(senha)

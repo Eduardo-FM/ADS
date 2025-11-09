@@ -1,39 +1,33 @@
 """
-7 - Uma padaria recebe uma lista de pedidos e seus respectivos status: pedidos = [["Pão de queijo", "Entregue"], ["Café", "Pendente"], ["Bolo", "Entregue"], ["Suco", "Pendente"]]Crie um programa que: Conte quantos pedidos estão “Pendentes” e quantos “Entregues”; Liste apenas os pedidos pendentes; Atualize o status de um pedido para “Entregue”.
+7)  Crie funções para converter entre Celsius, Fahrenheit e Kelvin.
+
+Funções:
+
+c_para_f(c) ? retorna Fahrenheit
+
+f_para_c(f) ? retorna Celsius
+
+c_para_k(c) ? retorna Kelvin
+Peça ao usuário uma temperatura e a unidade, e exiba as conversões.
 """
 
-pedidos = [
-    ["Pão de queijo", "Entregue"],
-    ["Café", "Pendente"],
-    ["Bolo", "Entregue"],
-    ["Suco", "Pendente"]
-]
+temperatura = float(input("Digite uma temperatura: "))
+unidade = input("""
+                    Digite a unidade de medida entre (celsius, fahrenheit, kelvin: 
+                """)
 
-pendentes = sum(1 for p in pedidos if p[1] == "Pendente")
-entregues = sum(1 for p in pedidos if p[1] == "Entregue")
+def c_para_f(c):
+    return (c * 1.8) + 32
+def f_para_c(f):
+    return (f - 32) * 5/9
+def c_para_k(c):
+    return temperatura + 273
 
-print(f"Pedidos pendentes: {pendentes}")
-print(f"Pedidos entregues: {entregues}")
+match unidade.lower():
+    case "celsius":
+        f_para_c(temperatura)
+    case "fahrenheit":
+        c_para_f(temperatura)
+    case "kelvin":
+        c_para_k(temperatura)
 
-print("\nPedidos pendentes:")
-for nome, status in pedidos:
-    if status == "Pendente":
-        print("-", nome)
-
-pedido_nome = input("\nDigite o nome do pedido que foi entregue: ")
-
-atualizado = False
-for pedido in pedidos:
-    if pedido[0].lower() == pedido_nome.lower():
-        pedido[1] = "Entregue"
-        atualizado = True
-        break
-
-if atualizado:
-    print(f"O pedido '{pedido_nome}' foi marcado como 'Entregue'.")
-else:
-    print("Pedido não encontrado.")
-
-print("\nLista atualizada de pedidos:")
-for nome, status in pedidos:
-    print(f"- {nome}: {status}")
