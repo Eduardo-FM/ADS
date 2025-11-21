@@ -818,6 +818,80 @@ Os objetos no diagrama são representados por retângulos, assim como as classes
 
 ![[Pasted image 20251004194407.png]]
 
+# Modelos de Desenvolvimento de Software
+
+![[Pasted image 20251120165228.png]]
+
+![[Pasted image 20251120165244.png]]
+
+
+## Modelo de Prototipação
+
+![[Pasted image 20251120165257.png]]
+
+## Modelo RAD (Desenvolvimento Rápido de Aplicações
+
+![[Pasted image 20251120165311.png]]
+
+## Modelo RUP (Processo Unificado da Rational)
+
+![[Pasted image 20251120165324.png]]
+
+## Modelo DevOps
+
+![[Pasted image 20251120165338.png]]
+## Qual a diferença entre Modelo de Prototipação e Incremental ?
+
+![[Pasted image 20251120165359.png]]
+
+## Diferença entre Modelo de RUP x RAD ?
+
+![[Pasted image 20251120165415.png]]
+![[Pasted image 20251120165422.png]]
+
+## Esses modelos são considerados ágeis?
+
+![[Pasted image 20251120165438.png]]
+
+# Kanban
+
+
+![[Pasted image 20251120170404.png]]
+
+## Princípios básicos
+
+![[Pasted image 20251120170422.png]]
+
+## Quadro Kanban
+
+![[Pasted image 20251120170433.png]]
+![[Pasted image 20251120170440.png]]
+
+## Vantagens
+
+![[Pasted image 20251120170500.png]]
+
+## Desafios / Desvantagens
+
+![[Pasted image 20251120170516.png]]
+
+## Comparação com o Scrum
+
+![[Pasted image 20251120170528.png]]
+
+![[Pasted image 20251120170538.png]]
+
+### Evidência acadêmica
+
+![[Pasted image 20251120170549.png]]
+
+![[Pasted image 20251120170557.png]]
+### Estudo de Caso
+
+![[Pasted image 20251120170607.png]]
+## Conclusão
+
+![[Pasted image 20251120170619.png]]
 # Modelagem de interações
 
 ![[Pasted image 20251109194205.png]]

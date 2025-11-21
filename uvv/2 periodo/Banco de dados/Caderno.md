@@ -692,3 +692,298 @@ A chave primária de “T” é a combinação das chaves primárias do propriet
 ![[Pasted image 20251004155534.png]]
 ![[Pasted image 20251004155539.png]]
 ![[Pasted image 20251004155543.png]]
+
+# Aula 08 - SQL - Structured Query Language
+
+![[Pasted image 20251120212432.png]]
+
+![[Pasted image 20251120212436.png]]
+![[Pasted image 20251120212440.png]]
+
+![[Pasted image 20251120212445.png]]
+
+## DDL
+
+![[Pasted image 20251120212453.png]]![[Pasted image 20251120212458.png]]
+
+![[Pasted image 20251120212504.png]]
+
+## Restrições
+
+![[Pasted image 20251120212513.png]]
+
+![[Pasted image 20251120212517.png]]
+
+![[Pasted image 20251120212524.png]]
+
+## NOT-NULL
+
+
+![[Pasted image 20251120212529.png]]
+
+## CHAVE PRIMÁRIA
+![[Pasted image 20251120212543.png]]
+![[Pasted image 20251120212550.png]]
+
+## UNIQUE
+
+![[Pasted image 20251120212558.png]]![[Pasted image 20251120212605.png]]
+![[Pasted image 20251120212610.png]]
+
+## Chaves Estrangeiras
+
+![[Pasted image 20251120212617.png]]![[Pasted image 20251120212621.png]]
+
+![[Pasted image 20251120212628.png]]
+
+![[Pasted image 20251120212637.png]]![[Pasted image 20251120212642.png]]
+
+## Valor Default
+
+![[Pasted image 20251120212648.png]]
+
+
+## CREATE TABLE
+
+![[Pasted image 20251120212702.png]]![[Pasted image 20251120212724.png]]
+
+## DROP TABLE
+
+![[Pasted image 20251120212737.png]]
+
+## ALTER TABLE
+![[Pasted image 20251120212745.png]]![[Pasted image 20251120212752.png]]
+
+![[Pasted image 20251120212757.png]]
+
+## Domains
+
+![[Pasted image 20251120212806.png]]
+
+![[Pasted image 20251120212812.png]]
+
+## Índices
+
+![[Pasted image 20251120212823.png]]
+
+![[Pasted image 20251120212828.png]]
+
+# AULA 9 - DML - Linguagem de Manipulação de Dados
+
+![[Pasted image 20251120214450.png]]
+
+![[Pasted image 20251120214455.png]]
+![[Pasted image 20251120214458.png]]
+
+![[Pasted image 20251120214503.png]]![[Pasted image 20251120214507.png]]
+
+## Update
+
+![[Pasted image 20251120214518.png]]
+
+![[Pasted image 20251120214523.png]]
+
+## Delete
+
+![[Pasted image 20251120214530.png]]
+
+![[Pasted image 20251120214535.png]]
+
+## Domains
+
+![[Pasted image 20251120214543.png]]![[Pasted image 20251120214601.png]]
+
+## Índices
+
+![[Pasted image 20251120214610.png]]
+
+![[Pasted image 20251120214617.png]]
+
+## Join no Update e Delete
+
+![[Pasted image 20251120214630.png]]
+
+
+# AULA 10 - SQL - DQL
+
+## SELECT
+
+![[Pasted image 20251120214656.png]]
+
+![[Pasted image 20251120214700.png]]
+
+![[Pasted image 20251120214703.png]]
+
+![[Pasted image 20251120214708.png]]
+
+## JOIN
+
+![[Pasted image 20251120214732.png]]
+![[Pasted image 20251120214736.png]]![[Pasted image 20251120214824.png]]
+
+![[Pasted image 20251120214828.png]]
+
+## DISTINCT
+
+![[Pasted image 20251120214836.png]]
+
+## Select Aninhado
+
+![[Pasted image 20251120214855.png]]
+
+## SELECT - JOIN - OPERADORES
+
+ss![[Pasted image 20251120214921.png]]
+
+![[Pasted image 20251120214926.png]]
+
+## OPERADORES
+![[Pasted image 20251120214933.png]]
+
+### BETWEEN
+
+![[Pasted image 20251120214945.png]]![[Pasted image 20251120214946.png]]
+![[Pasted image 20251120214954.png]]
+
+### LIKE
+
+![[Pasted image 20251120215002.png]]
+
+### Função Upper
+
+![[Pasted image 20251120215016.png]]
+
+### Função Lower
+
+![[Pasted image 20251120215024.png]]
+
+### Função SUBSTRING
+
+![[Pasted image 20251120215037.png]]
+
+### Função ROUND
+
+![[Pasted image 20251120215049.png]]
+
+![[Pasted image 20251120215059.png]]
+
+### Função CAST
+
+![[Pasted image 20251120215118.png]]
+
+### Função REPLACE
+![[Pasted image 20251120215128.png]]
+
+# AULA 11 - SQL - DQL - FUNÇÕES e JOIN
+
+## Função de Agregação
+
+![[Pasted image 20251120215503.png]]
+
+### COUNT
+
+![[Pasted image 20251120215519.png]]
+
+### SUM
+
+![[Pasted image 20251120215530.png]]
+
+### AVG
+
+![[Pasted image 20251120215538.png]]
+
+### MIN
+
+![[Pasted image 20251120215557.png]]
+
+### MAX
+
+![[Pasted image 20251120215610.png]]
+
+### AGRUPAMENTOS
+
+![[Pasted image 20251120215619.png]]
+
+![[Pasted image 20251120215626.png]]
+
+### HAVING
+![[Pasted image 20251120215643.png]]
+
+
+![[Pasted image 20251120215655.png]]
+
+![[Pasted image 20251120215708.png]]
+
+### ORDER BY
+
+![[Pasted image 20251120215719.png]]
+
+![[Pasted image 20251120215724.png]]
+
+![[Pasted image 20251120215732.png]]
+![[Pasted image 20251120215738.png]]![[Pasted image 20251120215747.png]]
+
+### UPPER/LOWER
+
+![[Pasted image 20251120215756.png]]
+
+## JOIN - Junção de tabelas
+
+![[Pasted image 20251120215805.png]]
+
+![[Pasted image 20251120215813.png]]
+
+
+### Tipos de junção: Junção cruzada - CROSS JOIN
+
+![[Pasted image 20251120215825.png]]
+
+![[Pasted image 20251120220146.png]]![[Pasted image 20251120220154.png]]
+
+### Tipos de junção: Junção Qualificada: INNER JOIN
+
+![[Pasted image 20251120220218.png]]
+
+![[Pasted image 20251120220233.png]]
+
+![[Pasted image 20251120220257.png]]
+
+![[Pasted image 20251120220302.png]]
+
+![[Pasted image 20251120220309.png]]
+
+![[Pasted image 20251120220316.png]]
+
+![[Pasted image 20251120220320.png]]
+
+### Tipos de junção: LEFT OUTER JOIN
+
+![[Pasted image 20251120220345.png]]
+
+![[Pasted image 20251120220352.png]]
+
+![[Pasted image 20251120220401.png]]
+
+![[Pasted image 20251120220407.png]]
+
+### Tipos de junção: RIGHT OUTER JOIN
+
+![[Pasted image 20251120220418.png]]
+
+![[Pasted image 20251120221102.png]]
+![[Pasted image 20251120221118.png]]
+![[Pasted image 20251120221123.png]]
+
+### Tipos de junção: FULL OUTER JOIN
+
+![[Pasted image 20251120221136.png]]
+![[Pasted image 20251120221144.png]]
+![[Pasted image 20251120221151.png]]
+
+### Tipos de junção: NATURAL JOIN
+
+![[Pasted image 20251120221205.png]]
+
+![[Pasted image 20251120221210.png]]
+
+![[Pasted image 20251120221215.png]]
