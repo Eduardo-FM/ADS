@@ -1,0 +1,3 @@
+Ana - Média: 8.00 - Aprovado
+Pedro - Média: 5.00 - Reprovado
+Maria - Média: 9.00 - Aprovado
