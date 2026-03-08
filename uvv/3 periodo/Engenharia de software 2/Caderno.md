@@ -254,3 +254,30 @@ O foco agora é:
 ## Qual a melhor arquitetura de software?
 
 ![[Pasted image 20260301130754.png]]
+
+
+# Aula 05 
+
+![[Pasted image 20260303195341.png]]
+![[Pasted image 20260303195359.png]]
+![[Pasted image 20260303195414.png]]
+![[Pasted image 20260303195427.png]]
+![[Pasted image 20260303195455.png]]
+![[Pasted image 20260303195516.png]]
+![[Pasted image 20260303195904.png]]
+![[Pasted image 20260303200000.png]]
+![[Pasted image 20260303200012.png]]
+![[Pasted image 20260303200028.png]]
+![[Pasted image 20260303200049.png]]
+![[Pasted image 20260303200112.png]]
+![[Pasted image 20260303200200.png]]
+![[Pasted image 20260303200218.png]]
+![[Pasted image 20260303200251.png]]
+![[Pasted image 20260303200303.png]]
+![[Pasted image 20260303200330.png]]
+![[Pasted image 20260303200344.png]]
+![[Pasted image 20260303200401.png]]
+![[Pasted image 20260303200420.png]]
+![[Pasted image 20260303200448.png]]
+![[Pasted image 20260303200459.png]]
+![[Pasted image 20260303200509.png]]
