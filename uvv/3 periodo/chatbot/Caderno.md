@@ -233,3 +233,32 @@ Após calcular o Avarege Precision para cada classe, basta somar os valores e di
 ![[Pasted image 20260308142803.png]]
 ![[Pasted image 20260308142807.png]]
 ![[Pasted image 20260308142813.png]]
+
+# Aprendizado supervisionado
+
+![[Pasted image 20260309183947.png]]
+![[Pasted image 20260309184000.png]]
+
+## Dados Rotulados:
+![[Pasted image 20260309184251.png]]
+![[Pasted image 20260309184303.png]]
+![[Pasted image 20260309184329.png]]
+![[Pasted image 20260309184352.png]]
+
+###  Sobreajuste (Overfitting)
+
+![[Pasted image 20260309184417.png]]
+
+### Subajuste (Underfitting)
+
+![[Pasted image 20260309184925.png]]
+
+### Por Regressão:
+![[Pasted image 20260309185056.png]]
+![[Pasted image 20260309185107.png]]
+
+## Redes Neurais CNN
+![[Pasted image 20260309185136.png]]
+![[Pasted image 20260309185209.png]]
+![[Pasted image 20260309185225.png]]
+![[Pasted image 20260309185244.png]]
