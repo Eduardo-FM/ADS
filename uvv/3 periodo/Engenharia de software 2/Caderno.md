@@ -281,3 +281,40 @@ O foco agora é:
 ![[Pasted image 20260303200448.png]]
 ![[Pasted image 20260303200459.png]]
 ![[Pasted image 20260303200509.png]]
+
+# Aula 06
+![[Pasted image 20260315202040.png]]
+![[Pasted image 20260315202044.png]]
+
+## Principais padrões de arquitetura de software
+![[Pasted image 20260315202053.png]]
+![[Pasted image 20260315202057.png]]
+![[Pasted image 20260315202100.png]]
+![[Pasted image 20260315202104.png]]
+![[Pasted image 20260315202107.png]]
+![[Pasted image 20260315202111.png]]
+
+## Qual a melhor arquitetura de software?
+
+![[Pasted image 20260315202121.png]]
+
+
+## Arquitetura como sistema de decisões
+![[Pasted image 20260315202230.png]]
+
+![[Pasted image 20260315202235.png]]
+![[Pasted image 20260315202240.png]]
+![[Pasted image 20260315202244.png]]
+![[Pasted image 20260315202248.png]]
+![[Pasted image 20260315202251.png]]
+![[Pasted image 20260315202255.png]]
+![[Pasted image 20260315202258.png]]
+![[Pasted image 20260315202302.png]]
+![[Pasted image 20260315202306.png]]
+![[Pasted image 20260315202311.png]]
+![[Pasted image 20260315202314.png]]
+![[Pasted image 20260315202318.png]]
+![[Pasted image 20260315202320.png]]
+![[Pasted image 20260315202324.png]]
+![[Pasted image 20260315202330.png]]
+![[Pasted image 20260315202333.png]]

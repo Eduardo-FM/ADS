@@ -230,3 +230,237 @@ Vimos, nesta unidade, como se realiza a etapa da **análise e interpretação.*
 Avançamos para sessão dois conversando sobre análise e síntese. Nesta parte, você precisa saber que é basicamente o início do processo de refinamento de todo conjunto de dados coletados e compilados em grandes volumes de arquivos. Assim, analisá-los e sintetizá-los é um trabalho enorme, mas necessário para chegar à interpretação deles.
 
 Na sessão três, retomamos a discussão a respeito das personas, sua aplicação, sua utilidade. Por fim, chegamos na sessão quatro e conhecemos a jornada do usuário por meio do _storytelling_. Ou seja, mostramos como é narrada através de histórias, com objetivo de transmitir uma mensagem, toda trajetória do usuário. A seguir, avançaremos para a fase da ideação.
+
+# Ideação
+
+## Introdução
+
+Ao citar o termo ideação, de modo instantâneo, essa palavra sugere uma interpretação um tanto quanto óbvia, ou seja, ideação significa ideia + ação, não é mesmo, estudante? Entretanto, o conceito de ideação não é só isso. De acordo com Vianna (et al. 2012, p. 98) “essa fase tem como intuito gerar ideias inovadoras para o tema do projeto, para isso utilizam-se as ferramentas de síntese criadas na fase de análise para estimular a criatividade e gerar soluções”.
+
+
+Desse modo, nesse primeiro momento você pode notar claramente que a fase da ideação tem como ponto de partida o processo de geração de novas ideias.
+
+Posto isso, devemos sempre ter em mente que as fases do DT são sobrepostas. Assim, explicando em sentido figurado, elas podem ser comparadas à construção de uma casa, onde cada etapa você avança na construção, sempre estruturando um tijolo em cima do outro, conforme explicado na imagem abaixo.
+
+## Processo De Ideação
+
+O processo de ideação tem como ‘insumos’ básicos as ideias e ações que servirão de base para avançar no desenvolvimento da solução que se busca construir com o DT. De modo semelhante às fases anteriores, no trabalho durante a ideação também existem percalços que o _designer_ deve superar. Um dos momentos de grandes desafios durante a fase da ideação é o momento de seleção das ideias.
+
+![[Pasted image 20260314113929.png]]
+
+No processo de ideação, as informações e dados coletados nas fases anteriores são retomadas.
+
+Desse modo, Stickdorn (et al., 2020) propõe o processo de ideação baseando-se em oito etapas, conforme apresentadas na imagem abaixo.
+
+![[Pasted image 20260314114113.png]]
+
+## Conceituação
+
+Agora que você já sabe que a IDEAÇÃO também pode ser entendida como o espaço onde se conceitua a ideia principal de seu projeto
+
+em relação às fases que Brown (2010) cita: inspiração, ideação e implementação. Ou seja, na inspiração as ideias não se relacionavam diretamente com a constituição do produto em si (protótipo), afinal, elas eram geradas, processadas, analisadas e interpretadas de modo a buscar informações para compor uma solução. Entretanto, agora, na **IDEAÇÃO**, é que nosso estudo caminha de uma ideia abstrata para uma ideia real, factível e executável.
+
+![[Pasted image 20260314114745.png]]
+
+Ling (2015) reafirma que na fase da ideação devemos criar um mapa de prioridades das ideias, de modo a determinar quais ideias são mais viáveis. Vianna (et al., 2012) complementa que, nessa fase, todas as ideias geradas ao longo dos processos anteriores são aglutinadas em um instrumento chamado ‘cardápios de ideias’, os quais são úteis para validar em reunião com o cliente a matriz de posicionamento ou de prototipação que o projeto se encontra.
+
+![[Pasted image 20260314114800.png]]
+
+O mapa de prioridades consiste em uma matriz onde as ideias apresentadas são classificadas em quadrantes opostos:  ideias de fácil e difícil implementação, em contraste aos ganhos em grandes ou pequenos benefícios. Desse modo, o mapa de prioridades de ideias é extremamente útil para dar suporte na tomada de decisões. De acordo com Stickdorn (et al., 2020) as equipes de _designer_ devem compreender e aprender que o processo de ideação não se resume apenas em escolher a ideia perfeita para investir recursos para sua prototipação. Ao contrário disso, deve-se buscar a identificação de ideias interessantes, relevantes e principalmente viáveis, as quais se enquadram aos objetivos do projeto e que são ‘boas o bastante’ para dar o _start_ no processo experimental e evolutivo (ou podemos chamar de prototipação, tema que veremos ainda no próximo tópico).
+
+Os ‘mapas de prioridades’ de ideias geralmente são criados em sessões de _workshop._ Vianna (et al., 2012) cita essas sessões como _workshops_ de cocriação, entendendo cocriação como a reunião de partes diferentes (empresa, clientes, fornecedores) que  que compartilham ideias com objetivo de criar algo. Já a criatividade é algo implícito em todo ser humano, só basta ser estimulada no dia a dia.
+
+![[Pasted image 20260314114843.png]]
+
+## Colocando A Mão Na Massa
+
+Vimos que na fase IDEAÇÃO as ideias são as principais matérias-primas que darão forma ao conceito inicial da solução a ser entregue. Você também viu que devemos realizar um planejamento dos processos e das ações que darão vida às ideias, seguindo etapas para chegar ao cerne, à ideia principal, e, para isso, devemos elaborar um cardápio de ideias fazendo a priorização de ideias, a fim de ter suporte para uma tomada de decisão sobre a ideia a ser conceituada. Pois bem, agora então é o momento de registrar a ‘fotografia oficial’ das ideias que fundamentará o protótipo a ser criado. Tal processo se dará por meio de um **CANVAS**, o Business Model CANVAS.
+
+![[Pasted image 20260314121407.png]]
+
+Ainda de acordo com Stickdorn e Schneider (2014), o Business Model CANVAS tem recebido uma especial atenção pelos _designers_ em diversos países. Isso porque essa ferramenta permite que as empresas enxerguem a si mesmo, além de possibilitar aprimorar o foco. O Business Model CANVAS tem como principal vantagem a facilidade de deixar claro os objetivos de um negócio, identificando forças, fraqueza, ameaças e oportunidades. Permite uma fotografia com impressão instantânea e atualizada de qualquer negócio que esteja buscando construir uma solução por meio do DT.
+
+Além disso, você também deve ter em mente que IDEAÇÃO é o processo de transformar as ideias convergentes, aquelas selecionadas nos processos de _Brainstorming,_ em ideias tangíveis. Ou seja, as ideias serão descritas em um modelo de negócios por meio do uso de um CANVAS, por exemplo.
+
+![[Pasted image 20260314121443.png]]
+
+## Conclusão
+
+Concluímos mais uma fase do DT, a fase IDEAÇÃO, na qual você pode compreender como se realiza o processo de conceituação das ideias. Desse modo, na introdução deste tópico apresentamos a importância que o processo de geração de ideias visto nas fases anteriores possui para conceituar a ideia principal na fase da ideação.
+
+Você também pôde conhecer as técnicas utilizadas para tomar a decisão sobre a ideia principal, de modo a escolher a ideia mais viável, que apresente melhores benefícios. Com a dificuldade de implementação mapeada, tal técnica é chamada de mapeamento de prioridades das ideias ou cardápio de ideias. Ainda no contexto de priorização e seleção da ideia principal do projeto, você também pôde conhecer o _workshop_  de cocriação, que é o espaço específico para idealizar o protótipo que a equipe está empenhada em conceituar.
+
+Por fim, falamos do Business Model CANVAS, uma poderosa ferramenta que descreve graficamente o negócio que você está conceituado. O Business Model CANVAS é comparado como uma impressora que imprime em forma de fotografia panorâmica os processos necessários para tirar seu negócio do papel. É a própria fotografia do seu modelo de negócio que dará origem ao seu protótipo que será implementado na próxima fase – prototipação – quando haverá a construção do MVP (Minimum Viable Product. Nos vemos lá!
+
+# Prototipagem
+
+## Introdução
+
+Chegar na fase de prototipagem é realmente um desafio. Diversos projetos morrem sem ao menos chegar nesse ponto. Um exemplo disso são os pequenos negócios que mal conseguem se manter de portas abertas em um período de 12 meses no Brasil. As pesquisas do SEBRAE estão aí para provar isso. Assim, você pode concluir que criar um pequeno negócio pode ser comparado à criação de um protótipo. Desse modo, partiremos do conceito que protótipo significa o resultado tangível de uma ideia
+
+![[Pasted image 20260314122333.png]]
+
+Entretanto, embora exista uma fase específica para tratar de prototipagem, é importante lembrarmos do conselho de Brown (2010) ao afirmar que as fases do DT são sobrepostas, ou seja, nada impede que você inicie a construção do seu protótipo na fase da ideação, por exemplo, quando você está conceituando seu protótipo, ainda no mundo das ideias, ou ainda na fase de imersão, quando você tem _insights_ ao analisar os dados, ou, até mesmo na fase da descoberta, que é quando você descortina o problema que precisa ser solucionado.
+
+Assim, Vianna (et. al., 2012, p. 121) confirmam que “a prototipação tem como função auxiliar a validação das ideias geradas e, apesar de ser apresentada como uma das últimas fases do processo de DT, pode ocorrer ao longo do projeto em paralelo com a imersão e a ideação”. Desse modo, protótipo atua como uma ferramenta de visualização que permite interação entre os provedores dos produtos/serviços e os clientes, de forma tangível, além de possibilitar a execução de testes, o discussão e o aprimoramento do protótipo (REASON; LOVLIE; FLU, 2016).
+
+## Características do Protótipo
+
+O protótipo é sem dúvida a materialização da inovação, uma vez que é nesta fase que todas ideias discutidas anteriormente deverão fazer sentido e gerar significado para os usuários, saindo do plano abstrato para o físico (BROWN, 2010), onde “novos produtos ou serviços podem ser fadados ao fracasso por todo tipo de razões: qualidade inconsistente, marketing apático, distribuição não confiável ou determinação de preços poucos realistas” (BROWN, 2010, p. 105). Desse modo, na construção do protótipo, essas questões devem ser consideradas e tratadas cuidadosamente.
+
+Por outro lado, na prototipagem temos o momento em que se pode falhar, “falhe muitas vezes, para ter sucesso mais cedo” (BRONW; 2010, p. 17).
+
+Vianna (et. al., 2012) complementam que na prototipagem a equipe deve se empenhar em testar várias vezes até chegar a uma solução que esteja alinhada com as necessidades dos usuários. Portanto, o teste deve ser iniciado cedo para ter mais chances de aprender e corrigir antes de definir a concepção final do protótipo.
+
+Além disso, devemos lembrar que na fase da prototipagem estamos inseridos no espaço de **implementação.** Essa é uma característica que marca a fase da prototipagem. Implementar significa colocar em execução ou em prática; realização, efetivação ou ação. Logo, prototipagem é ‘colocar a mão na massa’. Lembrando que para implementar soluções deve-se levar em consideração a sustentabilidade financeira do protótipo (IDEO – HCD, 2015).
+
+## Aprender Prototipando
+
+A fase de prototipagem possui um elemento intrínseco em seus processos que é de grande relevância para o sucesso da solução. Esse elemento é a aprendizagem. Butler e Tischler (2015, p. 111) afirmam: “fracassar rápido, na verdade, significa aprender rápido”. Assim, devemos ter sempre em mente que essa afirmação é e sempre será um conjunto de pressupostos básicos da prototipagem: tentar, criar, testar, errar, corrigir os erros e, principalmente, **aprender com tudo isso.**
+
+Butler e Tischler (2015) também afirmam que quando você fracassa na fase da prototipagem, mais inteligente você fica, uma vez que a partir do momento que você aprende com os erros e passa agora não agir de forma errada, logo, você aprendeu o que efetivamente funciona e o que não funciona. Além disso, de acordo com Mootee (2013), a prototipagem se vale de um processo de aprendizagem interativa que vai evoluindo de acordo com a participação e a interação dos membros da equipe. Além disso, quanto mais complexas sejam as informações inseridas no projeto, mais fiel o protótipo vai ficando ao longo do tempo, por meio de ciclos cumulativos de construção, teste, visualização e aprimoramento.
+
+Além disso, a capacidade de desenvolvimento da aprendizagem observada na fase da prototipagem tem relação direta com o nível de maturidade da equipe,
+
+## Prototipar é Preciso!
+
+Um protótipo é uma representação simplificada, física, digital ou encenada, de como seria um produto, serviço, interface e/ou experiência. Pode ser qualquer coisa tangível que nos permita explorar, avaliar e impulsionar uma ideia de negócio. Pense em um projeto de desenvolvimento de um aplicativo. Um protótipo de software é um modelo executável do sistema de software proposto, mas produzido com muito menos esforço, facilmente modificável e extensível. Nesse exemplo, o protótipo não precisa ter todos os recursos do sistema finalizado, é apenas um _sketch_ ou um _mock-up_ da solução final. Ainda assim, deve permitir que o usuário **teste** todos os recursos importantes da implementação real.
+
+e acordo como Stickdorn (et. al., 2020), a prototipagem ajuda os _designers_ em suas equipes a:
+
+- Identificarem os diferentes aspectos de um novo conceito de um produto ou serviço, de modo a explorar os mais relevantes e pivotar (mudar a direção) caso seja necessário.
+- Avaliarem de modo sistemático quais soluções se aplicam no cotidiano.
+- Criarem e desenvolverem o compartilhamento do entendimento das ideias preliminares daquele protótipo, contribuindo, assim, para a melhoria na comunicação, colaboração e participação das partes interessadas.
+
+Logo, podemos concluir que a prototipagem é a fase que contribui para redução das incertezas do projeto (VIANNA; et al.,2012). Em outras palavras, estamos dizendo que a equipe passou por uma série de etapas que a habilita agora a colocar em prática aquilo que foi preparado desde as primeiras pesquisas de campo entrevistando usuários, passando pelas pesquisas na _internet_, pela compilação e interpretação dos dados e pela fase da prototipagem conceitual (ideação).
+
+
+## O Feedback como Meio para Performar seu Protótipo
+
+Muitos autores utilizam o termo ‘protótipo de testes’, pois esse recurso metodológico do _Design Thinking_ (DT) está associado à ideia de avaliação e de coleta de _feedbacks_ sobre aquilo que está sendo construído. Brown (2009) afirma que o DT é, por natureza, um processo exploratório. Logo, podemos concluir que na prototipagem não será diferente, a busca exploratória por uma solução melhor, mais aprimorada, mais performada, vai sempre estar presente e os _feedbacks_ são fundamentais para correções de percurso ou até mesmo **pivotar** em sua ideia e/ou protótipo.
+
+O manual da IDEO-HCD (2015), orienta que a aplicação prática do DT também descreve a fase da prototipagem como um momento de gerar soluções e oportunidades por meio da construção do protótipo. Ainda complementa que “utilizando o lado esquerdo do cérebro (lógico) e o lado direito (criativo), essa fase irá traduzir sua pesquisa em direções estratégicas e soluções tangíveis” (IDEO-HCD, 2015, p.54). Assim, você deve entender que o objetivo específico da prototipagem é gerar um protótipo final, e todo contexto dessa fase deve utilizar a lógica e a criatividade para chegar ao denominador comum, a solução pronta ou produto final testado e validado.
+
+Por isso, a prototipagem é um processo que pode – e deve – ser refeito. Afinal, depois dos testes, pode ser necessário reenquadrar os protótipos e retestá-los. A passagem do abstrato para o físico é resultado de um processo de aprendizado que deve envolver tanto a ótica da equipe do projeto quanto o ponto de vista do usuário (MJV, 2020).
+
+Assim, podemos nos alinhar ao entendimento do manual da IDEO-HCD (2015, p.54) que “_Feedback_ é crítico para o processo de design e envolve os futuros usuários em seu desenvolvimento. _Feedback_ inspira as próximas iterações, tornando as soluções mais atraentes para os constituintes.” Logo, você só consegue **performar** (gerar desempenho, fazer funcionar e agir) o seu protótipo, se incluir na fase da prototipagem a etapa de coleta de _feedbacks._ (O termo performar segue a mesma lógica de pivotar, ambos derivam dos verbos em inglês **_to perform_** e **_to pivot_**).
+
+## Conclusão
+
+Podemos concluir que na fase da prototipagem são exigidos a união de esforços, a dedicação e os investimentos por parte das equipes, de modo que ocorra aprendizagem e sejam gerados _feedbacks_ úteis que conduzam as ideias a uma solução ótima (BROWN, 2009). Posto isso, teremos, portanto, um protótipo que seguiu todos requisitos da fase prototipagem e está pronto para ser validado por meio da concepção do MVP. Mas, MVP é outro assunto. Nos vemos lá então, até logo!
+
+# MVP
+
+## Introdução
+
+
+
+Ries (2009), um dos maiores influenciadores do conceito do MVP, evoluiu a concepção dessa abordagem ao afirmar que é fundamental que a equipe se concentre em aprender com os _feedbacks_ dos usuários, os quais são essenciais para validação do MVP. Desse modo, diferente do protótipo que segue uma perspectiva técnica, o MVP tem como premissa a concepção do produto com foco na geração de valor para o usuário e sob a perspectiva da viabilidade do negócio. Portanto, é imprescindível que você compreenda as principais diferenças entre um MVP e um protótipo, conforme imagem a seguir.
+
+![[Pasted image 20260314130306.png]]
+
+
+Posto isso, você deve sempre ter em mente que um MVP sempre será um protótipo, mas nem sempre um protótipo será um MVP. Justamente pelo fato deste último ser o estágio evoluído do protótipo e nem todos protótipos conseguem ser validados na fase do MVP.
+
+## MVP não é Produto Pequeno
+
+A fase de construção do MVP possui uma característica peculiar que é o processo de validação junto ao seu público. O caso da _Dropbox_ é mais peculiar ainda, pois foi a partir da apresentação do vídeo acima que o MVP da _Dropbox_ foi validado e, a partir desse momento, o produto foi validado e lançado no mercado, abrindo o “mar vermelho” para o surgimento de outros famosos serviços de armazenamento de arquivos em nuvem, como o _Google Drive_ e o _One__Drive_.
+
+De acordo com Ries (2011), o termo “mínimo produto” presente na sigla MVP, não tem relação alguma com a ideia de produto pequeno, mal feito, ou “menor produto” possível de ser criado. Na verdade, está implícito uma provocação, com o intuito de buscar a melhoria contínua que seu produto deve explorar sob a perspectiva de viabilidade de seu negócio. Assim, o exemplo da _Dropbox_ explica muito bem isso, um serviço que, hoje, custa bilhões de dólares, mas surgiu de um MVP construído com as condições mínimas (um vídeo).
+
+Portanto, o que precisa ficar claro para você, estudante, é que são as condições de criação do seu MVP que podem ter condições mínimas, mas, de uma forma curiosa e paradoxal, é justamente nesta fase que o produto se torna algo valioso, ao ser validado no mercado por seus usuários, sendo este momento aquilo que entendemos como agregar valor aos usuários.
+
+## Hackeando o MVP
+
+Desse modo, podemos compreender que o MVP é, sem dúvida, o ponto alto de uma solução criada por meio do DT, uma vez que se trata do momento em que seu produto, se validado pelos usuários, confirmará todo trabalho realizado nas fases anteriores.
+
+Além disso, a fase de construção do MVP também apresenta vantagens, como economia de tempo, dinheiro e até sofrimento, pois o MVP não é um produto mais barato, mas sim um processo de aprendizagem inteligente (BLANK, 2010). Ainda de acordo com Blank (2010, p. 39): “MVP pode ser definido em poucas palavras como um produto com o menor número de recursos necessários para alcançar um objetivo específico, e os usuários estão dispostos a “pagar” de alguma forma”.
+
+De acordo com Ries (2011), no contexto atual, _startups_ tem adotado uma perspectiva de lançamento de produtos com base em MVP, com claro objetivo de iniciar o processo de aprendizagem sobre um produto, testar hipóteses essenciais do negócio e não esperar um longo período para desenvolvimento, como ocorrem normalmente nas empresas tradicionais.
+
+É importante que você saiba que o contexto de implementação do MVP é extremamente dinâmico, por isso uma empresa precisa testá-lo junto aos usuários no mesmo momento em que está criando. Segue a ideia de “trocar o pneu com o carro em movimento”. Hoje, produtos são lançados e, em pouco tempo, tornam-se obsoletos. A ideia é trabalhar com a construção do MVP e realizar os aprimoramentos constantes a partir da perspectiva da viabilidade do negócio, sempre implementando funções e utilidades técnicas que estejam de acordo com as exigências e desejos dos usuários. Caso contrário, seu MVP estará fadado ao ostracismo, ao esquecimento.
+
+Portanto, é neste contexto de surgimento de inovações disruptivas que os clientes (usuários) validam os produtos e serviços que são apresentados ao mercado por meio dos MVPs. Lembrando de que, para um MVP ter sucesso, conforme Brown (2010) orienta, é imprescindível que atenda às três premissas básicas: desejabilidade, praticidade e viabilidade.
+
+## Aplicando o MVP
+
+Boa pergunta. Sobre esse fato, Ries (2011) afirma que o momento de implementar o MVP pode ser considerado igual ao momento de implementar toda a estratégia, como, por exemplo, todas as fases anteriores do DT até aqui discutidas, ou, também pode ser considerado como o momento do “salto de fé”. Isso se justifica, pelo simples fato de que nem sempre conseguimos prever com exatidão os desejos e a aceitação das pessoas no que diz respeito a uma boa avaliação que elas farão do seu MVP. A única certeza é uma resposta em bifurcação: o MVP pode dar certo, ou não. O que não ajuda muito essa segunda opção.
+
+Neste ponto crucial de implementar uma ideia, é o momento em que Brown (2010) também nomeia como a hora de “propagar a fé”. É quando tudo deverá fazer sentido, caso contrário, o seu processo de ideação falhou, o seu processo de empatia talvez não tenha focado nas personas corretas, enfim, tudo precisa encaixar. Mas, caso seu MVP não seja validado, não quer dizer que seu produto não seja bom. Na verdade, a persistência aliada à resiliência deve ser uma das habilidades essenciais de um empreendedor. Para esses momentos de correção da jornada é que entra em cena o ato de “pivotar” sua ideia.
+
+Outro ponto fundamental no momento de implementar o MVP é conseguir transmitir uma mensagem que agrega valor ao seu produto. Seu MVP não é apenas mais um produto, ou serviço com uma embalagem bonita que é lançado no mercado. Para além disso, o MVP deve incorporar uma história, conforme foi apresentado no exemplo do MVP em forma de vídeo da _Dropbox_. Seu produto deve fazer sentido para as pessoas, deve resolver problemas, deve ser o remédio para as dores dos usuários.
+
+## Conclusão
+
+peculiaridades no processo de geração de valor por meio da criação de um produto a ser validado pelos usuários. Você também pode compreender as principais diferenças entre um protótipo, que foi a fase anterior, em que se constrói um produto com base no projeto conceitual e que segue as características técnicas. Já no MVP, há a aplicação do protótipo junto aos clientes, é a apresentação do protótipo, agora, com uma perspectiva de negócio.
+
+Também você pode conhecer o MVP a fundo, entendendo que ele não é apenas um “produto mínimo”, mas sim um produto que é construído com as condições mínimas a atingir objetivos específicos, traduzindo, um produto que tem como objetivo despertar o interesse de compra por parte das pessoas.
+
+Por fim, você conheceu as diversas metodologias que podem ser aplicadas no contexto do MVP, desde metodologias ágeis, até _kanban e Scrum._ Ou seja, pelo fato do _Design Thinking_ ser uma forma mental de se idealizar e construir uma solução, nada impede que, no decorrer desse processo, novas metodologias e princípios sejam incorporados, a fim de contribuir com objetivo principal que é chegar a uma solução efetiva.
+
+# Padronização
+
+## Introdução
+
+Com a tendência de transformação digital, tornou-se comum as empresas falarem em inovação em todos processos de trabalho, criarem espaços modernos com _puffs_, móveis projetados, quadros de _post-its_ etc. Tudo isso, com a intenção de demonstrarem que, de fato, adotam a inovação.
+
+Entretanto, a inovação não é apenas demonstrar que faz. Na verdade, para uma empresa se tornar inovadora, isso significa que ela deve incorporar a mentalidade de inovação desde o colaborador que executa a atividade mais simples até o CEO da empresa. Brown (2010) reforça que é necessário pensar como design e não apenas agir, no sentido de potencializar a capacidade de criar coisas novas, ou, colocado de outra forma: não pensar apenas de forma local, mas sim de forma global.
+
+Neste contexto, o _Design Thinking_ é a metodologia que permite incorporar essa nova mentalidade, um modelo mental para implementação de soluções centradas no ser humano, baseadas em processos criativos e disruptivos. Assim, entendemos que, após passadas todas fases anteriores do DT, chegamos ao momento de tratarmos da solução final, da transformação do Mínimo Produto Viável (MVP) – validado pelos usuários – em um produto/serviço estruturado, com linha de produção definida, o plano de marketing planejado, um modelo de negócio integrado com uma proposta de valor bem definida e, a partir de tudo isso, escalar esse negócio, a fim de ganhar novos mercados, transformando sua solução em algo que os clientes se identificam por meio da experiência do usuário.
+
+##  Solução Desejável e a Experiência do Usuário
+
+De acordo com Brown (2010), a solução criada por meio do DT deve ser algo que não só gera valor para as pessoas, mas também gera significado para elas, a fim de manter ciclos de vida prolongados. A partir disso, podemos concluir que todo bom relacionamento entre o provedor de um produto/serviço com o usuário é decorrente do poder que a sua solução desenvolve, para influenciar os aspectos intrínsecos de desabilidade nos seus usuários.
+
+O fato do desejo exercer uma potencial influência nos aspectos emocionais das pessoas é descrito por Butler e Tischler (2015) como um processo em que “[…] o invisível controla o visível”, ou seja, se uma empresa deseja conectar seus produtos/serviços (o que é visível, palpável e tangível) ao seu público, é fundamental entender os aspectos invisíveis que ocorrem nessa relação (o desejo, as parcerias, confiança etc.). É neste momento que a abordagem sobre Experiência do Usuário (UX) entra em cena.
+
+Afinal, dentro do conceito de negócios inovadores, sobretudo no caso de _startups_, o desejável é que o negócio possa produzir algo que possa ser repetido com baixo custo, a fim de que possa ser escalado (produzido em grande quantidade, escala). E isso é viável por meio da PADRONIZAÇÃO. Portanto, é importante que você, estudante, saiba que, no momento da **PADRONIZAÇÃO** da solução, é necessário a construção de processos que se fundamentem na premissa básica de despertar o desejo das pessoas. Nesse sentido, Stickdorn e Schneider (2014) afirmam que a tecnologia vem sendo aplicada de forma massiva nos negócios, substituindo, em muitos casos, o elemento humano no contato direto com o cliente.
+
+Isso nos mostra que o _design_ deve sempre propor uma solução que tenha como foco principal o usuário (ser humano) e este “ponto de contato” pode ocorrer desde um atendimento presencial de maneira prestativa e com empatia até um atendimento virtual por meio de um “avatar”, criado por meio dos recursos tecnológicos de Inteligência Virtual (IA), como nos casos da “Magalu do Magazine Luiza”, ou da “Bia do Bradesco”.
+
+Posto isso, é necessário entender que ambas as formas de atender o usuário devem ser sempre pautadas na satisfação dos usuários e no encantamento, despertando o desejo das pessoas. Estes processos não são nenhum bicho de sete cabeças. Aliás, eles devem ser simples e objetivos, sempre adotando a empatia como ponto de partida.
+
+Portanto, devemos entender que aquilo que as pessoas precisam ao comprar um produto, ou contratar um serviço é resolver seu problema. Se sua solução entrega o ‘remédio’ para as ‘dores’ do usuário de forma rápida, objetiva e que desperta o desejo, logo, você entendeu a essência do _Design Thinking_.
+
+##  Implantar Processos com o Design Thinking
+
+
+
+ Um processo muito conhecido que descreve de forma geral as ações em uma empresa é o ciclo PDCA _(Plan, Do, Check and Action)_ que traduzido significa planejar, executar, checar e agir. Este é um exemplo de um conjunto de processos que é amplamente utilizado na gestão de empresas. Em cada elemento deste ciclo, são definidos passos e planos os quais devem ser executados.
+Entretanto, a ideia de aplicar _Design Thinking_ na construção de processos está associada à criatividade à inovação, indo além do ciclo PDCA e dos modelos de desenho de processos definidos também na gestão de projetos. De acordo com Brown (2010), essa nova forma de construção de processos trata do encontro entre o _Design Thinking_ e a corporação por meio de uma abordagem sistemática para inovar, a partir da qual as ações são estrategicamente formuladas baseadas em processos dinâmicos, criativos e que seguem as tendências do mercado. Em outras palavras, Brown (2010, p. 150) está dizendo que “[…] esse processo colaborativo permite avaliar o componente “viabilidade” da equação inovação/criatividade, não meramente como uma análise posterior de mercado”.
+
+Os processos dizem muito do sucesso de uma empresa. Brown (2010) apresenta em sua obra um modelo denominado “formas de crescer”, o qual leva em consideração o mapeamento de processos inovadores em uma organização de modo que possa equilibrar as iniciativas inovadoras a partir de uma matriz que relaciona novas ofertas e novos usuários com ofertas e usuários existentes. Assim, de acordo com cada quadrante que você se identificar, é possível compreender o cenário em que os processos serão estruturados, conforme demonstrado na imagem abaixo.
+
+![[Pasted image 20260314144449.png]]
+
+Ries (2011) é o criador do conceito de _startup_ enxuta (_Lean Startup_) e um dos autores mais respeitados nessa área. Para ele, a mentalidade de criar uma operação enxuta e com base em técnicas precisas é fundamental para o sucesso do negócio.
+
+Butler e Tischler (2015) complementam que a ideia de conceber um negócio enxuto está ancorada na máxima “abrir e não fechar”. “Abrir” aqui tem o sentido de compartilhar e permitir que outros atores construam colaborativamente o _design_ do seu negócio, e “não fechar” tem o sentido de não ser um sistema fechado, estando aberto à novas sugestões, modificações. Essa é, na verdade, uma das formas de tornar seu negócio mais enxuto e é, também, um dos aspectos fundamentais do conceito de _open innovation_ (inovação aberta)
+
+A Inovação Aberta é um processo a partir do qual indústrias e/ou organizações “[…] promovem ideias, pensamentos, processos e pesquisas abertos, a fim de melhorar o desenvolvimento de seus produtos, prover melhores serviços para seus clientes, aumentar a eficiência e reforçar o valor agregado. Ela é a combinação de ideias internas e externas, como também, caminhos internos e externos para o mercado, de modo a avançar no desenvolvimento de novas tecnologias em produtos e processos” (UFRGS, 2014, p. 1).
+
+Normalmente, os programas de inovação aberta compartilham experiências com _startups_, porque elas “[…] costumam ter um processo de inovação simplificado, têm potencial para criar soluções disruptivas, que transformem ou até criem novos mercados. Nem sempre grandes empresas estão prontas para trabalhar com temas como Inteligência Artificial, Blockchain, Internet das Coisas, dentre outros” (SEBRAE, 2019, p. 1). Já as _startups_ estão acostumadas a participar de _hackatons_, _summits_ e outros tipos de desafios de desenvolvimento de soluções compartilhadas rapidamente.
+
+## Escalando seu negócio
+
+De acordo com Butler e Tischler (2015), escalar um negócio requer disposição de desbravador, ele conta que, quando a Coca-Cola foi fundada em 1886, possuía os mesmos problemas e os dilemas das _startups_ de hoje em dia. Ou seja, como a maioria dos empreendedores, John Pemberton (fundador da empresa), lutava com a escala. Agora, falando especificamente sobre a escala da Coca-Cola, Butler e Tischler (2015) descreve este caminho abaixo.
+
+De acordo com Brown (2010), para melhorar o desempenho de um negócio com base em um sistema de grande escala, é necessário que todos sejam participantes. Devemos atuar como as colônias de abelhas e de formigas, adaptando-se e evoluindo para o sucesso. De acordo com Brown (2010, p. 177) “[…] uma forma de atingir isso é conceder às pessoas algum grau de controle sobre o resultado final”.
+
+Portanto, agora é o momento de lançar sua solução no mercado com uma estrutura definida. Assim, a ideia de criar um negócio escalável, que atinja resultados exponenciais, é o que tornará sua solução algo reconhecido e desejado por todos ainda mais. Lembrando de que, conforme também já dissemos, a criatividade e a inovação são elementos fundamentais em todas etapas deste processo.
+
+## Conclusão
+
+Vimos, neste tópico, que a padronização se trata da transformação do MVP validado pelos usuários, em um produto/serviço estruturado. Compreendemos a relevância de atender os desejos dos usuários, por meio do contato com o cliente de uma forma encantadora, apresentando, desta forma, a abordagem UX. Atrelando, assim, também a implantação de processos com base na criatividade e inovação, apresentando as formas de crescer e o modelo de _startup_ enxuta.
+
+Falamos da escalabilidade do negócio, a importância de os membros da sua equipe ter certo grau de liberdade, a fim de propor coisas novas. Por fim, vimos as novas abordagens que surgem, tendo os processos do _Design Thinking_ como a base para criação de soluções inovadoras.
+
+Portanto, você consegue, agora, compreender que a metodologia DT é uma forma de pensar? Consegue perceber que é um conjunto de premissas e de lições as quais orientam ações criativas para construção de soluções inovadoras? Pois bem, essa é a ideia que a metodologia _Design Thinking_ tem passado para nós. Acreditamos que ainda terá sua utilidade por muito tempo, afinal, é a partir do DT que novas abordagens têm sido criadas, as quais foram aqui citadas também, como as principais: _User Experience, Business Modell Canvas, Lean Startup etc._ Por fim, não poderíamos deixar de retomar a ideia central desta disciplina, a qual se chama inovação e _Design Thinking_, por meio da imagem (infográfico abaixo):
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230918-aula_inothi_top07_img02.jpg)
+
+Neste infográfico, é possível você resumir os principais conceitos que orientam a atuação de um _designer thinker_.
+
+Portanto, ficamos por aqui. Mas o desafio de inovar continua com você! Esperamos que tenhamos contribuído para lhe mostrar a importância que a inovação assume nos dias atuais e quão próxima está de nós!
+
+Esperamos que nos encontremos nos desafios de inovação por aí!
