@@ -342,6 +342,30 @@ Após calcular o Avarege Precision para cada classe, basta somar os valores e di
 ![[Pasted image 20260315152253.png]]![[Pasted image 20260315152302.png]]![[Pasted image 20260315152307.png]]![[Pasted image 20260315152311.png]]
 ![[Pasted image 20260315152316.png]]![[Pasted image 20260315152321.png]]
 
+# Rotulação de Imagens
+
+![[Pasted image 20260321141946.png]]
+![[Pasted image 20260321142959.png]]
+
+![[Pasted image 20260321143018.png]]
+![[Pasted image 20260321143029.png]]
+![[Pasted image 20260321143038.png]]
+
+![[Pasted image 20260321143101.png]]
+![[Pasted image 20260321143113.png]]
+![[Pasted image 20260321143121.png]]
+![[Pasted image 20260321143129.png]]
+![[Pasted image 20260321143139.png]]
+![[Pasted image 20260321143155.png]]
+![[Pasted image 20260321143206.png]]
+![[Pasted image 20260321143216.png]]
+![[Pasted image 20260321143223.png]]
+![[Pasted image 20260321143231.png]]
+![[Pasted image 20260321143243.png]]
+![[Pasted image 20260321143253.png]]
+![[Pasted image 20260321143301.png]]
+![[Pasted image 20260321143307.png]]
+
 # Aprendizado não supervisionado:
 
 ![[Pasted image 20260315153234.png]]![[Pasted image 20260315153254.png]]

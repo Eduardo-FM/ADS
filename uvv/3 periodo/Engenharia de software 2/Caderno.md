@@ -318,3 +318,86 @@ O foco agora é:
 ![[Pasted image 20260315202324.png]]
 ![[Pasted image 20260315202330.png]]
 ![[Pasted image 20260315202333.png]]
+
+# Aula 07 
+
+## Arquitetura Hexagonal
+![[Pasted image 20260321111842.png]]
+![[Pasted image 20260321111849.png]]
+![[Pasted image 20260321111853.png]]
+![[Pasted image 20260321111858.png]]
+![[Pasted image 20260321111904.png]]
+![[Pasted image 20260321111908.png]]
+![[Pasted image 20260321111913.png]]
+
+![[Pasted image 20260321111919.png]]
+![[Pasted image 20260321111923.png]]
+![[Pasted image 20260321111928.png]]
+
+## Clean Architecture
+
+![[Pasted image 20260321111938.png]]
+![[Pasted image 20260321111944.png]]
+![[Pasted image 20260321111958.png]]
+![[Pasted image 20260321112003.png]]
+![[Pasted image 20260321112009.png]]
+![[Pasted image 20260321112024.png]]
+![[Pasted image 20260321112040.png]]
+![[Pasted image 20260321112047.png]]
+![[Pasted image 20260321112657.png]]
+![[Pasted image 20260321112702.png]]
+
+## Arquitetura Baseada em Eventos
+![[Pasted image 20260321112714.png]]
+![[Pasted image 20260321112718.png]]
+![[Pasted image 20260321112724.png]]
+![[Pasted image 20260321112730.png]]
+![[Pasted image 20260321112736.png]]
+![[Pasted image 20260321115747.png]]
+![[Pasted image 20260321115752.png]]
+![[Pasted image 20260321115756.png]]
+
+##  Arquitetura Serverless
+
+![[Pasted image 20260321115805.png]]
+![[Pasted image 20260321115813.png]]
+![[Pasted image 20260321115818.png]]
+![[Pasted image 20260321115824.png]]
+![[Pasted image 20260321115829.png]]
+![[Pasted image 20260321115835.png]]
+![[Pasted image 20260321115840.png]]
+![[Pasted image 20260321115853.png]]
+
+## Arquitetura de Repositório
+
+![[Pasted image 20260321120353.png]]
+![[Pasted image 20260321120359.png]]
+![[Pasted image 20260321120404.png]]![[Pasted image 20260321120408.png]]
+![[Pasted image 20260321120414.png]]
+
+## Arquitetura N-Tier
+
+![[Pasted image 20260321120425.png]]
+![[Pasted image 20260321120430.png]]
+![[Pasted image 20260321120438.png]]
+![[Pasted image 20260321120443.png]]
+![[Pasted image 20260321120447.png]]
+
+## Pipes and Filters
+![[Pasted image 20260321120456.png]]
+![[Pasted image 20260321120503.png]]
+![[Pasted image 20260321120508.png]]
+![[Pasted image 20260321120512.png]]
+![[Pasted image 20260321120518.png]]
+![[Pasted image 20260321120522.png]]
+![[Pasted image 20260321120525.png]]
+
+## MVVM
+![[Pasted image 20260321120536.png]]
+![[Pasted image 20260321120541.png]]
+![[Pasted image 20260321120546.png]]
+![[Pasted image 20260321120549.png]]
+![[Pasted image 20260321120555.png]]
+![[Pasted image 20260321120601.png]]
+![[Pasted image 20260321120604.png]]
+![[Pasted image 20260321120608.png]]
