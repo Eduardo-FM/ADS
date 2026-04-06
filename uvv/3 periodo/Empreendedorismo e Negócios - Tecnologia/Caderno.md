@@ -96,3 +96,97 @@ Ao longo deste tópico, você viu que a sociedade e o mercado emitem diversos si
 A atividade empreendedora é complexa e exige muitos conhecimentos sobre o negócio e sua gestão, por isso, é ser ingênuo pensar que decisões baseadas em opções pessoais tendem a levar um negócio ao sucesso. Uma decisão ou outra pode ter êxito, contudo, é improvável que várias decisões pessoais, sem a análise do mercado, em um mesmo empreendimento, gerem resultados amplamente positivos.
 
 O cotidiano dos empreendimentos mostra que é preciso agregar continuamente conhecimentos e instrumentos que possibilitem ampliar a visão sobre o desenvolvimento dos negócios, além de permitir, em muitos casos, antever problemas, facilitando as ações proativas.
+
+# Da Descoberta À Ideia
+
+## Introdução
+
+a consistência do dado e da informação está diretamente relacionada à sua fonte, que precisa ser confiável e acessível.
+
+Vamos concordar mais uma vez que, para conhecer o mercado e seus atores, há necessidade de recorrer aos estudos ou pesquisas de mercado, portanto, mais uma vez, surge em cena a importância dos dados e informações sobre os fornecedores, os concorrentes, a cadeia produtiva, o perfil dos consumidores, os indicadores econômicos e políticos do mercado, entre outros que se configuram como importantes à atividade empreendedora ou empresarial.
+
+## Compreendendo o Mercado
+
+
+Para começar, vamos ao entendimento teórico e clássico sobre o mercado, que é um lugar de trocas, em que, de um lado, há pessoas e/ou empresas querendo vender e, do outro lado, pessoas e/ou empresas dispostas a comprar a um preço justo.
+
+Mas, vamos adiante conhecendo de forma mais ampla o mercado, que é complexo, exige competitividade das pessoas e das empresas, possui variáveis controláveis e incontroláveis, em vários momentos possui dinâmicas próprias
+
+O mercado é um importante elemento de desenvolvimento da sociedade, uma vez que, entre outros fatores, gera riqueza para países, empresas e pessoas, cumprindo importante papel na sociedade.
+
+De forma geral, três são os tipos de mercado, quais sejam: o mercado pode ser monopolista, quando uma única empresa domina todo o mercado em seu segmento; pode também ser oligopolista, quando um pequeno grupo de empresas domina o mercado. O mercado pode também ser de livre concorrência, que ocorre quando há um número ilimitado de empresas atuando livremente. Esses tipos de mercado atuam baseados nas diferentes necessidades de consumo, que podem ser explicitadas diretamente pelo mercado ou podem também ser identificadas por meio de estudos de mercado.
+
+O conhecimento sobre o mercado inclui conhecer a concorrência.
+
+![[Pasted image 20260401203234.png]]
+
+No que diz respeito ao conhecimento sobre a concorrência,  os empreendedores devem ter informações básicas, tais como:
+
+- Concorrência local, regional, estadual, nacional, internacional;
+- Número de concorrentes;
+- Tipos de produtos ou serviços oferecidos;
+- Fornecedores;
+- Preços;
+- Situação financeira;
+- Clientes;
+- Número de funcionários;
+- Instalações físicas;
+- Localização.
+
+ quanto mais se conhece, mais é preciso conhecer para que as estratégias de negócio ganhem efetividade e possibilitem que a empresa tenha sucesso nos seus negócios.
+ 
+Por fim, Filion e Dolabela (2012) apontam algumas informações resultantes dos estudos de mercado, como segue:
+
+- Descrição do setor de atividade;
+- Evolução do mercado;
+- Tamanho do mercado;
+- Tendências do mercado;
+- Descrição geral do segmento de mercado;
+- Tamanho do segmento de mercado;
+- Evolução do segmento de mercado;
+- Dados estatísticos do segmento de mercado;
+- Cenário otimista do mercado e do segmento de mercado;
+- Cenário pessimista do mercado e do segmento de mercado;
+- Cenário realista do mercado e do segmento de mercado;
+- Descrição e análise da concorrência;
+- Concorrência direta e indireta;
+- Preferências dos consumidores;
+- Postos de venda;
+- Comportamento de compra;
+- Dados do ambiente, como: econômicos, socioculturais, políticos, tecnológicos, ecológicos.
+
+Os estudos de mercado costumam ser amplos e precisam ser profundos, uma vez que seus resultados devem oferecer ao empreendedor uma fotografia ou uma imagem que permita enxergar, com níveis elevados de segurança, os movimentos desse mercado, facilitando as tomadas de decisões
+
+O consumidor é outro importante presente no mercado. Estudá-lo é importante para identificar novas oportunidades de criação de produtos ou de serviços. Os consumidores ampliam as possibilidades negociais das empresas, pois, pelo movimento e poder de compra, são responsáveis por movimentar o mercado. Perceber que a escala de consumo e que o movimento dos consumidores é global é fundamental para o momento de elaboração do modelo e plano de negócio.
+
+##  Segmentação do Mercado
+
+É muito comum as empresas atuarem por segmentos de mercado, uma vez que é mais seguro, especialmente, para as entrantes ou novatas, atuar em um ambiente menor e que, portanto, ofereça menos riscos, entretanto, mantém-se a obrigatoriedade do conhecimento sobre o mercado.
+
+Grando (2012) considera que as micro e pequenas empresas brasileiras atuam em segmentos, porque, para elas, é mais cômodo enfrentar a concorrência de empresas do seu porte do que se aventurar em mercados maiores em que os concorrentes; comumente, serão empresas de grande porte, cujo perfil e nível de concorrência é outro.
+
+Por isso, conhecer o segmento do mercado e a concorrência se torna importante, inclusive, para a sobrevivência dessas empresas.
+
+Convém destacar que o mercado é dinâmico e possui uma estrutura complexa, entretanto, muito bem definida e que deve ser do conhecimento dos empreendedores, para que evitem problemas provocados pelo desconhecimento.
+
+Por exemplo: todo empreendedor deve saber que a segmentação do mercado é dividida em cinco tipos, conforme destacado por Filion e Dolabela (2012):
+
+- Mercado de consumo;
+- Mercado industrial;
+- Mercado de distribuição;
+- Mercado estatal;
+- Mercado internacional.
+- 
+O conhecimento de informações sobre o mercado e seu segmento possibilita tomada decisões mais assertivas.
+
+Filion e Dolabela (2012) comentam que, especialmente para empreendedores novatos que não disponham de recursos suficientes, uma boa estratégia consiste em atuar com um segmento de mercado.
+
+A segmentação oferece uma boa perspectiva de negócios e aprendizados para o empreendedor, além de mostrar que o negócio deve evoluir ou se desenvolver com os “pés no chão”.
+
+![[Pasted image 20260401204851.png]]
+
+Dornelas (2008), Filion e Dolabela (2012) concordam na existência de três critérios básicos usados para a segmentação:
+
+1. Segmentação geográfica, que é definido pelo alcance territorial do negócio;
+2. Segmentação demográfica, que pode ser definido pelo tipo de consumidor como, por exemplo, idade, sexo, renda, religião e outros aspectos;
+3. Segmentação psicográfica, que é definido a partir do estilo de vida dos consumidores ou clientes como, por exemplo, as preferências por esportes. Além disso, esse critério por ser definido também, por exemplo, pelas diferentes motivações de compra, que revelam o seu comportamento.
