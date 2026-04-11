@@ -190,3 +190,189 @@ Dornelas (2008), Filion e Dolabela (2012) concordam na existência de três crit
 1. Segmentação geográfica, que é definido pelo alcance territorial do negócio;
 2. Segmentação demográfica, que pode ser definido pelo tipo de consumidor como, por exemplo, idade, sexo, renda, religião e outros aspectos;
 3. Segmentação psicográfica, que é definido a partir do estilo de vida dos consumidores ou clientes como, por exemplo, as preferências por esportes. Além disso, esse critério por ser definido também, por exemplo, pelas diferentes motivações de compra, que revelam o seu comportamento.
+
+ a segmentação é definida a partir de um conjunto de informações.
+ 
+ toda empresa precisa conhecer informações básicas sobre seu público, tais como:
+
+> “A qual necessidade responde o produto?
+> 
+> O que o cliente espera do produto: que seja durável, confiável, descartável?
+> 
+> Que preço o cliente está disposto a pagar?
+> 
+> Onde o cliente costuma comprar esse tipo de produto? Por que?
+> 
+> O que leva o cliente a comprar esse produto?
+> 
+> Existem períodos em que ele consume mais do que sua média normal?
+> 
+> Ele é fiel a uma marca? É fiel a um fornecedor?
+> 
+> Ele é influenciado pela publicidade? Por descontos e promoções?
+> 
+> Ele compra por impulso ou é um comprador racional?
+> 
+> O que influencia sua decisão de compra: a família, os amigos, os colegas de trabalho?”.
+
+
+ As empresas que não conseguem fazer suas próprias pesquisas não terão acesso a dados primários, devem fazer a opção por dados secundários, que, no caso brasileiro, podem ser coletadas de instituições que elaboram pesquisas como o Instituto Brasileiro de Geografia e Estatística (IBGE).
+
+## Uma Noção de Viabilidade de Mercado
+
+Grando (2012, p. 231) afirma que é justamente na etapa dos estudos de viabilidade econômica e financeira que ocorre “grande mortalidade de ideias”. Para esse autor, quanto maior a inovação, maiores serão os riscos.
+
+Por isso, todas as atividades necessitam ter suporte de estratégias de penetração e manutenção no mercado.
+
+Parece óbvio, mas as estratégias adotadas pelas empresas precisam ser aderentes ao que apontam os estudos de mercado, cujos resultados poderão, entre outros, indicar a viabilidade para o negócio. Nessa direção, Dornellas (2008) considera que é preciso entender a estrutura do mercado, sobretudo, algumas características que oferecem uma ampla visão sobre sua viabilidade. Destacamos:
+
+- Número de competidores;
+- Alcance ou a capilaridade dos canais de distribuição dos competidores;
+- Tipos de produtos e serviços disponíveis no mercado;
+- Potencial dos compradores do mercado, em termos de número de clientes e capacidade de compra;
+- Políticas de preços dos concorrentes.
+
+
+Uma das possíveis respostas à pergunta recai sobre a falta de conhecimento por parte de muitos empreendedores sobre conceitos básicos e importantes à gestão de qualquer negócio, pois, na sua aplicação, contribuem significativamente para que o empreendedor amplie seus conhecimentos do próprio negócio. Entre outros, Dornellas (2008) aponta os seguintes:
+
+- Ponto de equilíbrio;
+- Fluxo de caixa;
+- Prazo de retorno de investimento.
+
+
+A viabilidade econômica é um fator determinante para a implantação de um negócio e o lucro financeiro é o primeiro critério que mantém o negócio em atividade, sendo um grande atrativo para investidores e outros parceiros.
+
+A viabilidade econômica de um negócio depende do estudo de mercado ou do ambiente externo, mas a viabilidade econômica passa também por ajustes no ambiente interno, por isso, todo empreendedor deve atentar para fatores internos como, por exemplo, os custos operacionais e as projeções de venda.
+
+## Análise dos Fornecedores
+
+Grando (2012) entende que a relação entre empresas e fornecedores deve ser fundamentada na confiança, no comprometimento, na colaboração, na capacidade de entrega, na regularidade, na adaptação, na transparência e tantos outros aspectos ou propriedades que caracterizam a importância dessa relação.
+
+Essa é uma relação que comumente é estruturada formalmente, por meio de contratos que definem responsabilidades, contudo, com o tempo, faz surgir a informalidade como elemento que também caracteriza a proximidade relacional entre as partes.
+
+Fornecedores que não cumprem os prazos das suas entregas, ou que não fazem entregas como foram solicitadas, não devem ser considerados parceiros. Esse tipo de fornecedor oferece riscos ao negócio e, por isso mesmo, tem vida curta no mercado.
+
+Por fim, toda empresa deseja uma relação de excelência com seus fornecedores, sobretudo, que esses façam suas entregas com pontualidade e qualidade.
+
+## Conclusão
+
+ O conhecimento sobre as múltiplas variáveis ou aspectos presentes no mercado confere maior competitividade às empresas e pessoas, possibilitando maior assertividade à tomada de decisão.
+
+O mercado é amplo e, ao mesmo tempo em que oferece oportunidades, é repleto de riscos e incertezas, pois se trata de um ambiente com muitas variáveis incontroláveis, por isso, muitas empresas fazem a opção por atuar em segmentos que oferecem menores riscos e são mais fáceis de serem conhecidos em suas potencialidades e limitações.
+
+Você acompanhou também que o processo de viabilidade do mercado pode consistir, para muitos empreendedores e executivos, nos estudos iniciais que permitirão avaliar o potencial ou viabilidade econômica da oportunidade ou do produto ou serviço no mercado.
+
+Por fim, vimos que os fornecedores já estão em novos patamares de relacionamentos com as empresas, agregando valor, fazendo parte do seu processo de desenvolvimento e sucesso, uma vez que, atualmente, deve ser considerado um parceiro da empresa.
+
+Conhecer o mercado exige esforço físico, dinheiro, ações de pesquisa, pois ele, o mercado, é inerentemente complexo, não havendo espaço para atuação fundamentada apenas na sorte, mas sim na competência e capacidade de trabalho das pessoas e empresas.
+
+# Conhecendo Meu Consumidor
+
+## Introdução
+
+Até certo tempo, muitos compartilhavam de ideia de que o mercado não sabe o que quer, e isso, em dado momento, poderia então ser estendido para a figura dos consumidores. Ledo engano, pois essa frase pode até fazer sentido em determinados contextos, contudo, todo empreendedor deve conhecer muito bem o mercado em que já atua ou pretende atuar. Há segmentos do mercado em que todas as relações entre oferta e demanda, portanto, a produção e o ato de consumo estão bem definidos.
+
+É preciso conhecer o mercado para criar novos produtos ou novos conceitos, pois tanto o empreendedor quanto o mercado devem ter condições de absorver a inovação.
+
+## Comportamento Do Consumidor
+
+O que o consumidor necessita? Como ele toma a decisão de compra? Será que o produto da minha empresa fará parte das decisões do consumidor? O que será que o futuro reserva para minha marca em termos de mercado consumidor?
+
+Donellas (2008), Kotler e Keller (2012) entendem que o comportamento do consumidor é estabelecido por atividades físicas e psicológicas e que consiste em ações diretamente relacionadas ao ato de consumir ou obter.
+
+Filion e Dolabela (2002) entendem que as oportunidades estão presentes no mercado e os mais bem informados conseguem aproveitá-las criando negócios rentáveis.
+
+Para alcançar boa posição no mercado e se manter competitivo frente à concorrência, três questões são básicas à gestão de qualquer empreendimento em seus relacionamentos com o mercado e precisam ter a atenção dos empreendedores, conforme apresentado no quadro 1.
+
+![[Pasted image 20260410200504.png]]
+
+Para lançar novos produtos e mantê-los com índices elevados de vendas no mercado, é preciso que a marca inove, que o produto tenha qualidade, bom preço, enfim, há uma série de atributos de um produto que são considerados pelos consumidores ou que os influenciam no ato da compra. Isso significa dizer que, em hipótese alguma, qualquer empresa deve produzir para depois conhecer o seu mercado consumidor.
+
+Kotler e Keller (2012) entendem que, é por meio das pesquisas de marketing que se tornam conhecidas algumas forças do mercado e somente após a reunião de muitos dados que se torna possível analisar o cenário em que os produtos ou serviços de uma empresa serão inseridos ou comercializados.
+
+Por certo, o processo de compra é uma construção, que não tem nada de simples até a sua efetivação. O processo de compras contém inúmeros momentos de decisão, que são influenciados por fatores internos e externos às pessoas. Entender esses fatores possibilita compreender, entre outros, a visão de mundo dos consumidores, as estratégias das empresas e o papel de outros atores que se envolvem direta ou indiretamente nesse processo.
+
+Johnson (2011) e Grando (2012) concordam que as boas ideias, quando isoladas, perdem o sentido, pois precisam de contexto para ter significado para outros, como as empresas, o mercado e, obviamente, o consumidor.
+
+Nesse sentido, convém destacar que faz parte do contexto do processo de tomada de decisão de compra os fatores influenciadores, que podem ser: culturais, demográficos, étnicos, sociais, pessoais, familiares, situacionais, econômicos, mercadológicos, entre outros.
+
+Esses fatores podem influenciar de forma isolada ou em conjunto, não havendo, para isso, uma regra.
+
+Com este sentido, Filion e Dolabela (2002) ainda comentam que há diversos fatores internos e externos que motivam o consumo e a descoberta desses se constitui um grande desafio para os empreendedores, que, além de gerir seu empreendimento, precisam conhecer as preferências dos consumidores.
+
+Kotler e Keller (2012) entendem que os consumidores, em suas decisões, são suscetíveis aos estímulos externos, por isso, as empresas precisam conhecer vários aspectos externos que influenciam o consumidor a fim de definir suas estratégias comerciais.
+
+![[Pasted image 20260410201515.png]]
+
+Com relação à cultura, subcultura e classe social do consumidor, Kotler e Keller (2012) entendem que faz parte dos fatores culturais que interferem em seu comportamento de compra. Quando se fala de cultura, estamos considerando um conjunto de rituais e valores absorvidos por uma pessoa que, desde a infância, é influenciada pela família e tantas outras instituições da sociedade, entre outras, a escola e a igreja. Ainda segundo esses autores, outro fator cultural a ser considerado pelas empresas são as classes sociais. Na nossa sociedade, cada extrato social apresenta certa homogeneidade entre os seus integrantes, isso ocorre na linguagem, nos valores, interesses e outros fatores que definem seus comportamentos. As preferências por produtos e marcas também são bem definidas entre esses grupos, que percebem o mercado de acordo com suas necessidades e possibilidades.
+
+Na visão de Kotler e Keller (2012, p. 164), “os fatores sociais que influenciam o comportamento de compra do consumidor são: grupos de referência, família, papéis sociais e status”.
+
+Fazemos parte de grupos de pessoas que influenciam indiretamente ou diretamente as nossas atitudes ou nosso comportamento; a esses grupos damos o nome de grupos de referência. Os grupos de referência podem ser classificados como:
+
+- Grupos de afinidade, cuja influência é exercida diretamente;
+- Grupos primários, com os quais se interage contínua e informalmente, ou seja, família, amigos, vizinhos e colegas de trabalho;
+- Grupos secundários, com os quais se interage de maneira formal e com menor frequência, como as associações de classe, grupos profissionais ou religiosos.
+
+A influência dos grupos de referência sobre os indivíduos ocorre em três aspectos: exposição a novos comportamentos e estilos de vida; atitudes e autoimagem e pressão por aceitação social.
+
+Dentro dos grupos de influência, a família representa o grupo que exerce a maior influência; é a organização mais importante na determinação de compra de produtos de consumo.
+
+Com relação aos fatores pessoais, conforme o entendimento de Kotler e Keller (2012), é preciso entender que os compradores também são influenciados por suas características pessoais quando precisam tomar uma decisão de compra. Fatores como idade e estágio no ciclo de vida, ocupação e situação financeira, estilo de vida e personalidade e autoimagem exercem influência em suas escolhas.
+
+Com relação às influências psicológicas, Kotler e Keller (2012) destacam quatro fatores que influenciam no comportamento de compras do consumidor: motivação, percepção, aprendizagem, crenças e valores.
+
+![[Pasted image 20260410202242.png]]
+
+Por fim, as atitudes são compostas por avaliações, sentimentos e tendências, positivas ou negativas de uma pessoa em relação a um objeto ou uma ideia. São as atitudes que aproximam ou afastam as pessoas das coisas. São as complexas relações entre os fatores culturais, sociais, pessoais e psicológicos, que influenciam as decisões de compra dos consumidores.
+
+![[Pasted image 20260410202319.png]]
+
+Todo empreendedor deve ter muito claro que seu produto está sendo adquirido para satisfazer alguma necessidade e esse é comumente o primeiro atributo encontrado no processo de decisão de compra do consumidor. Por isso, o empreendedor não deve piamente acreditar que o consumidor não sabe o que quer, uma vez que a avaliação dele passa pela análise do conjunto de benefícios que o produto venha oferecer.
+
+## Criando Uma Persona Para Seu Negócio
+
+Os consumidores possuem características distintas, visões de mundo diferentes uns dos outros, desejos e necessidades individuais, entre outros aspectos que os configuram elementos importantes às estratégias empresariais.
+
+Na visão de Dornellas (2008), Filion e Dolabela (2002), conhecer o potencial de compra dos consumidores, suas preferências por produtos, seu perfil socioeconômico e outras características é fundamental para a criação de produtos que atendam às necessidades do mercado.
+
+Para Kotler e Kelley (2012), a definição de persona passa por uma representação fictícia do que chamam de cliente ideal. Esse personagem contribui significativamente para a definição de estratégias organizacionais para atuar com maior efetividade no seu mercado-alvo.  
+As empresas criam as personas visando identificar oportunidades e antecipar situações que podem se configurar como positivas à inserção de novos produtos no mercado, ou mesmo em situações adversas à empresa.  
+
+Por isso, todas as características das pessoas, potenciais clientes ideais, são importantes. Por exemplo: o ritmo de vida de uma pessoa evolui e vai moldando sua relação com produtos e marcas. Conforme a idade avança, as preferências por roupas, alimentação, lazer, locais frequentados, móveis e até imóveis passam por um processo de mudanças.
+
+Assim, conforme o estágio do ciclo de vida familiar, as preferências e escolhas sofrem mudanças.
+
+É comum as empresas segmentarem seus produtos e marcas com base nos estágios do ciclo de vida de seus consumidores, desenvolvendo-os para cada um dos estágios da vida das pessoas. Com a criação da persona, fica bem mais fácil identificar preferências e necessidades, até mesmo limitações financeiras dos potenciais consumidores.
+
+Identificar a ocupação profissional da pessoa é igualmente um dado importante, pois ela contribui para a definição do padrão de consumo.
+
+A situação financeira é outro fator que contribui para a definição da persona.
+
+A persona é criada a partir de características que potencialmente contribuem para a identificação de novas necessidades no mercado, servindo como fator relevante à tomada de decisão organizacional. São características importantes das personas:
+
+- Idade
+- Profissão
+- Cargo
+- Principais hábitos
+- Crenças
+- Hobbies
+- Estilo de vida
+- Mídias preferidas
+- Jornada de trabalho
+
+---
+
+**INÍCIO GLOSSÁRIO**
+
+**Censo Demográfico:** o censo demográfico é um estudo estatístico referente a uma população em um dado momento que possibilita o recolhimento de várias informações, tais como o número de homens, mulheres, crianças e idosos, escolaridade, renda, condições de moradia, número de pessoas por família, entre outros. O censo demográfico é uma atividade governamental que ocorre periodicamente. Exemplo: Censo Demográfico Brasileiro – IBGE.
+
+**FIM GLOSSÁRIO**
+
+Definidas as características, também é possível criar nomes para as personas, pois facilita a identificação de aspectos relacionados com os hábitos de compra.
+
+Conforme Kotler e Keller (2012, p.117), as empresas levam bem a sério a prática da criação personas para seus produtos. Ilustram com o exemplo da Chrysler, que criou ambientes para dois personagens fictícios: “Roberto Moore, um solteiro de 28 anos, e Jenny Sieverson, um propagandista de produtos farmacêuticos de 30 anos”. A ideia da empresa consistiu em identificá-los como potenciais consumidores de dois modelos, o Dodge Caliber, para Roberto, e o Jeep Compass, para Jenny.
+
+---
+
+Convém destacar que as empresas fazem esse trabalho da identificar personas e não o público alvo, pois há diferenças entre ambos. Por isso, as características das personas não são passíveis de generalidades.
