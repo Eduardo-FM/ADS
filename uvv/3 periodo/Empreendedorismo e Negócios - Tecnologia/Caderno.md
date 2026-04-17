@@ -376,3 +376,500 @@ Conforme Kotler e Keller (2012, p.117), as empresas levam bem a sério a prátic
 ---
 
 Convém destacar que as empresas fazem esse trabalho da identificar personas e não o público alvo, pois há diferenças entre ambos. Por isso, as características das personas não são passíveis de generalidades.
+
+## Conclusão
+
+
+As informações constituem a base das novas ideias, por isso, manter-se bem informado é obrigação de todo empreendedor. O empreendedor precisa saber de quais canais de comunicação o consumidor faz uso para buscar informações sobre produtos. Conhecer os hábitos de compra é fundamental para saber qual informação divulgar, isto é, como revelar detalhes do produto que são importantes para o consumidor.
+
+
+Estar atento ao contexto, aos acontecimentos sociais, econômicos, políticos, culturais e outros eventos que ocorrem na sociedade é importante, pois podem influenciar nas decisões de compra dos consumidores. Por exemplo: nos últimos tempos, as redes sociais se constituem fortes canais de comunicação das empresas para com os consumidores.
+
+Você pode perceber que ter uma excelente ideia e um produto repleto de diferenciais não significa sucesso de vendas no mercado, pois é preciso saber quais as necessidades do seu mercado, ou melhor dizendo, do seu consumidor.
+
+As empresas investem em profissionais que trabalham com certa antecedência com as tendências do mercado, contudo, para trilhar o caminho consolidado do sucesso, o empreendedor precisa conhecer muito bem os hábitos dos consumidores e ter certeza que possui respostas para perguntas que fazem parte do processo de tomada de decisão de compra dos consumidores.
+
+Portanto, não basta apenas conhecer o perfil econômico dos consumidores; conhecer um pouco da sua cultura e até mesmo de fatores psicológicos contribui muito para definições mais assertivas em relação às estratégias de venda das empresas.
+
+# Transformando a Oportunidade em Negócio
+
+## Introdução
+
+Na busca por ampliar a competitividade, as organizações intensivas em conhecimentos adotam diversas estratégias visando potencializar seus ativos intangíveis, fortalecendo sua capacidade de ação e reação frente às intensas mudanças no seu ambiente de atuação.
+
+No atual momento, além das novas tecnologias de informação e comunicação, as empresas contam com métodos, modelos e técnicas, como é o caso do Business Model Canvas, para identificar as possibilidades de valores a serem agregados nos negócios, sobretudo antes de serem propriamente lançados ou implementados. Ele proporciona ao empreendedor uma visão bem objetiva sobre a proposta de valor do negócio.
+
+## Canvas Proposta de Valor
+
+Você já imaginou a complexidade envolvida em seguidas sessões de _brainstorming_? O tempo das pessoas, os recursos infra estruturais empregados para facilitar os trabalhos, enfim, há investimentos importantes para viabilizar esse tipo de atividade, por isso é absolutamente necessário que o grupo defina algumas regras visando focar no propósito da sessão, que, na visão de Dolabela (2008), passa pelas seguintes regras básicas:
+
+- Vedar a crítica direta a membros do grupo;
+- Todos são livres para expor as ideias que vierem à cabeça;
+- Quanto mais rodadas entre os participantes melhor, pois tendem a gerar mais ideias;
+- Em cada rodada, os participantes devem dar uma ideia a respeito do tópico em discussão;
+- É permitido dar sugestões baseadas em ideias apresentadas por outras pessoas;
+- A sessão deve ser participativa, sem o domínio de qualquer participante, portanto, deve ser garantido que todos participem.
+
+- _lean startup_
+foca na prototipação e experimentação,
+
+o que chamamos de empreendedorismo efetivo, que propõe uma abordagem prática e rápida para testar um conceito, produto e/ou serviço, analisar os resultados, fazer as devidas melhorias ou adaptações e lançar uma nova versão no mercado
+
+
+Voltando ao Canvas, Dornelas (et al., 2018, p. 13) demonstra a flexibilidade da sua aplicação aos negócios como podemos observar abaixo:
+
+> “O Canvas pode ajudar muito na fase de análise da oportunidade, uma etapa importante do processo empreendedor e que ocorre antes do plano de negócios. Se o empreendedor aplicar o Canvas e complementar a análise com uma pesquisa de mercado primária, ele terá informações bastante completas para decidir se segue em frente com ou sem um plano de negócios tradicional estruturado, ou seja, se coloca a empresa para funcionar testando suas hipóteses ou se analisa com mais cuidado e critérios a viabilidade do negócio através de um plano de negócios tradicional”.
+> 
+> DORNELLAS et al.2018, p. 13
+
+O _Business Model Canvas_ (BMC) pode ser utilizado em negócios de qualquer porte e ramo da economia, e essa flexibilidade tem origem em vários aspectos, mas, para o momento, vamos destacar sua capacidade de permitir enxergar as particularidades do negócio, oferecendo visões amplas que igualmente permitem compreender sua capacidade de geração de valor ao negócio.
+
+Essa visão do potencial do negócio tem origem na sua importante aplicação durante a fase inicial de qualquer negócio, isto é, ainda no planejamento do negócio.
+
+Dornellas (et al. 2018) entendem que alguns elementos podem proporcionar a entrega de valor do negócio no mercado, sendo alguns desses elementos facilmente percebidos pelos clientes. Os elementos levantados por esses autores são os seguintes: novidade, performance, customização, fazer o serviço, design, preço, marca/status, redução de custo, redução de risco, acessibilidade, conveniência/usabilidade.
+
+A análise estruturada de uma ideia para transformá-la em uma oportunidade existe para facilitar decisões. E o modelo de negócio Canvas é uma proposta que tem como objetivo: “analisar uma ideia e conceituar um modelo de negócio”. (DORNELLAS et al. 2018, p.13)
+
+De forma geral, podemos dizer que o modelo de negócios demonstra como uma empresa funciona, mas também precisa ofertar a visão de como o negócio gera dinheiro, pois o modelo de negócios indica os recursos necessários para a implantação e desenvolvimento do negócio, entre outras informações que oferece.
+
+Nessa direção, Grando (2012) comenta que é importante que o empreendedor tenha a real dimensão do seu negócio, e o Plano de Negócios oferece a possibilidade de definição do escopo.
+
+Concordamos com Grando (2012) na medida em que a entrega de valor já deve ser percebida no Plano de Negócios, pois o sucesso de qualquer empreendimento passa pelas entregas que faz ao mercado ou pela capacidade de satisfazer necessidades dos consumidores.
+
+O Business Model Canvas permite estabelecer essa visão, uma vez que contribui para responder muitas perguntas que os próprios empreendedores mais experientes nem sempre têm as respostas.
+
+## Vantagens Competitivas e Estratégias Empresariais
+
+###  **Vantagens Competitivas**
+
+A vantagem competitiva não necessariamente é sinônimo de ser o melhor no seu ramo, afinal, existem empresas realmente competitivas que não figuram no topo do _ranking_ do seu setor de atuação. Contudo, independentemente de qual empresa se posiciona no topo do _ranking_, as verdadeiramente competitivas alcançam a prosperidade nos negócios, a consistência que faz se desenvolver crescentemente nos momentos de aquecimento do mercado, ou que faz enfrentar sem grandes problemas os momentos de recessão. Por isso, sempre estão bem posicionadas no _ranking_ das melhores empresas do seu ramo.
+
+O caminho para o sucesso, para estabelecer vantagens competitivas é, por vezes, difícil, mas, com certeza, é significativamente complexo, pois exige, entre outros, investimentos financeiros, capacidade de mudança para se adaptar aos movimentos do mercado, planejamento, decisões acertadas, pessoas competitivas, cultura aberta à inovação.
+
+A vantagem competitiva pode ser alcançada por elementos como o preço do produto, o bom atendimento, as facilidades no pagamento, a eficácia no processo de trabalho, a eficiência na logística.
+
+O ideal para toda empresa é fundamentar seu diferencial competitivo a partir do uso do conhecimento, que, quando bem aplicado, tende manter a empresa bem posicionada perenemente no mercado.
+
+Por isso, desde o seu início identificar os potenciais diferenciais competitivos do negócio e também os requisitos para tal é importante para que a empresa vislumbre em sua trajetória as diferentes posições que eventualmente ocupará no ranking do seu setor e, mesmo, podendo responder com certa precisão quando conseguirá alcançar a prosperidade nos negócio
+
+
+### **Estratégias Empresariais**
+
+Diversos autores têm dedicado seus esforços a melhor definir e explicar o seu campo de aplicação. Porter (2005) define estratégia como posicionamento, diferenciação perante a concorrência.
+
+A definição e a execução de qualquer estratégia se constituem em fator de renovação das capacidades de aprendizagem das pessoas e da organização. Esses e outros aspectos precisam ser registrados já no Plano de Negócios, pois não podem ser fruto do inesperado ou do imponderável dentro de uma empresa.
+
+Dornellas (et al. 2018) entendem que, na concepção do negócio ou no documento Plano de Negócio, deve haver a identificação dos potenciais diferenciais competitivos, mas também a previsão das estratégias de gestão que possibilitarão o desenvolvimento desses diferenciais.
+
+O grande problema da estratégia comumente se encontra na sua execução, pois depende de muitos fatores que estão presentes no ambiente, como os fatores estruturais, por vezes legais, mas, sobretudo, na maioria absoluta das vezes, depende das pessoas, da sua motivação, da confiança, do seu estado de espírito, das suas competências, entre tantos outros aspectos que envolvem as pessoas em suas relações com as organizações.
+
+Estratégias bem executadas geram diversos resultados, como a agregação de conhecimentos às competências internamente existentes, e, por vezes, a criação de novas e importantes competências para as empresas fortalecerem seus diferenciais competitivos. Esse movimento de agregação de competência decorre do aprendizado contínuo que faz ampliar a capacidade de inovação, a visível melhoria na comunicação interna, a melhor definição nos processos de trabalho, entre outros aspectos que contribuem para ampliar o sentido de comprometimento das pessoas.
+
+Convém destacar que o aprendizado organizacional é dependente de diversos fatores, contudo, um dos mais importantes e, como destacado, é o comportamento das pessoas, que precisam estar dispostas ao aprendizado e reunir condições para que esses novos aprendizados se efetivem.
+
+Para Dornellas (2008, p. 124), as estratégias empresariais podem ser de vários tipos: de ataque, de desenvolvimento, de defesa, e são assim descritas:
+
+- **Estratégias de defesa**: visam manter os clientes existentes por meio de melhoria na imagem da empresa, melhoria na qualidade dos produtos, melhoria no desempenho dos serviços prestados e na redução de  
+    falhas nos produtos.
+- **Estratégias de desenvolvimento**: procuram oferecer mais opções aos atuais clientes a partir do aumento na variedade de produtos/serviços oferecidos, incluindo o desenvolvimento de novas funcionalidades.
+- **Estratégias de ataque**: buscam aumentar a participação de mercado da empresa por meio da conquista de novos clientes. Essa conquista pode ocorrer, por exemplo, por meio da entrada em novos mercados, pelo uso de novos canais de comunicação com seus consumidores, por meio de mudanças na política de preços.
+
+Nessa direção, aproveitamos para apresentar as três estratégias competitivas de Michel Porter (2005), a estratégia de liderança em custos, ou por vezes denominada de custos, a estratégia de diferenciação e a estratégia de enfoque.
+
+**Liderança em custos**: Essa estratégia tem como foco atingir o menor custo possível por meio da utilização de políticas, processos e instrumentos que orientem a empresa para suas atividades fins. Para alcançar esse objetivo se faz necessário que a empresa tenha capacidade instalada visando atender todo volume de demandas, proporcionando níveis elevados de economia em razão da escala de produção e dos aprendizados agregados. Mesmo tendo como foco o custo baixo, convém destacar que as empresas não devem deixar para segundo plano a qualidade de produtos, serviços e atendimento ao cliente.
+
+**Diferenciação**: Como a própria denominação sugere, o foco aqui reside em procurar diferenciar as entregas da empresa em relação às ofertas dos concorrentes, por meio do estabelecimento de diferenciais competitivos. A estratégia de diferenciação não leva em conta os grandes volumes de produção ou o preço baixo dos produtos, pelo contrário, procura atender aos clientes de forma personalizada, aspecto que pode limitar a participação no mercado. O grande trunfo ou conquista da empresa com a aplicação dessa estratégia reside na relação de confiança e lealdade que assume reciprocamente com seu público. Convém destacar que a questão do preço baixo não é completamente ignorada, afinal de contas, ao atuar baseado em diferenciais, a empresa, com essa estratégia, busca retornos acima da média.
+
+**Enfoque**: Essa estratégia tem como ponto de partida a ideia de centrar esforços, por exemplo, em um grupo específico de consumidores ou de atuar em determinada área geográfica. Para você comparar um pouco as estratégias, perceba que comumente as estratégias de custo baixo e a de diferenciação são aplicadas em uma abrangência setorial mais ampla, enquanto a estratégia de enfoque sugere um escopo bem delimitado. Mas veja bem, não se engane, essa estratégia objetiva atender públicos bem específicos, contudo, com níveis elevados de eficiência. Dessa forma, podemos dizer que nessa estratégia a empresa percebe que é possível atender com maior precisão às necessidades do seu público, com qualidade elevada. Como na estratégia de diferenciação, a estratégia de enfoque, quando utilizada de forma adequada, proporciona retornos significativos.
+
+É muito comum que o documento de estratégia ou plano estratégico, como uma diretriz geral, tende a incluir respostas para três perguntas-chave: Onde estamos agora?; Para onde queremos ir?; e Como chegaremos lá?
+
+As respostas a essas perguntas podem responder incertezas diante das mudanças do mercado, ou mesmo oferecer um bom indicativo do que deve ser feito.
+
+![[Pasted image 20260411124210.png]]
+
+Quando falamos de Tecnologia de Informação e Comunicação (TICs) com fato contributivo para a concepção e execução de estratégias empresariais, devemos, entre outros, apresentar alguns aspectos pontos sobre o papel das TICs nas estratégias organizacionais. As TICs se destacam nas organizações por manterem relações com quase todas as funções desempenhadas nos três níveis: estratégico, tático e operacional. Por isso, seguem alguns pontos de destaque que permeiam a relação entre as estratégias de negócios e as TICs:
+
+- A visão estratégica deve ser transparente para o negócio e para a TIC;
+- O alinhamento estratégico entre TIC e Negócio resulta em vantagem competitiva;
+- As TICs devem estar voltadas para o negócio e não apenas para sistemas;
+- Executivos de TICs e do negócio devem atuar mais proximamente;
+- A Gestão e a avaliação da aplicação das TICs no negócio deve ser dinâmica, em um processo contínuo.
+
+Indicadores de produtividade de TICs devem levar em consideração aspectos técnicos e de eficiência, mas também devem estar associados ao desempenho do negócio.
+
+Por fim, destacamos a Matriz de Posicionamento, que, conforme Brown (2018), é uma ferramenta de análise estratégica das ideias, sendo utilizada, sobretudo, na validação das ideias em relação aos critérios ou requisitos norteadores do negócio. No seu escopo de aplicação devem ser consideradas as necessidades das personas criadas no projeto.
+
+O objetivo da utilização da matriz de posicionamento consiste em apoiar o processo de tomada decisão por meio da comunicação eficiente dos benefícios de cada produto. A rigor, essa matriz é muito utilizada como material de apoio para avaliar ideias que são apresentadas em reuniões que envolvem as equipes de projeto com a empresa contratante.
+
+## Conclusão
+
+as vantagens competitivas devem ser inicialmente tratadas no Plano de Negócios da empresa. Pôde observar que para alcançar vantagens competitivas, as empresas devem investir em infraestrutura e nas pessoas, que devem estar preparadas, reunindo competências requisitadas pela empresa para atingir os objetivos do negócio.
+
+Apresentamos o Canvas como um modelo importante para ser aplicado em qualquer negócio, pois seu nível de flexibilidade é elevado. Sua aplicação possibilita visões bem reais sobre o desenvolvimento de qualquer negócio. O Canvas suscita amplas e profundas reflexões sobre o desenvolvimento do negócio.
+
+Vimos também que os aprendizados, as novas competências, o próprio conhecimento novo aportado à empresa são fatores importantes para definir a competitividade da empresa, que não está fundamentada apenas no seu faturamento.
+
+# Modelos De Negócio E Pitch
+
+## Introdução
+
+Comunicar a ideia de um negócio não é fácil para ninguém, pois o próprio ato de comunicar é complexo, contudo, durante o processo de comunicação é fácil perceber o nível de conhecimento que o comunicador possui sobre o assunto que se dispôs a apresentar.
+
+O pitch depende essencialmente da capacidade de comunicar a ideia central do negócio para potenciais investidores ou público de interesse. Como veremos mais adiante, essa comunicação precisa ser objetiva e rápida.
+
+Quando falamos amplamente de empreendedorismo e negócios, estamos abordando, entre outros a concepção de ideias para negócios. Contudo, devemos concordar que as ideias parecem fluir facilmente no cérebro, mas, quando vamos colocar no papel definindo seu desenho, tudo fica muito mais difícil.
+
+Tecnicamente, todo negócio necessita ser desenhado, para que a ideia tome forma e seja ampliada, oferecendo a visão de viabilidade e potencialidade do negócio.
+
+## O Que São Modelos De Negócios
+
+O modelo de negócio, o plano de negócio, o plano estratégico, enfim, as peças de planejamento, são instrumentos que, entre outros, apresentam fatores críticos ou limitadores ao negócio, apresentam os pontos fortes e fracos do negócio, entre outros aspectos que possibilitam gerar múltiplas visões que podem se consolidar no diagnóstico de viabilidade ou inviabilidade para o negócio. Essas diferentes visões permitem otimizar recursos, gerar novos diferenciais para o negócio, indicar a necessidade de captação de recursos, alguns riscos que o ambiente oferece ao negócio, entre outros elementos que fortalecem a ideia inicial para o negócio.
+
+
+Essa visão de futuro é fundamental para a tomada de decisão de todo empreendedor, independente do setor de atividade em que atua ou do porte do negócio, pois é a partir dessa visão que surge a decisão se vai valer a pena correr os riscos e aproveitar a oportunidade desenhada.
+
+Conceitualmente, Dornelas (2008, p. 64) define modelo de negócio da seguinte forma:
+
+> “Um modelo de negócio é um documento que descreve como a empresa gerará receita e quais os custos e investimentos necessários para tal”.
+> 
+> Dornelas (2008, p. 64).
+
+Grando (2012) corrobora com a visão de Dornelas (2008). ao afirmar que esse processo de construção da visão do negócio é uma fase importante para o nascimento de negócios competitivos. Nesse momento, o empreendedor passa a perceber os potenciais e riscos da ideia do negócio.
+
+Construir um modelo de negócios não é tarefa simples, pois, genericamente, um modelo de negócio deve descrever a lógica da sua criação e contemplar as entregas de valor que serão feitas ao mercado consumidor.
+
+Conceitualmente, Grando (2012) entende que a entrega de valor é aquilo que resolve o problema no momento de uma necessidade e que vai além das expectativas do consumidor.
+
+É importante você saber que o modelo de negócio não é um instrumento para definições mais amplas e profundas sobre a implantação de um negócio diante da oportunidade detectada, pois esse é o papel do Plano de Negócios. O modelo de negócios é sim um instrumento que permite, entre outros aspectos, ter a visão sobre a solidez do negócio, os diferenciais competitivos da ideia, alguma potencialidade e riscos, e até mesmo a rentabilidade.
+
+Nessa direção Dornelas (2008) apresenta cinco categorias de modelos de negócios usualmente aplicados nas empresas de tecnologia, e que, evidentemente podem ser adaptados para empresas de qualquer ramo de atividade.
+
+As categorias de modelos de negócios apresentadas por Dornelas (2008), são as seguintes:
+
+1) Intermediação de negócios;
+
+2) Comercialização de propaganda;
+
+3) Mercado virtual;
+
+4) Empresarial;
+
+5) Redes sociais.
+
+![[Pasted image 20260411130023.png]]
+![[Pasted image 20260411130036.png]]
+
+
+Nesse sentido, apresentamos alguns modelos de negócio trabalhados por Osterwalder e Pigneur (2011), entre outros, destacamos os seguintes:
+
+1) **Cauda Longa**: a ideia aqui tem foco em oferecer um número significativo de produtos, sendo que cada um deles tem vendas relativamente infrequentes ou menos volumes. “Modelos de negócios de cauda longa requerem baixo custo de estoque e plataformas robustas para disponibilizar prontamente conteúdo segmentado para os compradores interessados”. (OSTERWALDER e PIGNEUR, 2011, p.74).
+
+2) **Plataformas Multilaterais**: nesse modelo há a união de dois ou mais grupos distintos, porém interdependentes, de clientes. A plataforma cria valor facilitando a interação entre diferentes grupos. “A plataforma multilateral cresce na medida em que atrai mais usuários, um fenômeno conhecido como efeito rede. (OSTERWALDER e PIGNEUR, 2011, p.84).
+
+3) **Freemium**: esse modelo é “caracterizado por uma grande base de usuários se beneficiando de uma oferta gratuita. A maioria nunca se torna cliente pagante; apenas uma porção pequena, geralmente menos de 10%, assina os serviços pagos. Esta pequena base de usuários pagantes subsidia os usuários gratuitos. Isso é possível devido ao baixo custo em servir aos usuários gratuitos. Em um modelo assim, as métricas-chave a serem observadas são (1) o custo médio do serviço para um usuário gratuito e (2) a taxa de conversão de clientes gratuitos em clientes pagantes”. (OSTERWALDER e PIGNEUR, 2011, p.103).
+
+4) **Aberto**: esse modelo pode ser utilizado por companhias para criar e capturar valor sistematicamente colaborando com parceiros externos. Isto pode acontecer de “fora para dentro”, explorando ideias externas dentro da empresa, ou de “dentro para fora”, fornecendo a grupos externos ideias ou recursos internos. (OSTERWALDER e PIGNEUR, 2011, p.117).
+
+
+Ao ser materializado no modelo de negócio, toda ideia é ampliada, pois o método de elaboração de modelos de negócios permite essa ampliação baseada nas contribuições oferecidas por diferentes atores que participam desse processo. Oferecer a visão das potencialidades é um fator crítico para todo modelo de negócios, pois a ideia deve ter aderência com o contexto do mercado e deve sinalizar algum tipo de necessidade advinda dos consumidores, que, agregados aos diferenciais da ideia, possibilitem a oferta de múltiplos atrativos aos potenciais investidores.
+
+
+A construção de todo modelo de negócios deve responder às seguintes perguntas: Como? O quê? Para quem? Quanto custa?
+
+Para facilitar seu entendimento sobre a elaboração de modelos de negócios, compilamos de Filion e Dolabela (202), Dornelas (2008) e Kotler e Keller (2012), cinco aspectos importantes que devem ser considerados na elaboração do modelo de negócios.
+![[Pasted image 20260411130141.png]]
+
+## Pitch: Definição E Tipos
+
+Construído o modelo de negócios, é hora de vender a ideia, que necessita, como primeiro passo, da identificação de potenciais investidores. Se pensarmos no modelo _startups_, podemos identificar vários modelos de negócios, que, em termos de venda da ideia, pode passar pela venda direta para empresas ou empresários do setor e até mesmo a divisão da ideia em cotas financeiras, havendo a necessidade de venda para vários investidores. Nesse último caso, o investimento por cota se torna mais viável pelo custo reduzido que implica o investimento.
+
+Ries (2011) entende que nas _startups_ a percepção de entrega de valor e seus impactos futuros sobre o negócio é crucial para a venda de ideias, pois não basta vender o seu potencial comercial, é preciso apresentar as formas de mitigar os riscos ao negócio e sua sustentabilidade no tempo.  Esse autor complementa seu raciocínio afirmando que esse é um processo de aprendizado trazido do evento de estouro da bolha das empresas de tecnologia, pois naquele momento eram vendidas ideias com a promessa de lucros exorbitantes, desconsiderando os riscos e os próprios limites do mercado.
+
+ A confiança deve ser materializada, entre outros, na demonstração, por parte do empreendedor, do seu total conhecimento sobre o negócio, incluindo elementos como tendências, riscos, métricas, vantagens competitivas, estratégias, enfim, se pudéssemos resumir tudo isso em uma só expressão, diríamos que o empreendedor deve demonstrar conhecer muito bem o seu mercado.
+ 
+O fato é que, como Ries (2011) comenta, no pitch, que comumente é a primeira aproximação com o potencial investidor, o empreendedor deve vender o diferencial da ideia e suas potencialidades, estabelecendo uma relação de confiança com o investidor.
+
+Conforme apresentado por Spina (2012, p. 9), pitch é uma apresentação rápida de um projeto ou negócio, com a “intenção de vender a ideia para investidores”. Essa forma de apresentar é utilizada amplamente por empresas que adotam como estratégia a captação de recursos de investidores para seus projetos, como as empresas do setor de tecnologia. Ampliando um pouco mais essa definição de pitch, podemos afirmar que qualquer empresa que necessite convencer o público a acreditar no seu produto ou negócio, pode fazê-lo por meio de um pitch.
+
+Vários são os tipos de pitches que podem ser aplicados em diferentes situações. Inspirados em Spina (2012), descrevemos rapidamente três deles:
+
+**_1) One-sentence pitch_**: esse tipo prima pela objetividade, pois a ideia do negócio de ser resumida em apenas uma frase. Esse é o grande desafio do _one-sentence pitch_, também chamado de _twitter pitch_. Ele consiste na forma mais sucinta que o empreendedor pode descrever o seu negócio. Dessa forma, o empreendedor deve ter muita sensibilidade para mostrar o valor da sua ideia. Duas a três linhas são suficientes para isso. Em poucas palavras, o empreendedor terá que mostrar o seguinte:
+
+a) A identificação da empresa.
+
+b) Qual produto está desenvolvendo.
+
+c) A qual o mercado se destina.
+
+d) Qual a entrega de valor será feita.
+
+c) Quais diferenciais apresenta.
+
+**_2) Elevator Pitch_**: esse tipo de pitch é igualmente sucinto, requerendo a objetividade na apresentação da ideia. Contudo, permite estabelecer uma sequência um pouco mais longa para apresentação da proposta de valor do negócio. Nesse tipo de pitch já é possível, por exemplo, detalhar algum ponto da ideia ou explicar melhor os diferenciais, os riscos, as potencialidades e outros aspectos da ideia do negócio.
+
+**_3) Pitch Deck_**: esse tipo de pitch consiste em uma apresentação de slides que dá suporte à fala do empreendedor, portanto, é o tipo de pitch em que o apresentador terá mais tempo para a exposição da ideia. Nessa apresentação já podem ser utilizados programas como PowerPoint, Keynote ou Prezi, que possibilitam enriquecer a apresentação com detalhes importantes. Essa é uma oportunidade de, em até 20 minutos, o empreendedor expor com ricos detalhes toda a sua ideia, contextualizando muito bem a oportunidade identificada e gerada para o investidor.
+
+## Conclusão
+
+Nesse tópico você viu que o modelo de negócios é um excelente momento para desenhar visões sobre o negócio, identificando potencialidades, riscos, diferenciais, indicar o mercado, entre outros aspectos que fazem desse um importante instrumento.
+
+Percebeu também que a ideia inicial pode sofrer ajustes em função da intensa atividade de compartilhamento e contribuições para que a ideia empreendedora se transforme em um modelo de negócio.
+
+Ainda apresentamos a você alguns passos para iniciar as atividades de construção do modelo de negócios, e que, para participar dessas atividades, as pessoas devem estar imbuídas do espírito colaborativo, de saber falar e ouvir.
+
+No segundo momento do tópico, apresentamos o pitch como uma técnica de exposição objetiva de ideias de negócios a potenciais investidores. Parece absurdo, mas o empreendedor que consegue apresentar a ideia do seu negócio em apenas uma frase, certamente tem muito domínio do negócio e conhecimento do mercado, fator gerador de segurança e confiança no investidor, elementos que configuram pontos positivos no início de uma relação de negócios.
+
+Esses aspectos são importantes, pois possibilitam materializar, mesmo somente no papel, a proposta de negócio, mostrando o potencial valor de entrega para o consumidor.
+
+# Do Modelo Ao Plano De Negócios
+## Introdução
+
+Quando se trata de modelo de negócio e plano de negócio, a complementaridade é evidente, mas não se engane, pois há diferenças entre esses conceitos que os empreendedores precisam conhecer.
+
+Podemos antecipadamente afirmar que não há um modelo padrão de plano de negócio, sobretudo porque os negócios são bem diferentes uns dos outros devido ao seu propósito, isso sem considerar a realidade em que cada um está inserido. Por isso, conhecer algumas estruturas de negócio é um ponto fundamental para aplicar aquela que mais se adequa à sua proposta de negócio e sua realidade.
+
+Por fim, vamos tratar de um assunto que parece óbvio, que é a viabilidade financeira de negócios. Em qualquer empreendimento, o lucro parece óbvio, contudo, por si só esse aspecto não garante a viabilidade financeira. Há um conjunto de variáveis presentes no plano de negócio, que indicam a sua viabilidade. Veremos, também, que existem várias instituições financiadoras de projetos de inovação tecnológica criados por _startups_ e outras empresas.
+
+## Modelo De Negócio X Plano De Negócio
+
+Até aqui já está nítido para você que a ação empreendedora está presente em qualquer atividade humana, portanto, não se constitui em atividade exclusiva de determinada área do conhecimento, como alguns pensam, apesar do empreendedorismo ter relação total e exclusiva relação com a administração. Entretanto, nós sabemos que essa percepção é equivocada, pois o empreendedorismo emerge em qualquer área do conhecimento e setor da sociedade.
+
+plano de negócios
+
+Ele é um documento que materializa por completo a ideia do empreendimento, pois é mais amplo e profundo que o modelo de negócio.
+
+Já vimos que, por exemplo, o modelo de negócio _canvas_ oferece a visão de modelo de negócio, mas o plano de negócio oferece uma visão ampla de viabilidade, entre outras, financeira, de mercado, operacional, de elementos que ofertam maior segurança à sua análise, uma vez que é com base no cabedal de informações que gera que o plano de negócio amplia as possibilidades de decisões mais assertivas sobre a sua viabilidade.
+
+Quando o plano de negócio oferecer como resultado a inviabilidade, Dornelas (2008) sugere que o empreendedor o analise e reflita para entender melhor os pontos que limitaram a capacidade de viabilidade de negócio da sua ideia.
+
+Mesmo que potencialmente atraente, para ter sua viabilidade atestada com um nível razoável de segurança, toda ideia de negócio precisa passar por esses estágios formais, sua construção no modelo de negócio e sua consolidação em um plano de negócio. Quando uma ideia tem viabilidade financeira, o empreendedor deve seguir com a ação empreendedora.
+
+![[Pasted image 20260413204339.png]]
+
+## Estrutura do Plano de Negócios
+
+O plano de negócio é um importante documento balizador de decisões presentes e futuras, tanto no plano operacional, tático ou mesmo no estratégico de qualquer negócio. Ele é um instrumento usado pelo empreendedor para tomar decisões, buscar parceiros, captar recursos e até mesmo facilitar a gestão do negócio..
+
+Para toda tomada de decisão relativa ao empreendimento, o plano de negócio deve oferecer, com muita segurança, visões amplas e profundas, permitindo, com muita clareza, identificar a trajetória de desenvolvimento do negócio e sua capacidade competitiva, e evidentemente, seu perfil financeiro, como a rentabilidade, a lucratividade e outros aspectos.
+
+Sebrae (2013, p. 17) entende que todo empreendedor precisa tomar alguns cuidados ainda na fase de elaboração do plano de negócio, conforme segue:
+![[Pasted image 20260413211605.png]]
+
+Ainda nesse sentido, Filion e Dolabela (2002) consideram que o plano de negócio não deve dar espaço às dúvidas, pois sua objetividade e clareza geram segurança e confiança para os que o leem. Na perspectiva desses autores, o plano de negócio deve responder a diversas perguntas, por exemplo:
+
+![[Pasted image 20260413211630.png]]
+
+Para ofertar visões que orientem as decisões, o plano de negócio é estruturado ou organizado em seções, que são detalhadas em seus componentes.
+
+Saiba que a estrutura do plano pode mudar de acordo com o contexto econômico e as próprias exigências informacionais que o mercado e seus atores requerem, pois o ele deve manter-se conectado à realidade do mercado. Além desses aspectos, você deve levar em conta que os negócios não são iguais, por isso, é complexo afirmar que um modelo de plano de negócio pode ser integralmente aplicado qualquer ramo de atividade.
+
+Por certo a objetividade, clareza e assertividade das informações devem satisfazer o público ao qual se destina o plano de negócio.
+
+## Análise De Viabilidade E Identificação De Fontes De Captação De Recursos Para Startups E Negócios
+
+
+A taxa de lucro é um fator que contribui para indicar a viabilidade financeira de um negócio, mas sozinha não garante a viabilidade, como níveis mais elevados de segurança, pois, nesse caso, há um conjunto de variáveis que a indicam.
+
+Um negócio que apresenta taxas elevadas de lucro, mas apresenta também elevado custo de manutenção, certamente será objetivo de avaliação mais cautelosa por qualquer potencial investidor, uma vez que isso pode gerar risco à sua sustentabilidade.
+
+A viabilidade financeira é definida por elementos financeiros e econômicos, afinal, o plano de negócio precisa ter ampla conexão com a realidade. Portanto, mesmo que ele apresente total viabilidade financeira para o negócio, necessitará de um favorável contexto econômico favorável para que o negócio se desenvolva com envergadura.
+
+Após o cumprimento desses quesitos, Grando (2011) afirma que os empreendedores podem captar recursos no mercado, com agentes públicos e privados. As principais fontes de recursos de empreendimentos são as seguintes: a) recursos próprios; b) Aportes de acionistas; c) Fusões, alianças estratégicas; d) Licenciamento de tecnologia para terceiros; e) Bolsa de valores; f) Fundos de investimentos; g) Capital de risco; h) Anjos; i) Capital semente.
+
+Além disso, algumas _startups_ procuram incubadoras e, depois, aceleradoras, para iniciarem seus negócios, contando com um apoio até que estejam mais fortalecidas e sejam capazes de captar investimentos.
+
+---
+**Incubadoras:** são instituições (públicas ou privadas) ou projetos (como Sinapse, Centelha promovidos pela FAPES) que “acolhem” negócios em fase embrionária, como _startups_. Fornecem apoio científico, gerencial e técnico, além de atuarem na identificação de oportunidades de negócios, parcerias para seu desenvolvimento.
+
+**Aceleradoras:** são instituições (públicas ou privadas) que investem em _startups_ mais maduras e com grande potencial de crescimento.
+
+---
+
+Quando os empreendedores precisam de financiamentos em agências de fomento à pesquisa e ao desenvolvimento tecnológico, Grando (2011) entende que podem recorrer às seguintes instituições:
+
+1. Financiadora de Estudos e Projetos (Finep);
+2. Banco Nacional de Desenvolvimento Econômico e Social (BNDES);
+3. Bancos e outras instituições financeiras;
+4. Agências de Fomento Estaduais, como Fapesp, Fapesc, Fapes.
+
+## Conclusão
+
+Neste tópico, você viu que a partir do modelo de negócio é possível criar um excelente plano de negócio, que, muitas vezes, é o ponto de partida para viabilizar financeiramente um negócio.
+
+Por isso, as estruturas de planos de negócio permitem ao empreendedor não somente vender com mais facilidade seu negócio, mas registrar com clareza e objetividade sua ideia de negócio.
+
+O plano de negócio pode inclusive ser utilizado para captar recursos no mercado, pois é um documento comumente requerido por instituições que financiam projetos de inovação tecnológica.
+
+Esses conhecimentos proporcionarão a você novas visões sobre a necessidade das empresas em investir na elaboração de modelos e planos de negócio, pois podem representar a materialidade clara de um negócio, como afastar a ideia de negócio apresentada por sua inviabilidade.
+
+# Plano de Negócios – Parte I
+
+
+## 1. O Plano de Negócios (PN) 
+
+O PN é o documento que descreve o negócio, os objetivos e os passos para alcançá-los, reduzindo riscos e incertezas. 
+
+Função: Auxiliar na gestão interna e servir como cartão de visitas para captar recursos (sócios, bancos, investidores). 
+
+Dinamicidade: Não é um documento estático. Deve ser revisado conforme as mudanças no cenário econômico e social (contexto). 
+
+## 2. Plano de Marketing (Os 4 Ps) 
+
+Focado no mercado e no cliente. É o "Mix de Marketing" que define a estratégia de vendas. 
+
+Produto: A solução oferecida. Envolve qualidade, design, embalagem, marca e suporte. É o valor entregue ao cliente. 
+
+Preço: Não é apenas o custo + lucro. Deve considerar o posicionamento (luxo vs. popular), os preços da concorrência e o valor que o cliente percebe no produto. 
+
+Praça (Canais de Distribuição): Como o produto chega ao cliente. Envolve localização física, logística, e-commerce e pontos de venda. 
+
+Promoção (Comunicação): Como o mercado fica sabendo que você existe. Inclui publicidade, redes sociais, marketing direto e relações públicas. 
+
+## 3. Plano Operacional 
+
+Define como a empresa vai funcionar no dia a dia. É a tradução da estratégia em ação. 
+
+Layout e Instalações: O arranjo físico para otimizar a produção ou o atendimento. 
+
+Capacidade Produtiva: Quanto a empresa consegue produzir ou atender em um determinado período (ex: 50 pizzas/noite). 
+
+Processos Operacionais: O passo a passo da operação (fluxogramas). O objetivo é eliminar gargalos e redundâncias para ganhar velocidade. 
+
+Recursos Humanos: Definição de cargos, funções e necessidade de treinamento. 
+
+Suprimentos: Lista de máquinas, equipamentos, móveis e fornecedores de matéria-prima. 
+
+## 4. Plano Financeiro 
+
+É a parte numérica que valida a viabilidade do negócio. 
+
+Investimento Total: Tudo o que precisa ser gasto para abrir as portas (maquinário, reformas, estoque inicial). 
+
+Fluxo de Caixa: Controle de entradas e saídas de dinheiro. 
+
+Classificação de Custos: 
+
+Fixos: Não mudam com o volume de vendas (ex: aluguel, internet). 
+
+Variáveis: Mudam conforme a produção/venda (ex: matéria-prima, impostos sobre venda, comissão). 
+
+Indicadores de Viabilidade (Crucial para Prova): 
+
+Ponto de Equilíbrio: O faturamento mínimo para não ter prejuízo. 
+
+Lucratividade: A margem que sobra após pagar todas as despesas. 
+
+Payback: O tempo necessário para recuperar o investimento inicial.
+# Plano de Negócios – Parte II
+
+## Introdução
+
+É possível conhecer teoricamente um pouco de cada assunto (finanças, tecnologias, métodos e técnicas de gestão de negócios e pessoas), ampliar e aprofundar cada qual com a prática, sempre correndo o risco de errar, acertar e, além disso, no âmbito das empresas, se cercar de especialistas é imprescindível para tomar as decisões mais assertivamente.
+
+como avaliar estrategicamente um plano de negócio?
+
+A primeira e mais rápida resposta é a seguinte: isso pode ser feito por meio do resultado da sua viabilidade. Entretanto, você vai ver que não é fácil estabelecer estratégias para um negócio e mais difícil ainda é extrair as estratégias do papel e colocá-las em prática, pois exige do empreendedor muitos conhecimentos e experiência para saber dosar a estratégia com os movimentos que acontecem no ambiente em que a empresa está inserida.
+
+Por certo, conhecer o potencial que cada produto oferece para os resultados de uma empresa é fundamental às estratégias do negócio, e mais, identificar o comportamento futuro de cada um dos produtos é, sem dúvida nenhuma, o desejo de todos os que empreendem, por isso, vamos abordar as Matrizes SWOT e BCG, como ferramentas capazes de ofertar resultados muito interessantes sobre aspectos do ambiente em que a empresa está inserida e sobre o potencial dos produtos e seu comportamento esperado no mercado.
+
+## Avaliação Estratégica do Plano de Negócios
+
+Por certo, uma das revelações que um plano de negócio pode oferecer é por meio das inúmeras estratégias para que se concretize em um negócio amplamente sustentável, revelando também que uma ideia pode ser otimizada, gerando inúmeros negócios, ou um negócio que possibilite desenvolver vários produtos.
+
+Grando (2012) entende que as estratégias impressas no plano de negócio consistem em diferenciais que revelam o potencial das entregas de valor que o negócio pode oferecer ao mercado consumidor.
+
+A relação conceitual e prática se estabelece na convergência entre as experiências e os conhecimentos agregados que o empreendedor possui sobre a arte de colocar em prática as estratégias. Isso significa dizer que, para o empreendedor, a estratégia colocada no papel funciona com uma diretriz, portanto, pode sofrer ajustes ou alterações quando posta em prática, pois, do papel à realidade, existem elementos subjetivos importantes que somente o empreendedor, pelo envolvimento que possui com o negócio, consegue compreender e aplicar.
+
+
+ o plano de negócio tem relação, entre outros, com a visão e a missão da organização, que são norteadores das ações organizacionais.
+Outro documento importante ao plano de negócio e sua avaliação estratégica é o planejamento estratégico, que, entre outros aspectos, apresenta estratégias no plano operacional, tático e estratégico da empresa
+
+![[Pasted image 20260417003849.png]]
+
+Cabe destacar que, na análise estratégica, a empresa define os seus fins por meio dos objetivos e metas, comumente definidos no planejamento estratégico e no próprio plano de negócio, buscando implementar os meios para alcançar seus propósitos.
+
+. De forma geral, as empresas necessitam prestar atenção em vários aspectos do ambiente externo, entre outros:
+
+1. O mercado de câmbio;
+2. Novas políticas públicas;
+3. Crises econômicas e outras crises (sanitária, saúde pública, etc.) em países, regiões ou mesmo em todo o globo;
+4. Decisões dos blocos econômicos;
+5. Existência de fornecedores de insumos;
+6. Existência e movimento do capital humano especializado (mão de obra);
+7. Aumento ou diminuição significativa da demanda por produtos e serviços;
+8. Novas tecnologias de produção;
+9. Movimentos demográficos.
+
+
+## SWOT e BCG
+
+### ### Matriz SWOT
+
+A Matriz SWOT ou Matriz F.O.F.A. é uma das mais conhecidas e, possivelmente, reconhecidas ferramentas que facilita a construção de planejamento estratégico organizacional, pois oferta como resultado a análise de inúmeros aspectos presentes no ambiente interno e externo à organização.
+
+Como característica fundamental, a ferramenta é dividida em quatro quadrantes, dois atribuídos ao ambiente interno, em que são identificadas as Forças e Fraquezas da empresa, e dois quadrantes dedicados à apresentação dos aspectos relacionados com o ambiente externo, rotulados como Oportunidades e Ameaças.
+
+![[Pasted image 20260417005254.png]]
+
+As letras em marca d’agua apresentadas no fundo da figura significam as iniciais das palavras em inglês que identifica cada quadrante:
+
+- Strengths (pontos fortes) – Ambiente Interno;
+- Weaknesses (pontos fracos) – Ambiente Interno;
+- Opportunities (oportunidades para o negócio) – Ambiente Externo;
+- Threats (ameaças para o negócio) – Ambiente Externo.
+
+Apresentamos, a seguir, a figura com os quadrantes da Matriz F.O.F.A., ou Matriz SWOT:
+
+![](https://ceadconteudo.uvv.br/wp-content/uploads/2023/09/20230919-aula_empneg_top10_img03.png)
+
+ A matriz SWOT proporciona um amplo e profundo exercício de reflexão sobre o contexto no qual a empresa está inserida, permitindo a definição de estratégias para enfrentar os desafios ou as incertezas que o ambiente apresenta.
+
+### Matriz BCG
+
+
+Para Dornelas (2008), a Matriz BCG contribui para identificar a melhor estratégia de desenvolvimento de produtos nas empresas e isso se torna importante, pois o plano de negócio precisa apresentar as potencialidades do negócio, chegando no nível de produto, indicando projeções acerca das novas maneiras do seu desenvolvimento, produção e distribuição aos clientes.
+
+A Matriz BCG tanto identifica a curva de crescimento de um produto, indicando também o ponto em que esse poderá ser descontinuado, isto é, a partir de qual momento começa a não gerar mais lucro e o momento mais preocupante, a etapa em que o produto gera prejuízo para a empresa.
+
+A Matriz BCG ajuda o empreendedor a melhorar sua oferta de produtos, podendo priorizar os que geram, ou podem gerar, mais caixa e que exige ou exigirá menores investimentos e esforços.
+
+Entre as contribuições que pode oferecer, Dornelas (2008) aponta que a Matriz BCG possibilita a análise da carteira de produtos com base em dois grandes fatores: 1) crescimento de mercado; 2) participação relativa de mercado.
+
+- **Crescimento de mercado**: identifica como o mercado de determinada linha de produtos cresce e serve para definir o que será feito com o portfólio de produtos da empresa. Se o mercado apresenta altas taxas de crescimento, poderá ser muito promissor para a empresa, caso seus produtos ocupem considerável participação nesse mercado.
+- **Participação relativa de mercado**: neste caso, o produto ou linha de produtos de uma mesma família deve ser comparado em termos de participação de mercado em relação aos principais concorrentes da empresa.
+
+A Matriz BCG é muito bem aplicada em negócios com um número limitado de produtos, em razão da menor quantidade de análises que são realizadas.
+
+Para facilitar a análise do produto por parte do empreendedor, a Matriz BCG trabalha com quatro quadrantes, cada qual com seu significado.
+
+![[Pasted image 20260417005453.png]]
+
+Para efeitos práticos, o SEBRAE (2020) faz algumas recomendações ou dicas bem interessantes quanto ao uso da Matriz BCG nas empresas, que adaptamos e resumimos a seguir:
+
+- **Vacina BCG**: use a análise da Matriz BCG como uma vacina para que sua empresa não tenha uma carteira de produtos doentes. Para que a carteira seja saudável, é importante que a empresa tenha itens que vendam bem sem muitos investimentos, além de uma parcela estratégica de produtos que são apostas para futuras “vacas-leiteiras”;
+- **Conta de padeiro**: Uma Matriz BCG bem aplicada demanda muitos dados que a maioria dos empreendedores não dispõe, além de um razoável domínio de técnicas de análise de estudos. A ausência dessa sofisticação analítica não impede que o empreendedor faça uma boa matriz, contudo, no mundo dos negócios, é muito arriscado trabalhar somente sobre achismo, por isso, nesse momento, é recomendável que o empreendedor busque ajuda com especialistas. O mais relevante é que o empreendedor saiba quais são seus produtos vacas-leiteiras, estrelas, pontos de interrogação e, principalmente, o que deve fazer com os produtos em cada classificação.
+- **Nem tudo é Coca-Cola**: a Coca-Cola é um exemplo bom e ruim ao mesmo tempo. É bom, pois todos reconhecem que é uma vaca-leiteira, mas é ruim, porque o produto sofreu poucas modificações durante seu longo período de vida. É bem provável que o seu produto vaca-leiteira tenha um ciclo de vida mais curto, pois, em algum momento, a demanda começará a cair e sua empresa terá que tomar alguma providência para renová-lo ou mesmo inová-lo. Daí a importância de ter produtos das categorias estrela ou mesmo pontos de interrogação, que serão as próximas vacas-leiteiras da empresa.
+- **Nem tudo que reluz é estrela**: empresas de menor porte e bem-sucedidas tendem a ter mais produtos estrelas do que vacas-leiteiras. São itens que até vendem bem e têm boa margem bruta de lucros, mas dão trabalho para vender. No final, considerando o trabalho, podem até dar resultado líquido negativo (prejuízo). É importante que o empreendedor observe as margens de contribuição de cada produto. Na maioria dos casos, o empreendedor é surpreendido pelos resultados. Esse tipo de análise também permite que o empreendedor reflita sobre o que e como deve vender.
+- **To be or not to be**: o ser ou não ser também pode ser traduzido por “estar ou não estar” na carteira de produtos da empresa. Os pontos de interrogação entram nesse dilema. Alguns itens recém-lançados também entram na lista, o que é compreensível, já que há uma curva de aprendizagem e o produto está no início de seu ciclo de vida. É natural que ele exija investimentos e ainda não tenha contribuição significativa para o resultado da empresa. Mas, há outros produtos já lançados há algum tempo que caem nessa lista. O que fazer? Antes de eliminá-los, é preciso analisar os motivos do insucesso e entender se haveria uma nova oportunidade.
+- **Tenha coragem!** Em empresas de menor porte, as relações emocionais tendem a ser muito fortes, principalmente entre o empreendedor e suas criações (os produtos), por isso mesmo, descontinuar em produto é sempre uma decisão muito difícil. Daí a importância de reunir dados que demonstrem que o produto é, literalmente, um verdadeiro abacaxi para a empresa e deve ser eliminado.
+
+Para trabalhar com a Matriz BCG, o empreendedor precisa conhecer muito bem o seu portfólio de produtos, pois isso ajudará a evitar para que nenhum deles fique fora da análise.
+
+Por fim, sabemos que é absolutamente normal as empresas terem seus produtos com diferentes taxas de crescimento, por isso mesmo é preciso acompanhá-los para que os ajustes sejam feitos na medida certa, visando manter produto rentável no mercado pelo máximo tempo possível.
+
+## Conclusão
+
+Neste tópico, você viu que a análise estratégica do plano de negócio consiste em atividade importante para que o empreendedor perceba o potencial da sua ideia, conduzindo-a de forma a atingir os resultados planejados.
+
+Para isso, pode contar com o auxílio de ferramentas como a Matriz SWOT, que é amplamente utilizada em vários momentos, como na elaboração do planejamento estratégico e também servindo como subsídio para a própria construção do plano de negócio e desenho de cenários.
+
+Conhecer o ambiente em que a empresa está inserida é importante para as inúmeras tomadas de decisão no negócio, uma vez que os desafios e as incertezas surgirão inevitavelmente.
+
+Outra importante ferramenta que pode ser usada pelo empreendedor no âmbito da construção do plano de negócio é a Matriz BCG, que ofertará, entre outros, um desenho do desenvolvimento do produto no mercado, apresentando o resultado de seu desempenho e a sua posição no ciclo de vida, indicando o seu potencial de vendas ou mesmo a necessidade de sua descontinuidade.
+
+O empreendedor tem a sua disposição muitos instrumentos para lhe auxiliar na sistematização das suas ideias em projetos, na gestão dos seus negócios e mesmo na oferta de visões de futuro para seus produtos e serviços. O fato é que, ao empreendedor, cabe trabalhar muito, aprender sempre, procurando novas alternativas de otimizar sua posição no mercado.
+
+Podemos dizer com muita certeza que o comodismo não faz parte dessa parte do universo, uma vez que o mercado e a sociedade estão em permanente mudança, trazendo para as empresas muitos novos desafios, que precisam ser compreendidos pelos empreendedores, pois, com seu trabalho, eles figuram um ator importante em todo esse processo de mudanças.
+
+Correr riscos faz parte de qualquer negócio, no entanto, quanto mais aprendizados e maiores forem os conhecimentos sobre as dinâmicas do mercado, menos exposto estará o empreendedor, que pode atuar proativamente, eliminando ou mitigando os riscos que surgem no ambiente.
