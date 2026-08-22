@@ -13,6 +13,8 @@ int remove_list(list *l, int position);
 
 int search_list(list *l, int element);
 
+void show_list(list *l);
+
 #endif
 
 

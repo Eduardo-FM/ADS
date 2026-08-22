@@ -10,7 +10,8 @@ struct list
 };
 
 
-list* create_list(int capacity) {
+list* create_list(int capacity) 
+{
     if (capacity <= 0)
     {
         return NULL;
@@ -38,7 +39,8 @@ list* create_list(int capacity) {
     
 }
 
-void destroy_list(list *l) {
+void destroy_list(list *l) 
+{
     if (l = NULL) 
     {
         return;
@@ -48,7 +50,8 @@ void destroy_list(list *l) {
     free(l);
 }
 
-int insert_list(list *l, int element) {
+int insert_list(list *l, int element) 
+{
     if (l == NULL) {
         return 0;
     }
@@ -64,7 +67,8 @@ int insert_list(list *l, int element) {
     return 1;
 }
 
-int remove_list(list *l, int position) {
+int remove_list(list *l, int position) 
+{
     if (l == NULL)
     {
         return 0;
@@ -85,7 +89,8 @@ int remove_list(list *l, int position) {
     return 1;
 }
 
-int search_list(list *l, int element){
+int search_list(list *l, int element)
+{
     if (l == NULL)
     {
         return -1;
@@ -101,4 +106,19 @@ int search_list(list *l, int element){
     }
 
     return-1;
+}
+
+void show_list(list *l)
+{
+    for (int i = 0; i < l->last_element; i++)
+    {
+        printf("%d", l->elements[i]);
+
+        if (i < l->last_element - 1)
+        {
+            printf(", ");
+        }
+    }
+
+    printf("\n");
 }
