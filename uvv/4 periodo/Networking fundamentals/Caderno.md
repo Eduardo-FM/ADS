@@ -23,6 +23,8 @@ O software cliente e o servidor geralmente sao executados em computadores separa
 Todos os com
 
 
+# aula 18_08
+
 
 
 
