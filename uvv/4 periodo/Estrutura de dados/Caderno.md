@@ -119,3 +119,28 @@ Ela tem a seguinte forma, precisa guardar o valor que vc quer guardar e guardar 
 Guarda o endereço do próximo e do anterior. 
 
 
+# aula 21_08
+
+A operação de inserir tem sempre tempo constante (O(1)).
+
+A operação de remoção, há uma análise de melhor caso e de pior caso. No melhor caso a uma operação O(1), no pior caso é O(n).
+
+A operacao de busca, há uma análise de melhor caso e de pior caso. no melhor caso a operacao O(1), no pior caso é O(n).
+
+### Lista encadeada
+
+Como na lista encadeada os elementos nao tem posiçoes adjacentes de memórias, é mais fácil para inserir novos elementos. 
+
+Também tem a flexibilidade para inserir um elemento entre dois elementos.
+
+Existe vários tipos de lista encadeada:
+- Lista simplesmente encadeada (anda em apenas um sentido)
+- Lista duplamente encadeada (o elemento aponta para o anterior e o posterior)
+- lista circular (o primeiro aponta para o ultimo, o ultimo aponta para o primeiro)
+
+É possivel criar um cabeçalho da lista armazenando informaçoes como: tamanho, ultimo, primeiro. Para facilitar operacoes de inserçao, remoção,, ...
+
+
+Para implementar tem que ter no cabeçalho:
+- struct para o nó da lista;
+- struct para a lista;

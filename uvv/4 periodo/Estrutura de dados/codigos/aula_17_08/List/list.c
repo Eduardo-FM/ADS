@@ -41,7 +41,7 @@ list* create_list(int capacity)
 
 void destroy_list(list *l) 
 {
-    if (l = NULL) 
+    if (l == NULL) 
     {
         return;
     }
