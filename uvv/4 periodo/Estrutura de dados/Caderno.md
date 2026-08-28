@@ -1,6 +1,6 @@
 
 ## Aulas iniciais
-### ponteiro
+### Ponteiro
 
 Em C, **ponteiro é uma variável que guarda o endereço de memória de outra variável**.
 
@@ -18,7 +18,7 @@ Exemplo:
 *p = 50;
 ```
 
-### estrutura dinâmica
+### Estrutura dinâmica
 
 Uma **estrutura dinâmica** é uma estrutura de dados cujo **tamanho pode ser alterado durante a execução do programa**.
 
@@ -49,77 +49,79 @@ free(p);
 
 ### TAD 
 
-Tipo abstrato de dados (tipo definido pelo usuário, aonde se define o conjunto de elementos e as operações que atuam sobre esses elementos).
+Um **TAD (Tipo Abstrato de Dados)** é um tipo definido pelo usuário que determina:
 
-É feito as operações, mas o usuário não sabe como é feito.
+- **Quais dados** serão armazenados;
+- **Quais operações** podem ser realizadas sobre esses dados.
 
-No C, o arquivo .c implementa as operações, e o arquivo .h define as operações. 
+A ideia principal é a **abstração**: o usuário sabe **o que pode fazer**, mas não precisa saber **como as operações são implementadas** (as operações são realizadas, mas o usuário não conhece os detalhes internos).
 
-**O TAD é o **conceito/interface + implementação** que permite usar um tipo sem precisar conhecer seus detalhes internos. O `.h` normalmente representa a **interface pública**, enquanto o `.c` contém a **implementação**.
+No desenvolvimento em C, dividimos o TAD em dois arquivos:
 
-Um **TAD (Tipo Abstrato de Dados)** é um tipo definido pelo usuário que determina:
-
-- **quais dados** serão armazenados;
-- **quais operações** podem ser realizadas sobre esses dados.
-
-A ideia principal é a **abstração**: o usuário sabe **o que pode fazer**, mas não precisa saber **como as operações são implementadas**.
+1. **Arquivo `.h` (Interface):** Define as operações públicas (o manual de uso do TAD).
+2. **Arquivo `.c` (Implementação):** Contém a lógica interna de funcionamento das operações.
 
 ####  Arquivo `.h` — Interface
 
-O arquivo `.h` contém as **declarações** que serão disponibilizadas para quem utilizar o TAD, como:
-
-- funções;
-- tipos;
-- constantes;
-- estruturas que precisam ser conhecidas externamente.
-
-Exemplo:
-
 ``` c
-void inserir(int valor);
-void remover(void);
-```
+#ifndef PONTO_H
+#define PONTO_H
 
-É como um **manual de uso** do TAD.
+// Definicao opaca/abstrata do tipo Ponto para encapsulamento
+typedef struct ponto Ponto;
+
+// Funcoes (operacoes) disponibilizadas externamente
+Ponto* ponto_criar(float x, float y);
+void ponto_liberar(Ponto *p);
+float ponto_obter_x(Ponto *p);
+float ponto_obter_y(Ponto *p);
+void ponto_atribuir(Ponto *p, float x, float y);
+
+#endif // PONTO_H
+```
 
 #### Arquivo `.c` — Implementação
 
-O arquivo `.c` contém o **código das funções declaradas no `.h`**.
+``` C
+#include <stdlib.h>
+#include "ponto.h"
 
-É onde fica a lógica de **como as operações realmente funcionam**.
+// Definicao concreta da estrutura, oculta do usuario externo
+struct ponto {
+    float x;
+    float y;
+};
 
-``` c
-void inserir(int valor)
-{
-    // implementação
+Ponto* ponto_criar(float x, float y) {
+    Ponto *p = (Ponto*) malloc(sizeof(Ponto));
+    if (p != NULL) {
+        p->x = x;
+        p->y = y;
+    }
+    return p;
+}
+
+void ponto_liberar(Ponto *p) {
+    free(p);
+}
+
+float ponto_obter_x(Ponto *p) {
+    if (p != NULL) return p->x;
+    return 0.0;
+}
+
+float ponto_obter_y(Ponto *p) {
+    if (p != NULL) return p->y;
+    return 0.0;
+}
+
+void ponto_atribuir(Ponto *p, float x, float y) {
+    if (p != NULL) {
+        p->x = x;
+        p->y = y;
+    }
 }
 ```
-
-É como a **parte interna** do TAD.
-
-### 🔗 Relação entre eles
-
-```
-.h → O QUE o TAD oferece
-.c → COMO o TAD funciona
-```
-
-Normalmente:
-
-```
-programa.c
-    ↓
-inclui
-    ↓
-TAD.h
-    ↓
-utiliza as funções
-    ↓
-TAD.c
-    ↓
-implementa as funções
-```
-
 ##### Para decorar
 
 > **TAD = dados + operações + abstração.**  
@@ -203,11 +205,14 @@ Temos aproximadamente `n × n` operações:
 
 #### Lista sequencial
 
-há dois tipos de listas sequenciais:
-- com alocaçao estática
-- com alocacao dinâmica
+Uma lista sequencial é caracterizada por armazenar seus elementos em **posições adjacentes de memória**. É chamada de sequencial porque os elementos estão fisicamente dispostos em sequência direta na memória (um elemento imediatamente após o outro).
 
-A lista é sequencial pq cada elemento de sua lista não há um endereco de memoria disponivel.
+- **Busca e Acesso:** O acesso a qualquer posição é direto ($O(1)$) porque podemos calcular a posição exata de um elemento sabendo o endereço de início (endereço base) através da fórmula: $$\text{Endereço} = \text{Endereço Base} + (\text{Índice} \times \text{Tamanho do Elemento})$$ _(Exemplo: um inteiro (`int`) normalmente ocupa **4 bytes** na memória)._
+
+Existem dois formatos principais de lista sequencial:
+
+1. **Com Alocação Estática:** O tamanho máximo do array é definido previamente em tempo de compilação.
+2. **Com Alocação Dinâmica:** O tamanho inicial pode ser definido em tempo de execução via `malloc()` e redimensionado dinamicamente com `realloc()`.
 
 A lista sequencial é ordenado. Porque o segundo vem depois do primeiro (tem uma posição especifica de endereço de memória)
 
@@ -225,9 +230,7 @@ v[2];
 v[o] == 1;
 ```
 
-para acessar um elemento o acesso é direto, entao se dá a posiçao do elemento é você já consegue acessa-la.
-
-Para saber a posiçao do elemento: a base do array é o elemento na primeira posição, para achar outro elemento ele pega o endereço base + indexe * o tamanho do elemento (ex: int tem 4 bites).
+para acessar um elemento o acesso é direto, então se dá a posição do elemento é você já consegue acessa-la.
 
 #### Lista dinamica
 
@@ -264,7 +267,6 @@ int main()
 
 ```
 
-
 ###### dinamica
 
 ```c
@@ -290,42 +292,75 @@ int main()
 
 ```
 
-
-#### lista encadeada 
-
-Ela tem a seguinte forma, precisa guardar o valor que vc quer guardar e guardar o endereço do próximo elemento. 
-
-#### lista duplamente encadeada 
-
-Guarda o endereço do próximo e do anterior. 
-
-
-## aula 21_08
-
-A operação de inserir tem sempre tempo constante (O(1)).
-
-A operação de remoção, há uma análise de melhor caso e de pior caso. No melhor caso a uma operação O(1), no pior caso é O(n).
-
-A operacao de busca, há uma análise de melhor caso e de pior caso. no melhor caso a operacao O(1), no pior caso é O(n).
+## Aula 21_08
 
 ### Lista encadeada
 
-Como na lista encadeada os elementos nao tem posiçoes adjacentes de memórias, é mais fácil para inserir novos elementos. 
+Diferente das sequenciais, os elementos de uma lista encadeada **não ocupam posições adjacentes de memória**. Cada elemento (chamado de **nó**) armazena o valor desejado e também o endereço de memória do próximo elemento da lista.
 
-Também tem a flexibilidade para inserir um elemento entre dois elementos.
+- **Vantagens:** Grande flexibilidade para inserir ou remover elementos (especialmente entre duas posições intermediárias), pois basta ajustar os ponteiros envolvidos sem precisar mover todos os elementos seguintes na memória física.
 
-Existe vários tipos de lista encadeada:
-- Lista simplesmente encadeada (anda em apenas um sentido)
-- Lista duplamente encadeada (o elemento aponta para o anterior e o posterior)
-- lista circular (o primeiro aponta para o ultimo, o ultimo aponta para o primeiro)
+#### Tipos de Listas Encadeadas:
 
-É possivel criar um cabeçalho da lista armazenando informaçoes como: tamanho, ultimo, primeiro. Para facilitar operacoes de inserçao, remoção,, ...
+1. **Lista Simplesmente Encadeada:** Os nós apontam apenas em um sentido (para o próximo nó).
+2. **Lista Duplamente Encadeada:** Cada nó guarda o endereço do próximo e também do nó anterior, permitindo navegação em ambos os sentidos.
+3. **Lista Circular:** O último elemento aponta de volta para o primeiro, criando um ciclo.
 
+#### Estrutura de Nós e Cabeçalho
 
-Para implementar tem que ter no cabeçalho:
-- struct para o nó da lista;
-- struct para a lista;
+É uma excelente prática criar uma estrutura de **cabeçalho da lista** para armazenar metadados, tais como o tamanho da lista, ponteiro para o primeiro elemento e ponteiro para o último elemento. Isso otimiza operações de inserção e remoção no fim da lista para tempo constante ($O(1)$).
 
+##### Exemplo de Estrutura para Lista Simplesmente Encadeada:
 
+``` c
+#include <stdlib.h>
 
+// 1. Struct para o No da Lista
+typedef struct no {
+    int valor;
+    struct no *proximo;
+} No;
 
+// 2. Struct para o Cabecalho da Lista
+typedef struct {
+    No *inicio;
+    No *fim;
+    int tamanho;
+} ListaEncadeada;
+
+// Inicializacao da lista
+void inicializar_lista_encadeada(ListaEncadeada *l) {
+    l->inicio = NULL;
+    l->fim = NULL;
+    l->tamanho = 0;
+}
+```
+
+##### Exemplo de Estrutura para Lista Duplamente Encadeada:
+
+``` c
+typedef struct no_duplo {
+    int valor;
+    struct no_duplo *anterior;
+    struct no_duplo *proximo;
+} NoDuplo;
+
+typedef struct {
+    NoDuplo *inicio;
+    NoDuplo *fim;
+    int tamanho;
+} ListaDuplamenteEncadeada;
+```
+
+###  Análise de Complexidade de Operações em Listas
+
+Para listas lineares comuns, o custo computacional das operações fundamentais varia conforme o cenário:
+
+- **Inserção:**
+    - Se realizada em posições controladas com ponteiros diretos (por exemplo, sempre no início ou no fim com o uso de um cabeçalho), a inserção tem tempo constante: **$O(1)$**.
+- **Remoção:**
+    - **Melhor Caso:** Remoção no início da lista (ajuste simples de ponteiros diretos) -> **$O(1)$**.
+    - **Pior Caso:** Remoção de um elemento no final ou no meio da lista (exige percorrer toda a lista para encontrar o elemento ou atualizar o penúltimo elemento no caso de simplesmente encadeada) -> **$O(n)$**.
+- **Busca:**
+    - **Melhor Caso:** O elemento procurado é o primeiro da lista -> **$O(1)$**.
+    - **Pior Caso:** O elemento está na última posição ou não pertence à lista -> **$O(n)$**.
