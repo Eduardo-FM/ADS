@@ -1,32 +1,207 @@
-==ponteiro==
 
-==estrutura dinâmica==
+## Aulas iniciais
+### ponteiro
 
-- TAD 
+Em C, **ponteiro é uma variável que guarda o endereço de memória de outra variável**.
+
+``` c
+int numero = 10;
+int *p = &numero;
+```
+
+- `&` → pega o **endereço** de uma variável.
+- `*` na declaração → indica que a variável é um **ponteiro**.
+- `*p` → acessa o **valor armazenado no endereço** para o qual `p` aponta.
+
+Exemplo:
+``` c
+*p = 50;
+```
+
+### estrutura dinâmica
+
+Uma **estrutura dinâmica** é uma estrutura de dados cujo **tamanho pode ser alterado durante a execução do programa**.
+
+Diferente de estruturas estáticas, que possuem um tamanho definido previamente, as estruturas dinâmicas utilizam **memória alocada dinamicamente**, principalmente com `malloc()`, `calloc()`, `realloc()` e `free()`.
+
+#### Principais características
+
+- O tamanho pode **aumentar ou diminuir** durante a execução.
+- Utiliza **memória heap**.
+- Geralmente utiliza **ponteiros** para controlar os dados.
+- Permite utilizar a memória de forma mais **flexível e eficiente**.
+- É necessário liberar a memória utilizada com `free()`.
+
+Exemplo:
+
+``` c
+int *p = malloc(5 * sizeof(int));
+```
+
+Aqui, o programa solicita memória para armazenar **5 inteiros** durante a execução.
+
+Depois de utilizar:
+``` c
+free(p);
+```
+
+==Estrutura dinâmica = estrutura cujo tamanho pode ser definido ou alterado durante a execução, utilizando alocação dinâmica de memória e ponteiros.==
+
+### TAD 
+
 Tipo abstrato de dados (tipo definido pelo usuário, aonde se define o conjunto de elementos e as operações que atuam sobre esses elementos).
+
 É feito as operações, mas o usuário não sabe como é feito.
 
 No C, o arquivo .c implementa as operações, e o arquivo .h define as operações. 
 
-O TAD então sãos as bibliotecas do C e o arquivo .h
+**O TAD é o **conceito/interface + implementação** que permite usar um tipo sem precisar conhecer seus detalhes internos. O `.h` normalmente representa a **interface pública**, enquanto o `.c` contém a **implementação**.
 
-==arquivo .c e .h==
+Um **TAD (Tipo Abstrato de Dados)** é um tipo definido pelo usuário que determina:
 
-# aula 10_08
+- **quais dados** serão armazenados;
+- **quais operações** podem ser realizadas sobre esses dados.
 
-*Complexidade de algoritmo*
+A ideia principal é a **abstração**: o usuário sabe **o que pode fazer**, mas não precisa saber **como as operações são implementadas**.
 
-A complexidade de algoritmo serve para medir a qualidade de algoritmo.
+####  Arquivo `.h` — Interface
 
-Para fazer essa análise se utiliza a análise do pior caso, melhor caso e caso médio.
+O arquivo `.h` contém as **declarações** que serão disponibilizadas para quem utilizar o TAD, como:
 
-##### ==Anotação Big O==
+- funções;
+- tipos;
+- constantes;
+- estruturas que precisam ser conhecidas externamente.
 
-# 14_08
+Exemplo:
 
-## Listas 
+``` c
+void inserir(int valor);
+void remover(void);
+```
 
-### Lista sequencial
+É como um **manual de uso** do TAD.
+
+#### Arquivo `.c` — Implementação
+
+O arquivo `.c` contém o **código das funções declaradas no `.h`**.
+
+É onde fica a lógica de **como as operações realmente funcionam**.
+
+``` c
+void inserir(int valor)
+{
+    // implementação
+}
+```
+
+É como a **parte interna** do TAD.
+
+### 🔗 Relação entre eles
+
+```
+.h → O QUE o TAD oferece
+.c → COMO o TAD funciona
+```
+
+Normalmente:
+
+```
+programa.c
+    ↓
+inclui
+    ↓
+TAD.h
+    ↓
+utiliza as funções
+    ↓
+TAD.c
+    ↓
+implementa as funções
+```
+
+##### Para decorar
+
+> **TAD = dados + operações + abstração.**  
+> **`.h` = interface (o que pode ser usado).**  
+> **`.c` = implementação (como funciona).**  
+> **O usuário utiliza o TAD sem precisar conhecer sua implementação interna.**
+## aula 10_08
+
+### *Complexidade de algoritmo*
+
+A **complexidade de um algoritmo** analisa a quantidade de **recursos necessários** para executá-lo, principalmente:
+
+- **Tempo:** quantidade de operações realizadas.
+- **Espaço:** quantidade de memória utilizada.
+
+A complexidade ajuda a **comparar algoritmos** e avaliar qual é mais eficiente para entradas grandes.
+
+A análise pode considerar:
+
+- **Melhor caso:** situação mais favorável.
+- **Caso médio:** comportamento esperado para uma entrada comum.
+- **Pior caso:** situação mais desfavorável.
+#### Anotação Big O
+
+A **notação Big O** descreve como o custo de um algoritmo **cresce conforme o tamanho da entrada (`n`) aumenta**.
+
+Ela normalmente é utilizada para representar o **pior caso**.
+
+Exemplos:
+
+|Big O|Nome|Exemplo|
+|---|---|---|
+|`O(1)`|Constante|Acessar uma posição de um vetor|
+|`O(log n)`|Logarítmica|Busca binária|
+|`O(n)`|Linear|Percorrer um vetor|
+|`O(n log n)`|Linearítmica|Merge Sort|
+|`O(n²)`|Quadrática|Bubble Sort|
+|`O(2ⁿ)`|Exponencial|Alguns algoritmos recursivos|
+
+> **Big O mostra como o número de operações cresce em relação ao tamanho da entrada.**
+
+Por exemplo, em:
+
+``` c
+for (int i = 0; i < n; i++)
+{
+    printf("%d\n", i);
+}
+```
+
+O `for` executa aproximadamente `n` vezes. Portanto:
+
+**Complexidade = `O(n)`**
+
+Se tivermos dois `for` aninhados:
+
+``` c
+for (int i = 0; i < n; i++)
+{
+    for (int j = 0; j < n; j++)
+    {
+        printf("%d %d\n", i, j);
+    }
+}
+```
+
+Temos aproximadamente `n × n` operações:
+
+**Complexidade = `O(n²)`**
+
+##### Para decorar
+
+> **`n` = tamanho da entrada**  
+> **Big O = crescimento do custo do algoritmo**  
+> **`O(1)` → não depende de `n`**  
+> **`O(n)` → cresce proporcionalmente a `n`**  
+> **`O(n²)` → cresce proporcionalmente a `n²`**
+## Aula 14_08
+
+### Listas 
+
+#### Lista sequencial
 
 há dois tipos de listas sequenciais:
 - com alocaçao estática
@@ -54,7 +229,7 @@ para acessar um elemento o acesso é direto, entao se dá a posiçao do elemento
 
 Para saber a posiçao do elemento: a base do array é o elemento na primeira posição, para achar outro elemento ele pega o endereço base + indexe * o tamanho do elemento (ex: int tem 4 bites).
 
-### Lista dinamica
+#### Lista dinamica
 
 Na alocação dinâmica se utiliza o malloc.
 
@@ -71,8 +246,8 @@ free(v);
 
 É possivel mudar o tamnho da alocacao dinamica durante o código.
 
-#### Código em C
-##### estatica
+##### Código em C
+###### estatica
 
 ```c
 int main()
@@ -90,7 +265,7 @@ int main()
 ```
 
 
-##### dinamica
+###### dinamica
 
 ```c
 int main()
@@ -116,16 +291,16 @@ int main()
 ```
 
 
-### lista encadeada 
+#### lista encadeada 
 
 Ela tem a seguinte forma, precisa guardar o valor que vc quer guardar e guardar o endereço do próximo elemento. 
 
-### lista duplamente encadeada 
+#### lista duplamente encadeada 
 
 Guarda o endereço do próximo e do anterior. 
 
 
-# aula 21_08
+## aula 21_08
 
 A operação de inserir tem sempre tempo constante (O(1)).
 
@@ -151,8 +326,6 @@ Para implementar tem que ter no cabeçalho:
 - struct para o nó da lista;
 - struct para a lista;
 
-
-# Aula 24_08
 
 
 
