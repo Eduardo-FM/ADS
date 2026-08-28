@@ -1,3 +1,7 @@
+==ponteiro==
+
+==estrutura dinâmica==
+
 - TAD 
 Tipo abstrato de dados (tipo definido pelo usuário, aonde se define o conjunto de elementos e as operações que atuam sobre esses elementos).
 É feito as operações, mas o usuário não sabe como é feito.
@@ -5,6 +9,8 @@ Tipo abstrato de dados (tipo definido pelo usuário, aonde se define o conjunto 
 No C, o arquivo .c implementa as operações, e o arquivo .h define as operações. 
 
 O TAD então sãos as bibliotecas do C e o arquivo .h
+
+==arquivo .c e .h==
 
 # aula 10_08
 
@@ -14,7 +20,7 @@ A complexidade de algoritmo serve para medir a qualidade de algoritmo.
 
 Para fazer essa análise se utiliza a análise do pior caso, melhor caso e caso médio.
 
-##### Anotação Big O
+##### ==Anotação Big O==
 
 # 14_08
 
@@ -144,3 +150,9 @@ Existe vários tipos de lista encadeada:
 Para implementar tem que ter no cabeçalho:
 - struct para o nó da lista;
 - struct para a lista;
+
+
+# Aula 24_08
+
+
+

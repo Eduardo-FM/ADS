@@ -28,3 +28,17 @@ Todos os com
 
 
 
+# aula 25
+
+Tabela CAM
+- é o banco de dados que fica dentro do swich
+
+| IP          | PORTA | MAC( 48 BIT, 6 OCTETOS, 8 BITS) |
+| ----------- | ----- | ------------------------------- |
+| 152.168.1.0 | O/4   | 0h                              |
+
+- Protocolo ARP 
+
+Quando há um 0 no final do IP significa que é rede,, se for 255 significa que é broadcast.
+
+i

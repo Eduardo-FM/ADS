@@ -24,3 +24,7 @@ Os components basicos dos computadores sao:
 
 # Introdução a concorrência
 
+
+# Aula 24/08
+
+## Estrutura dos sistemas operacionais \
