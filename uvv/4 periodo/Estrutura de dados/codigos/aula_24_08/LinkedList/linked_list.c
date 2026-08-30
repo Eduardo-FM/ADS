@@ -33,9 +33,7 @@ linked_list* create()
     list->first = NULL;
     list->last = NULL;
 
-    
     return list;
-    
 }
 
 void destroy(linked_list *linked_list)
@@ -55,31 +53,183 @@ void destroy(linked_list *linked_list)
         current = next;
     }
     
-    
     free(linked_list);
 }
 
-void insert_begin(linked_list *list,int number)
+void insert_begin(linked_list *list, int number)
 {
     if (list == NULL)
     {
         return;
     }
-    
-    
+
+    node *new_node = malloc(sizeof(node));
+
+    if (new_node == NULL)
+    {
+        return;
+    }
+
+    new_node->value = number;
+    new_node->next = list->first;
+
+    list->first = new_node;
+
+    // Se a lista estava vazia,
+    // o novo nó também será o último.
+    if (list->last == NULL)
+    {
+        list->last = new_node;
+    }
+
+    list->size++;
+
+    if (number > list->bigger)
+    {
+        list->bigger = number;
+    }
+
+    if (number < list->smaller)
+    {
+        list->smaller = number;
+    }
 }
 
 void insert_end(linked_list *list, int number)
 {
+    if (list == NULL)
+    {
+        return;
+    }
 
+    node *new_node = malloc(sizeof(node));
+
+    if (new_node == NULL)
+    {
+        return;
+    }
+
+    new_node->value = number;
+    new_node->next = NULL;
+
+    // Lista vazia
+    if (list->first == NULL)
+    {
+        list->first = new_node;
+        list->last = new_node;
+    }
+    else
+    {
+        list->last->next = new_node;
+        list->last = new_node;
+    }
+
+    list->size++;
+
+    if (number > list->bigger)
+    {
+        list->bigger = number;
+    }
+
+    if (number < list->smaller)
+    {
+        list->smaller = number;
+    }
 }
 
-void remove_node(linked_list *list, node *node)
+void remove_node(linked_list *list, node *no)
 {
-    
+    if (list == NULL || no == NULL || list->first == NULL)
+    {
+        return;
+    }
+
+    node *current = list->first;
+    node *previous = NULL;
+
+    // Procura o nó e seu anterior
+    while (current != NULL && current != no)
+    {
+        previous = current;
+        current = current->next;
+    }
+
+    // O nó não pertence à lista
+    if (current == NULL)
+    {
+        return;
+    }
+
+    // Removendo o primeiro nó
+    if (previous == NULL)
+    {
+        list->first = current->next;
+    }
+    else
+    {
+        previous->next = current->next;
+    }
+
+    // Removendo o último nó
+    if (current == list->last)
+    {
+        list->last = previous;
+    }
+
+    free(current);
+
+    list->size--;
+
+    // Se a lista ficou vazia
+    if (list->size == 0)
+    {
+        list->first = NULL;
+        list->last = NULL;
+        list->bigger = INT_MIN;
+        list->smaller = INT_MAX;
+        return;
+    }
+
+    // Recalcula maior e menor
+    list->bigger = list->first->value;
+    list->smaller = list->first->value;
+
+    current = list->first;
+
+    while (current != NULL)
+    {
+        if (current->value > list->bigger)
+        {
+            list->bigger = current->value;
+        }
+
+        if (current->value < list->smaller)
+        {
+            list->smaller = current->value;
+        }
+
+        current = current->next;
+    }
 }
 
 node* search(linked_list *list, int value)
 {
+    if (list == NULL)
+    {
+        return NULL;
+    }
 
+    node *current = list->first;
+
+    while (current != NULL)
+    {
+        if (current->value == value)
+        {
+            return current;
+        }
+
+        current = current->next;
+    }
+
+    return NULL;
 }

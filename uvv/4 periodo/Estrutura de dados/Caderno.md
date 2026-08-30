@@ -9,7 +9,7 @@ int numero = 10;
 int *p = &numero;
 ```
 
-- `&` → pega o **endereço** de uma variável.
+- `&` → pega o **endereço** de memória de uma variável.
 - `*` na declaração → indica que a variável é um **ponteiro**.
 - `*p` → acessa o **valor armazenado no endereço** para o qual `p` aponta.
 
