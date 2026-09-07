@@ -364,3 +364,38 @@ Para listas lineares comuns, o custo computacional das operações fundamentais 
 - **Busca:**
     - **Melhor Caso:** O elemento procurado é o primeiro da lista -> **$O(1)$**.
     - **Pior Caso:** O elemento está na última posição ou não pertence à lista -> **$O(n)$**.
+
+## Aula 31_08 
+
+### Pilha
+
+Estrutura linear formada pelo "empilhamento" de elementos.
+
+![[Pasted image 20260831213721.png]]
+
+A posiçao na base se chama base, e a posição em cima se chama topo.
+
+Só consegue mexer no elemento do topo, seja para inserir como para excluir. 
+
+Os elementos são inseridos e removidos no topo  da pilha.
+
+Existem duas operações obrigatórias em uma pilha:
+- Push: p/ empilhar um elemento.
+- Pop: p/ desempilhar 
+
+Outras operações são possíveis:
+- peek: consulta o elemento do topo da pilha sem remover o elemento.
+- pilha-vazia: verifica se a pulha está vazia.
+
+#### Implementações
+
+1) Pilha sequencial. 
+		Alocação sequencial semelhante à lista sequencial.
+
+2) Pila dinâmica
+		semelhante à alocação dinâmica, os elementos da pilha são alocados em tempo de execução em endereços aleatórios. 
+
+
+#### Problema da celebridade 
+
+Vai ter uma festa, e uma celebridade vai para a essa festa. Nos temos como conhecer quem ta na festa, e quem conhece quem. E queremos saber se tem ou não uma celebridade na festa, e quem é. Uma celebridade é uma pessoa que não conhece ninguém, e todo mundo conhece ele.

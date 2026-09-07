@@ -75,8 +75,6 @@ void insert_begin(linked_list *list, int number)
 
     list->first = new_node;
 
-    // Se a lista estava vazia,
-    // o novo nó também será o último.
     if (list->last == NULL)
     {
         list->last = new_node;
