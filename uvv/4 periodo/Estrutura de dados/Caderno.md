@@ -399,3 +399,50 @@ Outras operações são possíveis:
 #### Problema da celebridade 
 
 Vai ter uma festa, e uma celebridade vai para a essa festa. Nos temos como conhecer quem ta na festa, e quem conhece quem. E queremos saber se tem ou não uma celebridade na festa, e quem é. Uma celebridade é uma pessoa que não conhece ninguém, e todo mundo conhece ele.
+
+
+
+## Fila
+
+Enquanto pilhas usam a política LiFo(Last in, first Out), as filas seguem o princípio FiFo (First in, First out).
+
+Isso significa que quando retiramos um elemento da fila, retiramos o elemento que está há mais tempo armazenado. 
+
+Na prática, os elementos são inseridos no im e retirados no começo.
+
+### Operações
+
+Duas operações são necessárias:
+1) "Enqueue": insere no final da fila
+2) "dequeue": retira no início da fila
+
+![[Pasted image 20260911212524.png]]
+
+
+### Implementação 
+
+- Array
+
+- Lista
+
+
+---
+
+Fila tem um inicio e um fim.
+
+Tem duas operacoes: enqueu (enfilerar), dequeu (defilerar)
+
+Temos alguns tipos de filas que podemos implementar:
+- Simples 
+- circular
+- De prioridade
+
+Para implementar ela pode se usar um array, e cada elemento está na fila, ou pode ser usar uma fila (simplesmente encadeada, duplamente ..., depende de como for implementar)
+
+Para implementar uma fila com um array é preciso:
+- ter duas variaveis, para marcar o inicio da fila, e aonde termina a fila
+- pode marcar a ultima posicao ocupada como fim ou a primeira posicao livre. 
+- Apontando para a primeira posicao livre, voce terá um array vazio, e o fim será o elemento [0] do array. Inseriu um elemento dentro, a primeira posicao livre anda. O problema é quando acaba as posiçoes livres do array. Para resolver esse problema se utiliza um array circular e quando o elemento fim estiver fora do array coloca ele como elemento 0. Para isso se utiliza a formula (F = (F + 1) % tamanho da lista)
+- E para saber se a lista anterior está cheia se faz: tem que comparar a quantidade de elementos que você tem, com o tamanho da lista. Para isso precisa de um cabeçalho (inicio, fim, quantidade de elementos, capacidade da lista) se a quantidade for igual a capacidade entao ele está cheia.
+
+---
