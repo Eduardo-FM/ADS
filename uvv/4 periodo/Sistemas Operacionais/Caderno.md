@@ -255,10 +255,10 @@ Conceitos fundamentais: o que é concorrência, como a CPU alterna entre process
 ![[Pasted image 20260913185951.png]]
 
 ![[Pasted image 20260913190039.png]]
-## Aula 23/08
+## ==Aula 23/08
 
 ### Estrutura dos sistemas operacionais \
 
-## Aula 03/09
+## ==Aula 03/09
 
-## Aula 08/09
+## Aula ==08/09
