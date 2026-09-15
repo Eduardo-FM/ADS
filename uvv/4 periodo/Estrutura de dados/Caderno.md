@@ -446,3 +446,24 @@ Para implementar uma fila com um array é preciso:
 - E para saber se a lista anterior está cheia se faz: tem que comparar a quantidade de elementos que você tem, com o tamanho da lista. Para isso precisa de um cabeçalho (inicio, fim, quantidade de elementos, capacidade da lista) se a quantidade for igual a capacidade entao ele está cheia.
 
 ---
+
+## Tabela Hash
+
+Imagine um estrutura de dados que possibilite o armazenamento de uma tabela onde o acesso a um de seus registros seja efetuado diretamente.
+
+Esta estrutura representa um modelo ideal, contudo em aplicações reais este ideal pode ser aproximado.
+
+A tabela hash serve para retorna os dados de forma O(1)
+
+Ela tem que ter duas coisas essenciais:
+- a propria tabela, com um array com numero finito de entradas 
+- e uma funcao hash que faz a traducao da chave para a posicao
+
+Nao existe ordem entre os elementos. A ordem da entrada dos dados quem determina é a função Hash
+
+Mas pode ter um problema na funcao hash, a funcao hash pode retornar a mesma posicao para duas chaves diferentes (colisao). 
+
+
+A capacidade de carga como boa pratica, deve ser manter em menos de 0.75. Para ter alguma posicao vaga para a insercao de elementos.
+
+Tambem é possivel fazer um hash encadeado, aonde se utiliza uma lista encadeada para inserir elementos.
