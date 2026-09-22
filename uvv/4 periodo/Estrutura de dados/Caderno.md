@@ -467,3 +467,26 @@ Mas pode ter um problema na funcao hash, a funcao hash pode retornar a mesma pos
 A capacidade de carga como boa pratica, deve ser manter em menos de 0.75. Para ter alguma posicao vaga para a insercao de elementos.
 
 Tambem é possivel fazer um hash encadeado, aonde se utiliza uma lista encadeada para inserir elementos.
+
+---
+
+*Tabela hash com endereçamento aberto*
+
+Toda vez que acontecer uma colisão, se procura uma outra posicao livre. 
+
+- tentativa linear 
+Pula de um em um, a passada para evitar a colisão.
+
+Implementa uma nova funcao para achar uma posicao livre quando ocorrer uma colisao.
+
+o problema desse tipo de sondagem, é pq criar cluster, então ao tentar achar uma posicao livre, a possibilidade é grande de ele encontrar uma posicao ocupada. 
+
+- tentativa quadrática
+
+Na tentativa quadrática,, a taxa de busca cresce de forma quadrática. Se faz isso para sair das posiçoes ocupadas de memória mais rápido. 
+
+
+
+
+
+
