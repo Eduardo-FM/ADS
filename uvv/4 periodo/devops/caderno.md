@@ -97,7 +97,6 @@ Maior o impacto desses problema
 
 ### O software mudou
 
-**
 
 O desenvolvimento de software passou por grandes transformações.
 
@@ -534,3 +533,46 @@ Cada etapa possui ferramentas especializadas.
 
 ![[Pasted image 20260913162226.png]]
 
+## Aula 13 - Boas Práticas e Multi-stage Builds
+
+![[Pasted image 20260922123359.png]]
+
+![[Pasted image 20260922123423.png]]
+
+![[Pasted image 20260922124005.png]]
+
+![[Pasted image 20260922124017.png]]
+
+![[Pasted image 20260922124025.png]]
+
+![[Pasted image 20260922124032.png]]
+
+![[Pasted image 20260922124039.png]]
+
+![[Pasted image 20260922124044.png]]
+
+![[Pasted image 20260922124051.png]]
+
+![[Pasted image 20260922124056.png]]
+
+![[Pasted image 20260922124102.png]]
+
+![[Pasted image 20260922124106.png]]
+
+![[Pasted image 20260922124112.png]]
+
+![[Pasted image 20260922124118.png]]
+
+![[Pasted image 20260922124123.png]]
+
+![[Pasted image 20260922124128.png]]
+
+![[Pasted image 20260922124133.png]]
+
+![[Pasted image 20260922124138.png]]
+
+![[Pasted image 20260922124142.png]]
+
+![[Pasted image 20260922124146.png]]
+
+![[Pasted image 20260922124152.png]]

@@ -172,7 +172,87 @@ Os components basicos dos computadores sao:
 
  xm4d
 
-## ==Aula 01-SO PDF ==
+## Aula 01-SO
+
+
+![[Pasted image 20260925115710.png]]
+
+![[Pasted image 20260925115746.png]]
+
+![[Pasted image 20260925115831.png]]
+
+![[Pasted image 20260925115925.png]]
+
+![[Pasted image 20260925120008.png]]
+
+![[Pasted image 20260925121450.png]]
+
+![[Pasted image 20260925121535.png]]
+
+![[Pasted image 20260925121627.png]]
+
+![[Pasted image 20260925121724.png]]
+
+![[Pasted image 20260925123038.png]]
+
+![[Pasted image 20260925123115.png]]
+
+![[Pasted image 20260925124025.png]]
+
+![[Pasted image 20260925124033.png]]
+
+![[Pasted image 20260925124044.png]]
+
+### ==Histórico e Evolução dos Sistemas Operacionais==
+
+### Arquiteturas de Kernel e Tipos de Sistemas Operacionais
+
+Nesta seção, vamos aprofundar nas diferentes arquiteturas internas que compõem o coração dos sistemas operacionais e explorar os principais tipos que moldam o panorama tecnológico atual.
+
+![[Pasted image 20260925130242.png]]
+
+![[Pasted image 20260925130252.png]]
+
+![[Pasted image 20260925130304.png]]
+
+![[Pasted image 20260925130346.png]]
+
+![[Pasted image 20260925130400.png]]
+
+### Segurança, Concorrência e Tendências
+
+![[Pasted image 20260925130425.png]]
+
+![[Pasted image 20260925130437.png]]
+
+![[Pasted image 20260925130446.png]]
+
+![[Pasted image 20260925130503.png]]
+
+![[Pasted image 20260925130515.png]]
+
+![[Pasted image 20260925130523.png]]
+
+![[Pasted image 20260925130534.png]]
+
+![[Pasted image 20260925130540.png]]
+
+![[Pasted image 20260925130547.png]]
+
+![[Pasted image 20260925130553.png]]
+
+![[Pasted image 20260925130600.png]]
+
+![[Pasted image 20260925130606.png]]
+
+![[Pasted image 20260925130611.png]]
+
+![[Pasted image 20260925130623.png]]
+
+![[Pasted image 20260925130633.png]]
+
+![[Pasted image 20260925130653.png]]
+
 
 ## ==AULA_VIRTUALBOX==
 
@@ -257,8 +337,138 @@ Conceitos fundamentais: o que é concorrência, como a CPU alterna entre process
 ![[Pasted image 20260913190039.png]]
 ## ==Aula 23/08
 
-### Estrutura dos sistemas operacionais \
+### Estrutura dos sistemas operacionais 
+
+![[Pasted image 20260925150748.png]]
+
+![[Pasted image 20260925150805.png]]
+
+![[Pasted image 20260925150813.png]]
+
+![[Pasted image 20260925150825.png]]
+
+![[Pasted image 20260925150837.png]]
+
+![[Pasted image 20260925151309.png]]
+
+![[Pasted image 20260925151330.png]]
+
+![[Pasted image 20260925151340.png]]
+
+![[Pasted image 20260925151402.png]]
+
+![[Pasted image 20260925151430.png]]
+
+![[Pasted image 20260925151436.png]]
+
+![[Pasted image 20260925151443.png]]
+
+![[Pasted image 20260925151448.png]]
+
+![[Pasted image 20260925151453.png]]
+
+![[Pasted image 20260925151458.png]]
+
+![[Pasted image 20260925151506.png]]
+
+![[Pasted image 20260925151513.png]]
+
+![[Pasted image 20260925151519.png]]
+
+![[Pasted image 20260925151525.png]]
+
+![[Pasted image 20260925151530.png]]
+
+![[Pasted image 20260925151536.png]]
+
+![[Pasted image 20260925153823.png]]
+
+![[Pasted image 20260925154837.png]]
+
+![[Pasted image 20260925154842.png]]
+
+![[Pasted image 20260925154853.png]]
+
+![[Pasted image 20260925154858.png]]
+
+![[Pasted image 20260925154903.png]]
+
+![[Pasted image 20260925154907.png]]
+
+![[Pasted image 20260925154912.png]]
+
+![[Pasted image 20260925160549.png]]
+
+![[Pasted image 20260925160555.png]]
+
+![[Pasted image 20260925160600.png]]
+
+![[Pasted image 20260925160605.png]]
+
+![[Pasted image 20260925160610.png]]
+
+![[Pasted image 20260925160615.png]]
+
+![[Pasted image 20260925160621.png]]
+
+![[Pasted image 20260925160626.png]]
+
 
 ## ==Aula 03/09
+
+![[Pasted image 20260925160656.png]]
+
+![[Pasted image 20260925160700.png]]
+
+![[Pasted image 20260925160704.png]]
+
+![[Pasted image 20260925160708.png]]
+
+![[Pasted image 20260925160712.png]]
+
+![[Pasted image 20260925160717.png]]
+
+![[Pasted image 20260925160721.png]]
+
+![[Pasted image 20260925160725.png]]
+
+![[Pasted image 20260925160730.png]]
+
+![[Pasted image 20260925160743.png]]
+
+![[Pasted image 20260925160748.png]]
+
+![[Pasted image 20260925160753.png]]
+
+![[Pasted image 20260925160757.png]]
+
+![[Pasted image 20260925160801.png]]
+
+![[Pasted image 20260925160806.png]]
+
+![[Pasted image 20260925160811.png]]
+
+![[Pasted image 20260925160815.png]]
+
+![[Pasted image 20260925160819.png]]
+
+![[Pasted image 20260925160823.png]]
+
+![[Pasted image 20260925160828.png]]
+
+![[Pasted image 20260925160833.png]]
+
+![[Pasted image 20260925160838.png]]
+
+![[Pasted image 20260925160847.png]]
+
+![[Pasted image 20260925160852.png]]
+
+![[Pasted image 20260925160855.png]]
+
+![[Pasted image 20260925160902.png]]
+
+![[Pasted image 20260925160905.png]]
+
 
 ## Aula ==08/09
