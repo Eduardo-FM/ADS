@@ -180,7 +180,7 @@ Processo sem interacao direta com o usuário  - executa em segundo plano.
 
 ### Processo x Thread
 
-Thread é a unidade em execucao dentro de um processo (é uma unidade básica). Processo é a unidade de alocacao de rurcos.
+Thread é a unidade em execucao dentro de um processo (é uma unidade básica). Processo é a unidade de alocacao de recursos.
 
 Nao necessariamente rodam juntos. Um processo pode chamar varias threads.
 
