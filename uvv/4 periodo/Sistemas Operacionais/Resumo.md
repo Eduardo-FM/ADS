@@ -13,7 +13,7 @@ Sem o SO o usuário precisaria conhecer <strong>todos os detalhes do hardware</s
 
 O sistema operacional tem como objetivo funcionar como uma interface entre o usuário e o computador, tornando sua utilização mais simples, rápida e segura.
 
-o So é o primeiro programa executado ao ligar o PC e permanece ativo gerenciando os recursos até o desligamento.
+o SO é o primeiro programa executado ao ligar o PC e permanece ativo gerenciando os recursos até o desligamento.
 
 Funciona de forma contínuo e transparente, garantindo que os aplicativos acessem hardware de forma segura e organizada. 
 
@@ -121,7 +121,7 @@ Disponibilidade é a capacidade de manter o sistema em operação mesmo em casos
 Balanceamento de carga é a possibilidade de distribuir o processamento entre os diversos processadores da configuração a partir da carga de trabalho de cada processador, melhorando, assim, o desempenho do sistema como um todo
 
 
-Um fator-chave no desenvolvimento de sistemas operacionais com múltiplos processadores é a forma de comunicação entre as UCPs e o grau de compartilhamento da memória e dos dispositivos de entrada e saída. Em função desses fatores, podemos classificar os sistemas com múltiplos processadores emfortemente acoplados ou fracamente acoplados.
+Um fator-chave no desenvolvimento de sistemas operacionais com múltiplos processadores é a forma de comunicação entre as UCPs e o grau de compartilhamento da memória e dos dispositivos de entrada e saída. Em função desses fatores, podemos classificar os sistemas com múltiplos processadores em fortemente acoplados ou fracamente acoplados.
 
 ==A grande diferença entre os dois tipos de sistemas é que em sistemas fortemente acoplados existe apenas uma memória principal sendo compartilhada por todos os processadores, enquanto nos fracamente acoplados cada sistema tem sua própria memória individual. Além disso, a taxa de transferência entre processadores e memória em sistemas fortemente acoplados é muito maior que nos fracamente acoplados.==
 
@@ -249,7 +249,7 @@ Um programa em linguagem de máquina pode ser diretamente executado pelo process
 - RISC
 ==Um processador com arquitetura RISC (Reduced Instruction Set Computer) caracteriza-se por possuir poucas instruções de máquina, em geral bastante simples, que são executadas diretamente pelo hardware.== 
 
-Na sua maioria, estas instruções não acessam a memória principal, trabalhando principalmente comregistradores que, neste tipo de processador, se apresentam em grande número. 
+Na sua maioria, estas instruções não acessam a memória principal, trabalhando principalmente com registradores que, neste tipo de processador, se apresentam em grande número. 
 
 Estas características, além de permitirem que as instruções sejam executadas rapidamente, facilitam a implementação do pipelining
 
@@ -279,7 +279,7 @@ Apesar das inúmeras vantagens proporcionadas pelas linguagens de montagem e de 
 
 ==O módulo gerado pelo tradutor é denominado módulo-objeto==, que, apesar de estar em código de máquina, na maioria das vezes não pode ser ainda executado. Isso ocorre em função de um programa poder chamar sub-rotinas externas, e, neste caso, o tradutor não tem como associar o programa principal às sub-rotinas chamadas. Esta função é realizada por outro utilitário denominado linker, e será apresentado adiante.
 
-Dependendo do tipo do programa-fonte, existem dois tipos distintos de tradutores que geram módulosobjeto: montador e compilador.
+Dependendo do tipo do programa-fonte, existem dois tipos distintos de tradutores que geram módulos-objeto: montador e compilador.
 
 ![[Pasted image 20260927121503.png]]
 
@@ -713,7 +713,7 @@ A criação de um processo ocorre a partir do momento em que o sistema operacion
 Um processo é dito no estado de criação quando o sistema operacional já criou um novo PCB, porém ainda não pode colocá-lo na lista de processos do estado de pronto. Alguns sistemas operacionais limitam o número de processos ativos em função dos recursos disponíveis ou de desempenho. Esta limitação pode ocasionar que processos criados permaneçam no estado de criação até que possam passar para ativos. No item 5.8 são descritas diferentes maneiras de criação de processos.
 
 - Terminado (exit)
-Um processo no estado de terminado não poderá ter mais nenhum programa executado no seu contexto, porém o sistema operacional ainda mantém suas informações de controle presentes emmemória. 
+Um processo no estado de terminado não poderá ter mais nenhum programa executado no seu contexto, porém o sistema operacional ainda mantém suas informações de controle presentes em memória. 
 
 Um processo neste estado não é considerado mais ativo, mas como o PCB ainda existe, o sistema operacional pode recuperar informações sobre a contabilização de uso de recursos do processo, como o tempo total do processador. Após as informações serem extraídas, o processo pode deixar de existir. 
 
