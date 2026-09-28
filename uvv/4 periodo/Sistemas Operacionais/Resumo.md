@@ -34,7 +34,7 @@ Controla de forma <strong>ordenada e compartilhada</strong> o uso de memória do
 
 O computador pode ser compreendido como uma máquina de camadas ou máquina de níveis, em que inicialmente existem dois níveis: hardware (nível 0) e sistema operacional (nível 1). Desta forma, a aplicação do usuário interage diretamente com o sistema operacional, ou seja, como se o hardware não existisse. Esta visão modular e abstrata é chamada de máquina virtual. 
 
-Na realidade, um computador não possui apenas dois níveis, e sim tantos níveis quantos foremnecessários para adequar o usuário às suas diversas aplicações. Quando o usuário está trabalhando emum desses níveis não necessita saber da existência das outras camadas, acima ou abaixo de sua máquina virtual.
+Na realidade, um computador não possui apenas dois níveis, e sim tantos níveis quantos forem necessários para adequar o usuário às suas diversas aplicações. Quando o usuário está trabalhando em um desses níveis não necessita saber da existência das outras camadas, acima ou abaixo de sua máquina virtual.
 
 ![[Pasted image 20260927111102.png]]
 
@@ -176,7 +176,7 @@ A unidade lógica e aritmética (ULA), como o nome indica, é responsável pela 
 
 A sincronização de todas as funções do processador é realizada através de um sinal de clock. Este sinal é um pulso gerado ciclicamente que altera variáveis de estado do processador.
 
-Os registradores são dispositivos com a função principal de armazenar dados temporariamente. O conjunto de registradores funciona como uma memória de alta velocidade interna do processador, porémcom uma capacidade de armazenamento reduzida e custo maior que o da memória principal.
+Os registradores são dispositivos com a função principal de armazenar dados temporariamente. O conjunto de registradores funciona como uma memória de alta velocidade interna do processador, porém com uma capacidade de armazenamento reduzida e custo maior que o da memória principal.
 
 Alguns registradores podem ser manipulados diretamente por instruções (registradores de uso geral), enquanto outros são responsáveis por armazenar informações de controle do processador e do sistema operacional (registradores de uso específico), dos tipos: 
 
@@ -224,7 +224,6 @@ O acesso à memória secundária é lento, se comparado com o acesso à memória
 
 Os dispositivos de entrada e saída (E/S) são utilizados para permitir a comunicação entre o sistema computacional e o mundo externo, e podem ser divididos em duas categorias: os que são utilizados como memória secundária e os que servem para a interface usuário-máquina.
 
-
 #### Barramento
 
 O barramento ou bus é um meio de comunicação compartilhado que permite a comunicação entre as unidades funcionais de um sistema computacional. Através de condutores, informações como dados, endereços e sinais de controle trafegam entre processadores, memórias e dispositivos de E/S.
@@ -235,7 +234,7 @@ Os barramentos são classificados em três tipos: barramentos processador-memór
 
 #### Pipelining
 
-Pipelining é uma técnica que permite ao processador executar múltiplas instruções paralelamente emestágios diferentes. O conceito de processamento pipeline se assemelha muito a uma linha de montagem, onde uma tarefa é dividida em uma sequência de subtarefas, executadas dentro da linha de produção.
+Pipelining é uma técnica que permite ao processador executar múltiplas instruções paralelamente em estágios diferentes. O conceito de processamento pipeline se assemelha muito a uma linha de montagem, onde uma tarefa é dividida em uma sequência de subtarefas, executadas dentro da linha de produção.
 
 Da mesma forma que em uma linha de montagem, a execução de uma instrução pode ser dividida em subtarefas, como as fases de busca da instrução e dos operandos, execução e armazenamento dos resultados. 
 
@@ -245,7 +244,7 @@ O processador, através de suas várias unidades funcionais pipeline, funciona d
 
 A linguagem de máquina de um computador é a linguagem de programação que é realmente entendida pelo processador. Cada processador possui um conjunto definido de instruções de máquina, definido por seu fabricante. As instruções de máquina fazem referências a detalhes, como registradores, modos de endereçamento e tipos de dados, que caracterizam um processador e suas funcionalidades.
 
-Um programa em linguagem de máquina pode ser diretamente executado pelo processador, não requerendo qualquer tipo de tradução ou relocação. Quando escrito em linguagem de máquina de umdeterminado processador, um programa não pode ser executado em outra máquina de arquitetura diferente, visto que o conjunto de instruções de um processador é característica específica de cada arquitetura.
+Um programa em linguagem de máquina pode ser diretamente executado pelo processador, não requerendo qualquer tipo de tradução ou relocação. Quando escrito em linguagem de máquina de um determinado processador, um programa não pode ser executado em outra máquina de arquitetura diferente, visto que o conjunto de instruções de um processador é característica específica de cada arquitetura.
 
 - RISC
 ==Um processador com arquitetura RISC (Reduced Instruction Set Computer) caracteriza-se por possuir poucas instruções de máquina, em geral bastante simples, que são executadas diretamente pelo hardware.== 
@@ -294,7 +293,7 @@ Um compilador é um utilitário que opera de modo integrado aos componentes do s
 
 O interpretador é considerado um tradutor que não gera módulo-objeto. A partir de um programa-fonte escrito em linguagem de alto nível, o interpretador, durante a execução do programa, traduz cada instrução e a executa imediatamente.
 
-A maior desvantagem na utilização de interpretadores é o tempo gasto na tradução das instruções de umprograma toda vez que este for executado, já que não existe a geração de um código executável. A vantagem é permitir a implementação de tipos de dados dinâmicos, ou seja, que podem mudar de tipo durante a execução do programa, aumentando, assim, sua flexibilidade.
+A maior desvantagem na utilização de interpretadores é o tempo gasto na tradução das instruções de um programa toda vez que este for executado, já que não existe a geração de um código executável. A vantagem é permitir a implementação de tipos de dados dinâmicos, ou seja, que podem mudar de tipo durante a execução do programa, aumentando, assim, sua flexibilidade.
 
 #### Linker
 
@@ -351,9 +350,9 @@ A utilização concorrente da UCP deve ser implementada de maneira que, quando u
 
 Durante a execução de um programa podem ocorrer alguns eventos inesperados, ocasionando um desvio forçado no seu fluxo de execução.
 
-. Estes tipos de eventos são conhecidos por interrupção ou exceção e podem ser consequência da sinalização de algum dispositivo de hardware externo ao processador ou da execução de instruções do próprio programa.
+Estes tipos de eventos são conhecidos por interrupção ou exceção e podem ser consequência da sinalização de algum dispositivo de hardware externo ao processador ou da execução de instruções do próprio programa.
 
-==. A diferença entre interrupção e exceção é dada pelo tipo de evento ocorrido==
+==A diferença entre interrupção e exceção é dada pelo tipo de evento ocorrido==
 
 A interrupção é o mecanismo que tornou possível a implementação da concorrência nos computadores, sendo o fundamento básico dos sistemas multiprogramáveis. É em função desse mecanismo que o sistema operacional sincroniza a execução de todas as suas rotinas e dos programas dos usuários, além de controlar dispositivos.
 
@@ -370,10 +369,11 @@ Existem dois métodos para o tratamento de interrupções:
 
 ==interrupções mascaráveis - São interrupções que são ignoradas e não recebem tratamento.==
 
-Alguns processadores não permitem que interrupções sejam desabilitadas, fazendo com que exista umtratamento para a ocorrência de múltiplas interrupções. Nesse caso, o processador necessita saber qual a ordem de atendimento que deverá seguir. Para isso, as interrupções deverão possuir prioridades, emfunção da importância no atendimento de cada uma. Normalmente, existe um dispositivo denominado controlador de pedidos de interrupção, responsável por avaliar as interrupções geradas e suas prioridades de atendimento.
+Alguns processadores não permitem que interrupções sejam desabilitadas, fazendo com que exista um tratamento para a ocorrência de múltiplas interrupções. Nesse caso, o processador necessita saber qual a ordem de atendimento que deverá seguir.
+
+Para isso, as interrupções deverão possuir prioridades, em função da importância no atendimento de cada uma. Normalmente, existe um dispositivo denominado controlador de pedidos de interrupção, responsável por avaliar as interrupções geradas e suas prioridades de atendimento.
 
 ==Uma exceção é semelhante a uma interrupção, sendo a principal diferença o motivo pelo qual o evento é gerado. A exceção é resultado direto da execução de uma instrução do próprio programa, como a divisão de um número por zero ou a ocorrência de overflow em uma operação aritmética==
-
 
 ==A diferença fundamental entre exceção e interrupção é que a primeira é gerada por um evento síncrono, enquanto a segunda é gerada por eventos assíncronos. Um evento é síncrono quando é resultado direto da execução do programa corrente==
 
@@ -464,7 +464,6 @@ O sistema operacional precisa proteger seus recursos contra acessos indevidos. P
 
 Essa separação aumenta a **proteção e segurança** do sistema, impedindo que uma aplicação comum execute diretamente operações críticas.
 
-
 ### Rotinas do Sistema Operacional e System Calls
 
 As rotinas do sistema operacional compõem o núcleo do sistema, oferecendo serviços aos usuários e suas aplicações. Todas as funções do núcleo são implementadas por rotinas do sistema que necessariamente possuem em seu código instruções privilegiadas. A partir desta condição, para que estas rotinas possam ser executadas o processador deve estar obrigatoriamente em modo kernel, o que exige a implementação de mecanismos de proteção para garantir a confiabilidade do sistema.
@@ -484,7 +483,7 @@ Assim, a **System Call funciona como uma interface entre a aplicação e o kerne
 
 Todo o controle de execução de rotinas do sistema operacional é realizado pelo mecanismo conhecido como system call. Toda vez que uma aplicação desejar chamar uma rotina do sistema operacional, o mecanismo de system call é ativado. Inicialmente, o sistema operacional verificará se a aplicação possui privilégios necessários para executar a rotina desejada. Em caso negativo, o sistema operacional impedirá o desvio para a rotina do sistema, sinalizando ao programa chamador que a operação não é possível
 
-Os mecanismos de system call e de proteção por hardware garantem a segurança e a integridade do sistema. Com isso, as aplicações estão impedidas de excutarem instruções privilegiadas sem a autorização e a supervisão do sistema operacional.
+Os mecanismos de system call e de proteção por hardware garantem a segurança e a integridade do sistema. Com isso, as aplicações estão impedidas de executarem instruções privilegiadas sem a autorização e a supervisão do sistema operacional.
 
 ### Chamada a Rotinas do Sistema Operacional
 
@@ -653,7 +652,6 @@ Os privilégios ou direitos definem as ações que um processo pode fazer em rel
 
 Privilégios que afetam o próprio processo permitem que suas características possam ser alteradas, como prioridade de execução, limites alocados na memória principal e secundária etc. Já os privilégios que afetam os demais processos permitem, além da alteração de suas próprias características, alterar as de outros processos.
 
-
 Privilégios que afetam o sistema são os mais amplos e poderosos, pois estão relacionados à operação e à gerência do ambiente, como a desativação do sistema, alteração de regras de segurança, criação de outros processos privilegiados, modificação de parâmetros de configuração do sistema, entre outros. 
 
 A maioria dos sistemas operacionais disponibiliza uma conta de acesso com todos estes privilégios disponíveis, com o propósito de o administrador gerenciar o sistema operacional. No sistema Unix existe a conta “root”, no MS Windows a conta “administrator” e no OpenVMS existe a conta “system” com este mesmo perfil.
@@ -663,6 +661,8 @@ A maioria dos sistemas operacionais disponibiliza uma conta de acesso com todos 
 O espaço de endereçamento é a área de memória pertencente ao processo onde instruções e dados do programa são armazenados para execução. Cada processo possui seu próprio espaço de endereçamento, que deve ser devidamente protegido do acesso dos demais processos.
 
 #### Bloco de Controle do Processo
+
+==PCB==
 
 O processo é implementado pelo sistema operacional através de uma estrutura de dados chamada bloco de controle do processo (Process Control Block — PCB). A partir do PCB, o sistema operacional mantém todas as informações sobre o contexto de hardware, contexto de software e espaço de endereçamento de cada processo.
 
@@ -793,6 +793,7 @@ Entre os exemplos citados estão:
 **Sinais** são mecanismos utilizados para informar a um processo que determinado evento ocorreu. Eles podem ser gerados pelo sistema operacional ou por outros processos.
 
 Um exemplo é pressionar **Ctrl+C** para interromper um programa. O sistema operacional gera um sinal que informa ao processo sobre o evento. O processo pode possuir um tratador específico para lidar com esse sinal.
+
 
 ## Cap 6 - Thread
 
