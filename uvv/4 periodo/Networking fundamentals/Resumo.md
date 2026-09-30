@@ -15,11 +15,16 @@ ex.: computadores, smartphones, servidores
 ==Intermediários não geram nem consomem o conteúdo das mensagens — apenas os repassam.==
 ex.: switches, roteadores, access points
 Um exemplo de software cliente é um navegador, como Chrome ou FireFox. Um único computador pode também executar vários tipos de software cliente. Por exemplo, um usuário pode verificar o e-mail e visualizar uma página da Web enquanto troca mensagens instantâneas e ouve um fluxo de áudio. A tabela lista três tipos comuns de software de servidor.
-#### rede ponto a ponto
 
-O software cliente e o servidor geralmente são executados em computadores separados, mas também é possível que um computador seja usado para ambas as funções ao mesmo tempo. Em pequenas empresas e em casas, muitos computadores funcionam como servidores e clientes na rede. Esse tipo de rede é chamado de rede ponto a ponto.
+Uma rede só faz sentido se tiver dispositivos finais ligadas a ela. 
 
-![[Pasted image 20260929142908.png]]
+Se tem um endereço IP é um host.
+
+Se utiliza um endereço de rede é um endpoint, e então um host.
+
+Se um dispositivo desktop tiver uma função para ser um roteador ele será um dispositivo intermediário. 
+
+Na aula trabalhamos com o Switch l2 (dispositivo intermediário)
 
 #### Dispositivos finais
 
@@ -39,12 +44,6 @@ Exemplos dos dispositivos intermediários mais comuns e uma lista de funções s
 
 ![[Pasted image 20260929143103.png]]
 
-#### Meios de rede 
-
-- Fios de metal dentro de cabos - Os dados são codificados em impulsos elétricos.
-- Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.
-- Transmissão sem fio - Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.
-
 
 ### Tipos de Redes
 
@@ -58,6 +57,9 @@ Uma WAN é uma infraestrutura de rede que fomece acesso a outras redes em uma am
 Conecta dispositivos em uma <strong>área geográfica pequena</strong>
 Ex.: escritório, escola, casa
 
+Rede local
+Dentro de um prédio, de um campo, de uma cidade
+
 Uma LAN é uma infraestrutura de rede que abrange uma pequena área geográfica. As LANs têm características específicas:
 - LANs interconectam dispositivos finais em uma área limitada, como uma casa, uma escola, um edifício de escritórios ou um campus.
 - Uma LAN é geralmente administrada por uma única organização ou pessoa. O controle administrativo é imposto no nível da rede e governa as políticas de segurança e controle de acesso.
@@ -66,6 +68,9 @@ Uma LAN é uma infraestrutura de rede que abrange uma pequena área geográfica.
 - WAN — Wide Area Network
 Conecta redes em <strong>áreas geograficamente distantes</strong>
 Ex.: cidades, países, continentes
+
+Rede de longo alcance
+CIdades, países, continentes. 
 
 Uma WAN é uma infraestrutura de rede que abrange uma ampla área geográfica. As WANs geralmente são gerenciadas por provedores de serviços (SPs) ou provedores de serviços de Internet (ISPs).
 
@@ -83,9 +88,7 @@ dispositivos finais locais.
 
 As redes de pequeno escritório e escritório doméstico (SOHO) permitem que as pessoas trabalhem em casa ou em um escritório remoto- Muitos trabalhadores independentes usam esses tipos de redes para anunciar e vender produtos, pedir suprimentos e se comunicar com os clientes.
 
-
 Empresas e grandes organizações usam redes para fomecer consolidação, armazenamento e acesso a informações em servidores de rede. As redes fomecem e-mail, mensagens instantâneas e colaboração entre funcionários. Muitas organizações usam a conexão de sua rede à Internet para fomecer produtos e serviços aos chentes.
-
 
 A intemet é a maior rede existente. Na verdade, o termo Internet significa uma «rede de redes". É uma coleção de redes públicas e privadas interconectadas.
 
@@ -93,110 +96,18 @@ Em pequenas empresas e residências, muitos computadores funcionam como servidor
 
 ---
 
-#### A internet 
-
-A intemet é uma coleção mundial de redes interconectadas (intemetworks, ou intemet para abreviar).
-
-Algumas LANs do exemplo são conectados entre si por meio de uma WAN- As WANs estão conectadas entre si. As WANs podem se conectar através de fios de cobre, cabos de fibra ótica e transmissões sem fio (não mostradas).
-
-
-##### Intranet e extranets
-
-Existem outros dois termos semelhantes ao termo internet: intranet e extranet.
-
-Intranet é um termo frequentemente usado para se referir a uma conexão privada de LANs e WANs que pertence a uma organização. Uma intranet é projetada para ser acessada apenas por membros da organização, funcionários ou outras pessoas autorizadas.
-
-Uma organização pode usar uma extranet para fomecer acesso seguro e protegido a indivíduos que trabalham para uma organização diferente, mas exigem acesso aos dados da organização. 
-
-Aqui estão alguns exemplos de extranets:
--  Uma empresa que fornece acesso a fornecedores e contratados extemos;
-- Um hospital que fornece um sistema de reservas aos médicos para que eles possam marcar consultas para seus pacientes;
-- Um escritório local de educação que está fornecendo informações sobre orçamento e pessoal às escolas de seu distrito.
-
-##### Conexões com a internet 
-
-- Cabo - Normalmente oferecido por provedores de serviços de televisão a cabo, o sinal de dados da internet transmite no mesmo cabo que fornece televisão a cabo. Ele fornece alta largura de banda, alta disponibilidade e uma conexão sempre ativa à Internet.
-
-- DSL - As linhas de assinante digital também fornece alta largura de banda, alta disponibilidade e uma conexão sempre ativa à Internet. O DSL funciona utilizando a linha telefônica. Em geral, usuários de pequenos escritórios e escritórios domésticos se conectam com o uso de DSL Assimétrico (ADSL), o que significa que a velocidade de download é maior que a de upload.
-
-- Celular - O acesso celular à Internet usa uma rede de telefonia celular para se conectar. Onde quer que você possa obter um sinal de celular, você pode obter acesso à Internet por celular. O desempenho é limitado pelos recursos do telefone e da torre de celular à qual está conectado.
-
-- Satélite - A disponibilidade do acesso à internet via satélite é um benefício nas áreas que, de outra forma, não teriam conectividade com a internet. As antenas parabólicas exigem uma linha de visão clara para o satélite.
-
-- Conexão Discada (Dial-up) - Uma opção de baixo custo que usa qualquer linha telefônica e um modem. A baixa largura de banda fornecida por uma conexão de modem dial-up não é suficiente para grandes transferências de dados, embora seja útil para acesso móvel durante a viagem.
-
-- Fibra óptica — Uma forma de conexão de banda larga que utiliza cabos de fibra óptica para fornecer acesso à internet de alta velocidade com velocidades de upload e download simétricas.
-
-
-###### Conexões corporativas
-Linha Alugada Dedicada - As linhas alugadas são circuitos reservados na rede do provedor de serviços que conectam escritórios geograficamente separados para redes privadas de voz e / ou dados. Os circuitos são alugados a uma taxa mensal ou anual.
-
-Metro Ethernet - Isso às vezes é conhecido como Ethernet WAN- Neste módulo, vamos nos referir a ele como Metro Ethernet. As Ethernet metropolitanas estendem a tecnologia de acesso à LAN na WAN. Ethernet é uma tecnologia de LAN que você aprenderá em um módulo posterior.
-
-DSL de negócios - O DSL comercial está disponível em vários formatos. Uma escolha popular é a linha de assinante digital simétrica (SDSL), que é semelhante à versão DSL do consumidor, mas fornece uploads e downloads nas mesmas velocidades altas
-
-Satélite - O serviço de satélite pode fornecer uma conexão quando uma solução com fio não está disponível.
-
-Fibra óptica — Uma forma de conexão de banda larga que utiliza cabos de fibra óptica para fornecer acesso à internet de alta velocidade com velocidades de upload e download simétricas.
-
-##### A Rede Convergente
-
-- Redes Separadas Tradicionais
-Cada rede possuía seu próprio conjunto de regras e padrões para assegurar a comunicação bem-sucedida. Vários serviços foram executados em várias redes.
-
-![[Pasted image 20260929144815.png]]
-
-
-- **Redes convergentes**
-Diferentemente das redes dedicadas, as redes convergentes são capazes de fornecer dados, voz e vídeo entre muitos tipos diferentes de dispositivos na mesma infraestrutura de rede. Essa infraestrutura de rede usa o mesmo conjunto de regras, os mesmos contratos e normas de implementação. As redes de dados convergentes transportam vários serviços em uma rede.
-
-![[Pasted image 20260929144856.png]]
-
-#### Redes confiáveis
-
-- Tolerância a falhas;
-Uma rede tolerante a falhas é aquela que limita o número de dispositivos afetados durante uma falha.
-
-- Escalabilidade;
-Uma rede escalável se expande rapidamente para oferecer suporte a novos usuários e aplicativos.
-
-- Qualidade de serviço (QOS); 
-- Segurança.
-
-#### Segurança 
-
-Vírus, worms e cavalos de Tróia - Eles contêm software ou código malicioso em execução no dispositivo do usuário.
-
-Spyware e adware - Estes são tipos de software que são instalados no dispositivo de um usuário. O software, em seguida, coleta secretamente informações sobre o usuário.
-
-Ataques de dia zero - Também chamados de ataques de hora zero, ocorrem no primeiro dia em que uma vulnerabilidade se toma conhecida.
-
-Ataques de ator de ameaça - Uma pessoa mal-intencionada ataca dispositivos de usuário ou recursos de rede.
-
-Ataques de negação de serviço - Esses ataques atrasam ou travam aplicativos e processos em um dispositivo de rede.
-
-Interceptação de dados e roubo - Esse ataque captura informações privadas da rede de uma organização.
-
-Roubo de identidade - Esse ataque rouba as credenciais de login de um usuário para acessar informações privadas.
-##### Soluções
-
-Estes são os componentes básicos de segurança para uma rede doméstica ou de pequeno escritório:
-
-Antivirus e antispyware - Esses aplicativos ajudam a proteger os dispositivos finais contra a infecção por software malicioso.
-
-Filtragem por firewall - A filtragem por firewall bloqueia o acesso não autorizado dentro e fora da rede. Isso pode incluir um sistema de firewall baseado em host que impede o acesso não autorizado ao dispositivo final ou um serviço básico de filtragem no roteador doméstico para impedir o acesso não autorizado do mundo externo à rede.
-
-
 ### Topologia
 
 - Topologia física 
 descreve o mundo real (cabos, posição dos equipamentos); 
+Na topologia fisica geralmente nao tem endereco ip. 
 
 Os diagramas de topologia física ilustram a localização fisica dos dispositivos intermediários e a instalação dos cabos.
 
 
 - topologia lógica 
 descreve como os dados fluem. São camadas de abstração diferentes e independentes.
+Na topologia logica se sabe o fluxo de dados
 
 Diagramas de topologia lógica ilustram dispositivos, portas e o esquema de endereçamento da rede.
 
@@ -228,22 +139,31 @@ O IOS possui uma hierarquia de modos de acesso. Cada modo oferece um conjunto di
 
 ==O comando enable não leva direto ao config global — passa pelo modo privilegiado antes!==
 
-
 Saber qual comando usar para subir ou descer de modo é essencial. Cada comando tem um comportamento diferente — use o correto para não se perder na hierarquia.
+
+A hierarquia de modo de acesso siginifica que voce nao pode passar do modo usuario para o de configura interface tem que ir um por um. 4
+
+
+==saber qual comando para subir e descer de módulo. ==
 
 ###  Acessando a CLI e Modos de Operação
 
 - Switch>
 EXEC do Usuário
 Acesso limitado — apenas comandos básicos de visualização
+O modo permite acesso a apenas um número limitado de comandos de monitoramento básico.
+É geralmente chamado de modo "view-only".
 
 - Switch#
 EXEC Privilegiado
 Acesso completo — entrar com ==enable==
+O modo permite acesso a todos os comandos e recursos.
+O usuário pode usar qualquer comando de monitoramento e executar a configuração e comandos de gerenciamento.
+Para voltar para o modo EXEC do Usuário usar o comando ==disable==
 
 - Switch(config)#
 Configuração Global 
-Configurar o dispositivo — entrar com configure terminal
+Configurar o dispositivo — entrar com ==configure terminal==
 
 ### Configurando Hostname e Senhas no S1
 
@@ -354,21 +274,50 @@ Ex.: de config-if → pula direto ao modo enable, ignorando o config
 
 ==Use exit quando quiser recuar passo a passo. Use end ou Ctrl+Z quando quiser sair rapidamente de qualquer subconfiguração.==
 
-
-
 ## 03 - Modelos OSI e TCP/IP
 
 ### Modelo OSI
 
 O modelo OSI é um <strong>padrão de referência</strong> que divide a comunicação em 7 camadas independentes. Cada camada tem responsabilidades específicas e se comunica apenas com as camadas adjacentes.
 
+PDU da camada fisicia:
+- bits
+- bytes
+- cabos (upt, stp, fu, MM, MN)
+- conectores
+- hub
+- 2.4 ghz
+
+Padrao EIA/TIA:
+- 568A
+- 568B
+- cross e direto (saber quando utiliza e qual a relacao)
+
+Padrao RJ45
+cabos de par trançado blindado e nao blindado
+
+Categorias dos cabos 5,6,7E (quando maior o cabo maior a largura de banda)
+Quando mais retorcido o cabo, maior o cancelamento. 
+
 ==Mnemônico: “Até a sua tia ri enquanto fala"==
 
 ![[Pasted image 20260929102248.png]]
 
+![[Pasted image 20260930120851.png]]
 ### Modelo TCP/IP — 4 Camadas
 
+é reduzido 
+
+tem 4 camadas apenas 
+
+==saber quais camadas sao aglutinadas pelo TCP do modelo OSI==
+
 O TCP/IP é o modelo prático usado na internet. Suas 4 camadas agrupam as 7 do OSI, entender essa correspondência é fundamental para compreender como a comunicação em rede funciona.
+
+Esse tipo de modelo corresponde à estrutura de um conjunto de protocolos específico. O modelo TCP/IP é um modelo de protocolo porque descreve as funções que ocorrem em cada camada de protocolos dentro da suíte TCP/IP O TCP/IP também é usado como um modelo de referência. 
+
+![[Pasted image 20260930121037.png]]
+
 
 ![[Pasted image 20260929104451.png]]
 
@@ -381,7 +330,13 @@ Correspondências entre TCP/IP e OSI
 
 ==O TCP/IP simplifica o modelo OSI agrupando camadas com funções semelhantes em uma única camada mais abrangente.==
 
+Os protocolos que compõem a suíte de protocolos TCP/IP também podem ser descritos em termos do modelo de referência OSI.
 
+No modelo OSI, a camada de acesso à rede e a camada de aplicação do modelo TCP/IP são, divididas para descrever funções discretas que devem ocorrer nessas camadas.
+
+Na camada de acesso à rede, o suíte de protocolos TCP/IP não especifica que protocolos usar ao transmitir por um meio físico; ele descreve somente a transmissão da camada de Internet aos protocolos da rede física. As Camadas 1 e 2 do modelo OSI discutem os procedimentos necessários para acessar a mídia e o meio físico para enviar dados por uma rede.
+
+![[Pasted image 20260930121152.png]]
 ## 04 - Encapsulamento e PDUs
 
 Cada camada do modelo TCP/IP "embrulha" os dados com suas próprias informações de controle, gerando uma unidade de dados (PDU) com nome específico. Memorize o nome de cada PDU.
@@ -391,7 +346,7 @@ Cada camada do modelo TCP/IP "embrulha" os dados com suas próprias informaçõe
 
 ==Cada camada adiciona um cabeçalho (header) ao descer — esse processo é chamado de encapsulamento.==
 
-### Encapsulamento
+### Encapsulamento e desencapsulamento
 
 Encapsulamento e desencapsulamento são processos simétricos e opostos: um ocorre no emissor (descendo as camadas) e o outro no receptor (subindo as camadas). A prova testa se você sabe diferenciá-los.
 
@@ -403,7 +358,27 @@ Dados descem pelas camadas → cada camada adiciona informações de controle
 - Desencapsulamento (Receptor)
 Dados sobem pelas camadas → cada camada remove seu cabeçalho
 
+À medida que os dados da aplicação são passados pela pilha de protocolos em seu caminho para serem transmitidos pelo meio físico de várias informações de protocolos são adicionadas em cada nível- Isso é conhecido como o processo de encapsulamento.
+
+O formato que uma parte de assume em qualquer camada é chamado de unidade de dados de (PDU)- Durante o encapsulamento a PDU que recebe da camada superior de acordo com o protocolo sendo usado.
+
+Em cada etapa do processo, uma PDU possui um nome diferente para refletir suas novas funções Embora não haja uma convenção de nomenclatura universal para PDUs, neste curso, as PDUs são de acordo com os protocolos do conjunto TCP / IP. As PDUs para cada forrna de dados são mostradas na figura.
+
+![[Pasted image 20260930121537.png]]
+
+
+Quando as mensagens estão sendo enviadas em uma rede, o processo de encapsulamento  funciona de cima para baixo. Em cada camada, as informações da camada superior são consideradas dados encapsulados no protocolo. Por exemplo, o segmento TCP é considerado dados dentro do pacote IP.
+
+Esse processo é revertido no host de recebimento e é conhecido como desencapsulamento. O desencapsulamento é o processo usado um dispositivo receptor para remover um ou mais cabeçalhos de protocolo. Os dados são desencapsulados à medida que se movem na pilha em direção à aplicação do usuário final.
+
+
 ==São processos opostos — não são sinônimos. E o encapsulamento ocorre em todas as camadas, não só na Aplicação!==
+
+#### Sentido 
+
+Tem que ver o sentido de quem envia e de quem recebe. 
+
+Quando desce a o descapsulamento, Quando sobe ha o encapsulamento. 
 ## 05 - Meios de transmissão físicos
 
 Cada meio físico tem características próprias de velocidade, distância, custo e imunidade a interferências. A prova compara esses meios — saiba os pontos fortes e fracos de cada um.
@@ -412,6 +387,52 @@ Cada meio físico tem características próprias de velocidade, distância, cust
 
 ==Wireless não dispensa meio físico — o ar é o meio! Nunca escreva "sem meio físico".==
 
+### Cabos de cobre - UTP
+
+![[Pasted image 20260930123851.png]]
+![[Pasted image 20260930123923.png]]
+![[Pasted image 20260930123938.png]]
+
+![[Pasted image 20260930123956.png]]
+
+![[Pasted image 20260930124008.png]]
+
+![[Pasted image 20260930124015.png]]
+
+
+![[Pasted image 20260930124058.png]]
+
+![[Pasted image 20260930124125.png]]
+
+![[Pasted image 20260930124303.png]]
+
+![[Pasted image 20260930124340.png]]
+
+==O **cabo direto** (ou _straight-through_) serve para conectar **dispositivos diferentes**, como um computador a um [switch](https://www.youtube.com/watch?v=xAbJf1cVn2A) ou roteador, enquanto o **cabo crossover** (cruzado) serve para ligar **dispositivos iguais** diretamente entre si, como um computador a outro computador==
+
+
+### Cabos Fibra óptica
+
+![[Pasted image 20260930124456.png]]
+
+![[Pasted image 20260930124510.png]]
+
+![[Pasted image 20260930124522.png]]
+
+![[Pasted image 20260930124528.png]]
+
+### Sem fio 
+
+![[Pasted image 20260930124604.png]]
+
+![[Pasted image 20260930124612.png]]
+
+
+### Meios de rede 
+
+- Fios de metal dentro de cabos - Os dados são codificados em impulsos elétricos.
+- Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.
+- Transmissão sem fio - Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.
 
 ## 06 - Conversão binário/decimal/hex
 
@@ -422,6 +443,9 @@ Em endereçamento IPv4, cada octeto é um número de 8 bits. Saber converter bin
 ![[Pasted image 20260929110415.png]]
 
 Identifique quais bits são 1, some seus valores posicionais e obtenha o decimal correspondente.
+
+Para converter um número binário para decimal, você deve ==multiplicar cada dígito do binário por uma potência de 2, começando com 2⁰ no dígito mais à direita e aumentando o expoente em 1 para cada posição à esquerda, e depois somar todos os resultados==.
+
 ## 07 - Quadro ethernet e comutação
 
 O quadro Ethernet é a unidade de dados da camada de Enlace. Cada campo tem uma função específica a prova testa se você sabe o papel do preâmbulo, dos endereços MAC, do payload e do FCS.
@@ -439,6 +463,8 @@ Mín. 46 bytes — Máx. 1500 bytes
 
 - FCS 
 Verifica se o quadro foi corrompido
+
+![[Pasted image 20260930125405.png]]
 
 ---
 Endereço MAC
@@ -481,6 +507,13 @@ Encaminha assim que lê o MAC de destino
 Menor latência — mais rápido
 Não verifica FCS — pode propagar quadros corrompidos
 Não elimina completamente quadros com erro
+
+![[Pasted image 20260930125518.png]]
+
+![[Pasted image 20260930125626.png]]
+![[Pasted image 20260930125631.png]]
+
+
 
 ### Domínio de Colisão vs. Domínio de Broadcast
 
