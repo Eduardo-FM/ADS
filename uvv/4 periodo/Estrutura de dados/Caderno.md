@@ -1,6 +1,5 @@
 
-## Aulas iniciais
-### Ponteiro
+## Ponteiro
 
 Em C, **ponteiro é uma variável que guarda o endereço de memória de outra variável**.
 
@@ -18,13 +17,75 @@ Exemplo:
 *p = 50;
 ```
 
-### Estrutura dinâmica
+Nesse caso, `p` aponta para `numero`, então `*p = 50` altera o valor de `numero` para `50`.
+
+### Ponteiro para ponteiro
+
+Um **ponteiro para ponteiro** (ou ponteiro duplo) é uma variável que armazena o **endereço de memória de outro ponteiro**.
+
+Enquanto um ponteiro simples guarda o endereço de uma variável comum, o ponteiro duplo guarda o endereço do "papel" onde o primeiro endereço foi anotado.
+
+
+Exemplo:
+``` c
+int x = 10; 
+
+int *p = &x; // 'p' guarda o endereço de 'x' int 
+
+**q = &p; // 'q' guarda o endereço de 'p'
+
+printf("Valor de x: %d\n", x); // Imprime 10 
+
+printf("Via *p: %d\n", *p); // Desreferencia 'p' -> Imprime 10 
+
+printf("Via **q: %d\n", **q); // Desreferencia 'q' duas vezes -> Imprime 10
+
+```
+
+#### **Visualização da Memória**
+
+Para entender como a desreferenciação funciona na prática, imagine os endereços de memória:
+
+|Variável|Endereço de Memória|Valor Armazenado|Significado|
+|---|---|---|---|
+|**x**|`0x100`|`10`|Valor inteiro comum|
+|**p**|`0x200`|`0x100`|Endereço de `x`|
+|**q**|`0x300`|`0x200`|Endereço de `p`|
+
+- **q** resulta em `0x200` (o endereço de `p`).
+- \*q acessa o conteúdo de `p`, que é `0x100` (o endereço de `x`).
+- \**\*q acessa o conteúdo do endereço `0x100`, que é **10**.
+
+#### **Para que serve na prática?**
+
+Na linguagem C, você usará ponteiros duplos principalmente em **três cenários essenciais**:
+
+1. **Modificar um ponteiro dentro de uma função (Passagem por Referência de Ponteiro):** Quando você precisa que uma função altere para onde um ponteiro aponta (por exemplo, ao **inserir um nó no início de uma Lista Encadeada** ou ao alocar memória dentro de uma função auxiliar).
+
+``` c
+void aloca_inteiro(int **ptr) {
+    *ptr = (int *) malloc(sizeof(int)); // Modifica o ponteiro original na função chamadora
+    **ptr = 42;                         // Atribui valor à memória alocada
+}
+
+```
+
+2. **Matrizes Dinâmicas (Arrays Bidimensionais):** Alocação de um vetor de ponteiros, onde cada posição aponta para uma linha de elementos.
+
+``` c
+int **matriz = (int **) malloc(linhas * sizeof(int *));
+
+```
+
+3. **Vetor de Strings:** O parâmetro `char *argv[]` ou `char **argv` na função `main()` é um ponteiro para ponteiro, onde cada elemento é uma string (`char *`).
+
+## Estrutura dinâmica
 
 Uma **estrutura dinâmica** é uma estrutura de dados cujo **tamanho pode ser alterado durante a execução do programa**.
 
 Diferente de estruturas estáticas, que possuem um tamanho definido previamente, as estruturas dinâmicas utilizam **memória alocada dinamicamente**, principalmente com `malloc()`, `calloc()`, `realloc()` e `free()`.
 
-#### Principais características
+### Principais características
 
 - O tamanho pode **aumentar ou diminuir** durante a execução.
 - Utiliza **memória heap**.
@@ -47,7 +108,7 @@ free(p);
 
 ==Estrutura dinâmica = estrutura cujo tamanho pode ser definido ou alterado durante a execução, utilizando alocação dinâmica de memória e ponteiros.==
 
-### TAD 
+## TAD 
 
 Um **TAD (Tipo Abstrato de Dados)** é um tipo definido pelo usuário que determina:
 
@@ -61,7 +122,7 @@ No desenvolvimento em C, dividimos o TAD em dois arquivos:
 1. **Arquivo `.h` (Interface):** Define as operações públicas (o manual de uso do TAD).
 2. **Arquivo `.c` (Implementação):** Contém a lógica interna de funcionamento das operações.
 
-####  Arquivo `.h` — Interface
+###  Arquivo `.h` — Interface
 
 ``` c
 #ifndef PONTO_H
@@ -80,7 +141,7 @@ void ponto_atribuir(Ponto *p, float x, float y);
 #endif // PONTO_H
 ```
 
-#### Arquivo `.c` — Implementação
+### Arquivo `.c` — Implementação
 
 ``` C
 #include <stdlib.h>
@@ -128,9 +189,8 @@ void ponto_atribuir(Ponto *p, float x, float y) {
 > **`.h` = interface (o que pode ser usado).**  
 > **`.c` = implementação (como funciona).**  
 > **O usuário utiliza o TAD sem precisar conhecer sua implementação interna.**
-## aula 10_08
 
-### *Complexidade de algoritmo*
+## *Complexidade de algoritmo*
 
 A **complexidade de um algoritmo** analisa a quantidade de **recursos necessários** para executá-lo, principalmente:
 
@@ -144,7 +204,7 @@ A análise pode considerar:
 - **Melhor caso:** situação mais favorável.
 - **Caso médio:** comportamento esperado para uma entrada comum.
 - **Pior caso:** situação mais desfavorável.
-#### Anotação Big O
+### Anotação Big O
 
 A **notação Big O** descreve como o custo de um algoritmo **cresce conforme o tamanho da entrada (`n`) aumenta**.
 
@@ -199,13 +259,13 @@ Temos aproximadamente `n × n` operações:
 > **`O(1)` → não depende de `n`**  
 > **`O(n)` → cresce proporcionalmente a `n`**  
 > **`O(n²)` → cresce proporcionalmente a `n²`**
-## Aula 14_08
 
-### Listas 
 
-#### Lista sequencial
+## Listas 
 
-Uma lista sequencial é caracterizada por armazenar seus elementos em **posições adjacentes de memória**. É chamada de sequencial porque os elementos estão fisicamente dispostos em sequência direta na memória (um elemento imediatamente após o outro).
+### Lista sequencial
+
+Uma lista sequencial, ou ==lista contígua== é caracterizada por armazenar seus elementos em **posições adjacentes de memória**. É chamada de sequencial porque os elementos estão fisicamente dispostos em sequência direta na memória (um elemento imediatamente após o outro).
 
 - **Busca e Acesso:** O acesso a qualquer posição é direto ($O(1)$) porque podemos calcular a posição exata de um elemento sabendo o endereço de início (endereço base) através da fórmula: $$\text{Endereço} = \text{Endereço Base} + (\text{Índice} \times \text{Tamanho do Elemento})$$ _(Exemplo: um inteiro (`int`) normalmente ocupa **4 bytes** na memória)._
 
@@ -232,7 +292,61 @@ v[o] == 1;
 
 para acessar um elemento o acesso é direto, então se dá a posição do elemento é você já consegue acessa-la.
 
-#### Lista dinamica
+#### Como funciona a Inserção de Elementos
+
+Para inserir um novo elemento em uma lista sequencial, precisamos garantir que há espaço disponível (`quantidade < TAMANHO_MAXIMO`). A lógica varia dependendo de **onde** o elemento será inserido:
+
+- **Inserção no Final (**$O(1)$**):** É a operação mais rápida. O elemento é colocado diretamente na posição `quantidade` e o contador de elementos é incrementado.
+- **Inserção no Início ou no Meio (**$O(n)$**):** Como os elementos devem permanecer contíguos sem "buracos", é necessário abrir espaço **deslocando todos os elementos subsequentes uma posição para a direita** (de trás para frente), antes de colocar o novo valor na posição desejada.
+
+``` c
+// Inserção em uma posição específica (pos)
+int inserir(int v[], int *qtd, int tam_max, int elem, int pos) {
+    if (*qtd >= tam_max) return 0;        // Falha: Lista cheia
+    if (pos < 0 || pos > *qtd) return 0;  // Falha: Posição inválida
+
+    // Desloca os elementos para a direita para abrir espaço
+    for (int i = *qtd; i > pos; i--) {
+        v[i] = v[i - 1];
+    }
+
+    v[pos] = elem; // Insere o novo elemento
+    (*qtd)++;      // Incrementa a quantidade de elementos
+    return 1;      // Sucesso
+}
+```
+
+#### Como funciona a Remoção de Elementos
+
+Para remover um elemento, a lista não pode estar vazia (`quantidade > 0`). A lógica também depende da posição do elemento a ser removido:
+
+- **Remoção no Final (**$O(1)$**):** Basta decrementar a quantidade de elementos (`quantidade--`). O valor antigo permanece na memória, mas é considerado "lixo" inválido pela estrutura.
+- **Remoção no Início ou no Meio (**$O(n)$**):** Ao remover um elemento do meio, fica uma lacuna ("buraco") na memória. Para manter a contiguidade física da lista, devemos **deslocar todos os elementos à direita uma posição para a esquerda** (da esquerda para a direita), preenchendo o espaço do elemento removido.
+
+``` c
+// Remoção em uma posição específica (pos)
+int remover(int v[], int *qtd, int pos) {
+    if (*qtd == 0) return 0;              // Falha: Lista vazia
+    if (pos < 0 || pos >= *qtd) return 0; // Falha: Posição inválida
+
+    // Desloca os elementos para a esquerda para cobrir a lacuna
+    for (int i = pos; i < *qtd - 1; i++) {
+        v[i] = v[i + 1];
+    }
+
+    (*qtd)--; // Decrementa a quantidade de elementos
+    return 1; // Sucesso
+}
+```
+#### Resumo da Complexidade Operacional
+
+| Operação              | Início / Meio | Final  | Justificativa                                            |
+| --------------------- | ------------- | ------ | -------------------------------------------------------- |
+| **Acesso por Índice** | $O(1)$        | $O(1)$ | Cálculo direto via ponteiro base.                        |
+| **Inserção**          | $O(n)$        | $O(1)$ | Exige deslocar elementos para a direita no início/meio.  |
+| **Remoção**           | $O(n)$        | $O(1)$ | Exige deslocar elementos para a esquerda no início/meio. |
+
+### Lista dinâmica
 
 Na alocação dinâmica se utiliza o malloc.
 
@@ -247,10 +361,10 @@ v = malloc(n/*numero definido em tempo de execucao */* * sizeOf(int))
 free(v);
 ```
 
-É possivel mudar o tamnho da alocacao dinamica durante o código.
+É possível mudar o tamanho da alocação dinâmica durante o código.
 
-##### Código em C
-###### estatica
+#### Código em C
+###### estática
 
 ```c
 int main()
@@ -267,7 +381,7 @@ int main()
 
 ```
 
-###### dinamica
+###### dinâmica
 
 ```c
 int main()
@@ -292,25 +406,23 @@ int main()
 
 ```
 
-## Aula 21_08
-
-### Lista encadeada
+## Lista encadeada
 
 Diferente das sequenciais, os elementos de uma lista encadeada **não ocupam posições adjacentes de memória**. Cada elemento (chamado de **nó**) armazena o valor desejado e também o endereço de memória do próximo elemento da lista.
 
 - **Vantagens:** Grande flexibilidade para inserir ou remover elementos (especialmente entre duas posições intermediárias), pois basta ajustar os ponteiros envolvidos sem precisar mover todos os elementos seguintes na memória física.
 
-#### Tipos de Listas Encadeadas:
+### Tipos de Listas Encadeadas:
 
 1. **Lista Simplesmente Encadeada:** Os nós apontam apenas em um sentido (para o próximo nó).
 2. **Lista Duplamente Encadeada:** Cada nó guarda o endereço do próximo e também do nó anterior, permitindo navegação em ambos os sentidos.
 3. **Lista Circular:** O último elemento aponta de volta para o primeiro, criando um ciclo.
 
-#### Estrutura de Nós e Cabeçalho
+### Estrutura de Nós e Cabeçalho
 
 É uma excelente prática criar uma estrutura de **cabeçalho da lista** para armazenar metadados, tais como o tamanho da lista, ponteiro para o primeiro elemento e ponteiro para o último elemento. Isso otimiza operações de inserção e remoção no fim da lista para tempo constante ($O(1)$).
 
-##### Exemplo de Estrutura para Lista Simplesmente Encadeada:
+#### Exemplo de Estrutura para Lista Simplesmente Encadeada:
 
 ``` c
 #include <stdlib.h>
@@ -336,7 +448,7 @@ void inicializar_lista_encadeada(ListaEncadeada *l) {
 }
 ```
 
-##### Exemplo de Estrutura para Lista Duplamente Encadeada:
+#### Exemplo de Estrutura para Lista Duplamente Encadeada:
 
 ``` c
 typedef struct no_duplo {
@@ -365,19 +477,18 @@ Para listas lineares comuns, o custo computacional das operações fundamentais 
     - **Melhor Caso:** O elemento procurado é o primeiro da lista -> **$O(1)$**.
     - **Pior Caso:** O elemento está na última posição ou não pertence à lista -> **$O(n)$**.
 
-## Aula 31_08 
 
-### Pilha
+## Pilha
 
-Estrutura linear formada pelo "empilhamento" de elementos.
+A **Pilha** é uma estrutura de dados linear que segue estritamente o princípio **LIFO** (_Last-In, First-Out_ — **"O último que entra é o primeiro que sai"**), formada pelo "empilhamento" de elementos.
+
+Analogia do mundo real: pense em uma pilha de pratos ou de livros. Você sempre coloca um novo elemento no topo e sempre remove o elemento que está no topo.
+
+- **Base:** O primeiro elemento inserido na pilha (fica no fundo).
+- **Topo:** A posição do último elemento inserido. **Toda e qualquer alteração ou consulta é realizada exclusivamente pelo topo.**
+
 
 ![[Pasted image 20260831213721.png]]
-
-A posiçao na base se chama base, e a posição em cima se chama topo.
-
-Só consegue mexer no elemento do topo, seja para inserir como para excluir. 
-
-Os elementos são inseridos e removidos no topo  da pilha.
 
 Existem duas operações obrigatórias em uma pilha:
 - Push: p/ empilhar um elemento.
@@ -385,108 +496,606 @@ Existem duas operações obrigatórias em uma pilha:
 
 Outras operações são possíveis:
 - peek: consulta o elemento do topo da pilha sem remover o elemento.
-- pilha-vazia: verifica se a pulha está vazia.
+- pilha-vazia: verifica se a pilha está vazia.
 
-#### Implementações
+### Operações Principais e Cenários de Uso
+
+**A. Inserção (****Push** **— Empilhar)**
+
+Adiciona um novo elemento sobre o topo atual da pilha.
+
+- **Complexidade:** $O(1)$ — Tempo constante.
+- **Cenários e Cuidados:**
+    - **Overflow (Pilha Cheia):** Na **Pilha Sequencial**, deve-se verificar se a capacidade máxima do array foi atingida (`topo == TAMANHO_MAXIMO - 1`) antes de inserir.
+    - **Falha de Memória:** Na **Pilha Dinâmica**, deve-se verificar se a alocação de memória via `malloc()` retornou `NULL`.
+
+**B. Remoção (****Pop** **— Desempilhar)**
+
+Remove e retorna o elemento que está no topo da pilha.
+
+- **Complexidade:** $O(1)$ — Tempo constante.
+- **Cenários e Cuidados:**
+    - **Underflow (Pilha Vazia):** Antes de desempilhar, é obrigatório checar se a pilha possui ao menos um elemento (`topo == -1` ou `topo == NULL`). Tentar desempilhar uma pilha vazia gera erro de execução.
+    - **Liberação de Memória:** Na **Pilha Dinâmica**, o nó removido deve ter sua memória liberada explicitamente com `free()`.
+
+**C. Consulta e Busca de Elementos**
+
+- **Consulta ao Topo (****Peek** **ou** **Top****):** Retorna o valor contido no topo **sem removê-lo**.
+    - **Complexidade:** $O(1)$.
+- **Busca por um Elemento Qualquer:** Como não há acesso aleatório direto aos elementos do meio ou da base, para buscar um elemento específico sob as regras puras de uma pilha, é necessário desempilhar os elementos um a um até encontrá-lo (armazenando-os em uma pilha auxiliar para depois restaurar a pilha original).
+    - **Complexidade:** $O(n)$ — Tempo linear.
+### Implementações
 
 1) Pilha sequencial. 
-		Alocação sequencial semelhante à lista sequencial.
+	Alocação sequencial semelhante à lista sequencial.
+	Utiliza um vetor contíguo de tamanho fixo e uma variável inteira `topo` que guarda o índice do elemento do topo (inicializada em `-1` para indicar pilha vazia).
+
+``` c
+#define TAM_MAX 100 
+
+typedef struct { 
+	int itens[TAM_MAX]; 
+	int topo; 
+} PilhaSequencial; 
+
+void inicializar(PilhaSequencial *p) { 
+	p->topo = -1; 
+} 
+
+int push(PilhaSequencial *p, int valor) { 
+	if (p->topo == TAM_MAX - 1) return 0; // Erro: Overflow (Pilha cheia) 
+	
+	p->topo++; 
+	p->itens[p->topo] = valor; 
+	return 1; // Sucesso 
+} 
+
+int pop(PilhaSequencial *p, int *valor) { 
+	if (p->topo == -1) return 0; // Erro: Underflow (Pilha vazia) 
+	*valor = p->itens[p->topo]; 
+	p->topo--; 
+	return 1; // Sucesso 
+}
+```
 
 2) Pila dinâmica
-		semelhante à alocação dinâmica, os elementos da pilha são alocados em tempo de execução em endereços aleatórios. 
+	Semelhante à alocação dinâmica, os elementos da pilha são alocados em tempo de execução em endereços aleatórios. 
+	Cada elemento é um nó alocado na memória heap contendo o dado e um ponteiro para o nó abaixo dele. O topo é representado por um ponteiro para o primeiro nó da lista.
+
+``` c
 
 
-#### Problema da celebridade 
+typedef struct No { 
+	int dado; 
+	struct No *proximo; 
+} No; 
 
-Vai ter uma festa, e uma celebridade vai para a essa festa. Nos temos como conhecer quem ta na festa, e quem conhece quem. E queremos saber se tem ou não uma celebridade na festa, e quem é. Uma celebridade é uma pessoa que não conhece ninguém, e todo mundo conhece ele.
+typedef struct { 
+	No *topo; 
+} PilhaDinamica;
 
+void inicializar(PilhaDinamica *p) { 
+	p->topo = NULL; 
+} 
 
+int push(PilhaDinamica *p, int valor) { 
+	No *novo = (No *) malloc(sizeof(No)); 
+	if (novo == NULL) return 0; // Falha na alocação 
+	
+	novo->dado = valor; 
+	novo->proximo = p->topo; // O novo nó aponta para o antigo topo 
+	p->topo = novo; // O topo passa a ser o novo nó 
+	return 1; 
+} 
+
+int pop(PilhaDinamica *p, int *valor) { 
+	if (p->topo == NULL) return 0; // Erro: Underflow (Pilha vazia) 
+	
+	No *temp = p->topo; 
+	*valor = temp->dado; 
+	p->topo = p->topo->proximo; // Atualiza o topo para o nó de baixo 
+	free(temp); // Libera a memória do nó removido 
+	return 1; 
+}
+```
+
+### Problema da celebridade 
+
+Em uma festa com $n$ pessoas, existe a hipótese de haver uma **celebridade**. Uma pessoa é considerada celebridade se cumpre duas condições rigorosas:
+
+1. **Não conhece ninguém** na festa.
+2. **É conhecida por todas** as outras pessoas da festa.
+
+Temos à disposição uma função de consulta `conhece(A, B)` que retorna `true` se a pessoa $A$ conhece a pessoa $B$, e `false` caso contrário.
+
+**Por que usar uma Pilha?**
+
+- **Abordagem Bruta (Sem Pilha):** Testar todas as combinações de pessoas resulta em complexidade $O(n^2)$.
+- **Abordagem Eficiente (Com Pilha):** Permite eliminar candidatos a cada comparação e resolver o problema em tempo **linear** $O(n)$.
+
+**Passo a Passo da Solução com Pilha:**
+
+1. **Empilhar todos os convidados:** Empilhe todas as $n$ pessoas (de $0$ a $n-1$).
+2. **Fase de Eliminação:** Enquanto houver **mais de 1 pessoa na pilha**:
+    - Desempilhe duas pessoas, $A$ e $B$.
+    - Pergunte: `conhece(A, B)`?
+        - **Se** $A$ **conhece** $B$**:** $A$ **não** pode ser a celebridade (pois uma celebridade não conhece ninguém). Descarte $A$ e **re-empilhe** $B$.
+        - **Se** $A$ **NÃO conhece** $B$**:** $B$ **não** pode ser a celebridade (pois a celebridade é conhecida por todos). Descarte $B$ e **re-empilhe** $A$.
+3. **Fase de Verificação Final:** Restará apenas **1 candidato** no topo da pilha. Desempilhe-o e faça uma checagem final:
+    - Confirme se o candidato não conhece ninguém da festa.
+    - Confirme se todas as outras pessoas conhecem o candidato.
+    - Se passar nos dois testes, ele é a celebridade; caso contrário, não há celebridades na festa.
 
 ## Fila
 
-Enquanto pilhas usam a política LiFo(Last in, first Out), as filas seguem o princípio FiFo (First in, First out).
+A **Fila** é uma estrutura de dados linear que segue rigorosamente o princípio **FIFO** (_First-In, First-Out_ — **"O primeiro que entra é o primeiro que sai"**).
 
-Isso significa que quando retiramos um elemento da fila, retiramos o elemento que está há mais tempo armazenado. 
+Analogia do mundo real: pense em uma fila de banco ou do caixa do supermercado. A primeira pessoa que entra na fila é a primeira a ser atendida e sair.
 
-Na prática, os elementos são inseridos no im e retirados no começo.
+- **Início (Front / Head):** A posição de onde os elementos são removidos (atendidos).
+- **Fim (Rear / Tail):** A posição onde novos elementos entram na fila.
 
 ### Operações
 
-Duas operações são necessárias:
-1) "Enqueue": insere no final da fila
-2) "dequeue": retira no início da fila
 
 ![[Pasted image 20260911212524.png]]
+
+**A. Inserção (****Enqueue** **— Enfileirar)**
+
+Adiciona um novo elemento exclusivamente no **fim** da fila.
+
+- **Complexidade:** $O(1)$ — Tempo constante.
+- **Cenários e Cuidados:**
+    - **Overflow (Fila Cheia):** Na **Fila Sequencial (Array)**, é obrigatório checar se a quantidade de elementos atingiu a capacidade máxima (`quantidade == capacidade`) antes de inserir.
+    - **Falha de Memória:** Na **Fila Dinâmica**, deve-se verificar se a alocação do novo nó via `malloc()` retornou `NULL`.
+
+**B. Remoção (****Dequeue** **— Desenfileirar)**
+
+Remove e retorna o elemento localizado no **início** da fila.
+
+- **Complexidade:** $O(1)$ — Tempo constante.
+- **Cenários e Cuidados:**
+    - **Underflow (Fila Vazia):** Antes de desenfileirar, é obrigatório checar se a fila possui elementos (`quantidade == 0` ou `inicio == NULL`). Tentar desenfileirar uma fila vazia provoca erro de execução.
+    - **Ajuste do Início:** Na fila circular, o ponteiro/índice de início deve avançar usando o operador módulo. Na fila dinâmica, o nó removido deve ter sua memória liberada com `free()`.
+
+**C. Consulta e Busca de Elementos**
+
+- **Consulta ao Início (****Peek** **ou** **Front****):** Retorna o valor do primeiro elemento da fila **sem removê-lo**.
+    - **Complexidade:** $O(1)$.
+- **Busca por um Elemento Qualquer:** Como a regra da fila exige inserção no fim e remoção no início, para buscar um elemento no meio/fim sob as regras estritas da estrutura, é necessário desenfileirar os elementos um a um até encontrá-lo (armazenando-os em uma fila auxiliar para depois recompor a fila original).
+    - **Complexidade:** $O(n)$ — Tempo linear.
+
+### Tipos de Filas
+
+1. **Fila Simples:** Estrutura direta com inserção no fim e remoção no início.
+2. **Fila Circular:** Utiliza um array de forma contínua em anel, reaproveitando as posições que ficaram vagas após remoções.
+3. **Fila de Prioridade (Priority Queue):** Os elementos possuem prioridades atribuídas. O elemento de maior prioridade é sempre o primeiro a ser removido, independentemente da ordem de chegada (geralmente implementada com a estrutura _Heap_).
 
 
 ### Implementação 
 
-- Array
+**1) Fila Sequencial Circular (Com Array / Alocação Estática ou Dinâmica)**
 
-- Lista
+**O Problema do Array Simples:**
 
+Se apenas incrementarmos o índice de início a cada `dequeue`, o espaço no começo do array fica inutilizado, fazendo a fila parecer "cheia" mesmo com poucas posições ocupadas. Deslocar todos os elementos para a esquerda a cada remoção tornaria a operação lenta ($O(n)$).
+
+**A Solução Circular:**
+
+Tratamos o vetor como um círculo. Quando o ponteiro `fim` chega ao último índice do array e há posições livres no início, ele "volta" para o índice `0` utilizando o **operador de módulo (****%****)**: $$\text{Fim} = (\text{Fim} + 1) \pmod{\text{Capacidade}}$$
+
+Para controlar com precisão os estados de cheia e vazia, utilizamos uma **estrutura de cabeçalho** com 4 campos: `inicio`, `fim`, `quantidade` e `capacidade`.
+
+``` C
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    int *dados;
+    int inicio;
+    int fim;
+    int quantidade;
+    int capacidade;
+} FilaCircular;
+
+FilaCircular* criar_fila(int capacidade) {
+    FilaCircular *f = (FilaCircular*) malloc(sizeof(FilaCircular));
+    f->dados = (int*) malloc(capacidade * sizeof(int));
+    f->inicio = 0;
+    f->fim = 0; // Aponta para a primeira posição livre
+    f->quantidade = 0;
+    f->capacidade = capacidade;
+    return f;
+}
+
+int enqueue(FilaCircular *f, int valor) {
+    if (f->quantidade == f->capacidade) return 0; // Erro: Overflow (Fila Cheia)
+
+    f->dados[f->fim] = valor;
+    f->fim = (f->fim + 1) % f->capacidade; // Avança circularmente
+    f->quantidade++;
+    return 1; // Sucesso
+}
+
+int dequeue(FilaCircular *f, int *valor) {
+    if (f->quantidade == 0) return 0; // Erro: Underflow (Fila Vazia)
+
+    *valor = f->dados[f->inicio];
+    f->inicio = (f->inicio + 1) % f->capacidade; // Avança circularmente
+    f->quantidade--;
+    return 1; // Sucesso
+}
+```
 
 ---
 
-Fila tem um inicio e um fim.
+**2) Fila Dinâmica (Com Lista Encadeada)**
 
-Tem duas operacoes: enqueu (enfilerar), dequeu (defilerar)
+Utiliza nós encadeados em memória heap. A estrutura armazena dois ponteiros: um para o `inicio` (primeiro nó a sair) e um para o `fim` (último nó inserido).
 
-Temos alguns tipos de filas que podemos implementar:
-- Simples 
-- circular
-- De prioridade
+``` C
+typedef struct No {
+    int dado;
+    struct No *proximo;
+} No;
 
-Para implementar ela pode se usar um array, e cada elemento está na fila, ou pode ser usar uma fila (simplesmente encadeada, duplamente ..., depende de como for implementar)
+typedef struct {
+    No *inicio;
+    No *fim;
+    int quantidade;
+} FilaDinamica;
 
-Para implementar uma fila com um array é preciso:
-- ter duas variaveis, para marcar o inicio da fila, e aonde termina a fila
-- pode marcar a ultima posicao ocupada como fim ou a primeira posicao livre. 
-- Apontando para a primeira posicao livre, voce terá um array vazio, e o fim será o elemento [0] do array. Inseriu um elemento dentro, a primeira posicao livre anda. O problema é quando acaba as posiçoes livres do array. Para resolver esse problema se utiliza um array circular e quando o elemento fim estiver fora do array coloca ele como elemento 0. Para isso se utiliza a formula (F = (F + 1) % tamanho da lista)
-- E para saber se a lista anterior está cheia se faz: tem que comparar a quantidade de elementos que você tem, com o tamanho da lista. Para isso precisa de um cabeçalho (inicio, fim, quantidade de elementos, capacidade da lista) se a quantidade for igual a capacidade entao ele está cheia.
+void inicializar(FilaDinamica *f) {
+    f->inicio = NULL;
+    f->fim = NULL;
+    f->quantidade = 0;
+}
+
+int enqueue(FilaDinamica *f, int valor) {
+    No *novo = (No*) malloc(sizeof(No));
+    if (novo == NULL) return 0; // Falha na alocação
+
+    novo->dado = valor;
+    novo->proximo = NULL;
+
+    if (f->quantidade == 0) {
+        f->inicio = novo; // Se vazia, início também aponta para o novo nó
+    } else {
+        f->fim->proximo = novo; // O nó antigo do fim aponta para o novo
+    }
+
+    f->fim = novo; // Atualiza o ponteiro de fim
+    f->quantidade++;
+    return 1;
+}
+
+int dequeue(FilaDinamica *f, int *valor) {
+    if (f->quantidade == 0) return 0; // Erro: Underflow (Fila Vazia)
+
+    No *temp = f->inicio;
+    *valor = temp->dado;
+
+    f->inicio = f->inicio->proximo; // O início passa para o próximo nó
+    if (f->inicio == NULL) {
+        f->fim = NULL; // Se a fila ficou vazia, ajusta o fim para NULL
+    }
+
+    free(temp); // Libera o nó removido
+    f->quantidade--;
+    return 1;
+}
+```
+
+### Comparativo de Operações
+
+|Operação|Complexidade|Condição de Erro / Borda|
+|---|---|---|
+|**Enqueue** **(Inserir)**|$O(1)$|**Overflow:** Fila Cheia (`quantidade == capacidade` ou erro no `malloc`).|
+|**Dequeue** **(Remover)**|$O(1)$|**Underflow:** Fila Vazia (`quantidade == 0`).|
+|**Peek** **(Consultar)**|$O(1)$|Fila Vazia (`quantidade == 0`).|
+|**Busca por Posição/Valor**|$O(n)$|Exige desenfileirar elementos para inspeção.|
+
+## **Tabela Hash (Tabela de Dispersão)**
+
+### Conceito e Modelo Ideal vs. Aplicação Real
+
+Diferente das listas (cujo tempo médio de acesso é \(T = n/2\)), a **Tabela Hash** busca implementar um modelo ideal de acesso direto em **tempo constante \(O(1)\)** por meio da transformação chave-índice. Em aplicações reais, esse comportamento ideal é aproximado.
+
+A estrutura é organizada por dois componentes centrais:
+
+1. **Tabela de Hashing:** Um vetor de tamanho finito composto por \(b\) entradas ou depósitos.
+2. **Função de Hashing (\(h(C)\)):** Uma regra de cálculo que mapeia uma chave \(C\) para um índice numérico válido no intervalo da tabela.
+
+##### **Propriedades Importantes:**
+
+- **Ausência de Ordem:** Não existe ordem física entre os elementos; quem determina a posição de cada dado é exclusivamente a função Hash. Por essa razão, a tabela hash não permite imprimir os dados em ordem de chave nem buscar facilmente o elemento com maior ou menor chave.
+- **Colisão:** Ocorre quando a função hash gera exatamente a mesma posição na tabela para duas ou mais chaves diferentes ($h(C_1) = h(C_2)$).
+- **Fator de Carga (**$\alpha$**)**: É a razão entre o número de elementos armazenados e a capacidade total da tabela ($\alpha = \frac{n}{b \cdot s}$). Manter o fator de carga controlado (como em torno de 0,75) garante que existam posições livres para manter a eficiência do sistema e evitar a degradação do tempo de acesso.
 
 ---
 
-## Tabela Hash
+### Hashing Aberto (Encadeado / Chaining)
 
-Imagine um estrutura de dados que possibilite o armazenamento de uma tabela onde o acesso a um de seus registros seja efetuado diretamente.
+No **Hashing Aberto**, a tabela hash consiste em um vetor onde cada posição armazena a **cabeça de uma lista encadeada**. Quando ocorre uma colisão, os novos elementos são simplesmente encadeados no mesmo índice.
 
-Esta estrutura representa um modelo ideal, contudo em aplicações reais este ideal pode ser aproximado.
+##### **Cenários de Operação:**
 
-A tabela hash serve para retorna os dados de forma O(1)
+- **Inserção (\(O(1)\) constante):**
+    
+    1. Calcula-se a posição usando a função hash: \(pos = h(C)\) (por exemplo, via resto da divisão: \(C \bmod b\)).
+    2. Aloca-se dinamicamente um novo nó com `malloc()`.
+    3. O novo nó é inserido no início da lista encadeada daquela posição (`novo->prox = tabela[pos]; tabela[pos] = novo;`).
+- **Busca (\(O(1)\) médio, \(O(n)\) pior caso):**
+    
+    1. Calcula-se o índice correspondente: \(pos = h(C)\).
+    2. Acessa-se a cabeça da lista contida em `tabela[pos]`.
+    3. Percorre-se a lista encadeada de forma sequencial até encontrar o elemento com a chave desejada ou atingir o fim (`NULL`).
+- **Remoção (\(O(1)\) médio, \(O(n)\) pior caso):**
+    
+    1. Calcula-se a posição \(pos = h(C)\).
+    2. Se a chave estiver no primeiro nó da lista (`tabela[pos]`), atualiza-se a cabeça da lista para o próximo nó (`tabela[pos] = tabela[pos]->prox`) e libera-se a memória com `free()`.
+    3. Caso esteja no meio/fim da lista, percorre-se a estrutura mantendo um ponteiro para o nó anterior (`ant`). Ao localizar o nó, ajusta-se o encadeamento (`ant->prox = aux->prox`) e libera-se a memória.
 
-Ela tem que ter duas coisas essenciais:
-- a propria tabela, com um array com numero finito de entradas 
-- e uma funcao hash que faz a traducao da chave para a posicao
+#### **Implementação Prática em C (Hashing Aberto):**
 
-Nao existe ordem entre os elementos. A ordem da entrada dos dados quem determina é a função Hash
+``` c
+#define numEntradas 8
 
-Mas pode ter um problema na funcao hash, a funcao hash pode retornar a mesma posicao para duas chaves diferentes (colisao). 
+typedef struct _Hash {
+    int chave;
+    struct _Hash *prox;
+} Hash;
 
+typedef Hash* Tabela[numEntradas];
 
-A capacidade de carga como boa pratica, deve ser manter em menos de 0.75. Para ter alguma posicao vaga para a insercao de elementos.
+int funcaoHashing(int num) {
+    return num % numEntradas;
+}
 
-Tambem é possivel fazer um hash encadeado, aonde se utiliza uma lista encadeada para inserir elementos.
+// Inserção
+void inserirHash(Tabela tabela, int n) {
+    int pos = funcaoHashing(n);
+    Hash* novo = (Hash *) malloc(sizeof(Hash));
+    novo->chave = n;
+    novo->prox = tabela[pos];
+    tabela[pos] = novo;
+}
+
+// Busca
+Hash* localizarHash(Tabela tabela, int num) {
+    int pos = funcaoHashing(num);
+    Hash* aux;
+    if (tabela[pos] != NULL) {
+        if (tabela[pos]->chave == num) return tabela[pos];
+        else {
+            aux = tabela[pos]->prox;
+            while (aux != NULL && aux->chave != num)
+                aux = aux->prox;
+            return aux;
+        }
+    }
+    return NULL;
+}
+
+// Remoção
+void excluirHash(Tabela tabela, int num) {
+    int pos = funcaoHashing(num);
+    Hash* aux;
+    if (tabela[pos] != NULL) {
+        if (tabela[pos]->chave == num) {
+            aux = tabela[pos];
+            tabela[pos] = tabela[pos]->prox;
+            free(aux);
+        } else {
+            Hash* ant = tabela[pos];
+            aux = tabela[pos]->prox;
+            while (aux != NULL && aux->chave != num) {
+                ant = aux;
+                aux = aux->prox;
+            }
+            if (aux != NULL) {
+                ant->prox = aux->prox;
+                free(aux);
+            } else {
+                printf("\nNumero nao encontrado");
+            }
+        }
+    } else {
+        printf("\nNumero nao encontrado");
+    }
+}
+```
 
 ---
 
-*Tabela hash com endereçamento aberto*
+### Hashing Fechado (Endereçamento Aberto / Open Addressing)
 
-Toda vez que acontecer uma colisão, se procura uma outra posicao livre. 
+No **Hashing Fechado**, todos os elementos são armazenados no **próprio vetor da tabela**, sem a necessidade de ponteiros ou estruturas encadeadas adicionais. Quando ocorre uma colisão, procura-se por outra posição livre dentro da própria tabela.
 
-- tentativa linear 
-Pula de um em um, a passada para evitar a colisão.
+#### **Os Estados das Posições (Slots):**
 
-Implementa uma nova funcao para achar uma posicao livre quando ocorrer uma colisao.
+Como o espaço no vetor é reutilizado, a remoção em endereçamento aberto **não pode simplesmente apagar o valor do vetor**, pois isso quebraria a sequência de sondagem e faria buscas posteriores falharem. Cada posição da tabela deve ser marcada com um estado:
 
-o problema desse tipo de sondagem, é pq criar cluster, então ao tentar achar uma posicao livre, a possibilidade é grande de ele encontrar uma posicao ocupada. 
+- **Livre ('L'):** A posição nunca foi utilizada.
+- **Ocupado ('O'):** A posição contém uma chave válida ativa.
+- **Removido ('R'):** A posição continha uma chave que foi excluída. Permite continuar a busca de elementos que colidiram após ela.
 
-- tentativa quadrática
+#### **Técnicas de Sondagem para Solução de Colisões:**
 
-Na tentativa quadrática,, a taxa de busca cresce de forma quadrática. Se faz isso para sair das posiçoes ocupadas de memória mais rápido. 
+1. **Tentativa Linear (Linear Probing):**
+    
+    - **Fórmula:** \\(h'(x, j) = (h(x) + j) \bmod m\\).
+    - **Funcionamento:** Percorre os endereços de forma consecutiva (\(h(x)+1, h(x)+2, \dots\)) até encontrar uma posição vaga.
+    - **Problema:** Gera **agrupamentos primários (clusters primários)**, onde longas sequências de posições ocupadas se formam, aumentando progressivamente o tempo de busca.
+2. **Tentativa Quadrática (Quadratic Probing):**
+    
+    - **Fórmula Recorrente:** \(h'(x, 0) = h(x)\) e \(h'(x, k) = (h'(x, k-1) + k) \bmod m\).
+    - **Funcionamento:** O tamanho dos saltos cresce a cada tentativa, afastando a busca da zona concentrada de colisão.
+    - **Vantagem:** Reduz a degradação provocada pela tentativa linear ao mitigar o agrupamento primário (embora gere agrupamentos secundários menores).
+
+#### **Cenários de Operação no Endereçamento Aberto:**
+
+- **Inserção:**
+    
+    1. Calcula-se a posição inicial \(pos = h(n)\).
+    2. Percorre-se a sequência de sondagem (linear ou quadrática) enquanto as posições estiverem ocupadas ('O').
+    3. Insere-se a chave na primeira posição encontrada com estado **'L' (livre)** ou **'R' (removido)** e altera-se o estado para **'O'**.
+    4. Se percorrer toda a tabela sem encontrar 'L' ou 'R', indica-se que a tabela está cheia.
+- **Busca:**
+    
+    1. Calcula-se o índice inicial \(pos = h(n)\).
+    2. Avança-se na sequência de sondagem enquanto a posição não for **'L' (livre)** e a chave armazenada for diferente da procurada. As posições marcadas como **'R' são ignoradas/ultrapassadas** para continuar a busca.
+    3. Se a chave for localizada em um slot marcado com estado **'O'**, retorna-se o índice correspondente. Se encontrar um slot 'L' ou percorrer toda a tabela, conclui-se que o elemento não está presente.
+- **Remoção:**
+    
+    1. Executa-se a função de busca para obter o índice da chave.
+    2. Se encontrada, altera-se apenas o estado da posição para **'R' (removido)**.
+
+---
+
+#### **Implementação Prática em C (Tentativa Linear):**
+
+``` c
+#define tam 8
+
+typedef struct {
+    int chave;
+    char livre; // 'L' = livre, 'O' = ocupado, 'R' = removido
+} Hash;
+
+typedef Hash Tabela[tam];
+
+int funcaoHashing(int num) {
+    return num % tam;
+}
+
+// Inserção com Tentativa Linear
+void inserir(Tabela tabela, int n) {
+    int i = 0;
+    int pos = funcaoHashing(n);
+    while (i < tam && tabela[(pos + i) % tam].livre != 'L' && tabela[(pos + i) % tam].livre != 'R') {
+        i = i + 1;
+    }
+    if (i < tam) {
+        tabela[(pos + i) % tam].chave = n;
+        tabela[(pos + i) % tam].livre = 'O';
+    } else {
+        printf("\nTabela cheia!");
+    }
+}
+
+// Busca com Tentativa Linear
+int buscar(Tabela tabela, int n) {
+    int i = 0;
+    int pos = funcaoHashing(n);
+    while (i < tam && tabela[(pos + i) % tam].livre != 'L' && tabela[(pos + i) % tam].chave != n) {
+        i = i + 1;
+    }
+    if (tabela[(pos + i) % tam].chave == n && tabela[(pos + i) % tam].livre == 'O') {
+        return (pos + i) % tam;
+    } else {
+        return tam; // Não encontrado
+    }
+}
+
+// Remoção
+void remover(Tabela tabela, int n) {
+    int posicao = buscar(tabela, n);
+    if (posicao < tam) {
+        tabela[posicao].livre = 'R';
+    } else {
+        printf("\nElemento nao esta presente.");
+    }
+}
+```
+
+#### **Implementação Prática em C (Tentativa Quadrática):**
+
+``` c
+// Inserção com Tentativa Quadrática
+void inserirChave(Tabela tabela, int n) {
+    int pos = funcaoHashing(n);
+    int k = 1;
+    while (k < tam && tabela[pos].livre != 'L' && tabela[pos].livre != 'R') {
+        pos = (pos + k) % tam;
+        k = k + 1;
+    }
+    if (k < tam) {
+        tabela[pos].chave = n;
+        tabela[pos].livre = 'O';
+    } else {
+        printf("\nTabela cheia ou em loop!");
+    }
+}
+
+// Busca com Tentativa Quadrática
+int buscarChave(Tabela tabela, int n) {
+    int pos = funcaoHashing(n);
+    int k = 1;
+    while (k <= tam && tabela[pos].livre != 'L' && tabela[pos].chave != n) {
+        pos = (pos + k) % tam;
+        k = k + 1;
+    }
+    if (tabela[pos].chave == n && tabela[pos].livre == 'O') {
+        return pos;
+    } else {
+        return tam; // Não encontrado
+    }
+}
+
+// Remoção
+void removerChave(Tabela tabela, int n) {
+    int posicao = buscarChave(tabela, n);
+    if (posicao < tam) {
+        tabela[posicao].livre = 'R';
+    } else {
+        printf("\nElemento nao estah presente.");
+    }
+}
+```
 
 
+### Resumo Comparativo das Estruturas
 
+|Aspecto|Hashing Aberto (Encadeado)|Hashing Fechado (Endereçamento Aberto)|
+|:--|:--|:--|
+|**Armazenamento**|Vetor de ponteiros + Listas Encadeadas fora do vetor.|Tudo armazenado dentro do próprio vetor de \(m\) posições.|
+|**Alocação de Memória**|Dinâmica em runtime via `malloc()`.|Fixa no array.|
+|**Tratamento de Remoção**|Libera o nó da lista encadeada com `free()`.|Exige marcar a posição como Removido ('R') para não quebrar a sondagem.|
+|**Limite de Capacidade**|Suporta mais elementos que o número de entradas do vetor.|Limitado à capacidade total do vetor (\(m\)).|
+|**Resolução de Colisão**|Encadeamento sequencial na lista.|Sondagem Linear (\(h(x)+j\)) ou Quadrática (\(h(x)+k\)).|
 
+### **Nomenclatura Formal e Parâmetros Numéricos**
 
+A literatura técnica define a Tabela Hash através de parâmetros formais de capacidade e preenchimento:
 
+- $n$**:** Número total de elementos armazenados.
+- $b$**:** Número de depósitos / entradas na tabela (tamanho do vetor).
+- $s$**:** Capacidade de cada depósito (aplicável ao hashing fechado).
+- $T$**:** Cardinalidade do domínio das chaves (total de chaves possíveis no universo).
+- $\frac{n}{T}$ **(Densidade Identificadora):** Razão entre elementos armazenados e chaves possíveis.
+- $\alpha = \frac{n}{b \cdot s}$ **(Densidade de Carga / Fator de Carga):** Mede o nível de preenchimento da tabela.
+
+---
+
+###  **Técnicas Avançadas de Funções Hash**
+
+Para evitar a degeneração no pior caso (onde todas as chaves colidem no mesmo índice), a função hash deve garantir **distribuição uniforme**. _(Exemplo de função ruim: usar a "primeira letra do nome", pois letras do alfabeto não são distribuídas uniformemente na população)._
+
+As principais técnicas para construir funções de dispersão são:
+
+- **Método do Resto da Divisão:** $h(C) = C \bmod b$ (o método clássico e mais utilizado).
+- **Meio do Quadrado (Mid-Square):** Eleva-se a chave ao quadrado e extraem-se os bits/dígitos centrais do resultado. Como o centro do quadrado depende de todos os dígitos da chave, a distribuição melhora.
+- **Desdobramento (Folding):** Utilizado para cadeias de caracteres (strings). A string é dividida em pedaços e seus códigos ASCII são somados:
+    - **Shift Folding:** Soma simples dos blocos de caracteres.
+    - **Limit Folding:** Inverte os dígitos a cada segundo caractere antes de realizar a soma (como uma sanfona).
+- **Análise de Frequência:** Analisa uma amostra das chaves e escolhe os dígitos/caracteres que apresentam a variação mais uniforme.
+
+### Limitações e Comparativo (Hash vs. Listas vs. Árvores)
+
+O material estabelece um comparativo direto entre as estruturas de dados:
+
+| Estrutura       | Tempo Médio de Acesso | Vantagens                                                       | Limitações Principais                                                                                            |
+| --------------- | --------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Listas**      | $T = \frac{n}{2}$     | Simplicidade de implementação.                                  | Lenta para grande volume de dados (ex: 100.000 dados exigem centenas de milhares de acessos).                    |
+| **Tabela Hash** | $T \approx O(1)$      | Desempenho excelente para buscas diretas e alta escalabilidade. | **Não permite imprimir dados em ordem**, realizar buscas por faixa/intervalo, nem encontrar a menor/maior chave. |
