@@ -924,14 +924,15 @@ Como o espaço no vetor é reutilizado, a remoção em endereçamento aberto **n
 
 1. **Tentativa Linear (Linear Probing):**
     
-    - **Fórmula:** \\(h'(x, j) = (h(x) + j) \bmod m\\).
-    - **Funcionamento:** Percorre os endereços de forma consecutiva (\(h(x)+1, h(x)+2, \dots\)) até encontrar uma posição vaga.
+    - **Fórmula:** \\(h'(x, j) = $$h'(x, j) = (h(x) + j) \bmod m \quad \text{para } 1 \le j \le m-1$$ _Onde_ $h(x) = x \bmod m$ _é a função hash inicial,_ $j$ _é a tentativa de salto e_ $m$ _é a capacidade da tabela
+    - **Funcionamento:** Avança sequencialmente de $1$ em $1$ posição ($h(x)+1, h(x)+2, h(x)+3, \dots$) a partir do índice de colisão até encontrar um slot vago.
+-
     - **Problema:** Gera **agrupamentos primários (clusters primários)**, onde longas sequências de posições ocupadas se formam, aumentando progressivamente o tempo de busca.
 2. **Tentativa Quadrática (Quadratic Probing):**
-    
-    - **Fórmula Recorrente:** \(h'(x, 0) = h(x)\) e \(h'(x, k) = (h'(x, k-1) + k) \bmod m\).
-    - **Funcionamento:** O tamanho dos saltos cresce a cada tentativa, afastando a busca da zona concentrada de colisão.
-    - **Vantagem:** Reduz a degradação provocada pela tentativa linear ao mitigar o agrupamento primário (embora gere agrupamentos secundários menores).
+
+- **Fórmula Recorrente:** $$ \begin{cases} h'(x, 0) = h(x) \\ h'(x, k) = \big(h'(x, k-1) + k\big) \bmod m \quad \text{para } 1 \le k \le m-1 \end{cases} $$ *Onde* $k$ *representa a* $k$-ésima tentativa de colisão.
+- **Funcionamento:** O tamanho dos saltos cresce a cada tentativa ($+1, +2, +3, \dots$), gerando uma sequência acumulada quadrática ($h(x)+1, h(x)+3, h(x)+6, h(x)+10, \dots$) que afasta a busca rapidamente da zona de colisão3.
+- **Vantagem:** Mitiga o agrupamento primário e reduz a degradação de desempenho, gerando apenas **agrupamento secundário** (quando chaves diferentes compartilham o mesmo $h(x)$ inicial)2.
 
 #### **Cenários de Operação no Endereçamento Aberto:**
 
