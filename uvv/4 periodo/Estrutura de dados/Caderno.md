@@ -46,11 +46,11 @@ printf("Via **q: %d\n", **q); // Desreferencia 'q' duas vezes -> Imprime 10
 
 Para entender como a desreferenciação funciona na prática, imagine os endereços de memória:
 
-|Variável|Endereço de Memória|Valor Armazenado|Significado|
-|---|---|---|---|
-|**x**|`0x100`|`10`|Valor inteiro comum|
-|**p**|`0x200`|`0x100`|Endereço de `x`|
-|**q**|`0x300`|`0x200`|Endereço de `p`|
+| Variável | Endereço de Memória | Valor Armazenado | Significado         |
+| -------- | ------------------- | ---------------- | ------------------- |
+| **x**    | `0x100`             | `10`             | Valor inteiro comum |
+| **p**    | `0x200`             | `0x100`          | Endereço de `x`     |
+| **q**    | `0x300`             | `0x200`          | Endereço de `p`     |
 
 - **q** resulta em `0x200` (o endereço de `p`).
 - \*q acessa o conteúdo de `p`, que é `0x100` (o endereço de `x`).
@@ -1100,3 +1100,45 @@ O material estabelece um comparativo direto entre as estruturas de dados:
 | --------------- | --------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **Listas**      | $T = \frac{n}{2}$     | Simplicidade de implementação.                                  | Lenta para grande volume de dados (ex: 100.000 dados exigem centenas de milhares de acessos).                    |
 | **Tabela Hash** | $T \approx O(1)$      | Desempenho excelente para buscas diretas e alta escalabilidade. | **Não permite imprimir dados em ordem**, realizar buscas por faixa/intervalo, nem encontrar a menor/maior chave. |
+
+## Arvore binária 
+
+Uma árvore pode ser um nulo (vazio), se nao for vazio é dividida em nós e subárvore.
+
+Ela é binária porque cada nó tem no máximo dos filhos. 
+
+O nó que nao tem nenhum pai, se chama de raiz (raiz da árvore). Também tem as raizes das subarvores. Quem nao tem filho,, tem o nome de folha. 
+
+O caminho de um nó em uma árvore binária ==é a sequência de nós percorrida desde a [nó raiz](https://concursos.estrategia.com/portal/percursos-arvores-binarias/) até o nó desejado==. Nao pode subir, apenas desce pela árvore. 
+
+Longitude: e quantos santos se da em um caminho. 
+
+altura de um nó: maior longitude de um nó, até as folhas. Tem que pegar a maior longitudade
+
+altura de uma árvore: é a altura da raiz. Maior valor da raiz, até as folhas.
+
+Nivel de um nó: longitude da raiz até ele. 
+
+O ultimo nivel de uma árvore é a altura dela. 
+
+
+- árvore completa 
+todos os nós, ou nao tem filhos, ou tem dois 
+
+- árvore cheia
+é uma árvore completa e todas as folhas estão no mesmo nível . 
+
+
+fórmula para saber a altura máxima de nó (n -1)
+
+Para saber a altura mínima (Log(n + 1) -1)
+
+- Caminhamento:
+Pode se percorrer uma arvore de cima para baixa (percorrendo em profundidade). Tem 3 maneiras de se fazer: pré-ordem, em ordem, pós ordem.
+1) pré-ordem: visita a raiz da árvore, depois a sub-arvore esquerda e depois a direita
+2) em ordem visita a sub-arvore esquerda, raiz e direita
+3) esquerda, direita, raiz
+==visita a sub-arvore a direita ou a esquerda e nao o nó==
+
+
+Ou de esquerda para a direita (percorrendo em largura). Percorrendo em nivel
