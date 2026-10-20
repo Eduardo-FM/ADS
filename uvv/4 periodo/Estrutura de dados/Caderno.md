@@ -1142,3 +1142,26 @@ Pode se percorrer uma arvore de cima para baixa (percorrendo em profundidade). T
 
 
 Ou de esquerda para a direita (percorrendo em largura). Percorrendo em nivel
+
+
+O encadeamento em nivel é de cima para baixo, de esquerda para direita.
+
+==vai cair na prova enfileiramento==
+
+## Arvore binária de busca
+
+É uma arvore binaria, só que todos os nós da sub-arvore direita sao menores que a raiz, e a raiz é menor que todos os nós que a sub-arvore esquerda.  (todos os nos da SAD < R < todos os nós da SAE)
+
+
+### Arvore AVL
+
+A árvore AVL garante que voce tenha a arvore ideal, com a menor altura possivel, mas continua sendo uma árvore de busca. 
+
+
+===buscar sobre o fator de balanceamento== 
+
+
+==olhar sobre rotacao==
+- rotacao simples a direita 
+- rotacao dupla a direita
+- 
