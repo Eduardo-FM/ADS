@@ -1164,4 +1164,7 @@ A árvore AVL garante que voce tenha a arvore ideal, com a menor altura possivel
 ==olhar sobre rotacao==
 - rotacao simples a direita 
 - rotacao dupla a direita
-- 
+- e
+
+
+## 
